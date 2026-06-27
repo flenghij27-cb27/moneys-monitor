@@ -1,5 +1,6 @@
 {
-  "_note": "Dataset statico, precaricato una volta. Fonti: Macrotrends, Slickcharts, NYU Stern (Damodaran), officialdata.org. Rendimenti totali (incl. dividendi reinvestiti), arrotondati. Non richiede aggiornamento automatico: la storia non cambia.",
+  "_note": "Dataset statico, precaricato una volta. Fonti: Macrotrends, Slickcharts, NYU Stern (Damodaran), officialdata.org, FRED, World Gold Council, BusinessStats/FRED FEDFUNDS. Valori annuali rappresentativi (media o fine periodo secondo la serie), arrotondati. Non richiede aggiornamento automatico: la storia non cambia.",
+
   "sp500_annual_returns_pct": {
     "1926": 11.1, "1927": 37.5, "1928": 43.6, "1929": -8.4, "1930": -24.9,
     "1931": -43.3, "1932": -8.2, "1933": 54.0, "1934": -1.4, "1935": 47.7,
@@ -22,25 +23,62 @@
     "2016": 12.0, "2017": 21.8, "2018": -4.4, "2019": 31.5, "2020": 18.4,
     "2021": 28.7, "2022": -18.1, "2023": 26.3, "2024": 25.0, "2025": 17.7
   },
+
+  "gold_usd_oz_year_end": {
+    "_note": "Prezzo oro fine anno in USD/oncia. Pre-1971: prezzo fisso governativo (gold standard), non di mercato libero.",
+    "1926": 20.7, "1934": 35.0, "1945": 35.0, "1960": 35.0, "1970": 37.4,
+    "1971": 43.5, "1974": 183.9, "1975": 140.3, "1979": 524.0, "1980": 589.8,
+    "1985": 326.6, "1990": 386.2, "1995": 387.0, "2000": 274.5, "2005": 513.0,
+    "2008": 869.8, "2010": 1421.0, "2012": 1675.0, "2013": 1204.5, "2015": 1060.0,
+    "2018": 1281.3, "2020": 1898.0, "2021": 1828.6, "2022": 1824.3, "2023": 2062.9,
+    "2024": 2624.5, "2025": 3850.0
+  },
+
+  "fed_funds_rate_pct_annual_avg": {
+    "_note": "Tasso medio annuo Federal Funds Rate, fonte FRED FEDFUNDS.",
+    "1954": 0.8, "1960": 3.2, "1965": 4.1, "1970": 7.2, "1974": 10.5,
+    "1979": 11.2, "1980": 13.4, "1981": 16.4, "1982": 12.2, "1985": 8.1,
+    "1990": 8.1, "1995": 5.8, "2000": 6.2, "2003": 1.1, "2006": 4.9,
+    "2008": 1.9, "2009": 0.2, "2012": 0.1, "2015": 0.1, "2018": 1.8,
+    "2019": 2.2, "2020": 0.4, "2021": 0.1, "2022": 1.7, "2023": 5.0,
+    "2024": 5.0, "2025": 4.3, "2026": 3.6
+  },
+
+  "us_cpi_inflation_yoy_pct": {
+    "_note": "Inflazione USA anno su anno (CPI), valori annuali rappresentativi.",
+    "1913": 0.0, "1920": 15.6, "1930": -2.3, "1933": -5.2, "1940": 0.7,
+    "1945": 2.3, "1950": 1.3, "1960": 1.7, "1970": 5.7, "1974": 11.0,
+    "1979": 11.3, "1980": 13.5, "1982": 6.2, "1990": 5.4, "2000": 3.4,
+    "2008": 3.8, "2009": -0.4, "2015": 0.1, "2020": 1.2, "2021": 4.7,
+    "2022": 8.0, "2023": 4.1, "2024": 2.9, "2025": 2.7
+  },
+
   "macro_events": [
     {"year": 1929, "event": "Crollo di Wall Street", "note": "Inizio Grande Depressione. S&P -8% nell'anno, ma il crollo reale arriva su più anni (-43% nel 1931)."},
     {"year": 1933, "event": "New Deal / abbandono gold standard USA", "note": "Ripresa violenta (+54%), intervento statale massiccio."},
     {"year": 1939, "event": "Inizio Seconda Guerra Mondiale", "note": "Mercati USA relativamente stabili rispetto a Europa."},
     {"year": 1945, "event": "Fine guerra, boom post-bellico", "note": "+36% nell'anno, inizio decenni di crescita."},
-    {"year": 1971, "event": "Fine convertibilità dollaro-oro (Nixon Shock)", "note": "Fine sistema Bretton Woods, inizio fluttuazione valute."},
+    {"year": 1971, "event": "Fine convertibilità dollaro-oro (Nixon Shock)", "note": "Fine sistema Bretton Woods, inizio fluttuazione valute. Oro libero di salire da $35 a $850 nel decennio successivo."},
     {"year": 1973, "event": "Shock petrolifero OPEC", "note": "Stagflazione USA, -14.7% e poi -26.5% nel 1974."},
-    {"year": 1979, "event": "Secondo shock petrolifero, Volcker alza tassi", "note": "Fed Funds Rate >15% per domare inflazione anni '70."},
+    {"year": 1979, "event": "Secondo shock petrolifero, Volcker alza tassi", "note": "Fed Funds Rate >15% per domare inflazione anni '70. Oro tocca $524."},
+    {"year": 1981, "event": "Picco storico Fed Funds Rate", "note": "16.4% medio annuo, picco mensile oltre 19% — la stretta monetaria più aggressiva della storia USA fino al 2022."},
     {"year": 1987, "event": "Black Monday (19 ottobre)", "note": "Crollo -22% in un giorno, ma anno chiuso positivo (+5.3%)."},
     {"year": 2000, "event": "Scoppio bolla dot-com", "note": "Inizio bear market di 3 anni consecutivi (2000-2002)."},
-    {"year": 2008, "event": "Crisi finanziaria globale (subprime)", "note": "-37% nell'anno, fallimento Lehman Brothers, crisi sistemica bancaria."},
-    {"year": 2020, "event": "Pandemia COVID-19", "note": "Crollo -34% in 5 settimane (feb-mar), poi recupero record stesso anno (+18.4% a fine anno)."},
-    {"year": 2022, "event": "Inflazione post-pandemia, Fed alza tassi aggressivamente", "note": "-18.1%, peggior anno da 2008. Guerra Russia-Ucraina, shock energetico."}
+    {"year": 2008, "event": "Crisi finanziaria globale (subprime)", "note": "-37% nell'anno, fallimento Lehman Brothers, crisi sistemica bancaria. Fed Funds Rate crolla verso zero."},
+    {"year": 2020, "event": "Pandemia COVID-19", "note": "Crollo -34% in 5 settimane (feb-mar), poi recupero record stesso anno (+18.4% a fine anno). Fed Funds Rate ai minimi storici (0.04-0.1%)."},
+    {"year": 2022, "event": "Inflazione post-pandemia, Fed alza tassi aggressivamente", "note": "-18.1%, peggior anno da 2008. Guerra Russia-Ucraina, shock energetico. Inflazione USA all'8%, Fed Funds Rate da 0.08% a 5.33% in 16 mesi — tightening più rapido in 40 anni."}
   ],
+
   "key_facts": {
-    "cagr_nominal_100y_pct": 10.3,
-    "cagr_real_100y_pct": 7.2,
-    "anni_negativi_su_97": 25,
-    "anni_oltre_20pct_su_97": 36,
-    "fonte_principale": "Damodaran/NYU Stern, Macrotrends, officialdata.org — dati aggiornati a inizio 2026"
+    "sp500_cagr_nominal_100y_pct": 10.3,
+    "sp500_cagr_real_100y_pct": 7.2,
+    "sp500_anni_negativi_su_97": 25,
+    "sp500_anni_oltre_20pct_su_97": 36,
+    "gold_cagr_nominal_2000_2025_pct": 10.9,
+    "fed_funds_rate_max_storico_pct": 19.1,
+    "fed_funds_rate_max_anno": 1981,
+    "fed_funds_rate_min_storico_pct": 0.04,
+    "fed_funds_rate_min_anno": 2011,
+    "fonte_principale": "Damodaran/NYU Stern, Macrotrends, officialdata.org, FRED (St. Louis Fed), World Gold Council — dati aggiornati a metà 2026"
   }
 }
