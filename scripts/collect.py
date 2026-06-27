@@ -21,13 +21,30 @@ YAHOO_TICKERS = {
     "^GSPC": "S&P 500",
     "^DJI": "Dow Jones",
     "^IXIC": "Nasdaq Composite",
+    "^RUT": "Russell 2000",
     "FTSEMIB.MI": "FTSE MIB",
+    "^FTSE": "FTSE 100 UK",
+    "^GDAXI": "DAX Germania",
+    "^FCHI": "CAC40 Francia",
     "^STOXX50E": "Euro Stoxx 50",
     "^N225": "Nikkei 225",
-    "GC=F": "Oro (futures)",
-    "CL=F": "Petrolio WTI (futures)",
-    "EURUSD=X": "EUR/USD",
+    "^HSI": "Hang Seng",
+    "000001.SS": "Shanghai Composite",
+    "^BVSP": "Bovespa Brasile",
+    "^VIX": "VIX (volatilita)",
     "BTC-USD": "Bitcoin",
+    "ETH-USD": "Ethereum",
+    "SOL-USD": "Solana",
+    "GC=F": "Oro (futures)",
+    "SI=F": "Argento (futures)",
+    "CL=F": "Petrolio WTI (futures)",
+    "BZ=F": "Petrolio Brent (futures)",
+    "NG=F": "Gas naturale (futures)",
+    "HG=F": "Rame (futures)",
+    "EURUSD=X": "EUR/USD",
+    "GBPUSD=X": "GBP/USD",
+    "JPY=X": "USD/JPY",
+    "DX-Y.NYB": "Indice dollaro DXY",
     "^TNX": "US 10Y Treasury Yield",
 }
 
@@ -37,6 +54,9 @@ FRED_SERIES = {
     "CPIAUCSL": "Inflazione USA (CPI)",
     "UNRATE": "Disoccupazione USA",
     "DGS10": "US 10Y Treasury Rate",
+    "DGS2": "US 2Y Treasury Rate",
+    "IRLTLT01DEM156N": "Bund Germania 10Y",
+    "IRLTLT01ITM156N": "BTP Italia 10Y",
 }
 
 # News RSS — fonti pubbliche, ampio spettro
@@ -92,7 +112,7 @@ def fetch_yahoo_quotes():
             }
         except Exception as e:
             results[ticker] = {"label": label, "error": str(e)}
-        time.sleep(0.5)  # rispetto rate limit non ufficiale
+        time.sleep(0.3)  # rispetto rate limit non ufficiale
     return results
 
 
