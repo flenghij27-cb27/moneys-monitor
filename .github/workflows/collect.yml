@@ -1,0 +1,35 @@
+name: Moneys Monitor - Raccolta Dati
+
+# Gira ogni 5 ore, sempre, automaticamente. Nessuna azione di trading: solo lettura/raccolta.
+on:
+  schedule:
+    - cron: "0 */5 * * *"
+  workflow_dispatch: {}   # permette anche avvio manuale dal tab "Actions" su GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Esegui raccolta dati
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python3 scripts/collect.py
+
+      - name: Commit e push dati aggiornati
+        run: |
+          git config user.name "moneys-monitor-bot"
+          git config user.email "actions@github.com"
+          git add data/latest.json data/history.jsonl
+          git diff --staged --quiet || git commit -m "Aggiornamento dati $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
