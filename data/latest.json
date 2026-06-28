@@ -1,5 +1,5 @@
 {
-  "collected_at_utc": "2026-06-28T11:44:37.603163+00:00",
+  "collected_at_utc": "2026-06-28T16:06:54.390908+00:00",
   "prices": {
     "^GSPC": {
       "label": "S&P 500",
@@ -115,27 +115,27 @@
     },
     "BTC-USD": {
       "label": "Bitcoin",
-      "price": 60206.67,
+      "price": 59810.75,
       "prev_close": 60995.133,
-      "change_pct": -1.29,
+      "change_pct": -1.94,
       "currency": "USD",
-      "ts": 1782647080
+      "ts": 1782662817
     },
     "ETH-USD": {
       "label": "Ethereum",
-      "price": 1578.91,
+      "price": 1577.7,
       "prev_close": 1619.9249,
-      "change_pct": -2.53,
+      "change_pct": -2.61,
       "currency": "USD",
-      "ts": 1782647079
+      "ts": 1782662815
     },
     "SOL-USD": {
       "label": "Solana",
-      "price": 71.78,
+      "price": 71.97,
       "prev_close": 67.9825,
-      "change_pct": 5.59,
+      "change_pct": 5.87,
       "currency": "USD",
-      "ts": 1782647072
+      "ts": 1782662812
     },
     "GC=F": {
       "label": "Oro (futures)",
@@ -266,6 +266,11 @@
   "news": {
     "CNBC Business": [
       {
+        "title": "Seniors in Medicare are about to get landmark obesity drug coverage — but many may not know it yet",
+        "link": "https://www.cnbc.com/2026/06/28/medicare-will-soon-cover-obesity-drugs-but-many-seniors-may-not-know.html",
+        "pub_date": "Sun, 28 Jun 2026 12:00:01 GMT"
+      },
+      {
         "title": "A 'perfect storm' points to a much smaller U.S. auto market by 2040",
         "link": "https://www.cnbc.com/2026/06/28/us-auto-market.html",
         "pub_date": "Sun, 28 Jun 2026 11:00:01 GMT"
@@ -299,14 +304,39 @@
         "title": "Estrogen patches are hard to find, and it may not be resolved any time soon",
         "link": "https://www.cnbc.com/2026/06/26/estrogen-patches-are-in-short-supply-as-women-seek-menopause-support.html",
         "pub_date": "Fri, 26 Jun 2026 11:00:01 GMT"
-      },
-      {
-        "title": "GM reveals 2027 GMC Sierra pickup with new V-8 engines, redesigned styling",
-        "link": "https://www.cnbc.com/2026/06/25/gm-gmc-sierra-pickup.html",
-        "pub_date": "Thu, 25 Jun 2026 16:15:20 GMT"
       }
     ],
     "MarketWatch": [
+      {
+        "title": "I had gallbladder surgery. After I got home, the hospital asked me for a financial donation. Is this ethical?",
+        "link": "https://www.marketwatch.com/story/i-had-my-gallbladder-removed-after-i-got-home-the-hospital-asked-me-for-a-donation-is-this-ethical-ad12a8e1?mod=mw_rss_topstories",
+        "pub_date": "Sun, 28 Jun 2026 15:00:00 GMT"
+      },
+      {
+        "title": "Your health insurer shouldn’t decide your treatment plan. That’s what your doctor — and AI — should be doing.",
+        "link": "https://www.marketwatch.com/story/your-health-insurer-shouldnt-decide-your-treatment-plan-thats-what-your-doctor-and-possibly-ai-should-be-doing-45152d6a?mod=mw_rss_topstories",
+        "pub_date": "Sun, 28 Jun 2026 14:03:00 GMT"
+      },
+      {
+        "title": "‘It feels like a medical miracle’: How did a single QR code coupon cut my $618 Walgreens prescription to $15?",
+        "link": "https://www.marketwatch.com/story/it-feels-like-a-medical-miracle-how-did-a-single-qr-code-coupon-cut-my-618-walgreens-prescription-to-15-524a1151?mod=mw_rss_topstories",
+        "pub_date": "Sun, 28 Jun 2026 14:00:00 GMT"
+      },
+      {
+        "title": "Micron is about to be more profitable than any U.S. company except Nvidia and Google",
+        "link": "https://www.marketwatch.com/story/micron-is-about-to-be-more-profitable-than-any-u-s-company-except-nvidia-and-google-3a83e343?mod=mw_rss_topstories",
+        "pub_date": "Sun, 28 Jun 2026 14:00:00 GMT"
+      },
+      {
+        "title": "Forget the ‘Sell America’ trade: Why U.S. markets keep proving the naysayers wrong",
+        "link": "https://www.marketwatch.com/story/forget-the-sell-america-trade-why-u-s-markets-keep-proving-the-naysayers-wrong-03a0ab10?mod=mw_rss_topstories",
+        "pub_date": "Sun, 28 Jun 2026 13:00:00 GMT"
+      },
+      {
+        "title": "‘She is retired’: Do I dip into my 401(k) to pay my mother’s $30,000 credit-card debt?",
+        "link": "https://www.marketwatch.com/story/she-is-retired-do-i-dip-into-my-401-k-to-pay-my-mothers-30-000-credit-card-debt-dc97569b?mod=mw_rss_topstories",
+        "pub_date": "Sun, 28 Jun 2026 12:00:00 GMT"
+      },
       {
         "title": "‘I’ll happily wait’: Does delaying Social Security make sense for high earners like me?",
         "link": "https://www.marketwatch.com/story/ill-happily-wait-does-delaying-social-security-make-sense-for-high-earners-like-me-17dca69b?mod=mw_rss_topstories",
@@ -316,120 +346,90 @@
         "title": "How to work in retirement without seeing your Social Security checks slashed",
         "link": "https://www.marketwatch.com/story/how-to-work-in-retirement-without-seeing-your-social-security-checks-slashed-05d6c830?mod=mw_rss_topstories",
         "pub_date": "Sat, 27 Jun 2026 19:30:00 GMT"
-      },
-      {
-        "title": "Americans’ 401(k) balances hit record levels last year. See how you compare.",
-        "link": "https://www.marketwatch.com/story/americans-401-k-balances-hit-record-levels-last-year-see-how-you-compare-facd32c4?mod=mw_rss_topstories",
-        "pub_date": "Sat, 27 Jun 2026 19:30:00 GMT"
-      },
-      {
-        "title": "Social Security says I was overpaid for 7 years. I believe it’s mistaken. Can they cut my benefits?",
-        "link": "https://www.marketwatch.com/story/social-security-says-i-was-overpaid-for-7-years-i-believe-its-mistaken-can-they-cut-my-benefits-f2d4a524?mod=mw_rss_topstories",
-        "pub_date": "Sat, 27 Jun 2026 19:30:00 GMT"
-      },
-      {
-        "title": "This disease is more expensive than cancer and heart disease combined. And it’s only going to get worse.",
-        "link": "https://www.marketwatch.com/story/this-disease-is-more-expensive-than-cancer-and-heart-disease-combined-and-its-only-going-to-get-worse-797b72d9?mod=mw_rss_topstories",
-        "pub_date": "Sat, 27 Jun 2026 19:30:00 GMT"
-      },
-      {
-        "title": "Older Americans will soon have Medicare access to GLP-1s for weight loss for the first time. Here’s what they need to know.",
-        "link": "https://www.marketwatch.com/story/millions-of-older-americans-will-soon-have-medicare-access-to-glp-1s-for-weight-loss-heres-what-they-need-to-know-758efe4c?mod=mw_rss_topstories",
-        "pub_date": "Sat, 27 Jun 2026 19:30:00 GMT"
-      },
-      {
-        "title": "Germany is considering raising its retirement age to 70. Could the U.S. follow?",
-        "link": "https://www.marketwatch.com/story/could-the-u-s-join-germany-in-raising-its-retirement-age-3282e0bd?mod=mw_rss_topstories",
-        "pub_date": "Sat, 27 Jun 2026 19:30:00 GMT"
-      },
-      {
-        "title": "Take a cue from the rich: Do a midyear financial check-in",
-        "link": "https://www.marketwatch.com/story/take-a-cue-from-the-rich-do-a-midyear-financial-check-in-028a60e8?mod=mw_rss_topstories",
-        "pub_date": "Sat, 27 Jun 2026 19:30:00 GMT"
       }
     ],
     "Investing.com": [
       {
+        "title": "Housing bill will be sent to Trump on Monday, US House speaker says",
+        "link": "https://www.investing.com/news/economy-news/us-house-speaker-says-he-will-send-housing-bill-to-trump-on-monday-4764148",
+        "pub_date": "2026-06-28 15:36:25"
+      },
+      {
+        "title": "Russia’s ruling party runs Ukraine war veteran among lead candidates for September election",
+        "link": "https://www.investing.com/news/world-news/russias-ruling-party-runs-ukraine-war-veteran-among-lead-candidates-for-september-election-4764151",
+        "pub_date": "2026-06-28 15:30:30"
+      },
+      {
+        "title": "Thirty-three people rescued, thousands still missing after Venezuela quakes",
+        "link": "https://www.investing.com/news/world-news/thirtythree-people-rescued-thousands-still-missing-after-venezuela-quakes-4764150",
+        "pub_date": "2026-06-28 15:18:35"
+      },
+      {
+        "title": "Starlink offers free mobile service to Venezuelan carriers’ customers",
+        "link": "https://www.investing.com/news/company-news/starlink-offers-free-mobile-service-to-venezuelan-carriers-customers-93CH-4764149",
+        "pub_date": "2026-06-28 15:15:32"
+      },
+      {
+        "title": "Bitcoin falls below $60,000 as ETF outflows, Fed outlook weigh on sentiment",
+        "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-60000-as-etf-outflows-fed-outlook-weigh-on-sentiment-4764074",
+        "pub_date": "2026-06-28 15:12:14"
+      },
+      {
+        "title": "Iraq detains politicians, officials in anti-corruption crackdown",
+        "link": "https://www.investing.com/news/world-news/iraq-arrests-politicians-and-government-officials-in-anticorruption-crackdown-4764080",
+        "pub_date": "2026-06-28 15:00:27"
+      },
+      {
+        "title": "Eleven people killed in plane crash in northeastern France",
+        "link": "https://www.investing.com/news/world-news/eleven-people-killed-in-plane-crash-in-northeastern-france-local-officials-say-4764112",
+        "pub_date": "2026-06-28 14:54:26"
+      },
+      {
         "title": "Death toll in Venezuela quake tops 1,400 as rescue efforts intensify",
         "link": "https://www.investing.com/news/world-news/venezuela-welcomes-1600-foreign-rescuers-in-urgent-search-for-quake-survivors-4764033",
-        "pub_date": "2026-06-28 11:30:29"
-      },
-      {
-        "title": "Iran and US step up attacks and threaten to escalate",
-        "link": "https://www.investing.com/news/world-news/us-carries-out-fresh-strikes-against-iran-after-tanker-struck-in-hormuz-escalating-hostilities-4764056",
-        "pub_date": "2026-06-28 11:18:52"
-      },
-      {
-        "title": "Deutsche Bank surges 69% after InvestingPro Fair Value signal",
-        "link": "https://www.investing.com/news/investment-ideas/deutsche-bank-surges-69-after-investingpro-fair-value-signal-93CH-4764088",
-        "pub_date": "2026-06-28 11:08:39"
-      },
-      {
-        "title": "InvestingPro Fair Value flagged Opendoor drop before 49% decline",
-        "link": "https://www.investing.com/news/investment-ideas/investingpro-fair-value-flagged-opendoor-drop-before-49-decline-93CH-4764087",
-        "pub_date": "2026-06-28 11:01:45"
-      },
-      {
-        "title": "Three firefighters killed, 2 injured in Snyder wildfire on Utah-Colorado border",
-        "link": "https://www.investing.com/news/world-news/three-firefighters-killed-2-injured-in-snyder-wildfire-on-utahcolorado-border-4764086",
-        "pub_date": "2026-06-28 10:42:07"
-      },
-      {
-        "title": "Japan government reportedly calls for appropriate monetary policy in draft plan",
-        "link": "https://www.investing.com/news/stock-market-news/japan-government-reportedly-calls-for-appropriate-monetary-policy-in-draft-plan-4764085",
-        "pub_date": "2026-06-28 10:28:50"
-      },
-      {
-        "title": "Wolfe Research stays bullish on equities, sees AI, semiconductors driving H2 gains",
-        "link": "https://www.investing.com/news/stock-market-news/wolfe-research-stays-bullish-on-equities-sees-ai-semiconductors-driving-h2-gains-4764084",
-        "pub_date": "2026-06-28 10:14:35"
-      },
-      {
-        "title": "Deutsche Bank Names Top Healthcare Stocks Led by DexCom and Insulet",
-        "link": "https://www.investing.com/news/stock-market-news/deutsche-bank-names-top-healthcare-stocks-led-by-dexcom-and-insulet-93CH-4764083",
-        "pub_date": "2026-06-28 10:09:06"
+        "pub_date": "2026-06-28 14:24:21"
       }
     ],
     "Yahoo Finance": [
       {
-        "title": "Regret taking Social Security at 62? What to do if the decision haunts you (and why younger Boomers must take notice)",
-        "link": "https://finance.yahoo.com/markets/articles/regret-taking-social-security-62-104500328.html",
-        "pub_date": "2026-06-27T10:45:00Z"
+        "title": "The Best High-Yield Income Investments for 2026, Ranked",
+        "link": "https://www.barrons.com/articles/best-income-investments-b30f79d9?siteid=yhoof2&yptr=yahoo",
+        "pub_date": "2026-06-28T15:57:00Z"
       },
       {
-        "title": "'Dean Of Valuation' Aswath Damodaran Warns Private Credit Is 'Setting Itself Up For A Beating' Amid AI Data Center Lending Boom",
-        "link": "https://finance.yahoo.com/technology/ai/articles/dean-valuation-aswath-damodaran-warns-104614246.html",
-        "pub_date": "2026-06-27T10:46:14Z"
+        "title": "The $2.4B grocery sushi industry has a dark side — and a new lawsuit exposes what workers were left with",
+        "link": "https://finance.yahoo.com/small-business/articles/2-4b-grocery-sushi-industry-143000629.html",
+        "pub_date": "2026-06-28T14:30:00Z"
       },
       {
-        "title": "Missouri dad stashes stocks in a coffee can for his 3 daughters. He says with time, they’ll grow to $500 million",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/missouri-dad-stashes-stocks-coffee-103000092.html",
-        "pub_date": "2026-06-27T10:30:00Z"
+        "title": "Australia's Firmus Technologies strikes AI access deal with Nvidia",
+        "link": "https://finance.yahoo.com/technology/ai/articles/australias-firmus-technologies-strikes-ai-140253776.html",
+        "pub_date": "2026-06-28T14:02:53Z"
       },
       {
-        "title": "They put thousands into a savings app that promised safety and a free lottery — when it fell apart, some got $0.75 back",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/put-thousands-savings-app-promised-101500624.html",
-        "pub_date": "2026-06-27T10:15:00Z"
+        "title": "‘We should be at $2.25 at the pump’: Trump says Exxon, Chevron, Shell and BP are price gouging drivers. Do you agree?",
+        "link": "https://finance.yahoo.com/energy/articles/2-25-pump-trump-says-131500941.html",
+        "pub_date": "2026-06-28T13:15:00Z"
       },
       {
-        "title": "Dave Ramsey tells Arkansas mom, 51, with no savings: ‘You’re gonna get there’ — can retire a millionaire. Here's how",
-        "link": "https://finance.yahoo.com/markets/articles/dave-ramsey-tells-arkansas-mom-101500517.html",
-        "pub_date": "2026-06-27T10:15:00Z"
+        "title": "ING Groep (ING) Introduces Subscription-Based Banking Model in the Netherlands",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/ing-groep-ing-introduces-subscription-144608356.html",
+        "pub_date": "2026-06-27T14:46:08Z"
       },
       {
-        "title": "I inherited gold and silver worth tens of thousands — but with no receipts, how do I find out what it’s worth?",
-        "link": "https://finance.yahoo.com/markets/commodities/articles/inherited-gold-silver-worth-tens-110000996.html",
-        "pub_date": "2026-06-27T11:00:00Z"
+        "title": "1 Nvidia-Backed AI Infrastructure Stock to Buy Hand Over Fist Right Now",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/1-nvidia-backed-ai-infrastructure-155000823.html",
+        "pub_date": "2026-06-28T15:50:00Z"
       },
       {
-        "title": "One in 10 Gen Zers want their boss to be replaced by AI—they’re already being polite to ChatGPT just in case",
-        "link": "https://finance.yahoo.com/technology/ai/articles/one-10-gen-zers-want-104951141.html",
-        "pub_date": "2026-06-27T10:49:51Z"
+        "title": "Here is Why Citigroup (C) is One of the Most Profitable Value Stocks to Invest In Now",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/why-citigroup-c-one-most-144558870.html",
+        "pub_date": "2026-06-27T14:45:58Z"
       },
       {
-        "title": "Best CD rates today, Saturday, June 27, 2026: Best account provides 4.10% APY",
-        "link": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-june-27-2026-best-account-provides-410-apy-100000070.html",
-        "pub_date": "2026-06-27T10:00:00Z"
+        "title": "JPMorgan Chase & Co. (JPM): Most Profitable Value Stocks to Invest In Now",
+        "link": "https://finance.yahoo.com/small-business/articles/jpmorgan-chase-co-jpm-most-144546297.html",
+        "pub_date": "2026-06-27T14:45:46Z"
       }
     ],
     "ECB Press": [
