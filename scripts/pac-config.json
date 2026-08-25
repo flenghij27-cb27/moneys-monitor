@@ -1,0 +1,29 @@
+{
+  "base_currency": "EUR",
+
+  "_nota": "Pesi della variante B (bilanciata). Verifica ogni ticker contro le tue posizioni reali su Trade Republic prima di fidarti dei numeri.",
+  "lot_method": "average",
+
+  "benchmark": { "ticker": "SWDA.MI", "name": "iShares Core MSCI World" },
+
+  "tax": {
+    "capital_gains_pct": 26.0,
+    "govies_whitelist_pct": 12.5,
+    "crypto_pct": 33.0,
+    "stamp_duty_pct": 0.20,
+    "loss_carry_years": 4
+  },
+
+  "positions": [
+    { "ticker": "SWDA.MI", "isin": "IE00B4L5Y983", "name": "iShares Core MSCI World",
+      "target_weight": 0.542, "ter_pct": 0.20, "type": "ETF_UCITS" },
+    { "ticker": "EIMI.MI", "isin": "IE00BKM4GZ66", "name": "iShares Core MSCI EM IMI",
+      "target_weight": 0.083, "ter_pct": 0.18, "type": "ETF_UCITS" },
+    { "ticker": "SGLD.MI", "isin": "IE00B579F325", "name": "Invesco Physical Gold ETC",
+      "target_weight": 0.125, "ter_pct": 0.12, "type": "ETC" },
+    { "ticker": "BTC-USD", "isin": "", "name": "Bitcoin",
+      "target_weight": 0.167, "ter_pct": 0, "type": "CRYPTO" },
+    { "ticker": "ETH-USD", "isin": "", "name": "Ethereum",
+      "target_weight": 0.083, "ter_pct": 0, "type": "CRYPTO" }
+  ]
+}
