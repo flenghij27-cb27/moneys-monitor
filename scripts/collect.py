@@ -53,60 +53,70 @@ SCHEMA_VERSION = 2
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, "data")
 FRED_API_KEY = os.environ.get("FRED_API_KEY", "").strip()
+TWELVE_API_KEY = os.environ.get("TWELVEDATA_API_KEY", "").strip()
 
 # ------------------------------------------------------------------ config
 
 # cls: equity | etf | crypto | commodity | fx | rate | vol
 # fb : provider di fallback se Yahoo fallisce
-YAHOO_TICKERS: dict[str, dict[str, Any]] = {
-    "^GSPC":      {"label": "S&P 500",                        "cls": "equity"},
-    "^DJI":       {"label": "Dow Jones",                      "cls": "equity"},
-    "^IXIC":      {"label": "Nasdaq Composite",               "cls": "equity"},
-    "^RUT":       {"label": "Russell 2000",                   "cls": "equity"},
-    "FTSEMIB.MI": {"label": "FTSE MIB",                       "cls": "equity"},
-    "^FTSE":      {"label": "FTSE 100 UK",                    "cls": "equity"},
-    "^GDAXI":     {"label": "DAX Germania",                   "cls": "equity"},
-    "^FCHI":      {"label": "CAC 40 Francia",                 "cls": "equity"},
-    "^STOXX50E":  {"label": "Euro Stoxx 50",                  "cls": "equity"},
-    "^N225":      {"label": "Nikkei 225",                     "cls": "equity"},
-    "^HSI":       {"label": "Hang Seng",                      "cls": "equity"},
-    "000001.SS":  {"label": "Shanghai Composite",             "cls": "equity"},
-    "^BVSP":      {"label": "Bovespa Brasile",                "cls": "equity"},
-    "^VIX":       {"label": "VIX (volatilita)",               "cls": "vol"},
+# Catena di fonti per ogni strumento, in ordine di priorita'.
+#   fred     = FRED (St. Louis Fed): gratis, stabile, richiede la chiave gia' configurata
+#   ecb      = tassi ufficiali BCE via frankfurter.app: gratis, senza chiave
+#   coingecko= crypto: gratis, senza chiave
+#   twelve   = Twelve Data: 800 chiamate/giorno gratis, richiede TWELVEDATA_API_KEY
+#   yahoo    = ultimo tentativo. Nel 2026 Yahoo limita pesantemente gli IP dei
+#              runner GitHub (429 senza preavviso): e' un ripiego, non una fonte.
+TICKERS: dict[str, dict[str, Any]] = {
+    # ticker interno            etichetta                      classe      catena di fonti
+    "^GSPC":      {"label": "S&P 500",                  "cls": "equity",    "src": [("fred", "SP500"), ("twelve", "SPX"), ("yahoo", "^GSPC")]},
+    "^DJI":       {"label": "Dow Jones",                "cls": "equity",    "src": [("fred", "DJIA"), ("twelve", "DJI"), ("yahoo", "^DJI")]},
+    "^IXIC":      {"label": "Nasdaq Composite",         "cls": "equity",    "src": [("fred", "NASDAQCOM"), ("twelve", "IXIC"), ("yahoo", "^IXIC")]},
+    "^RUT":       {"label": "Russell 2000",             "cls": "equity",    "src": [("twelve", "RUT"), ("yahoo", "^RUT")]},
+    "^VIX":       {"label": "VIX (volatilita)",         "cls": "vol",       "src": [("fred", "VIXCLS"), ("twelve", "VIX"), ("yahoo", "^VIX")]},
 
-    # ---------------------------------------------------------------
-    # ETF/ETC del PAC su Trade Republic.
-    # VERIFICA ogni ticker contro le TUE posizioni (ISIN in app -> cerca il
-    # ticker della borsa su cui e' quotato). Un ticker sbagliato non fa
-    # crashare nulla: produce una riga di errore in _meta e viene saltato.
-    # ---------------------------------------------------------------
-    "CSPX.MI":    {"label": "iShares Core S&P 500 (IE00B5BMR087)",   "cls": "etf"},
-    "SWDA.MI":    {"label": "iShares Core MSCI World (IE00B4L5Y983)","cls": "etf"},
-    "EIMI.MI":    {"label": "iShares Core MSCI EM IMI (IE00BKM4GZ66)","cls": "etf"},
-    "SGLD.MI":    {"label": "Invesco Physical Gold ETC (IE00B579F325)","cls": "etf"},
-    "4GLD.DE":    {"label": "Xetra-Gold ETC (DE000A0S9GB0)",         "cls": "etf"},
-    "AGGH.MI":    {"label": "iShares Core Global Aggregate Bond",    "cls": "etf"},
+    "FTSEMIB.MI": {"label": "FTSE MIB",                 "cls": "equity",    "src": [("twelve", "FTSEMIB"), ("yahoo", "FTSEMIB.MI")]},
+    "^FTSE":      {"label": "FTSE 100 UK",              "cls": "equity",    "src": [("twelve", "UKX"), ("yahoo", "^FTSE")]},
+    "^GDAXI":     {"label": "DAX Germania",             "cls": "equity",    "src": [("twelve", "DAX"), ("yahoo", "^GDAXI")]},
+    "^FCHI":      {"label": "CAC 40 Francia",           "cls": "equity",    "src": [("twelve", "CAC"), ("yahoo", "^FCHI")]},
+    "^STOXX50E":  {"label": "Euro Stoxx 50",            "cls": "equity",    "src": [("twelve", "SX5E"), ("yahoo", "^STOXX50E")]},
+    "^N225":      {"label": "Nikkei 225",               "cls": "equity",    "src": [("twelve", "N225"), ("yahoo", "^N225")]},
+    "^HSI":       {"label": "Hang Seng",                "cls": "equity",    "src": [("twelve", "HSI"), ("yahoo", "^HSI")]},
+    "000001.SS":  {"label": "Shanghai Composite",       "cls": "equity",    "src": [("yahoo", "000001.SS")]},
+    "^BVSP":      {"label": "Bovespa Brasile",          "cls": "equity",    "src": [("yahoo", "^BVSP")]},
 
-    "BTC-USD":    {"label": "Bitcoin",   "cls": "crypto", "fb": ("coingecko", "bitcoin")},
-    "ETH-USD":    {"label": "Ethereum",  "cls": "crypto", "fb": ("coingecko", "ethereum")},
-    "SOL-USD":    {"label": "Solana",    "cls": "crypto", "fb": ("coingecko", "solana")},
+    # ETF/ETC del PAC su Trade Republic. VERIFICA i simboli contro le tue posizioni.
+    "CSPX.MI":    {"label": "iShares Core S&P 500",     "cls": "etf",       "src": [("twelve", "CSPX:LSE"), ("yahoo", "CSPX.MI")]},
+    "SWDA.MI":    {"label": "iShares Core MSCI World",  "cls": "etf",       "src": [("twelve", "SWDA:LSE"), ("yahoo", "SWDA.MI")]},
+    "EIMI.MI":    {"label": "iShares Core MSCI EM IMI", "cls": "etf",       "src": [("twelve", "EIMI:LSE"), ("yahoo", "EIMI.MI")]},
+    "SGLD.MI":    {"label": "Invesco Physical Gold ETC","cls": "etf",       "src": [("twelve", "SGLD:LSE"), ("yahoo", "SGLD.MI")]},
+    "AGGH.MI":    {"label": "iShares Global Agg Bond",  "cls": "etf",       "src": [("yahoo", "AGGH.MI")]},
 
-    "GC=F":       {"label": "Oro (futures)",           "cls": "commodity"},
-    "SI=F":       {"label": "Argento (futures)",       "cls": "commodity"},
-    "CL=F":       {"label": "Petrolio WTI (futures)",  "cls": "commodity"},
-    "BZ=F":       {"label": "Petrolio Brent (futures)","cls": "commodity"},
-    "NG=F":       {"label": "Gas naturale (futures)",  "cls": "commodity"},
-    "HG=F":       {"label": "Rame (futures)",          "cls": "commodity"},
+    "BTC-USD":    {"label": "Bitcoin",                  "cls": "crypto",    "src": [("coingecko", "bitcoin"), ("yahoo", "BTC-USD")]},
+    "ETH-USD":    {"label": "Ethereum",                 "cls": "crypto",    "src": [("coingecko", "ethereum"), ("yahoo", "ETH-USD")]},
+    "SOL-USD":    {"label": "Solana",                   "cls": "crypto",    "src": [("coingecko", "solana"), ("yahoo", "SOL-USD")]},
 
-    "EURUSD=X":   {"label": "EUR/USD",            "cls": "fx", "fb": ("ecb", "USD")},
-    "GBPUSD=X":   {"label": "GBP/USD",            "cls": "fx"},
-    "JPY=X":      {"label": "USD/JPY",            "cls": "fx"},
-    "DX-Y.NYB":   {"label": "Indice dollaro DXY", "cls": "fx"},
+    "GC=F":       {"label": "Oro (spot)",               "cls": "commodity", "src": [("twelve", "XAU/USD"), ("yahoo", "GC=F")]},
+    "SI=F":       {"label": "Argento (spot)",           "cls": "commodity", "src": [("twelve", "XAG/USD"), ("yahoo", "SI=F")]},
+    "CL=F":       {"label": "Petrolio WTI",             "cls": "commodity", "src": [("fred", "DCOILWTICO"), ("yahoo", "CL=F")]},
+    "BZ=F":       {"label": "Petrolio Brent",           "cls": "commodity", "src": [("fred", "DCOILBRENTEU"), ("yahoo", "BZ=F")]},
+    "NG=F":       {"label": "Gas naturale",             "cls": "commodity", "src": [("fred", "DHHNGSP"), ("yahoo", "NG=F")]},
+    "HG=F":       {"label": "Rame",                     "cls": "commodity", "src": [("twelve", "XCU/USD"), ("yahoo", "HG=F")]},
 
-    "^FVX":       {"label": "US 5Y Treasury Yield",  "cls": "rate", "fb": ("fred", "DGS5")},
-    "^TNX":       {"label": "US 10Y Treasury Yield", "cls": "rate", "fb": ("fred", "DGS10")},
-    "^TYX":       {"label": "US 30Y Treasury Yield", "cls": "rate", "fb": ("fred", "DGS30")},
+    "EURUSD=X":   {"label": "EUR/USD",                  "cls": "fx",        "src": [("ecb", "USD"), ("fred", "DEXUSEU"), ("yahoo", "EURUSD=X")]},
+    "GBPUSD=X":   {"label": "GBP/USD",                  "cls": "fx",        "src": [("fred", "DEXUSUK"), ("yahoo", "GBPUSD=X")]},
+    "JPY=X":      {"label": "USD/JPY",                  "cls": "fx",        "src": [("fred", "DEXJPUS"), ("yahoo", "JPY=X")]},
+    "DX-Y.NYB":   {"label": "Indice dollaro DXY",        "cls": "fx",        "src": [("twelve", "DXY"), ("yahoo", "DX-Y.NYB")]},
+    # Indice del dollaro della Fed: indice DIVERSO dal DXY (paniere piu' ampio,
+    # livello ~120 contro ~99). Tenuto come serie a se', non come ripiego del DXY:
+    # mescolarli creerebbe uno scalino falso nello storico.
+    "DTWEXBGS":   {"label": "Indice dollaro Fed (broad)", "cls": "fx",        "src": [("fred", "DTWEXBGS")]},
+
+    "^FVX":       {"label": "US 5Y Treasury Yield",     "cls": "rate",      "src": [("fred", "DGS5"), ("yahoo", "^FVX")]},
+    "^TNX":       {"label": "US 10Y Treasury Yield",    "cls": "rate",      "src": [("fred", "DGS10"), ("yahoo", "^TNX")]},
+    "^TYX":       {"label": "US 30Y Treasury Yield",    "cls": "rate",      "src": [("fred", "DGS30"), ("yahoo", "^TYX")]},
 }
+
+YAHOO_TICKERS = TICKERS      # compatibilita' con il resto del file
 
 FRED_SERIES = {
     "FEDFUNDS":            "Fed Funds Rate (USA)",
@@ -148,7 +158,7 @@ BACKOFF_NET = (2, 5, 10)
 # che un job ucciso dal timeout che non scrive niente.
 # GitHub uccide il job a timeout-minutes: se collect.py sfora, si perde tutto,
 # perche' i file vengono scritti solo alla fine.
-PRICE_BUDGET_S = int(os.environ.get("PRICE_BUDGET_S", "420"))   # 7 minuti
+PRICE_BUDGET_S = int(os.environ.get("PRICE_BUDGET_S", "240"))   # 4 minuti, solo per Yahoo
 _DEADLINE = None                     # impostato in fetch_prices()
 
 PRICES_CSV_HEADER = [
@@ -172,11 +182,13 @@ def _past_deadline() -> bool:
     return _DEADLINE is not None and time.monotonic() > _DEADLINE
 
 
-def _fetch(url: str, as_json: bool, tries: int = 3) -> Any:
+def _fetch(url: str, as_json: bool, tries: int = 3, deadline: bool = False) -> Any:
+    """deadline=True solo per Yahoo: il budget serve a impedire che i suoi 429
+    consumino il tempo delle altre fonti, non a bloccare le altre fonti."""
     last: Exception | None = None
     for i in range(tries):
-        if _past_deadline():
-            raise TimeoutError("budget di raccolta esaurito")
+        if deadline and _past_deadline():
+            raise TimeoutError("budget Yahoo esaurito")
         try:
             req = urllib.request.Request(url, headers=HEADERS)
             with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
@@ -188,17 +200,17 @@ def _fetch(url: str, as_json: bool, tries: int = 3) -> Any:
                 break                                        # definitivo
             wait = BACKOFF_429[min(i, len(BACKOFF_429) - 1)] if e.code == 429 \
                 else BACKOFF_NET[min(i, len(BACKOFF_NET) - 1)]
-            if i < tries - 1 and not _past_deadline():
+            if i < tries - 1 and not (deadline and _past_deadline()):
                 time.sleep(min(wait + random.uniform(0, 2), 30))
         except Exception as e:
             last = e
-            if i < tries - 1 and not _past_deadline():
+            if i < tries - 1 and not (deadline and _past_deadline()):
                 time.sleep(BACKOFF_NET[min(i, len(BACKOFF_NET) - 1)] + random.uniform(0, 1))
     raise last if last else RuntimeError("unreachable")
 
 
-def http_json(url: str, tries: int = 3) -> Any:
-    return _fetch(url, True, tries)
+def http_json(url: str, tries: int = 3, deadline: bool = False) -> Any:
+    return _fetch(url, True, tries, deadline)
 
 
 def http_text(url: str, tries: int = 2) -> str:
@@ -282,7 +294,7 @@ def _metrics(series: list[tuple[str, float]], price: float | None,
 def _from_yahoo(ticker: str) -> dict[str, Any]:
     url = ("https://query1.finance.yahoo.com/v8/finance/chart/"
            f"{urllib.parse.quote(ticker)}?interval=1d&range=3mo")
-    res = http_json(url)["chart"]["result"][0]
+    res = http_json(url, tries=2, deadline=True)["chart"]["result"][0]
     meta = res["meta"]
     tzname = meta.get("exchangeTimezoneName")
 
@@ -356,10 +368,58 @@ def _from_fred(series_id: str) -> dict[str, Any]:
     return out
 
 
-FALLBACKS = {"coingecko": _from_coingecko, "ecb": _from_ecb_fx, "fred": _from_fred}
+def _from_twelve(symbol: str) -> dict[str, Any]:
+    if not TWELVE_API_KEY:
+        raise ValueError("TWELVEDATA_API_KEY assente")
+    d = http_json("https://api.twelvedata.com/time_series?"
+                  f"symbol={urllib.parse.quote(symbol)}&interval=1day&outputsize=90"
+                  f"&apikey={TWELVE_API_KEY}", tries=2)
+    if d.get("status") == "error" or "values" not in d:
+        raise ValueError(f"twelve: {d.get('message', 'risposta inattesa')[:90]}")
+    series = sorted((v["datetime"][:10], float(v["close"]))
+                    for v in d["values"] if v.get("close") not in (None, ""))
+    if not series:
+        raise ValueError("twelve: serie vuota")
+    price, md = series[-1][1], series[-1][0]
+    out = {"source": "twelve", "price": price,
+           "currency": (d.get("meta") or {}).get("currency"),
+           "market_date": md,
+           "stale": md < datetime.now(timezone.utc).date().isoformat(), "ts": None}
+    out.update(_metrics(series, price, md))
+    return out
 
 
-# ------------------------------------------------------------------ prezzi
+PROVIDERS = {
+    "yahoo": _from_yahoo,
+    "fred": _from_fred,
+    "ecb": _from_ecb_fx,
+    "coingecko": _from_coingecko,
+    "twelve": _from_twelve,
+}
+
+# Interruttore automatico: dopo troppi errori consecutivi si smette di
+# interrogare una fonte per il resto del run. Senza questo, 30 ticker x 3
+# tentativi su Yahoo bruciano l'intero budget e impediscono alle fonti
+# buone di essere provate: e' l'errore che ha lasciato il monitor a 3/36.
+_BREAKER: dict[str, int] = {}
+BREAKER_LIMIT = 4
+
+
+def _provider_down(name: str) -> bool:
+    return _BREAKER.get(name, 0) >= BREAKER_LIMIT
+
+
+def _is_source_failure(e: Exception) -> bool:
+    """Guasto della fonte (rete, 429, 5xx, chiave assente) -> conta per l'interruttore.
+    Simbolo inesistente o serie vuota -> errore di configurazione, non conta."""
+    if isinstance(e, urllib.error.HTTPError):
+        return e.code in (401, 403, 429) or e.code >= 500
+    if isinstance(e, (urllib.error.URLError, TimeoutError, OSError)):
+        return True
+    if isinstance(e, ValueError) and "API_KEY" in str(e):
+        return True
+    return False
+
 
 def _load_last_known() -> dict[str, dict[str, Any]]:
     """Ultimo valore noto per ticker, per il carry-forward."""
@@ -385,30 +445,38 @@ def _carry(ticker, base, last_known, reason) -> dict[str, Any] | None:
 
 
 def fetch_one(ticker: str, cfg: dict[str, Any], last_known: dict[str, Any]) -> dict[str, Any]:
+    """Prova le fonti nell'ordine dichiarato. La prima che risponde vince."""
     base = {"label": cfg["label"], "asset_class": cfg["cls"]}
-    if _past_deadline():
-        c = _carry(ticker, base, last_known, "budget_esaurito")
-        return c if c else {**base, "ok": False, "error": "budget di raccolta esaurito"}
-    time.sleep(random.uniform(0, _LOCK_SLEEP))
-    try:
-        return {**base, "ok": True, **_from_yahoo(ticker)}
-    except Exception as e:
-        yerr = f"{type(e).__name__}: {e}"
+    tried: list[str] = []
 
-    fb = cfg.get("fb")
-    if fb:
-        kind, key = fb
+    for provider, key in cfg.get("src", []):
+        if _provider_down(provider):
+            tried.append(f"{provider}:interrotto")
+            continue
+        if provider == "yahoo" and _past_deadline():
+            tried.append("yahoo:budget")
+            continue
         try:
-            r = {**base, "ok": True, **FALLBACKS[kind](key)}
-            _err(f"{ticker}: yahoo KO ({yerr}) -> fallback {kind} OK")
-            return r
-        except Exception as e2:
-            _err(f"{ticker}: yahoo KO ({yerr}); fallback {kind} KO ({type(e2).__name__}: {e2})")
-    else:
-        _err(f"{ticker}: yahoo KO ({yerr}); nessun fallback configurato")
+            r = PROVIDERS[provider](key)
+            _BREAKER[provider] = 0
+            if tried:
+                _err(f"{ticker}: ripiegato su {provider} dopo [{', '.join(tried)}]")
+            return {**base, "ok": True, **r}
+        except Exception as e:
+            tried.append(f"{provider}:{type(e).__name__}")
+            if _is_source_failure(e):
+                _BREAKER[provider] = _BREAKER.get(provider, 0) + 1
+                if _BREAKER[provider] == BREAKER_LIMIT:
+                    _err(f"fonte '{provider}' disattivata per questo run "
+                         f"({BREAKER_LIMIT} guasti consecutivi): {type(e).__name__}")
+            else:
+                # simbolo sbagliato o serie vuota: colpa della configurazione,
+                # non della fonte. Non deve spegnere la fonte per gli altri ticker.
+                _err(f"{ticker}: simbolo '{key}' non valido su {provider} ({e})"[:150])
 
-    c = _carry(ticker, base, last_known, "carry_forward_fetch_failed")
-    return c if c else {**base, "ok": False, "error": yerr}
+    _err(f"{ticker}: nessuna fonte ha risposto [{', '.join(tried)}]")
+    c = _carry(ticker, base, last_known, "nessuna_fonte_disponibile")
+    return c if c else {**base, "ok": False, "error": "; ".join(tried)}
 
 
 def fetch_prices() -> dict[str, Any]:
@@ -423,9 +491,13 @@ def fetch_prices() -> dict[str, Any]:
             out[tk] = {"label": cfg["label"], "asset_class": cfg["cls"],
                        "ok": False, "error": f"{type(e).__name__}: {e}"}
     if _past_deadline():
-        _err(f"budget prezzi ({PRICE_BUDGET_S}s) esaurito: i ticker rimanenti "
-             f"usano l'ultimo valore noto")
+        _err(f"budget prezzi ({PRICE_BUDGET_S}s) esaurito")
     _DEADLINE = None
+    by_src: dict[str, int] = {}
+    for v in out.values():
+        if v.get("ok"):
+            by_src[v.get("source", "carry")] = by_src.get(v.get("source", "carry"), 0) + 1
+    print("  fonti  : " + ", ".join(f"{k}={n}" for k, n in sorted(by_src.items(), key=lambda x: -x[1])))
     return out
 
 
