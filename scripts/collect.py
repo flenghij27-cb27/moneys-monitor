@@ -138,10 +138,18 @@ HEADERS = {
     "Accept": "*/*",
     "Accept-Language": "en-US,en;q=0.9",
 }
-TIMEOUT = 25
-MAX_WORKERS = 2                      # Yahoo 429 facilmente sopra questa soglia
-BACKOFF_429 = (20, 60, 120)          # attese lunghe: la finestra di Yahoo e' ~1 min
-BACKOFF_NET = (2, 6, 15)
+TIMEOUT = 20
+MAX_WORKERS = 1                      # sequenziale: la concorrenza e' cio' che fa scattare i 429
+BACKOFF_429 = (4, 12, 30)            # backoff corti: il budget globale sotto e' la vera difesa
+BACKOFF_NET = (2, 5, 10)
+
+# Budget massimo per l'INTERA fase prezzi. Scaduto il tempo, i ticker rimasti
+# usano il carry-forward senza toccare la rete: meglio uno snapshot parziale
+# che un job ucciso dal timeout che non scrive niente.
+# GitHub uccide il job a timeout-minutes: se collect.py sfora, si perde tutto,
+# perche' i file vengono scritti solo alla fine.
+PRICE_BUDGET_S = int(os.environ.get("PRICE_BUDGET_S", "420"))   # 7 minuti
+_DEADLINE = None                     # impostato in fetch_prices()
 
 PRICES_CSV_HEADER = [
     "collected_at_utc", "ticker", "label", "asset_class", "currency", "source",
@@ -160,9 +168,15 @@ def _err(msg: str) -> None:
 
 # ------------------------------------------------------------------ http
 
+def _past_deadline() -> bool:
+    return _DEADLINE is not None and time.monotonic() > _DEADLINE
+
+
 def _fetch(url: str, as_json: bool, tries: int = 3) -> Any:
     last: Exception | None = None
     for i in range(tries):
+        if _past_deadline():
+            raise TimeoutError("budget di raccolta esaurito")
         try:
             req = urllib.request.Request(url, headers=HEADERS)
             with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
@@ -174,12 +188,12 @@ def _fetch(url: str, as_json: bool, tries: int = 3) -> Any:
                 break                                        # definitivo
             wait = BACKOFF_429[min(i, len(BACKOFF_429) - 1)] if e.code == 429 \
                 else BACKOFF_NET[min(i, len(BACKOFF_NET) - 1)]
-            if i < tries - 1:
-                time.sleep(wait + random.uniform(0, 3))
+            if i < tries - 1 and not _past_deadline():
+                time.sleep(min(wait + random.uniform(0, 2), 30))
         except Exception as e:
             last = e
-            if i < tries - 1:
-                time.sleep(BACKOFF_NET[min(i, len(BACKOFF_NET) - 1)] + random.uniform(0, 2))
+            if i < tries - 1 and not _past_deadline():
+                time.sleep(BACKOFF_NET[min(i, len(BACKOFF_NET) - 1)] + random.uniform(0, 1))
     raise last if last else RuntimeError("unreachable")
 
 
@@ -360,8 +374,21 @@ def _load_last_known() -> dict[str, dict[str, Any]]:
         return {}
 
 
+def _carry(ticker, base, last_known, reason) -> dict[str, Any] | None:
+    prev = last_known.get(ticker)
+    if not prev:
+        return None
+    keep = {k: v for k, v in prev.items() if k not in ("label", "asset_class", "ok")}
+    return {**base, "ok": True, **keep, "stale": True, "stale_reason": reason,
+            "chg_1d_pct": None, "chg_5d_pct": None,
+            "chg_1m_pct": None, "chg_3m_pct": None}
+
+
 def fetch_one(ticker: str, cfg: dict[str, Any], last_known: dict[str, Any]) -> dict[str, Any]:
     base = {"label": cfg["label"], "asset_class": cfg["cls"]}
+    if _past_deadline():
+        c = _carry(ticker, base, last_known, "budget_esaurito")
+        return c if c else {**base, "ok": False, "error": "budget di raccolta esaurito"}
     time.sleep(random.uniform(0, _LOCK_SLEEP))
     try:
         return {**base, "ok": True, **_from_yahoo(ticker)}
@@ -380,27 +407,26 @@ def fetch_one(ticker: str, cfg: dict[str, Any], last_known: dict[str, Any]) -> d
     else:
         _err(f"{ticker}: yahoo KO ({yerr}); nessun fallback configurato")
 
-    prev = last_known.get(ticker)
-    if prev:
-        return {**base, "ok": True, **{k: v for k, v in prev.items()
-                                       if k not in ("label", "asset_class", "ok")},
-                "stale": True, "stale_reason": "carry_forward_fetch_failed",
-                "chg_1d_pct": None, "chg_5d_pct": None,
-                "chg_1m_pct": None, "chg_3m_pct": None}
-    return {**base, "ok": False, "error": yerr}
+    c = _carry(ticker, base, last_known, "carry_forward_fetch_failed")
+    return c if c else {**base, "ok": False, "error": yerr}
 
 
 def fetch_prices() -> dict[str, Any]:
+    global _DEADLINE
+    _DEADLINE = time.monotonic() + PRICE_BUDGET_S
     last_known = _load_last_known()
     out: dict[str, Any] = {}
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
-        futs = {pool.submit(fetch_one, t, c, last_known): t for t, c in YAHOO_TICKERS.items()}
-        for fut, tk in futs.items():
-            try:
-                out[tk] = fut.result()
-            except Exception as e:
-                out[tk] = {"label": YAHOO_TICKERS[tk]["label"], "ok": False, "error": str(e)}
-    return {k: out[k] for k in YAHOO_TICKERS if k in out}
+    for tk, cfg in YAHOO_TICKERS.items():
+        try:
+            out[tk] = fetch_one(tk, cfg, last_known)
+        except Exception as e:
+            out[tk] = {"label": cfg["label"], "asset_class": cfg["cls"],
+                       "ok": False, "error": f"{type(e).__name__}: {e}"}
+    if _past_deadline():
+        _err(f"budget prezzi ({PRICE_BUDGET_S}s) esaurito: i ticker rimanenti "
+             f"usano l'ultimo valore noto")
+    _DEADLINE = None
+    return out
 
 
 # ------------------------------------------------------------------ macro
@@ -541,8 +567,10 @@ def main() -> int:
 
     prices = fetch_prices()
     ok = sum(1 for p in prices.values() if p.get("ok"))
+    live = sum(1 for p in prices.values() if p.get("ok") and not p.get("stale_reason"))
     carry = sum(1 for p in prices.values() if p.get("stale_reason"))
-    print(f"  prezzi : {ok}/{len(YAHOO_TICKERS)} ok ({carry} carry-forward)")
+    print(f"  prezzi : {live} dal vivo, {carry} carry-forward, "
+          f"{len(YAHOO_TICKERS) - ok} persi  (in {time.time() - t0:.0f}s)")
 
     macro = fetch_macro()
     print(f"  macro  : {sum(1 for v in macro.values() if isinstance(v, dict) and 'value' in v)}/{len(FRED_SERIES)}")
