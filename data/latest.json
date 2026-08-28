@@ -1,274 +1,688 @@
 {
-  "collected_at_utc": "2026-08-25T15:36:54.921536+00:00",
+  "schema": 2,
+  "collected_at_utc": "2026-08-28T09:25:49+00:00",
   "prices": {
     "^GSPC": {
       "label": "S&P 500",
+      "asset_class": "equity",
+      "ok": true,
       "price": 7671.13,
       "prev_close": 7691.76,
       "change_pct": -0.27,
       "currency": "USD",
-      "ts": 1787672213
+      "ts": 1787672213,
+      "stale": true,
+      "stale_reason": "carry_forward_fetch_failed",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "^DJI": {
       "label": "Dow Jones",
+      "asset_class": "equity",
+      "ok": true,
       "price": 53454.63,
       "prev_close": 53343.4,
       "change_pct": 0.21,
       "currency": "USD",
-      "ts": 1787672214
+      "ts": 1787672214,
+      "stale": true,
+      "stale_reason": "carry_forward_fetch_failed",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "^IXIC": {
       "label": "Nasdaq Composite",
+      "asset_class": "equity",
+      "ok": true,
       "price": 26131.762,
       "prev_close": 26289.71,
       "change_pct": -0.6,
       "currency": "USD",
-      "ts": 1787672211
+      "ts": 1787672211,
+      "stale": true,
+      "stale_reason": "carry_forward_fetch_failed",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "^RUT": {
       "label": "Russell 2000",
+      "asset_class": "equity",
+      "ok": true,
       "price": 3007.096,
       "prev_close": 3017.89,
       "change_pct": -0.36,
       "currency": "USD",
-      "ts": 1787671315
+      "ts": 1787671315,
+      "stale": true,
+      "stale_reason": "carry_forward_fetch_failed",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "FTSEMIB.MI": {
       "label": "FTSE MIB",
+      "asset_class": "equity",
+      "ok": true,
       "price": 52732.33,
       "prev_close": 53018.0,
       "change_pct": -0.54,
       "currency": "EUR",
-      "ts": 1787671313
+      "ts": 1787671313,
+      "stale": true,
+      "stale_reason": "carry_forward_fetch_failed",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "^FTSE": {
       "label": "FTSE 100 UK",
+      "asset_class": "equity",
+      "ok": true,
       "price": 10886.34,
       "prev_close": 10728.0,
       "change_pct": 1.48,
       "currency": "GBP",
-      "ts": 1787671316
+      "ts": 1787671316,
+      "stale": true,
+      "stale_reason": "carry_forward_fetch_failed",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "^GDAXI": {
       "label": "DAX Germania",
+      "asset_class": "equity",
+      "ok": true,
       "price": 26293.18,
       "prev_close": 26128.36,
       "change_pct": 0.63,
       "currency": "EUR",
-      "ts": 1787671317
+      "ts": 1787671317,
+      "stale": true,
+      "stale_reason": "carry_forward_fetch_failed",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "^FCHI": {
-      "label": "CAC40 Francia",
+      "label": "CAC 40 Francia",
+      "asset_class": "equity",
+      "ok": true,
       "price": 8452.28,
       "prev_close": 8501.91,
       "change_pct": -0.58,
       "currency": "EUR",
-      "ts": 1787671305
+      "ts": 1787671305,
+      "stale": true,
+      "stale_reason": "carry_forward_fetch_failed",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "^STOXX50E": {
       "label": "Euro Stoxx 50",
+      "asset_class": "equity",
+      "ok": true,
       "price": 6461.45,
       "prev_close": 6444.46,
       "change_pct": 0.26,
       "currency": null,
-      "ts": 1787671305
+      "ts": 1787671305,
+      "stale": true,
+      "stale_reason": "carry_forward_fetch_failed",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "^N225": {
       "label": "Nikkei 225",
+      "asset_class": "equity",
+      "ok": true,
       "price": 65856.43,
       "prev_close": 65326.42,
       "change_pct": 0.81,
       "currency": "JPY",
-      "ts": 1787640302
+      "ts": 1787640302,
+      "stale": true,
+      "stale_reason": "carry_forward_fetch_failed",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "^HSI": {
       "label": "Hang Seng",
+      "asset_class": "equity",
+      "ok": true,
       "price": 25511.1,
       "prev_close": 25471.15,
       "change_pct": 0.16,
       "currency": "HKD",
-      "ts": 1787645318
+      "ts": 1787645318,
+      "stale": true,
+      "stale_reason": "carry_forward_fetch_failed",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "000001.SS": {
       "label": "Shanghai Composite",
+      "asset_class": "equity",
+      "ok": true,
       "price": 3889.445,
       "prev_close": 3894.422,
       "change_pct": -0.13,
       "currency": "CNY",
-      "ts": 1787641224
+      "ts": 1787641224,
+      "stale": true,
+      "stale_reason": "carry_forward_fetch_failed",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "^BVSP": {
       "label": "Bovespa Brasile",
+      "asset_class": "equity",
+      "ok": true,
       "price": 172458.62,
       "prev_close": 166335.0,
       "change_pct": 3.68,
       "currency": "BRL",
-      "ts": 1787671290
+      "ts": 1787671290,
+      "stale": true,
+      "stale_reason": "carry_forward_fetch_failed",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "^VIX": {
       "label": "VIX (volatilita)",
+      "asset_class": "vol",
+      "ok": true,
       "price": 15.64,
       "prev_close": 14.89,
       "change_pct": 5.04,
       "currency": "USD",
-      "ts": 1787671306
+      "ts": 1787671306,
+      "stale": true,
+      "stale_reason": "carry_forward_fetch_failed",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
+    },
+    "CSPX.MI": {
+      "label": "iShares Core S&P 500 (IE00B5BMR087)",
+      "asset_class": "etf",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    "SWDA.MI": {
+      "label": "iShares Core MSCI World (IE00B4L5Y983)",
+      "asset_class": "etf",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    "EIMI.MI": {
+      "label": "iShares Core MSCI EM IMI (IE00BKM4GZ66)",
+      "asset_class": "etf",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    "SGLD.MI": {
+      "label": "Invesco Physical Gold ETC (IE00B579F325)",
+      "asset_class": "etf",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    "4GLD.DE": {
+      "label": "Xetra-Gold ETC (DE000A0S9GB0)",
+      "asset_class": "etf",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
+    },
+    "AGGH.MI": {
+      "label": "iShares Core Global Aggregate Bond",
+      "asset_class": "etf",
+      "ok": false,
+      "error": "HTTPError: HTTP Error 429: Too Many Requests"
     },
     "BTC-USD": {
       "label": "Bitcoin",
-      "price": 79406.41,
-      "prev_close": 78335.19,
-      "change_pct": 1.37,
+      "asset_class": "crypto",
+      "ok": true,
+      "source": "coingecko",
+      "price": 79395.14697081245,
       "currency": "USD",
-      "ts": 1787672219
+      "market_date": "2026-08-28",
+      "stale": false,
+      "ts": 1787909420,
+      "prev_close": 79018.034058,
+      "prev_close_source": "daily_series",
+      "chg_1d_pct": 0.477,
+      "chg_5d_pct": 2.165,
+      "chg_1m_pct": 22.373,
+      "chg_3m_pct": 32.428,
+      "vol20_ann_pct": 41.65
     },
     "ETH-USD": {
       "label": "Ethereum",
-      "price": 2478.48,
-      "prev_close": 2515.2817,
-      "change_pct": -1.46,
+      "asset_class": "crypto",
+      "ok": true,
+      "source": "coingecko",
+      "price": 2491.6983691551804,
       "currency": "USD",
-      "ts": 1787672219
+      "market_date": "2026-08-28",
+      "stale": false,
+      "ts": 1787909420,
+      "prev_close": 2506.343106,
+      "prev_close_source": "daily_series",
+      "chg_1d_pct": -0.584,
+      "chg_5d_pct": 1.19,
+      "chg_1m_pct": 30.252,
+      "chg_3m_pct": 58.511,
+      "vol20_ann_pct": 70.84
     },
     "SOL-USD": {
       "label": "Solana",
-      "price": 98.34,
-      "prev_close": 93.65361,
-      "change_pct": 5.0,
+      "asset_class": "crypto",
+      "ok": true,
+      "source": "coingecko",
+      "price": 106.30660650736418,
       "currency": "USD",
-      "ts": 1787672220
+      "market_date": "2026-08-28",
+      "stale": false,
+      "ts": 1787909440,
+      "prev_close": 102.048904,
+      "prev_close_source": "daily_series",
+      "chg_1d_pct": 4.172,
+      "chg_5d_pct": 11.424,
+      "chg_1m_pct": 44.404,
+      "chg_3m_pct": 50.993,
+      "vol20_ann_pct": 55.15
     },
     "GC=F": {
       "label": "Oro (futures)",
+      "asset_class": "commodity",
+      "ok": true,
       "price": 4693.0,
       "prev_close": 4516.3,
       "change_pct": 3.91,
       "currency": "USD",
-      "ts": 1787671621
+      "ts": 1787671621,
+      "stale": true,
+      "stale_reason": "carry_forward_fetch_failed",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "SI=F": {
       "label": "Argento (futures)",
+      "asset_class": "commodity",
+      "ok": true,
       "price": 68.29,
       "prev_close": 68.026,
       "change_pct": 0.39,
       "currency": "USD",
-      "ts": 1787671621
+      "ts": 1787671621,
+      "stale": true,
+      "stale_reason": "budget_esaurito",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "CL=F": {
       "label": "Petrolio WTI (futures)",
+      "asset_class": "commodity",
+      "ok": true,
       "price": 82.33,
       "prev_close": 87.83,
       "change_pct": -6.26,
       "currency": "USD",
-      "ts": 1787671620
+      "ts": 1787671620,
+      "stale": true,
+      "stale_reason": "budget_esaurito",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "BZ=F": {
       "label": "Petrolio Brent (futures)",
+      "asset_class": "commodity",
+      "ok": true,
       "price": 87.74,
       "prev_close": 93.78,
       "change_pct": -6.44,
       "currency": "USD",
-      "ts": 1787671618
+      "ts": 1787671618,
+      "stale": true,
+      "stale_reason": "budget_esaurito",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "NG=F": {
       "label": "Gas naturale (futures)",
+      "asset_class": "commodity",
+      "ok": true,
       "price": 2.793,
       "prev_close": 2.733,
       "change_pct": 2.2,
       "currency": "USD",
-      "ts": 1787671620
+      "ts": 1787671620,
+      "stale": true,
+      "stale_reason": "budget_esaurito",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "HG=F": {
       "label": "Rame (futures)",
+      "asset_class": "commodity",
+      "ok": true,
       "price": 6.668,
       "prev_close": 6.46,
       "change_pct": 3.22,
       "currency": "USD",
-      "ts": 1787671621
+      "ts": 1787671621,
+      "stale": true,
+      "stale_reason": "budget_esaurito",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "EURUSD=X": {
       "label": "EUR/USD",
+      "asset_class": "fx",
+      "ok": true,
       "price": 1.1678,
       "prev_close": 1.1579,
       "change_pct": 0.85,
       "currency": "USD",
-      "ts": 1787672190
+      "ts": 1787672190,
+      "stale": true,
+      "stale_reason": "budget_esaurito",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "GBPUSD=X": {
       "label": "GBP/USD",
+      "asset_class": "fx",
+      "ok": true,
       "price": 1.3639,
       "prev_close": 1.3537,
       "change_pct": 0.75,
       "currency": "USD",
-      "ts": 1787672190
+      "ts": 1787672190,
+      "stale": true,
+      "stale_reason": "budget_esaurito",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "JPY=X": {
       "label": "USD/JPY",
+      "asset_class": "fx",
+      "ok": true,
       "price": 159.214,
       "prev_close": 159.55,
       "change_pct": -0.21,
       "currency": "JPY",
-      "ts": 1787672225
+      "ts": 1787672225,
+      "stale": true,
+      "stale_reason": "budget_esaurito",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
     },
     "DX-Y.NYB": {
       "label": "Indice dollaro DXY",
+      "asset_class": "fx",
+      "ok": true,
       "price": 98.962,
       "prev_close": 98.9,
       "change_pct": 0.06,
       "currency": "USD",
-      "ts": 1787671624
+      "ts": 1787671624,
+      "stale": true,
+      "stale_reason": "budget_esaurito",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
+    },
+    "^FVX": {
+      "label": "US 5Y Treasury Yield",
+      "asset_class": "rate",
+      "ok": false,
+      "error": "budget di raccolta esaurito"
     },
     "^TNX": {
       "label": "US 10Y Treasury Yield",
+      "asset_class": "rate",
+      "ok": true,
       "price": 4.647,
       "prev_close": 4.653,
       "change_pct": -0.13,
       "currency": "USD",
-      "ts": 1787671323
+      "ts": 1787671323,
+      "stale": true,
+      "stale_reason": "budget_esaurito",
+      "chg_1d_pct": null,
+      "chg_5d_pct": null,
+      "chg_1m_pct": null,
+      "chg_3m_pct": null
+    },
+    "^TYX": {
+      "label": "US 30Y Treasury Yield",
+      "asset_class": "rate",
+      "ok": false,
+      "error": "budget di raccolta esaurito"
     }
   },
   "macro": {
     "FEDFUNDS": {
       "label": "Fed Funds Rate (USA)",
-      "value": "3.6300000000",
-      "date": "2026-07-01"
+      "value": 3.63,
+      "date": "2026-07-01",
+      "prev_value": 3.63,
+      "delta": 0.0,
+      "yoy_pct": -16.166
     },
     "CPIAUCSL": {
-      "label": "Inflazione USA (CPI)",
-      "value": "332.813",
-      "date": "2026-07-01"
+      "label": "CPI USA (indice)",
+      "value": 332.813,
+      "date": "2026-07-01",
+      "prev_value": 332.568,
+      "delta": 0.245,
+      "yoy_pct": 3.54
+    },
+    "CPILFESL": {
+      "label": "CPI Core USA (indice)",
+      "value": 336.789,
+      "date": "2026-07-01",
+      "prev_value": 336.065,
+      "delta": 0.724,
+      "yoy_pct": 2.787
     },
     "UNRATE": {
       "label": "Disoccupazione USA",
-      "value": "4.1",
-      "date": "2026-07-01"
+      "value": 4.1,
+      "date": "2026-07-01",
+      "prev_value": 4.2,
+      "delta": -0.1,
+      "yoy_pct": 0.0
     },
-    "DGS10": {
-      "label": "US 10Y Treasury Rate",
-      "value": "4.7400000000",
-      "date": "2026-08-21"
+    "PAYEMS": {
+      "label": "Occupati non agricoli USA (000)",
+      "value": 158858.0,
+      "date": "2026-07-01",
+      "prev_value": 158881.0,
+      "delta": -23.0,
+      "yoy_pct": 0.199
     },
     "DGS2": {
       "label": "US 2Y Treasury Rate",
-      "value": "4.2400000000",
-      "date": "2026-08-21"
+      "value": 4.19,
+      "date": "2026-08-26",
+      "prev_value": 4.17,
+      "delta": 0.02,
+      "yoy_pct": -1.412
+    },
+    "DGS10": {
+      "label": "US 10Y Treasury Rate",
+      "value": 4.66,
+      "date": "2026-08-26",
+      "prev_value": 4.64,
+      "delta": 0.02,
+      "yoy_pct": -1.271
+    },
+    "DGS30": {
+      "label": "US 30Y Treasury Rate",
+      "value": 5.18,
+      "date": "2026-08-26",
+      "prev_value": 5.17,
+      "delta": 0.01,
+      "yoy_pct": -1.333
+    },
+    "T10Y2Y": {
+      "label": "Spread 10Y-2Y USA",
+      "value": 0.47,
+      "date": "2026-08-27",
+      "prev_value": 0.47,
+      "delta": 0.0,
+      "yoy_pct": -2.083
     },
     "IRLTLT01DEM156N": {
       "label": "Bund Germania 10Y",
-      "value": "2.97",
-      "date": "2026-06-01"
+      "value": 2.97,
+      "date": "2026-06-01",
+      "prev_value": 3.0465,
+      "delta": -0.0765,
+      "yoy_pct": 17.902
     },
     "IRLTLT01ITM156N": {
       "label": "BTP Italia 10Y",
-      "value": "3.734",
-      "date": "2026-06-01"
+      "value": 3.734,
+      "date": "2026-06-01",
+      "prev_value": 3.839,
+      "delta": -0.105,
+      "yoy_pct": 6.655
+    },
+    "CP0000EZ19M086NEST": {
+      "label": "HICP Eurozona (indice)",
+      "value": 103.22,
+      "date": "2026-07-01",
+      "prev_value": 103.0,
+      "delta": 0.22,
+      "yoy_pct": 2.932
     }
+  },
+  "_meta": {
+    "elapsed_s": 425.8,
+    "tickers_ok": 28,
+    "tickers_total": 36,
+    "carry_forward": 25,
+    "error_count": 25,
+    "errors": [
+      "^GSPC: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "^DJI: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "^IXIC: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "^RUT: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "FTSEMIB.MI: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "^FTSE: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "^GDAXI: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "^FCHI: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "^STOXX50E: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "^N225: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "^HSI: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "000001.SS: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "^BVSP: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "^VIX: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "CSPX.MI: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "SWDA.MI: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "EIMI.MI: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "SGLD.MI: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "4GLD.DE: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "AGGH.MI: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests); nessun fallback configurato",
+      "BTC-USD: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests) -> fallback coingecko OK",
+      "ETH-USD: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests) -> fallback coingecko OK",
+      "SOL-USD: yahoo KO (HTTPError: HTTP Error 429: Too Many Requests) -> fallback coingecko OK",
+      "GC=F: yahoo KO (TimeoutError: budget di raccolta esaurito); nessun fallback configurato",
+      "budget prezzi (420s) esaurito: i ticker rimanenti usano l'ultimo valore noto"
+    ]
   },
   "news": {
     "CNBC Business": [
       {
-        "title": "Dick's Sporting Goods stock falls 25% as retailer misses expectations, cites 'challenging' footwear market",
+        "title": "FDA approves daily HIV pill from Gilead designed to simplify treatment for some patients",
+        "link": "https://www.cnbc.com/2026/08/27/fda-approves-gilead-hiv-pill-bixlenvo-designed-to-simplify-treatment.html",
+        "pub_date": "Thu, 27 Aug 2026 21:49:18 GMT"
+      },
+      {
+        "title": "Gap shares jump 12% after company names new Old Navy CEO to revive struggling brand",
+        "link": "https://www.cnbc.com/2026/08/27/gap-q2-2026-earnings.html",
+        "pub_date": "Thu, 27 Aug 2026 21:54:18 GMT"
+      },
+      {
+        "title": "Family offices are making a bullish bet on the stock market, according to CNBC Family Office Portfolio Tracker",
+        "link": "https://www.cnbc.com/2026/08/27/family-offices-making-bullish-bet-on-stocks-according-to-cnbc-tracker.html",
+        "pub_date": "Thu, 27 Aug 2026 19:05:28 GMT"
+      },
+      {
+        "title": "American Airlines adds batch of new international routes on its XLR planes",
+        "link": "https://www.cnbc.com/2026/08/27/american-airlines-routes-xlr.html",
+        "pub_date": "Thu, 27 Aug 2026 12:00:01 GMT"
+      },
+      {
+        "title": "What the Buss family Lakers dispute can teach the wealthy about trusts",
+        "link": "https://www.cnbc.com/2026/08/27/buss-family-lakers-trust-dispute.html",
+        "pub_date": "Thu, 27 Aug 2026 12:25:09 GMT"
+      },
+      {
+        "title": "Lost in limbo: Where the Paramount merger delay leaves WBD, and what may come next",
+        "link": "https://www.cnbc.com/2026/08/26/paramount-merger-delay-wbd-limbo.html",
+        "pub_date": "Wed, 26 Aug 2026 14:31:47 GMT"
+      },
+      {
+        "title": "Hyundai has grown more than any automaker in the U.S. — and it's not done yet",
+        "link": "https://www.cnbc.com/2026/08/26/hyundai-sales-us-investment.html",
+        "pub_date": "Wed, 26 Aug 2026 12:00:01 GMT"
+      },
+      {
+        "title": "HHS plans new FDA deputy commissioner roles for technology and drugs, sources say",
+        "link": "https://www.cnbc.com/2026/08/25/hhs-fda-leadership-roles-technology-drugs.html",
+        "pub_date": "Tue, 25 Aug 2026 17:00:01 GMT"
+      },
+      {
+        "title": "Dick's Sporting Goods stock falls 30% as retailer misses expectations, cites 'challenging' footwear market",
         "link": "https://www.cnbc.com/2026/08/25/dicks-sporting-goods-dks-earnings-q2-2026.html",
-        "pub_date": "Tue, 25 Aug 2026 14:47:30 GMT"
+        "pub_date": "Tue, 25 Aug 2026 20:38:59 GMT"
       },
       {
         "title": "United Airlines adds 2027 flights spanning Sardinia to Okinawa. Here's what it says about travel today",
@@ -276,163 +690,193 @@
         "pub_date": "Tue, 25 Aug 2026 13:09:12 GMT"
       },
       {
+        "title": "Investor competition for commercial real estate sees strongest growth in a year",
+        "link": "https://www.cnbc.com/2026/08/25/cre-investor-competition-sees-strongest-growth-in-a-year.html",
+        "pub_date": "Tue, 25 Aug 2026 20:44:51 GMT"
+      },
+      {
         "title": "Bugatti CEO Mate Rimac says the future of supercars is old-school combustion engines",
         "link": "https://www.cnbc.com/2026/08/25/bugatti-ceo-mate-rimac-supercars-gas-engines.html",
         "pub_date": "Tue, 25 Aug 2026 11:30:01 GMT"
-      },
-      {
-        "title": "Lego posts record first-half revenue, CEO touts strong sales at high-end and value pricing",
-        "link": "https://www.cnbc.com/2026/08/25/lego-first-half-2026-revenue.html",
-        "pub_date": "Tue, 25 Aug 2026 07:00:01 GMT"
-      },
-      {
-        "title": "Paramount CEO David Ellison is at the final hurdle before buying WBD. So far, he can't clear it",
-        "link": "https://www.cnbc.com/2026/08/24/paramount-ceo-david-ellison-wbd-acquisition-final-hurdle.html",
-        "pub_date": "Tue, 25 Aug 2026 00:05:29 GMT"
-      },
-      {
-        "title": "Main Street Sports sues Comcast, Charter for underpaid licensing fees",
-        "link": "https://www.cnbc.com/2026/08/24/main-street-sports-comcast-charter-lawsuit-payments.html",
-        "pub_date": "Mon, 24 Aug 2026 23:48:50 GMT"
-      },
-      {
-        "title": "A media M&A chill: The Paramount-WBD antitrust challenge may hold up more deals than one",
-        "link": "https://www.cnbc.com/2026/08/24/paramount-wbd-antitrust-media-deals.html",
-        "pub_date": "Mon, 24 Aug 2026 22:16:51 GMT"
-      },
-      {
-        "title": "California AG Rob Bonta cancels Paramount settlement meeting, citing 'lack of good faith'",
-        "link": "https://www.cnbc.com/2026/08/24/california-ag-bonta-paramount-settlement-meeting.html",
-        "pub_date": "Mon, 24 Aug 2026 22:16:18 GMT"
       }
     ],
     "MarketWatch": [
       {
-        "title": "My father-in-law passed away, leaving a house with tenants. Do I evict them?",
-        "link": "https://www.marketwatch.com/story/my-father-in-law-passed-away-leaving-a-house-with-tenants-do-i-evict-them-f974428c?mod=mw_rss_topstories",
-        "pub_date": "Tue, 25 Aug 2026 15:30:00 GMT"
+        "title": "On the six-month anniversary of the Iran war, divisions appear on Wall Street over the trajectory for oil prices",
+        "link": "https://www.marketwatch.com/story/on-the-six-month-anniversary-of-the-iran-war-divisions-appear-on-wall-street-over-the-trajectory-for-oil-prices-c27c07aa?mod=mw_rss_topstories",
+        "pub_date": "Fri, 28 Aug 2026 09:28:00 GMT"
       },
       {
-        "title": "Home prices in Chicago have risen the most in the U.S. over the past year",
-        "link": "https://www.marketwatch.com/story/home-prices-in-chicago-have-risen-the-most-in-the-u-s-over-the-past-year-3ee317a8?mod=mw_rss_topstories",
-        "pub_date": "Tue, 25 Aug 2026 15:22:00 GMT"
+        "title": "My contractor handed my $42,000 pool upgrade to a subcontractor I had already rejected. What can I do?",
+        "link": "https://www.marketwatch.com/story/my-contractor-handed-my-42-000-pool-upgrade-to-a-subcontractor-i-had-already-rejected-what-can-i-do-dce41b2b?mod=mw_rss_topstories",
+        "pub_date": "Fri, 28 Aug 2026 09:20:00 GMT"
       },
       {
-        "title": "Why Meta’s stock could see a 50% rally, thanks to an overlooked AI wild card",
-        "link": "https://www.marketwatch.com/story/why-metas-stock-could-see-a-50-rally-thanks-to-an-overlooked-ai-wild-card-28cea54b?mod=mw_rss_topstories",
-        "pub_date": "Tue, 25 Aug 2026 15:10:00 GMT"
+        "title": "Marvell Technology shares slump as investors question Google deal. Here’s what Wall Street is saying.",
+        "link": "https://www.marketwatch.com/story/marvell-technology-shares-slump-as-investors-question-google-deal-heres-what-wall-street-is-saying-d69d8e0c?mod=mw_rss_topstories",
+        "pub_date": "Fri, 28 Aug 2026 09:05:00 GMT"
       },
       {
-        "title": "Am I too old for Roth conversions? I’m 84 and my wife is 77. We have $8 million saved.",
-        "link": "https://www.marketwatch.com/story/am-i-too-old-for-roth-conversions-im-84-and-my-wife-is-77-we-have-8-million-saved-fb08fccd?mod=mw_rss_topstories",
-        "pub_date": "Tue, 25 Aug 2026 15:05:00 GMT"
+        "title": "Judge says Trump administration’s blacklist of Anthropic was illegal",
+        "link": "https://www.marketwatch.com/story/judge-says-trump-administrations-blacklist-of-anthropic-was-illegal-5d3411e7?mod=mw_rss_topstories",
+        "pub_date": "Fri, 28 Aug 2026 03:16:00 GMT"
       },
       {
-        "title": "What Nvidia says on Wednesday to address concerns about its competitiveness could be key for the stock",
-        "link": "https://www.marketwatch.com/story/what-nvidia-says-on-wednesday-to-address-concerns-about-its-competitiveness-could-be-key-for-the-stock-1f9ef8fd?mod=mw_rss_topstories",
-        "pub_date": "Tue, 25 Aug 2026 15:04:00 GMT"
+        "title": "Marvell boosts its forecasts, but the stock slides as Wall Street wonders if there’s more to the story",
+        "link": "https://www.marketwatch.com/story/marvell-is-boosting-its-forecasts-but-thats-not-enough-to-lift-its-stock-c769556a?mod=mw_rss_topstories",
+        "pub_date": "Fri, 28 Aug 2026 00:20:00 GMT"
       },
       {
-        "title": "Dick’s Sporting Goods’ stock is having its worst day ever, as sneakers aren’t selling without deeper discounts",
-        "link": "https://www.marketwatch.com/story/dicks-sporting-goods-stock-is-having-its-worst-day-ever-as-sneakers-arent-selling-without-deeper-discounts-5a868358?mod=mw_rss_topstories",
-        "pub_date": "Tue, 25 Aug 2026 14:41:00 GMT"
+        "title": "SpaceX’s $100 billion spaceport plan has investors asking where all the money is coming from",
+        "link": "https://www.marketwatch.com/story/spacexs-100-billion-spaceport-plan-has-investors-asking-where-all-the-money-is-coming-from-7395bc51?mod=mw_rss_topstories",
+        "pub_date": "Fri, 28 Aug 2026 00:02:00 GMT"
       },
       {
-        "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
-        "link": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
-        "pub_date": "Tue, 25 Aug 2026 14:30:00 GMT"
+        "title": "Is Nvidia heading for $1 trillion in annual revenue? One analyst now thinks that’s possible.",
+        "link": "https://www.marketwatch.com/story/nvidia-stock-is-climbing-after-another-set-of-blockbuster-results-heres-what-wall-street-is-saying-a2260a62?mod=mw_rss_topstories",
+        "pub_date": "Thu, 27 Aug 2026 23:05:00 GMT"
       },
       {
-        "title": "You don’t have to be rich to start investing. Here’s a simple way to begin.",
-        "link": "https://www.marketwatch.com/story/you-dont-have-to-be-rich-to-start-investing-heres-a-simple-way-to-begin-f1b0e194?mod=mw_rss_topstories",
-        "pub_date": "Tue, 25 Aug 2026 14:23:00 GMT"
+        "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+        "link": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
+        "pub_date": "Thu, 27 Aug 2026 23:00:00 GMT"
+      },
+      {
+        "title": "CrowdStrike’s stock jumps after record-breaking earnings. Wall Street is lapping it up.",
+        "link": "https://www.marketwatch.com/story/crowdstrikes-stock-has-jumped-after-record-breaking-earnings-wall-street-is-lapping-it-up-dbdaca83?mod=mw_rss_topstories",
+        "pub_date": "Thu, 27 Aug 2026 22:53:00 GMT"
+      },
+      {
+        "title": "Salesforce’s stock rockets 20% and gives the software sector a major lift",
+        "link": "https://www.marketwatch.com/story/salesforce-stock-is-jumping-what-wall-street-is-saying-about-its-earnings-and-its-anthropic-relationship-853ada85?mod=mw_rss_topstories",
+        "pub_date": "Thu, 27 Aug 2026 22:51:00 GMT"
       }
     ],
     "Investing.com": [
       {
-        "title": "Canada announces retaliatory tariffs on $20 billion worth of US goods, unveils support measures",
-        "link": "https://www.investing.com/news/economy-news/canada-announces-20-billion-retaliatory-tariffs-on-us-goods-unveils-support-measures-4875679",
-        "pub_date": "2026-08-25 15:18:55"
+        "title": "Marvell issues better-than-expected revenue guidance, shares dip after big run-up",
+        "link": "https://www.investing.com/news/earnings/marvell-technology-current-quarter-revenue-guidance-beats-shares-slip-after-hours-4880076",
+        "pub_date": "2026-08-28 08:52:07"
       },
       {
-        "title": "Nxg Cushing Midstream director John Alban sells $22,825 in shares",
-        "link": "https://www.investing.com/news/insider-trading-news/nxg-cushing-midstream-director-john-alban-sells-22825-in-shares-93CH-4875681",
-        "pub_date": "2026-08-25 15:15:46"
+        "title": "HusCompagniet H1 2026 slides: revenue rises, margins compressed",
+        "link": "https://www.investing.com/news/company-news/huscompagniet-h1-2026-slides-revenue-rises-margins-compressed-93CH-4880745",
+        "pub_date": "2026-08-28 08:50:56"
       },
       {
-        "title": "US rates need to rise soon absent evidence of ongoing drop in inflation, Fed’s Collins says",
-        "link": "https://www.investing.com/news/economy-news/us-rates-need-to-rise-soon-absent-evidence-of-ongoing-drop-in-inflation-feds-collins-says-4875680",
-        "pub_date": "2026-08-25 15:13:36"
+        "title": "Prosafe Q2 2026 slides: EBITDA triples as day rates surge to $140k",
+        "link": "https://www.investing.com/news/company-news/prosafe-q2-2026-slides-ebitda-triples-as-day-rates-surge-to-140k-93CH-4880744",
+        "pub_date": "2026-08-28 08:50:09"
       },
       {
-        "title": "Gold Fields H1 2026 slides: cash flow surges on Salares Norte ramp",
-        "link": "https://www.investing.com/news/company-news/gold-fields-h1-2026-slides-cash-flow-surges-on-salares-norte-ramp-93CH-4875677",
-        "pub_date": "2026-08-25 15:10:30"
+        "title": "Russia’s Sberbank sees more rate cuts, higher growth this year despite Ukrainian attacks",
+        "link": "https://www.investing.com/news/economy-news/russias-sberbank-sees-more-rate-cuts-higher-growth-this-year-despite-ukrainian-attacks-4880743",
+        "pub_date": "2026-08-28 08:49:00"
       },
       {
-        "title": "Marzetti Q4 FY26 slides: margins hit record despite revenue miss",
-        "link": "https://www.investing.com/news/company-news/marzetti-q4-fy26-slides-margins-hit-record-despite-revenue-miss-93CH-4875676",
-        "pub_date": "2026-08-25 15:09:22"
+        "title": "European shares rise as French stocks recover; all eyes on  Warsh",
+        "link": "https://www.investing.com/news/economy-news/european-shares-inch-up-as-french-stocks-recover-markets-await-warsh-speech-4880635",
+        "pub_date": "2026-08-28 08:48:30"
       },
       {
-        "title": "X-Energy options activity points to major volatility play ahead of September expiration",
-        "link": "https://www.investing.com/news/stock-market-news/xenergy-options-activity-points-to-major-volatility-play-ahead-of-september-expiration-93CH-4875675",
-        "pub_date": "2026-08-25 15:07:41"
+        "title": "Prosafe Q2 2026 slides: EBITDA triples, guidance raised on tight market",
+        "link": "https://www.investing.com/news/company-news/prosafe-q2-2026-slides-ebitda-triples-guidance-raised-on-tight-market-93CH-4880740",
+        "pub_date": "2026-08-28 08:48:03"
       },
       {
-        "title": "Analysis-US tariff threat upends copper surplus as prices test all-time peak",
-        "link": "https://www.investing.com/news/commodities-news/analysisus-tariff-threat-upends-copper-surplus-as-prices-test-alltime-peak-4875674",
-        "pub_date": "2026-08-25 15:07:40"
+        "title": "Autodesk falls on fiscal 2027 guidance concerns; Q2 tops estimates",
+        "link": "https://www.investing.com/news/earnings/autodesk-falls-on-fiscal-2027-guidance-concerns-4880097",
+        "pub_date": "2026-08-28 08:47:59"
       },
       {
-        "title": "Innoscripta H1 2026 slides: 43% growth amid migration headwinds",
-        "link": "https://www.investing.com/news/company-news/innoscripta-h1-2026-slides-43-growth-amid-migration-headwinds-93CH-4875673",
-        "pub_date": "2026-08-25 15:07:36"
+        "title": "Earnings call transcript: Havila Kystruten cuts 2026 outlook after strong Q2",
+        "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-havila-kystruten-cuts-2026-outlook-after-strong-q2-93CH-4880737",
+        "pub_date": "2026-08-28 08:45:34"
+      },
+      {
+        "title": "Aussie dollar eyes longest weekly winning streak since 2021 on hot CPI",
+        "link": "https://www.investing.com/news/forex-news/asia-fx-dollar-muted-ahead-of-warsh-speech-won-hits-13mth-high-post-bok-hike-4880492",
+        "pub_date": "2026-08-28 08:44:13"
+      },
+      {
+        "title": "PetroNor Q2 2026 slides: production hits 5,000 bopd, returns $50M",
+        "link": "https://www.investing.com/news/company-news/petronor-q2-2026-slides-production-hits-5000-bopd-returns-50m-93CH-4880735",
+        "pub_date": "2026-08-28 08:42:02"
       }
     ],
     "Yahoo Finance": [
       {
-        "title": "Stanley Druckenmiller and Cathie Wood agree on 2 tech giant stocks",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/stanley-druckenmiller-cathie-wood-agree-191300323.html",
-        "pub_date": "2026-08-24T19:13:00Z"
+        "title": "Bank of America doubles down on Nvidia stock",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-doubles-down-nvidia-153054071.html",
+        "pub_date": "2026-08-27T15:30:54Z"
       },
       {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq gain as oil, Treasury yields fall",
-        "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-25-dow-sp-500-nasdaq-080527092.html",
-        "pub_date": "2026-08-25T08:05:27Z"
+        "title": "Will the housing market crash in 2026? What the economy says",
+        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/will-the-housing-market-crash-in-2026-what-the-economy-says-170038540.html",
+        "pub_date": "2024-07-05T17:00:38Z"
       },
       {
-        "title": "AIR Global’s Best-in-Class 1H Performance Amid Disruptions, 2H Recovery – Quarterly Update Report",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/air-global-best-class-1h-151615792.html",
-        "pub_date": "2026-08-25T15:16:15Z"
+        "title": "Mortgage rate predictions through 2030: Economic factors at plays",
+        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rate-predictions-through-2030-economic-factors-at-plays-195826935.html",
+        "pub_date": "2025-08-18T19:58:26Z"
       },
       {
-        "title": "Boeing Lands $131 Bil F-15 Fighter Jet Contract, Analyst Lifts Booz Allen Targets",
-        "link": "https://www.investors.com/news/boeing-air-force-f15-contract-131-billion-ba-stock-parsons-dod-booz-allen-analyst-targets/?src=A00220&yptr=yahoo",
-        "pub_date": "2026-08-25T15:07:40Z"
+        "title": "Emergency medical evacuation insurance: What it covers, what it costs, and how to compare plans",
+        "link": "https://finance.yahoo.com/personal-finance/insurance/article/emergency-medical-evacuation-insurance-142045430.html",
+        "pub_date": "2026-08-26T14:20:45Z"
       },
       {
-        "title": "Stock Market Today: Nasdaq Holds Support Amid Surprise Economic Data; Nvidia Reverses Higher (Live Coverage)",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp500-treasury-yields-nvidia-micron-sandisk/?src=A00220&yptr=yahoo",
-        "pub_date": "2026-08-25T15:06:59Z"
+        "title": "What is a 'rapid rescore' and how does it work?",
+        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/what-is-rapid-rescore-181538100.html",
+        "pub_date": "2026-05-12T18:15:38Z"
       },
       {
-        "title": "US rates need to rise soon absent evidence of ongoing drop in inflation, Fed's Collins says",
-        "link": "https://finance.yahoo.com/economy/policy/articles/us-rates-rise-soon-absent-150621599.html",
-        "pub_date": "2026-08-25T15:06:21Z"
+        "title": "Fortuna Mining's Growth Is Built In, So Why Is Its Stock Priced For A Buyout?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/fortuna-minings-growth-built-why-211201708.html",
+        "pub_date": "2026-08-26T21:12:01Z"
       },
       {
-        "title": "Bitcoin Tests $80K, Analyst Sees Further Upside. BTC ETFs Form Bases.",
-        "link": "https://www.investors.com/news/bitcoin-price-80k-treasury-department-trump-administration-crypto-short-squeeze-etf-base/?src=A00220&yptr=yahoo",
-        "pub_date": "2026-08-25T14:50:47Z"
+        "title": "Xiaomi’s New Chip Could Strengthen Its Premium Push, But the Timing Could Be Risky",
+        "link": "https://finance.yahoo.com/technology/articles/xiaomi-chip-could-strengthen-premium-212124478.html",
+        "pub_date": "2026-08-26T21:21:24Z"
       },
       {
-        "title": "Tesla Hikes Prices For Struggling Cybertruck; Stock Faces Key Test",
-        "link": "https://www.investors.com/news/tesla-hikes-cybertruck-prices-stock-key-test/?src=A00220&yptr=yahoo",
-        "pub_date": "2026-08-25T14:50:41Z"
+        "title": "Strategy Builds a $1.6 Billion Cash Pool, But Does It Reduce the Bitcoin Risk?",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/strategy-builds-1-6-billion-212358093.html",
+        "pub_date": "2026-08-26T21:23:58Z"
+      },
+      {
+        "title": "'Moneymaxxing' is the latest personal finance trend. Will it work for you?",
+        "link": "https://finance.yahoo.com/personal-finance/banking/article/what-is-moneymaxxing-212951039.html",
+        "pub_date": "2026-08-26T21:29:51Z"
+      },
+      {
+        "title": "From Air Taxi to Defense Player: Archer Aviation (ACHR)’s Month of Momentum",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/air-taxi-defense-player-archer-213157959.html",
+        "pub_date": "2026-08-26T21:31:57Z"
+      },
+      {
+        "title": "Why Is Intuit Stock Tumbling After a Strong Quarter?",
+        "link": "https://www.barrons.com/articles/intuit-earnings-stock-price-9d6dab85?siteid=yhoof2&yptr=yahoo",
+        "pub_date": "2026-08-26T21:13:00Z"
+      },
+      {
+        "title": "Raytheon’s Missile Windfall: What the Navy’s Record Tomahawk Order Means for RTX Corporation (RTX)",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/raytheon-missile-windfall-navy-record-214418523.html",
+        "pub_date": "2026-08-26T21:44:18Z"
       }
     ],
     "ECB Press": [
+      {
+        "title": "Meeting of 22-23 July 2026",
+        "link": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260827~f06c21fd54.en.html",
+        "pub_date": "Thu, 27 Aug 2026 13:30:00 +0200"
+      },
+      {
+        "title": "Piero Cipollone: From vision to delivery: building Europe’s tokenised financial market",
+        "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260826~3641116314.en.html",
+        "pub_date": "Wed, 26 Aug 2026 12:15:00 +0200"
+      },
       {
         "title": "Piero Cipollone: Interview with ilsussidiario.net",
         "link": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260824~fa5acbddea.en.html",
@@ -472,6 +916,78 @@
         "title": "Digital euro app to incorporate highest accessibility standards",
         "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260730~3b3bfbb565.en.html",
         "pub_date": "Thu, 30 Jul 2026 10:00:00 +0200"
+      },
+      {
+        "title": "ECB wage tracker at 2.7% in Q1 2027, indicating stable negotiated wage pressures",
+        "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260729~4ad7508d8a.en.html",
+        "pub_date": "Wed, 29 Jul 2026 10:00:00 +0200"
+      },
+      {
+        "title": "Philip R. Lane: Outlook for the euro area economy",
+        "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260724~d484b483b9.en.pdf",
+        "pub_date": "Fri, 24 Jul 2026 17:30:00 +0200"
+      }
+    ],
+    "Google News Mkts": [
+      {
+        "title": "Why Bond Yields Are the Stock Market’s New Fear Index - Barron's",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWlVMbC1sNHUyYk5kWWctYUI0VFdMaXB3dUpYMllQNVBKd1ZUZ1Z3cjVBSmFmSDZ5UlZhUVVUMG1fejNieGN4bUxhbXk1TzFfUVEyZGEwRDVpUzNrRmNwLWF3OFM4MTU4cDBrYVdHLTAzNTZ6R2x1T3hUdW9YdFhLZC1KOVlPbVZ2?oc=5",
+        "pub_date": "Thu, 27 Aug 2026 11:56:00 GMT"
+      },
+      {
+        "title": "The Bond Market Is Flashing a Warning Signal to Investors. Here's What Comes Next. - The Motley Fool",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVXBrUF80NjNMNHhXWHk4RVJESFpTMVV2d1NGUWx0QjVTQ21hQVZHWG1uVnlhOE5kMWFXbGlaaWh1dHJYUGwwSmc1OEN4dVdKMWpuVjdPWTBxMHJ5c1YtSXVBREh0c1VCOG1lYTh3ZnFaZ2RMYjhVY2ZOLVNpT1owTzRvZWMtNU1faFpHRmpsc3U1VWk2WUpLNQ?oc=5",
+        "pub_date": "Thu, 27 Aug 2026 20:45:00 GMT"
+      },
+      {
+        "title": "The Diary of Different Yields - ETF Trends",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUF9iTG1PM2pfbWRMSWllcF9nWTdNODlWRHpMX1dYQ2dFcFQwMnlQM3ZVRndmd2RfdEJVY25zbjczQWdsZ0lNOEtHa3Fwa0RrNVMtMy1aUXAxTXp3UEwxWGVxLTd1NGl6dnNTVDJsdE5SMDhOay13RElnSkVLUFB0QzFHZXpiVTZlMDlV0gGQAUFVX3lxTE1jNGVfRm5QVk1iSk9Cb3pHR1lfQ093OVVIWndJaGRRVTZkN3RBNU5mc1J6cEFZZERjRHZWZWdmZWtkbnRoeTg0ZG9qdWM3NjNTUU1IV3dPaWF5TkFRanlrbERsenhOcW9QbE5yRFdia3ZGYWQzejFfbXdCZUVfU21zS012cDFmWlpNU1NqbmRGaA?oc=5",
+        "pub_date": "Thu, 27 Aug 2026 13:21:33 GMT"
+      },
+      {
+        "title": "This Bond ETF Yields More Than Treasuries. Is the Extra Income Worth the Risk? - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdUc1bHRuSEJqU3E0UUEyWHA2M2lhYUt5WTZ4R0xhTTRuSGVMQVM1OFliLWwteHBKdkxxdEhEV0hxd3NuM2E4eXB5aGpHNG02NVUwcmhQd0t5NW5abVFENllSQTlKS3NwS19FZEw3VzZKQnYyeHhIZl9IcWs5c242UGo2QXhoTnlrdHZUZ1FjUlQ1aGpkT2hhd2Y1UVA0Zw?oc=5",
+        "pub_date": "Thu, 27 Aug 2026 15:20:00 GMT"
+      },
+      {
+        "title": "Global Market: Japanese bond yields rise as weak auction, inflation concerns weigh - The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZzRPVjVpVG14SjIxQWNTaUNRTHFjaWlwMjlDR0Q0NjV5SkdGREpRR0NKaEZCT2JubThaTUp4WDAwWUJvQ2lCdC1DQk91cVhrX0pUWXpTTDBoMldNekIza1M0aFhRRWMtdUY0NzFvUWI5dlJGOHh1Rm5HaGYwYzA0T2ctUWxDTVdCbjNpRTRTa01ROEQxY1MtSTVQV0VyUXRGWjZTZVNud3UxTXhzMEk3SFlUNzBQMVp2RllVQlRJRzl0Zi05WUJlMVRBVS1Obk9qZkdFNnJCWDF6TXVXRHNEczBSUkppMDRMcnVMWHFB0gHzAUFVX3lxTE1sN3AxbHpjaFFTSjAxM3gzdm40SnpKLTdjcDRhdnBXNEtOV3laSmdnV084LWxDbnNKT09ydFJSZ2IyLXd2cVJtQWpiR0FueTFoUWJyemVwRjdGajByMGJlejRzQ0psdXRjamJuM091S2xfVm5WX2cyb2xIZ3M4LWV3N3FKR3NzTjRxcjdWMmV0eG45UW9YbE1xTlc4U3hUYVRzUHNpNW5temE2V0lOdHNvalN5VGYxYmpJd2I0akYtNnZ3QWhhc0E5WThGekVfb19CRHZNbFMwMlp3UGNpUTMxZm53ei1hMUpXUmNxWmZxd0I5TQ?oc=5",
+        "pub_date": "Fri, 28 Aug 2026 06:56:12 GMT"
+      },
+      {
+        "title": "Treasury Yields Impact on Stocks: August 28, 2026 Guide - Intellectia AI",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQTZMTC1DZEpFcDlweVNyX3dsTTZYQVdXc1YyeWxWVkp5eWNMUnRmYWo5WVlROWJBNWp6c283WUhUM3hsNmJYNUpzZk1kVUczeW9oTFNuVHBXM1ROUFlRQURHSGY1Q2x4MnUxX2VtdHhkWklBZmQ4N1ZfRVRWRUJhVmNQaXI?oc=5",
+        "pub_date": "Fri, 28 Aug 2026 04:07:51 GMT"
+      },
+      {
+        "title": "Income opportunity as bond yields edge up - The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSWZWQzlEeHNma1VZQ19Oc2tyZlJuNGwxR3hMWFMwUG1CWnZfMXlqSGZmUjlXcDk0S2RtS1Qxc19TN0xZcXIyVFI3QkNMSUNMQm5tbm15T2l1bDI0bjlpRExGWkYzMWQ1cDFXNmUyWkRRbHFXNi1naFFtUUYyb2lHcmdnRkdWVjhrVG5QZmUtcGxtYXhkU1pncEx4ZDlKTlc4c2tGcU1MOGtWLXdJM2s1S3FLcjBaanlyRE5DcW5pVC15TmJGM0E?oc=5",
+        "pub_date": "Fri, 28 Aug 2026 06:44:32 GMT"
+      },
+      {
+        "title": "How Financial Advisors Are Navigating the Surge in 30-Year Treasury Yields - Barron's",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSE9MTXVobzNna2FNOWVlTWE5aXVabzNCdmhaM1ZWUDltQjRMYjdhN0dkdFRfX0pRTnhEZHUwVHphaGRUa29EUzRkOFNxeVBJR3VoWGE0N2NlMHFsUmo5SExTdWt2bG13U3U3TXE2RWdrY0FELTRLQlNwNGFfODlZdWo3Smh6YTBoVm5ickdBTmlNenZ1S1FmV1pJMHVRY3I4dFZZRDl1OHFvdE9R?oc=5",
+        "pub_date": "Thu, 27 Aug 2026 12:05:00 GMT"
+      },
+      {
+        "title": "Here’s How Global Bond Managers Are Playing Higher Yields - Barron's",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdFhlQ3g0Y21Md1FqTHVvMEtPSHhQTUc5RzlTVWY3b29NbWZGazkxTG1fdEF1cS1vakZmSk1kZjR3aVZzNEQ5TkNVOXVmempXc2hzRnVpeHBZMFFVTVJRRE1QenRCMnA0TGU2dnVUd2pBQTd1c0V6VVBUVFJpWHQyUWJZTy1iMHRTbHNEMndUMVJXQQ?oc=5",
+        "pub_date": "Thu, 27 Aug 2026 10:55:00 GMT"
+      },
+      {
+        "title": "Chartbook 471 Still Safe? Cognitive dissonance in the Treasury market. - Adam Tooze | Substack",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvMXJ3eFE3VjBINmpRVUgwbHJKOXlwX1JaZUplQ1N6LWZSelpTRWFNNWhsMk9FMVFmQk9uODBrRDZIbm9VVkdvNXJFWkV0Wnl4dC1qRm9sRklxNmVVTE5NaUk4S01KUXc1U2NYNTRydlRoU3dTZHc?oc=5",
+        "pub_date": "Thu, 27 Aug 2026 15:12:57 GMT"
+      },
+      {
+        "title": "Nasdaq 100 forecast: Stocks take a dip amid pressure from yields and oil prices - FOREX.com",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZ0tWc3h1Vk0ybzd4SzVNRFNRUFhTR3BvdXpQd0ZudUtnM3ZQTzZTRTB1N2ViaHJWYzhjMldzMk52ZVRVRkpuOTVwTDB0cmQ4c3ZxVFUzXzJzbUhYd05RUE1Ea0hvXzB3R2lUbHdxN0FydDYwOGpHb0hsWUpadENUNkRRWC1fbmR0bjFqMHE2TDgzemhVLVJSVnN2bE9icTJDZDR5S1JLcXJ6QTFONVkwVVJDYzE5NTRRdWVXR1hGTjZIVnM?oc=5",
+        "pub_date": "Thu, 27 Aug 2026 13:10:44 GMT"
+      },
+      {
+        "title": "Japanese bond funds see record inflows as rising yields attract global investors - The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNbl8zWkJQWE1CSmZnWHoxMkZpT05RS25DWk01Y3BkOWRUMGh1M1JuLTM0Q1d1bGJBQ2p2dlZQcGVPbndNZEp6amdjMy1kamlXWVg0dTR4TFMtcWVfTm1CTWpyTGxQcHBsdGx5S2JLZHc4RGJUd09VRm90ZlRnRndZbWpnMy15dUlIeURsdTQyQnEyRWlvVDRhdTJnQ1NKOW1idjFZaUxhd29VdFFLREpGZTBYLTFFLUpzMnd2SHdGdmdxTmVoc25MNUc3eXJwUHVIUFZQekkwVDN1bzQtUW9FSFVQeTk4TklIYXVBWllyMWJSSnVUSURSSGhsZXltNUnSAYQCQVVfeXFMTUZYODVpbFRJSjF1czNFQk9BdDJaRDlJc3lLaE1ERENVZkRRMzU3WlNBLW9BWmVfMlBNOF9pZHJiZ3ZPVGtzOWtzenNhRXdoZmFZcFQtcERTWHZzazJzNllfOXd4R00xOW5VcEQyN3prc05Pbk05YjNUU3lOdGZVY2x2UzhxRXNTUXVGZVFBRXR2d3Y4N2ZXTWxwZlB3dVd1ZTA2cWZqeTRTclpfRDhfTzg0c0Q5aEFfUU9jYkQzRW5Rby13YjJaUEx0M3pCZ1JQTnFtR3RSLWdhdDd4TGwyYjczajEyWEU4WFNVQ1Y4aWlIa0F5YXhQR1ZJR3I5Z0JyRzZDT00?oc=5",
+        "pub_date": "Thu, 27 Aug 2026 19:02:09 GMT"
       }
     ]
   }
