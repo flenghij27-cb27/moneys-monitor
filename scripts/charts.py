@@ -53,7 +53,7 @@ GRUPPI: list[tuple[str, str, list[str]]] = [
      ["SWDA.MI", "CSPX.MI", "EIMI.MI", "SGLD.MI", "AGGH.MI"]),
     ("Crypto", "crypto", ["BTC-USD", "ETH-USD", "SOL-USD"]),
     ("Materie prime", "commodity", ["GC=F", "SI=F", "CL=F", "HG=F", "NG=F"]),
-    ("Valute e tassi", "fx", ["EURUSD=X", "DX-Y.NYB", "^TNX", "^TYX"]),
+    ("Valute e tassi", "fx", ["EURUSD=X", "DX-Y.NYB", "^TNX", "^TYX", "^FVX"]),
 ]
 
 ALL_HORIZONS = [("1 sett.", 5), ("2 sett.", 10), ("1 mese", 21),
