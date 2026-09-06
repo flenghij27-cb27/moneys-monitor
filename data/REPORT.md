@@ -1,7 +1,7 @@
 # Moneys Monitor - Report di mercato
 
-Generato: `2026-09-06T10:27:07+00:00`  
-Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-09-06T10:26:34+00:00` (327 snapshot, 31 asset)
+Generato: `2026-09-06T15:04:40+00:00`  
+Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-09-06T15:04:09+00:00` (328 snapshot, 31 asset)
 
 > Le change_pct salvate nello schema v1 sono errate (prev_close congelato). Questo report le ignora e ricalcola tutto dalla serie osservata.
 
@@ -10,10 +10,10 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-09-06T10:26:34+00:00` (327
 
 | Orizzonte | Risk-on medio | Risk-off medio | Spread |
 |---|---:|---:|---:|
-| 1d | 0.37% | 0.00% | **0.37 pp** |
-| 1w | 1.45% | 0.00% | **1.45 pp** |
-| 1m | 9.51% | 5.63% | **3.88 pp** |
-| 3m | 10.63% | 10.40% | **0.23 pp** |
+| 1d | 0.07% | 0.00% | **0.07 pp** |
+| 1w | 1.13% | 0.00% | **1.13 pp** |
+| 1m | 9.10% | 5.63% | **3.47 pp** |
+| 3m | 10.23% | 10.40% | **-0.17 pp** |
 
 ## Outlier 1d
 
@@ -22,28 +22,28 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-09-06T10:26:34+00:00` (327
 | 1 | Petrolio WTI | 11.11% | | VIX (volatilita) | -5.79% |
 | 2 | Petrolio Brent | 9.44% | | GBP/USD | -0.62% |
 | 3 | Gas naturale | 3.83% | | Dow Jones | -0.51% |
-| 4 | Solana | 3.31% | | US 5Y Treasury Yield | -0.44% |
-| 5 | Ethereum | 0.82% | | US 10Y Treasury Yield | -0.42% |
-| 6 | Indice dollaro Fed (broad) | 0.58% | | S&P 500 | -0.38% |
+| 4 | Solana | 1.88% | | US 5Y Treasury Yield | -0.44% |
+| 5 | Indice dollaro Fed (broad) | 0.58% | | US 10Y Treasury Yield | -0.42% |
+| 6 | USD/JPY | 0.47% | | Bitcoin | -0.41% |
 
 ## Outlier 1w
 
 | # | Migliori | % | | Peggiori | % |
 |--:|---|--:|---|---|--:|
-| 1 | Solana | 6.94% | | VIX (volatilita) | -1.31% |
+| 1 | Solana | 5.46% | | VIX (volatilita) | -1.31% |
 | 2 | Petrolio WTI | 5.08% | | GBP/USD | -0.65% |
-| 3 | Ethereum | 3.56% | | Dow Jones | -0.27% |
-| 4 | Bitcoin | 3.47% | | EUR/USD | -0.18% |
-| 5 | US 5Y Treasury Yield | 3.20% | | FTSE MIB | 0.00% |
-| 6 | Gas naturale | 3.17% | | Euro Stoxx 50 | 0.00% |
+| 3 | US 5Y Treasury Yield | 3.20% | | Dow Jones | -0.27% |
+| 4 | Gas naturale | 3.17% | | EUR/USD | -0.18% |
+| 5 | Bitcoin | 2.76% | | FTSE MIB | 0.00% |
+| 6 | Ethereum | 2.58% | | Euro Stoxx 50 | 0.00% |
 
 ## Outlier 1m
 
 | # | Migliori | % | | Peggiori | % |
 |--:|---|--:|---|---|--:|
-| 1 | Solana | 42.09% | | VIX (volatilita) | -6.28% |
-| 2 | Ethereum | 33.09% | | Nikkei 225 | -4.16% |
-| 3 | Bitcoin | 27.17% | | CAC 40 Francia | -2.14% |
+| 1 | Solana | 40.13% | | VIX (volatilita) | -6.28% |
+| 2 | Ethereum | 31.83% | | Nikkei 225 | -4.16% |
+| 3 | Bitcoin | 26.30% | | CAC 40 Francia | -2.14% |
 | 4 | Petrolio WTI | 21.65% | | Russell 2000 | -2.00% |
 | 5 | Petrolio Brent | 20.57% | | FTSE MIB | -1.59% |
 | 6 | Gas naturale | 7.77% | | Euro Stoxx 50 | -1.19% |
@@ -52,7 +52,7 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-09-06T10:26:34+00:00` (327
 
 | Coppia | Corr. 20g | A | B | Divergenza |
 |---|--:|--:|--:|--:|
-| S&P 500 vs Bitcoin | -0.094 | -0.12% | 27.17% | **-27.29 pp** |
+| S&P 500 vs Bitcoin | -0.089 | -0.12% | 26.30% | **-26.42 pp** |
 | S&P 500 vs VIX (volatilita) | -0.676 | -0.12% | -6.28% | **6.16 pp** |
 | S&P 500 vs Oro (spot) | 0.167 | -0.12% | 5.96% | **-6.08 pp** |
 | US 10Y Treasury Yield vs Oro (spot) | -0.182 | 1.84% | 5.96% | **-4.12 pp** |
@@ -86,11 +86,11 @@ Curva USA: 10Y-2Y **43.0 bp**, 30Y-10Y **48.0 bp**, invertita: **no**
 | Asset | Ultimo | 1m | Vol 20g ann. | Max DD |
 |---|--:|--:|--:|--:|
 | VIX (volatilita) | 14.3200 | -6.28% | 75.32% | -31.03% |
-| Ethereum | 2 499.5707 | 33.09% | 55.53% | -5.78% |
+| Ethereum | 2 475.8839 | 31.83% | 55.78% | -5.78% |
 | Petrolio WTI | 91.4800 | 21.65% | 47.81% | -18.71% |
-| Solana | 106.7218 | 42.09% | 46.29% | -13.59% |
+| Solana | 105.2493 | 40.13% | 45.95% | -13.59% |
 | Petrolio Brent | 96.0200 | 20.57% | 44.72% | -21.50% |
-| Bitcoin | 79 972.0360 | 27.17% | 42.71% | -5.72% |
+| Bitcoin | 79 426.1192 | 26.30% | 42.99% | -5.72% |
 | Gas naturale | 2.9000 | 7.77% | 32.58% | -18.87% |
 | Argento (spot) | 68.2900 | 5.30% | 24.44% | -11.21% |
 | Oro (spot) | 4 693.0000 | 5.96% | 16.80% | -4.96% |
