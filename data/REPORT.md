@@ -1,7 +1,7 @@
 # Moneys Monitor - Report di mercato
 
-Generato: `2026-09-19T10:28:12+00:00`  
-Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-09-19T10:27:38+00:00` (371 snapshot, 31 asset)
+Generato: `2026-09-19T15:31:34+00:00`  
+Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-09-19T15:31:02+00:00` (372 snapshot, 31 asset)
 
 > Le change_pct salvate nello schema v1 sono errate (prev_close congelato). Questo report le ignora e ricalcola tutto dalla serie osservata.
 
@@ -10,10 +10,10 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-09-19T10:27:38+00:00` (371
 
 | Orizzonte | Risk-on medio | Risk-off medio | Spread |
 |---|---:|---:|---:|
-| 1d | 0.18% | 0.00% | **0.18 pp** |
-| 1w | 1.94% | 0.00% | **1.94 pp** |
-| 1m | 1.84% | 0.00% | **1.84 pp** |
-| 3m | 13.10% | 20.19% | **-7.09 pp** |
+| 1d | 0.17% | 0.00% | **0.17 pp** |
+| 1w | 1.93% | 0.00% | **1.93 pp** |
+| 1m | 1.83% | 0.00% | **1.83 pp** |
+| 3m | 13.08% | 20.19% | **-7.11 pp** |
 
 ## Outlier 1d
 
@@ -23,8 +23,8 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-09-19T10:27:38+00:00` (371
 | 2 | Petrolio WTI | 10.03% | | US 5Y Treasury Yield | -1.65% |
 | 3 | Gas naturale | 5.69% | | USD/JPY | -1.54% |
 | 4 | S&P 500 | 1.14% | | US 10Y Treasury Yield | -1.40% |
-| 5 | Ethereum | 1.05% | | US 30Y Treasury Yield | -1.12% |
-| 6 | Nasdaq Composite | 0.39% | | Solana | -1.07% |
+| 5 | Ethereum | 0.89% | | Solana | -1.38% |
+| 6 | Bitcoin | 0.69% | | US 30Y Treasury Yield | -1.12% |
 
 ## Outlier 1w
 
@@ -32,10 +32,10 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-09-19T10:27:38+00:00` (371
 |--:|---|--:|---|---|--:|
 | 1 | Petrolio Brent | 42.20% | | VIX (volatilita) | -13.45% |
 | 2 | Petrolio WTI | 25.85% | | USD/JPY | -3.32% |
-| 3 | Solana | 9.16% | | Dow Jones | -1.69% |
+| 3 | Solana | 8.82% | | Dow Jones | -1.69% |
 | 4 | Gas naturale | 5.51% | | US 30Y Treasury Yield | -1.49% |
-| 5 | Ethereum | 5.00% | | EUR/USD | -1.14% |
-| 6 | Bitcoin | 3.94% | | GBP/USD | -0.76% |
+| 5 | Ethereum | 4.83% | | EUR/USD | -1.14% |
+| 6 | Bitcoin | 4.35% | | GBP/USD | -0.76% |
 
 ## Outlier 1m
 
@@ -44,8 +44,8 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-09-19T10:27:38+00:00` (371
 | 1 | Petrolio Brent | 56.55% | | VIX (volatilita) | -3.50% |
 | 2 | Petrolio WTI | 36.89% | | USD/JPY | -2.56% |
 | 3 | Gas naturale | 11.57% | | Dow Jones | -2.04% |
-| 4 | Ethereum | 7.65% | | EUR/USD | -1.90% |
-| 5 | Solana | 6.00% | | S&P 500 | -0.91% |
+| 4 | Ethereum | 7.47% | | EUR/USD | -1.90% |
+| 5 | Solana | 5.67% | | S&P 500 | -0.91% |
 | 6 | US 10Y Treasury Yield | 5.20% | | FTSE MIB | 0.00% |
 
 ## Divergenze principali (1 mese)
@@ -54,7 +54,7 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-09-19T10:27:38+00:00` (371
 |---|--:|--:|--:|--:|
 | Petrolio WTI vs Petrolio Brent | 0.942 | 36.89% | 56.55% | **-19.66 pp** |
 | US 10Y Treasury Yield vs Oro (spot) | 0.114 | 5.20% | 0.00% | **5.20 pp** |
-| S&P 500 vs Bitcoin | -0.080 | -0.91% | 3.88% | **-4.79 pp** |
+| S&P 500 vs Bitcoin | -0.075 | -0.91% | 4.28% | **-5.19 pp** |
 | S&P 500 vs Nasdaq Composite | -0.013 | -0.91% | 1.75% | **-2.66 pp** |
 | S&P 500 vs VIX (volatilita) | -0.189 | -0.91% | -3.50% | **2.59 pp** |
 | EUR/USD vs Indice dollaro DXY | -0.020 | -1.90% | 0.00% | **-1.90 pp** |
@@ -88,10 +88,10 @@ Curva USA: 10Y-2Y **27.0 bp**, 30Y-10Y **35.0 bp**, invertita: **no**
 | VIX (volatilita) | 15.4400 | -3.50% | 99.37% | -31.03% |
 | Petrolio Brent | 130.8000 | 56.55% | 90.72% | -21.50% |
 | Petrolio WTI | 107.0200 | 36.89% | 60.14% | -18.71% |
-| Solana | 111.9300 | 6.00% | 57.38% | -13.59% |
-| Ethereum | 2 641.9434 | 7.65% | 40.99% | -5.78% |
+| Solana | 111.5764 | 5.67% | 57.51% | -13.59% |
+| Ethereum | 2 637.5978 | 7.47% | 40.97% | -5.78% |
 | Gas naturale | 2.9700 | 11.57% | 39.73% | -18.87% |
-| Bitcoin | 81 256.8201 | 3.88% | 35.58% | -6.86% |
+| Bitcoin | 81 572.9673 | 4.28% | 35.61% | -6.86% |
 | US 5Y Treasury Yield | 4.7800 | n/d | 17.25% | -1.65% |
 | US 10Y Treasury Yield | 4.9400 | 5.20% | 13.20% | -2.70% |
 | Nasdaq Composite | 26 522.5500 | 1.75% | 12.97% | -7.00% |
