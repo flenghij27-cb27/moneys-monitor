@@ -1,7 +1,7 @@
 # Moneys Monitor - Report di mercato
 
-Generato: `2026-09-20T15:37:18+00:00`  
-Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-09-20T15:36:47+00:00` (376 snapshot, 31 asset)
+Generato: `2026-09-20T18:32:03+00:00`  
+Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-09-20T18:31:27+00:00` (377 snapshot, 31 asset)
 
 > Le change_pct salvate nello schema v1 sono errate (prev_close congelato). Questo report le ignora e ricalcola tutto dalla serie osservata.
 
@@ -10,21 +10,21 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-09-20T15:36:47+00:00` (376
 
 | Orizzonte | Risk-on medio | Risk-off medio | Spread |
 |---|---:|---:|---:|
-| 1d | -0.32% | 0.00% | **-0.32 pp** |
-| 1w | 2.74% | 0.00% | **2.74 pp** |
-| 1m | 1.90% | 0.00% | **1.90 pp** |
-| 3m | 13.28% | 19.22% | **-5.94 pp** |
+| 1d | 0.09% | 0.00% | **0.09 pp** |
+| 1w | 3.19% | 0.00% | **3.19 pp** |
+| 1m | 2.34% | 0.00% | **2.34 pp** |
+| 3m | 13.87% | 19.22% | **-5.35 pp** |
 
 ## Outlier 1d
 
 | # | Migliori | % | | Peggiori | % |
 |--:|---|--:|---|---|--:|
 | 1 | Petrolio Brent | 19.44% | | VIX (volatilita) | -12.82% |
-| 2 | Petrolio WTI | 10.03% | | Solana | -2.55% |
-| 3 | Gas naturale | 5.69% | | US 5Y Treasury Yield | -1.65% |
-| 4 | S&P 500 | 1.14% | | USD/JPY | -1.54% |
-| 5 | Nasdaq Composite | 0.39% | | Ethereum | -1.50% |
-| 6 | Indice dollaro Fed (broad) | 0.12% | | US 10Y Treasury Yield | -1.40% |
+| 2 | Petrolio WTI | 10.03% | | US 5Y Treasury Yield | -1.65% |
+| 3 | Gas naturale | 5.69% | | USD/JPY | -1.54% |
+| 4 | S&P 500 | 1.14% | | US 10Y Treasury Yield | -1.40% |
+| 5 | Nasdaq Composite | 0.39% | | US 30Y Treasury Yield | -1.12% |
+| 6 | Indice dollaro Fed (broad) | 0.12% | | Solana | -0.61% |
 
 ## Outlier 1w
 
@@ -32,9 +32,9 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-09-20T15:36:47+00:00` (376
 |--:|---|--:|---|---|--:|
 | 1 | Petrolio Brent | 42.20% | | VIX (volatilita) | -13.45% |
 | 2 | Petrolio WTI | 25.85% | | USD/JPY | -3.32% |
-| 3 | Solana | 11.20% | | Dow Jones | -1.69% |
-| 4 | Ethereum | 8.13% | | US 30Y Treasury Yield | -1.49% |
-| 5 | Bitcoin | 6.69% | | EUR/USD | -1.14% |
+| 3 | Solana | 13.41% | | Dow Jones | -1.69% |
+| 4 | Ethereum | 9.78% | | US 30Y Treasury Yield | -1.49% |
+| 5 | Bitcoin | 7.42% | | EUR/USD | -1.14% |
 | 6 | Gas naturale | 5.51% | | GBP/USD | -0.76% |
 
 ## Outlier 1m
@@ -44,8 +44,8 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-09-20T15:36:47+00:00` (376
 | 1 | Petrolio Brent | 56.55% | | VIX (volatilita) | -3.50% |
 | 2 | Petrolio WTI | 36.89% | | USD/JPY | -2.56% |
 | 3 | Gas naturale | 11.57% | | Dow Jones | -2.04% |
-| 4 | Ethereum | 7.61% | | EUR/USD | -1.90% |
-| 5 | Solana | 6.39% | | S&P 500 | -0.91% |
+| 4 | Ethereum | 9.26% | | EUR/USD | -1.90% |
+| 5 | Solana | 8.51% | | S&P 500 | -0.91% |
 | 6 | US 10Y Treasury Yield | 5.20% | | FTSE MIB | 0.00% |
 
 ## Divergenze principali (1 mese)
@@ -53,8 +53,8 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-09-20T15:36:47+00:00` (376
 | Coppia | Corr. 20g | A | B | Divergenza |
 |---|--:|--:|--:|--:|
 | Petrolio WTI vs Petrolio Brent | 0.942 | 36.89% | 56.55% | **-19.66 pp** |
+| S&P 500 vs Bitcoin | -0.015 | -0.91% | 4.82% | **-5.73 pp** |
 | US 10Y Treasury Yield vs Oro (spot) | -0.145 | 5.20% | 0.00% | **5.20 pp** |
-| S&P 500 vs Bitcoin | -0.024 | -0.91% | 4.11% | **-5.02 pp** |
 | S&P 500 vs Nasdaq Composite | -0.013 | -0.91% | 1.75% | **-2.66 pp** |
 | S&P 500 vs VIX (volatilita) | -0.189 | -0.91% | -3.50% | **2.59 pp** |
 | EUR/USD vs Indice dollaro DXY | 0.048 | -1.90% | 0.00% | **-1.90 pp** |
@@ -88,10 +88,10 @@ Curva USA: 10Y-2Y **27.0 bp**, 30Y-10Y **35.0 bp**, invertita: **no**
 | VIX (volatilita) | 15.4400 | -3.50% | 99.37% | -31.03% |
 | Petrolio Brent | 130.8000 | 56.55% | 90.72% | -21.50% |
 | Petrolio WTI | 107.0200 | 36.89% | 60.14% | -18.71% |
-| Solana | 108.1028 | 6.39% | 58.60% | -13.59% |
-| Ethereum | 2 596.8314 | 7.61% | 40.86% | -5.78% |
+| Solana | 110.2517 | 8.51% | 57.75% | -13.59% |
+| Ethereum | 2 636.5971 | 9.26% | 40.34% | -5.78% |
 | Gas naturale | 2.9700 | 11.57% | 39.73% | -18.87% |
-| Bitcoin | 80 694.2977 | 4.11% | 35.33% | -6.86% |
+| Bitcoin | 81 243.4986 | 4.82% | 35.19% | -6.86% |
 | US 5Y Treasury Yield | 4.7800 | n/d | 17.25% | -1.65% |
 | US 10Y Treasury Yield | 4.9400 | 5.20% | 13.20% | -2.70% |
 | Nasdaq Composite | 26 522.5500 | 1.75% | 12.97% | -7.00% |
