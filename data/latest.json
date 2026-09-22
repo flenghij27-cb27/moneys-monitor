@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "collected_at_utc": "2026-09-22T11:06:56+00:00",
+  "collected_at_utc": "2026-09-22T16:27:52+00:00",
   "prices": {
     "^GSPC": {
       "label": "S&P 500",
@@ -77,18 +77,18 @@
       "asset_class": "vol",
       "ok": true,
       "source": "fred",
-      "price": 14.81,
+      "price": 14.87,
       "currency": "PCT",
-      "market_date": "2026-09-18",
+      "market_date": "2026-09-21",
       "stale": true,
       "ts": null,
-      "prev_close": 15.44,
+      "prev_close": 14.81,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -4.08,
-      "chg_5d_pct": -6.503,
-      "chg_1m_pct": -7.495,
-      "chg_3m_pct": -20.505,
-      "vol20_ann_pct": 99.49
+      "chg_1d_pct": 0.405,
+      "chg_5d_pct": -13.041,
+      "chg_1m_pct": -1.718,
+      "chg_3m_pct": -21.281,
+      "vol20_ann_pct": 97.97
     },
     "FTSEMIB.MI": {
       "label": "FTSE MIB",
@@ -269,54 +269,54 @@
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 85951.30982297329,
+      "price": 86192.71241151201,
       "currency": "USD",
       "market_date": "2026-09-22",
       "stale": false,
-      "ts": 1790075140,
+      "ts": 1790094370,
       "prev_close": 81169.03512,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": 5.892,
-      "chg_5d_pct": 12.544,
-      "chg_1m_pct": 11.025,
-      "chg_3m_pct": 30.077,
-      "vol20_ann_pct": 41.23
+      "chg_1d_pct": 6.189,
+      "chg_5d_pct": 12.86,
+      "chg_1m_pct": 11.336,
+      "chg_3m_pct": 30.443,
+      "vol20_ann_pct": 41.12
     },
     "ETH-USD": {
       "label": "Ethereum",
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 2743.098629466899,
+      "price": 2733.787197710168,
       "currency": "USD",
       "market_date": "2026-09-22",
       "stale": false,
-      "ts": 1790075140,
+      "ts": 1790094370,
       "prev_close": 2644.73494,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": 3.719,
-      "chg_5d_pct": 12.14,
-      "chg_1m_pct": 13.46,
-      "chg_3m_pct": 41.879,
-      "vol20_ann_pct": 42.45
+      "chg_1d_pct": 3.367,
+      "chg_5d_pct": 11.759,
+      "chg_1m_pct": 13.075,
+      "chg_3m_pct": 41.397,
+      "vol20_ann_pct": 42.67
     },
     "SOL-USD": {
       "label": "Solana",
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 116.72865598997559,
+      "price": 116.98600459882213,
       "currency": "USD",
       "market_date": "2026-09-22",
       "stale": false,
-      "ts": 1790075130,
+      "ts": 1790094360,
       "prev_close": 111.154148,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": 5.015,
-      "chg_5d_pct": 14.925,
-      "chg_1m_pct": 16.769,
-      "chg_3m_pct": 49.769,
-      "vol20_ann_pct": 60.96
+      "chg_1d_pct": 5.247,
+      "chg_5d_pct": 15.179,
+      "chg_1m_pct": 17.027,
+      "chg_3m_pct": 50.099,
+      "vol20_ann_pct": 60.84
     },
     "GC=F": {
       "label": "Oro (spot)",
@@ -425,18 +425,18 @@
       "asset_class": "fx",
       "ok": true,
       "source": "ecb",
-      "price": 1.149,
+      "price": 1.1463,
       "currency": "USD",
-      "market_date": "2026-09-21",
-      "stale": true,
+      "market_date": "2026-09-22",
+      "stale": false,
       "ts": null,
-      "prev_close": 1.146,
+      "prev_close": 1.149,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": 0.262,
-      "chg_5d_pct": -0.528,
-      "chg_1m_pct": -1.786,
-      "chg_3m_pct": 1.305,
-      "vol20_ann_pct": 3.53
+      "chg_1d_pct": -0.235,
+      "chg_5d_pct": -0.659,
+      "chg_1m_pct": -1.723,
+      "chg_3m_pct": 0.544,
+      "vol20_ann_pct": 3.57
     },
     "GBPUSD=X": {
       "label": "GBP/USD",
@@ -662,7 +662,7 @@
     }
   },
   "_meta": {
-    "elapsed_s": 31.8,
+    "elapsed_s": 39.1,
     "tickers_ok": 31,
     "tickers_total": 36,
     "carry_forward": 14,
@@ -701,7 +701,12 @@
       {
         "title": "Peloton is revamping its treadmills with new features in the next phase of its turnaround",
         "link": "https://www.cnbc.com/2026/09/22/peloton-announces-new-tread-peloton-iq-features.html",
-        "pub_date": "Tue, 22 Sep 2026 11:00:01 GMT"
+        "pub_date": "Tue, 22 Sep 2026 14:31:21 GMT"
+      },
+      {
+        "title": "Autonomous trucking company Aurora looks to accelerate toward profitability",
+        "link": "https://www.cnbc.com/2026/09/22/aurora-autonomous-semi-ride.html",
+        "pub_date": "Tue, 22 Sep 2026 15:03:56 GMT"
       },
       {
         "title": "Eli Lilly CEO says 700,000 new seniors have started GLP-1s after Medicare coverage, and 70% are on Lilly drugs",
@@ -747,115 +752,110 @@
         "title": "Disney names CTO for the first time as media giant expands tech push",
         "link": "https://www.cnbc.com/2026/09/18/disney-cto-tech.html",
         "pub_date": "Fri, 18 Sep 2026 16:14:26 GMT"
-      },
-      {
-        "title": "Wendy's franchisee files for Chapter 11 bankruptcy protection as burger chain struggles",
-        "link": "https://www.cnbc.com/2026/09/18/wendys-franchisee-files-for-chapter-11-bankruptcy-protection.html",
-        "pub_date": "Fri, 18 Sep 2026 16:13:00 GMT"
       }
     ],
     "MarketWatch": [
       {
-        "title": "How this market-beating fund is constantly shifting to keep up with the AI trade",
-        "link": "https://www.marketwatch.com/story/how-this-market-beating-fund-is-constantly-shifting-to-keep-up-with-the-ai-trade-cf8536e0?mod=mw_rss_topstories",
-        "pub_date": "Tue, 22 Sep 2026 10:59:00 GMT"
+        "title": "Could Meta’s viral Muse app be the company’s ChatGPT moment?",
+        "link": "https://www.marketwatch.com/story/could-metas-viral-muse-app-be-the-companys-chatgpt-moment-8e7075aa?mod=mw_rss_topstories",
+        "pub_date": "Tue, 22 Sep 2026 16:24:00 GMT"
       },
       {
-        "title": "Bitcoin hits an 8-month high — and sends a clear message about risk appetite right now",
-        "link": "https://www.marketwatch.com/story/bitcoin-hits-an-8-month-high-and-sends-a-clear-message-about-risk-appetite-right-now-edc7b9a5?mod=mw_rss_topstories",
-        "pub_date": "Tue, 22 Sep 2026 10:51:00 GMT"
+        "title": "‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?",
+        "link": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
+        "pub_date": "Tue, 22 Sep 2026 16:15:00 GMT"
       },
       {
-        "title": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.",
-        "link": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
-        "pub_date": "Tue, 22 Sep 2026 10:15:00 GMT"
+        "title": "Sandisk’s stock is rising: Why one analyst says AI could help it reach new heights",
+        "link": "https://www.marketwatch.com/story/sandisks-stock-is-rising-why-one-analyst-says-ai-could-help-it-reach-new-heights-5541ded8?mod=mw_rss_topstories",
+        "pub_date": "Tue, 22 Sep 2026 15:48:00 GMT"
       },
       {
-        "title": "What this machine-learning model with 65% accuracy says is coming next for the 10-year Treasury",
-        "link": "https://www.marketwatch.com/story/what-this-machine-learning-model-with-65-accuracy-says-is-coming-next-for-the-10-year-treasury-55d76b8f?mod=mw_rss_topstories",
-        "pub_date": "Tue, 22 Sep 2026 09:23:00 GMT"
+        "title": "This GLP-1 drug helped people maintain their weight loss in a clinical trial — even for those taking it once a month",
+        "link": "https://www.marketwatch.com/story/this-glp-1-drug-helped-people-maintain-their-weight-loss-in-a-clinical-trial-even-for-those-taking-it-once-a-month-f70929b5?mod=mw_rss_topstories",
+        "pub_date": "Tue, 22 Sep 2026 15:46:00 GMT"
       },
       {
         "title": "‘She gave a neighbor $2,000’: Social Security overpaid my mother, 82, by $20,000. What else is hiding in her finances?",
         "link": "https://www.marketwatch.com/story/she-gave-a-neighbor-2-000-social-security-overpaid-my-mother-82-by-20-000-what-else-is-hiding-in-her-finances-1b54977f?mod=mw_rss_topstories",
-        "pub_date": "Tue, 22 Sep 2026 09:15:00 GMT"
+        "pub_date": "Tue, 22 Sep 2026 15:45:00 GMT"
       },
       {
-        "title": "Amanda Seyfried splits with husband Thomas Sadoski, weeks after listing L.A. home for $3.2 million",
-        "link": "https://www.marketwatch.com/story/amanda-seyfried-splits-with-husband-thomas-sadoski-weeks-after-listing-l-a-home-for-3-2-million-2ed9b8ab?mod=mw_rss_topstories",
-        "pub_date": "Tue, 22 Sep 2026 09:02:00 GMT"
+        "title": "Tax-free bond yields are in a sweet spot. Get in before it’s too late.",
+        "link": "https://www.marketwatch.com/story/tax-free-bond-yields-are-in-a-sweet-spot-get-in-before-its-too-late-94b8adac?mod=mw_rss_topstories",
+        "pub_date": "Tue, 22 Sep 2026 15:39:00 GMT"
       },
       {
-        "title": "Singer Charlie Puth sells $18.5 million SoCal mansion where he married Brook Sansone",
-        "link": "https://www.marketwatch.com/story/singer-charlie-puth-sells-18-5-million-socal-mansion-where-he-married-brook-sansone-4447dc2c?mod=mw_rss_topstories",
-        "pub_date": "Tue, 22 Sep 2026 08:59:00 GMT"
+        "title": "My plan to pay off $7,500 in credit-card debt can work for you",
+        "link": "https://www.marketwatch.com/story/my-plan-to-pay-off-7-500-in-credit-card-debt-can-work-for-you-2260de1d?mod=mw_rss_topstories",
+        "pub_date": "Tue, 22 Sep 2026 14:25:00 GMT"
       },
       {
-        "title": "Princeton’s 15-year run as the nation’s top college is over. MIT is now No. 1.",
+        "title": "Millions will lose Medicaid once new work rules kick in. These groups will be hit the hardest.",
+        "link": "https://www.marketwatch.com/story/millions-will-lose-medicaid-once-new-work-rules-kick-in-these-groups-will-be-hit-the-hardest-507694d3?mod=mw_rss_topstories",
+        "pub_date": "Tue, 22 Sep 2026 14:00:00 GMT"
+      },
+      {
+        "title": "I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term-care insurance?",
+        "link": "https://www.marketwatch.com/story/im-in-my-50s-my-mother-died-from-alzheimers-do-i-need-long-term-insurance-14d58069?mod=mw_rss_topstories",
+        "pub_date": "Tue, 22 Sep 2026 13:15:00 GMT"
+      },
+      {
+        "title": "Princeton’s 15-year run as the nation’s top college is over. This is the new No. 1 school.",
         "link": "https://www.marketwatch.com/story/princetons-15-year-run-as-the-nations-top-college-is-over-mit-is-now-no-1-e9f17169?mod=mw_rss_topstories",
-        "pub_date": "Tue, 22 Sep 2026 04:02:00 GMT"
-      },
-      {
-        "title": "Meta’s stock is enjoying its best month in 13 years thanks to the company’s hot new AI assistant",
-        "link": "https://www.marketwatch.com/story/metas-stock-is-enjoying-its-best-month-in-more-than-two-years-thanks-to-the-companys-hot-new-ai-assistant-bf106291?mod=mw_rss_topstories",
-        "pub_date": "Mon, 21 Sep 2026 22:01:00 GMT"
-      },
-      {
-        "title": "AT&T’s stock looks like the smartest bet in the wireless sector, analyst says",
-        "link": "https://www.marketwatch.com/story/at-ts-stock-looks-like-the-smartest-bet-in-the-wireless-sector-analyst-says-6e773d63?mod=mw_rss_topstories",
-        "pub_date": "Mon, 21 Sep 2026 21:57:00 GMT"
+        "pub_date": "Tue, 22 Sep 2026 12:43:00 GMT"
       }
     ],
     "Investing.com": [
       {
-        "title": "Wall St futures steady after AI-fueled rally; U.S.-China summit awaited",
+        "title": "FTSE 100 today: Stocks slide as oil subdued, Kingfisher surges",
+        "link": "https://www.investing.com/news/stock-market-news/ftse-100-today-stocks-edge-up-as-record-borrowing-data-fans-budget-pressure-4909976",
+        "pub_date": "2026-09-22 16:16:02"
+      },
+      {
+        "title": "Horizon Kinetics Asset Management buys $2,305 of RENN Fund stock",
+        "link": "https://www.investing.com/news/insider-trading-news/horizon-kinetics-asset-management-buys-2305-of-renn-fund-stock-93CH-4911312",
+        "pub_date": "2026-09-22 16:15:58"
+      },
+      {
+        "title": "Wall Street mixed as oil swings; Trump at UN says Iran deal after midterm election",
         "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-upbeat-after-ai-rally-falling-oil-boost-wall-st-4909802",
-        "pub_date": "2026-09-22 10:59:14"
+        "pub_date": "2026-09-22 16:13:39"
       },
       {
-        "title": "ECB opposes bank deposit requirements for stablecoin reserves",
-        "link": "https://www.investing.com/news/stock-market-news/ecb-opposes-bank-deposit-requirements-for-stablecoin-reserves-93CH-4910394",
-        "pub_date": "2026-09-22 10:58:22"
+        "title": "DoorDash reaches $131.5 million settlement with NYC over delivery workers’ pay",
+        "link": "https://www.investing.com/news/stock-market-news/doordash-reaches-1315-million-settlement-with-nycover-delivery-workers-pay-4910533",
+        "pub_date": "2026-09-22 16:13:24"
       },
       {
-        "title": "Zurich Insurance acquisition of Beazley approved by UK court",
-        "link": "https://www.investing.com/news/stock-market-news/zurich-insurance-acquisition-of-beazley-approved-by-uk-court-93CH-4910393",
-        "pub_date": "2026-09-22 10:58:17"
+        "title": "UK to auction £4.25 billion of gilts maturing in 2036",
+        "link": "https://www.investing.com/news/company-news/uk-to-auction-425-billion-of-gilts-maturing-in-2036-93CH-4911308",
+        "pub_date": "2026-09-22 16:12:55"
       },
       {
-        "title": "PEP stock: Is its cheap valuation enough to justify a buy?",
-        "link": "https://www.investing.com/news/stock-market-news/pep-stock-is-its-cheap-valuation-enough-to-justify-a-buy-93CH-4910391",
-        "pub_date": "2026-09-22 10:57:14"
+        "title": "At the UN, Brazil’s Lula warns against foreign interference in upcoming election",
+        "link": "https://www.investing.com/news/economy-news/brazil-needs-cooperation-not-intervention-to-fight-crime-lula-says-4911185",
+        "pub_date": "2026-09-22 16:12:45"
       },
       {
-        "title": "Pentair names Bob Hau as CFO effective November 1",
-        "link": "https://www.investing.com/news/company-news/pentair-names-bob-hau-as-cfo-effective-november-1-93CH-4910390",
-        "pub_date": "2026-09-22 10:56:30"
+        "title": "U.K. stocks lower at close of trade; Investing.com United Kingdom 100 down 0.31%",
+        "link": "https://www.investing.com/news/stock-market-news/uk-stocks-lower-at-close-of-trade-investingcom-united-kingdom-100-down-031-4911307",
+        "pub_date": "2026-09-22 16:09:09"
       },
       {
-        "title": "Endeavour Silver suspends ball mill at Guanacevi mine",
-        "link": "https://www.investing.com/news/company-news/endeavour-silver-suspends-ball-mill-at-guanacevi-mine-93CH-4910389",
-        "pub_date": "2026-09-22 10:56:25"
+        "title": "Spain stocks higher at close of trade; IBEX 35 up 0.34%",
+        "link": "https://www.investing.com/news/stock-market-news/spain-stocks-higher-at-close-of-trade-ibex-35-up-034-4911306",
+        "pub_date": "2026-09-22 16:08:42"
       },
       {
-        "title": "BTIG reiterates Hyperfine stock rating on commercial progress",
-        "link": "https://www.investing.com/news/analyst-ratings/btig-reiterates-hyperfine-stock-rating-on-commercial-progress-93CH-4910388",
-        "pub_date": "2026-09-22 10:54:45"
+        "title": "Earnings call transcript: Transense H2 2026 revenue falls as growth bets build",
+        "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-transense-h2-2026-revenue-falls-as-growth-bets-build-93CH-4911305",
+        "pub_date": "2026-09-22 16:08:16"
       },
       {
-        "title": "BTIG assumes coverage on Radian Group stock with buy rating, $48 target",
-        "link": "https://www.investing.com/news/analyst-ratings/btig-assumes-coverage-on-radian-group-stock-with-buy-rating-48-target-93CH-4910387",
-        "pub_date": "2026-09-22 10:54:42"
-      },
-      {
-        "title": "Costco stock analysis: Is now time to buy the pullback?",
-        "link": "https://www.investing.com/news/stock-market-news/costco-stock-analysis-is-now-time-to-buy-the-pullback-93CH-4910386",
-        "pub_date": "2026-09-22 10:54:05"
-      },
-      {
-        "title": "BofA Securities Names Top Biotech Stock Amid Sector Rally",
-        "link": "https://www.investing.com/news/stock-market-news/bofa-securities-names-top-biotech-stock-amid-sector-rally-93CH-4910385",
-        "pub_date": "2026-09-22 10:53:40"
+        "title": "Portugal stocks higher at close of trade; PSI up 0.41%",
+        "link": "https://www.investing.com/news/stock-market-news/portugal-stocks-higher-at-close-of-trade-psi-up-041-4911304",
+        "pub_date": "2026-09-22 16:08:04"
       }
     ],
     "Yahoo Finance": [
@@ -865,24 +865,24 @@
         "pub_date": "2026-09-21T14:37:00Z"
       },
       {
-        "title": "Stock market today: Nasdaq, Dow and S&P 500 little changed as AI trade powers market",
+        "title": "Stock market today: Dow slips, Nasdaq and S&P 500 drift higher as oil pares losses after Trump's UN address",
         "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-22-nasdaq-dow-sp-500-080625961.html",
         "pub_date": "2026-09-22T08:06:25Z"
       },
       {
-        "title": "Home Depot CFO issues chilling alarm over ‘frozen’ US housing market — crucial metric plunges to historic low",
-        "link": "https://finance.yahoo.com/real-estate/articles/home-depot-cfo-issues-chilling-104500209.html",
-        "pub_date": "2026-09-22T10:45:00Z"
+        "title": "Microsoft Scores Positive Reviews On AI Momentum",
+        "link": "https://www.investors.com/news/technology/microsoft-stock-positive-reviews-ai-momentum/?src=A00220&yptr=yahoo",
+        "pub_date": "2026-09-22T16:06:04Z"
       },
       {
-        "title": "BWX Technologies (BWXT) Wins $4 Million Y-12 Design Contract. Could Construction Follow?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/bwx-technologies-bwxt-wins-4-104356882.html",
-        "pub_date": "2026-09-22T10:43:56Z"
+        "title": "As Amazon Stock Prospers, Traders Might Consider This Option Play",
+        "link": "https://www.investors.com/research/options/amazon-amzn-stock-bull-put-spread-options/?src=A00220&yptr=yahoo",
+        "pub_date": "2026-09-22T15:57:55Z"
       },
       {
-        "title": "Gold price today, Tuesday, September 22, 2026: Gold prices holding as Chinese gold imports set record",
-        "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-september-22-2026-gold-prices-holding-as-chinese-gold-imports-set-record-104326063.html",
-        "pub_date": "2026-09-22T10:43:26Z"
+        "title": "Obama says AI flipped from 90% human-taught to 50/50 in under a year — the six-figure jobs he says go first",
+        "link": "https://finance.yahoo.com/technology/ai/articles/obama-says-ai-flipped-90-153000409.html",
+        "pub_date": "2026-09-22T15:30:00Z"
       },
       {
         "title": "Global diesel shortage from Iran, Ukraine wars to last into 2027",
@@ -890,34 +890,34 @@
         "pub_date": "2026-09-21T18:17:21Z"
       },
       {
-        "title": "Morning Bid: As oil swoons, AI recharges",
-        "link": "https://finance.yahoo.com/news/morning-bid-oil-swoons-ai-103925671.html",
-        "pub_date": "2026-09-22T10:39:25Z"
+        "title": "Circle Stock Spikes As Binance Takes $100 Million Slice",
+        "link": "https://www.investors.com/news/circle-stock-spikes-as-binance-takes-100-million-slice/?src=A00220&yptr=yahoo",
+        "pub_date": "2026-09-22T15:26:27Z"
       },
       {
-        "title": "Airlines are cutting capacity again amid $1B surge in Q4 fuel costs — here's what that means for travelers",
-        "link": "https://finance.yahoo.com/economy/articles/airlines-cutting-capacity-again-amid-103000279.html",
-        "pub_date": "2026-09-22T10:30:00Z"
+        "title": "Stock Market Today: Dow Slips But Apple Touches A Buy Point; Homebuilder, Retailer Funds Shine (Live Coverage)",
+        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-peace-hopes-oil-prices-treasury-yields/?src=A00220&yptr=yahoo",
+        "pub_date": "2026-09-22T15:22:28Z"
       },
       {
-        "title": "Roivant (ROIV): $9 Billion Sales Potential Faces a Commercialization Test",
-        "link": "https://finance.yahoo.com/healthcare/articles/roivant-roiv-9-billion-sales-102730498.html",
-        "pub_date": "2026-09-22T10:27:30Z"
+        "title": "Maximus’ (MMS) Tech Capabilities and Beaten-Down Valuation Point to M&A Upside",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/maximus-mms-tech-capabilities-beaten-152142153.html",
+        "pub_date": "2026-09-22T15:21:42Z"
       },
       {
-        "title": "FDA Approves Fayuvi. What Does It Mean for Ultragenyx (RARE)’s 2027 Profitability Target?",
-        "link": "https://finance.yahoo.com/healthcare/articles/fda-approves-fayuvi-does-mean-101851628.html",
-        "pub_date": "2026-09-22T10:18:51Z"
+        "title": "What Makes CRA International (CRAI) an Investment Bet?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/makes-cra-international-crai-investment-151656266.html",
+        "pub_date": "2026-09-22T15:16:56Z"
       },
       {
-        "title": "Burger chain cancels breakfast at hundreds of restaurants",
-        "link": "https://finance.yahoo.com/small-business/articles/fast-food-giant-cancels-breakfast-041519870.html",
-        "pub_date": "2026-09-21T04:15:19Z"
+        "title": "Kalshi asks CFTC to allow margin trading on prediction markets",
+        "link": "https://finance.yahoo.com/markets/options/articles/kalshi-asks-cftc-allow-margin-123918880.html",
+        "pub_date": "2026-09-22T12:39:18Z"
       },
       {
-        "title": "1 in 5 Americans thinks sports betting is an ‘investment’ — but the data says something different",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/1-5-americans-thinks-sports-101500032.html",
-        "pub_date": "2026-09-22T10:15:00Z"
+        "title": "Intel stock up 25% in last 5 days, on CPU demand as AI agents gain traction",
+        "link": "https://finance.yahoo.com/technology/article/intel-stock-up-25-in-last-5-days-on-cpu-demand-as-ai-agents-gain-traction-151217555.html",
+        "pub_date": "2026-09-22T15:12:17Z"
       }
     ],
     "ECB Press": [
@@ -984,19 +984,24 @@
     ],
     "Google News Mkts": [
       {
-        "title": "Indian shares edge higher on easing oil prices, bond yields; IT caps gains - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXlPVWFzejJKbzBBSVA5ZFhMbUdTZ0VVS1RZVXBpMlJRZC1Lak9aNmdldDEwdVZ1RGlPMjlUUFdFSGdocFlTbVpjLTFLcXJsN2VqTFhVZ1d0YmYwLTBUNG9tUHVmWEs2Q1E3em4za29OcHo3MFk2Q0twV3M5WFB4Q2ppeW9LVnd3SzJ2SHhLN1N6MTI4YVU0dDBuS0htU3R5SW9maHVnR2NDUFlManVqYTRidGZiYzVv?oc=5",
-        "pub_date": "Tue, 22 Sep 2026 02:27:00 GMT"
+        "title": "Rising Treasury Yields Are Wreaking Havoc on the Bond Market. Here's How It Could Affect Stock Investors. - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSXpJSUIzZ3RBUVhGSWh4SUFUZFJDM3BuRkpZTkJtOWtPR2xUZGtQcmpHdTlCMVk0RXU4VUc2WjYyWDhSZGg4dnkzRGtrbHFzS1ZWRnkzaC1TNTlNNEVMYzNSOTdSSGdUaGJKN3JoOUtsTl9SZ3ZXTkNEQ2FtcEhFaGZvMW5DOTVlUnBpVWJVZEViLXdQOHNiVWdUQ0pzRjZ2LWlNWQ?oc=5",
+        "pub_date": "Tue, 22 Sep 2026 10:11:00 GMT"
+      },
+      {
+        "title": "HOLT: The Beta Deficit: Why Portfolios Can't Keep Pace - UBS",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVUhHVTZyOXNKUzdrY0loZ3BDclVCSXh3aUdJV3hWVnMxc3BoOVRKWUpWOWQ3dF84T25TdmVFbEk1VFZQd1ZGTm50Tk41UzFUT3hJeUctcFBlZ3V0eFRSU0xKSjZtN0VLWDZ3c3R4RmZOTDBEWUJoVGVzb0Q1TTRyTVRtWnptTDNyRmM1NHFpbjROYnM4elNGVWpUQWs?oc=5",
+        "pub_date": "Tue, 22 Sep 2026 08:43:56 GMT"
+      },
+      {
+        "title": "Wall Street holds near its record as Brent oil falls below $100 per barrel - Boston Herald",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWEJFUDEyOVlPc2VKd05hV1VkbkpIOXdFa0xVTTNCbnpQSnkwVU9Eb0pKSHp2WXRsaWQyQkF6Nm9hWUw2UUZsei1aUU1MV0I5U2trcWtROFlXLVQwX0pqMnFyeHRMRElNbGdNU2hnNUVOV2RkdzFXNjZDNXUyMmU0aA?oc=5",
+        "pub_date": "Tue, 22 Sep 2026 15:22:45 GMT"
       },
       {
         "title": "Tech stocks power market surge as bond yields and oil prices tumble - NBC News",
         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUi1FcU5EQjl2dUY3WmtrTDh4QTIxdG5VdVBaQWRDeWJUZXVlRUtYM2FvaDRaRlFXM2Fyby1PVno2Y1NtdVpJN1M5NmlqSWRJUGh2eUhGNXZTYU9tU0J0QzFsWHZUYllLUVRuel8tMWVmTjd5dEtOR2NJRnZ6clR1SXJwM2pLYTN3MndOamM1anA?oc=5",
         "pub_date": "Mon, 21 Sep 2026 20:27:57 GMT"
-      },
-      {
-        "title": "Rising Treasury Yields Are Wreaking Havoc on the Bond Market. Here's How It Could Affect Stock Investors. - The Motley Fool",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZHZOcjNIMUZ4VGswcWJNSzFYbll2YTFGX1U5RTJJOGNUcm5sWmdvNFF1Y2tONVFiRkFkZ1JzMkdFanJ5MXh5ekgySFIyUFYxWU53bnlGNmJ6c0UyLWttOURjN2d4ZFZwMGdwMEhSc2lhZEZYQVpCajlzY0hoM0NKZnRrY1VtbnNoa1d1UXN5cDhNSWdTRWUyRg?oc=5",
-        "pub_date": "Tue, 22 Sep 2026 09:59:52 GMT"
       },
       {
         "title": "Watch Markets: Rising Yields Pose Risk to Equity Valuations, RBC BlueBay Says - Bloomberg.com",
@@ -1009,39 +1014,34 @@
         "pub_date": "Tue, 22 Sep 2026 05:35:40 GMT"
       },
       {
-        "title": "Wall Street rally nears record high - Northwest Arkansas Democrat-Gazette",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSE04YmpsQjlZMGp1U0dJRFFtR1VVV1ItNXotVjRzTF9palQ4LWlRWXJXOVg4Y0FLRFJZYjA1QU1vd2lnN2c1aXg1YjhKdFBrQWFiN1dmdW5jTzR4NWJNY2FuMDZSTFk4cWc5dTFEeUp5TklsNUtKRFoxc1k2UzNKcG5xRlVOUQ?oc=5",
-        "pub_date": "Tue, 22 Sep 2026 07:03:00 GMT"
-      },
-      {
         "title": "Tech stocks rise on renewed AI fever; higher oil, bond yields temper rally - Euronext Markets: Real-time Stock Market Data | live",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaUhaYXliYWF5Mm5rZVZfVjVxNEppT1U3dkJpTXdvT3pHNEN1eGticzZId0JGeHBKSVJvS2J4V1I2NTVEWExWTW5ScmtDWUNXTHl2TGZPZkk4RDN1dlJoR2ZnSEl0SDdXREktSEZheEpTOFVxbVVmbTZNTE1vbFhYTzBwOGpfQWtJVEtjVjd3RW44Y0ljRzMtUGc0NS1kRHZLWlY3M2xoZllOazFRSGZSUEFjQQ?oc=5",
         "pub_date": "Tue, 22 Sep 2026 08:32:55 GMT"
       },
       {
+        "title": "Wall Street rally nears record high - Northwest Arkansas Democrat-Gazette",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSE04YmpsQjlZMGp1U0dJRFFtR1VVV1ItNXotVjRzTF9palQ4LWlRWXJXOVg4Y0FLRFJZYjA1QU1vd2lnN2c1aXg1YjhKdFBrQWFiN1dmdW5jTzR4NWJNY2FuMDZSTFk4cWc5dTFEeUp5TklsNUtKRFoxc1k2UzNKcG5xRlVOUQ?oc=5",
+        "pub_date": "Tue, 22 Sep 2026 07:03:00 GMT"
+      },
+      {
+        "title": "Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5",
+        "pub_date": "Mon, 21 Sep 2026 23:12:31 GMT"
+      },
+      {
         "title": "Tech stocks rise on renewed AI fever; higher oil, bond yields temper rally - The Lufkin Daily News",
         "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNQkxzcTZmWnU0WmtfWHR2U1pPVUE2LWdzWVc3WE5FQWEzZlZ5TGFjTVE5MEtpdjlXaHVRcGxVS3BJS1I0RlRjVlRTVTkwanFnX3RXUjhJN1lEX2ZnNWl5eXNfeGtDR0FrdUc4bFlERm93Y09LT3dwXzNwQ0V1eGNhLTh2bzZjelU5dVBFV0NzWXFIdWgxVUROMlZrczhsU0lsWUttUXZ1UlFlVWdfdG53eFk0UXQzbzltTEt0S2RQcml1aWctd1lNYVdYc0dXdWQ2SWZId2JleEtUWGJJVV94TF9GbDNqT2hwVzZMVHVsd2hHY3hXb1lrQmFBdWVYSHNUdUE?oc=5",
-        "pub_date": "Tue, 22 Sep 2026 08:32:55 GMT"
+        "pub_date": "Tue, 22 Sep 2026 08:46:21 GMT"
       },
       {
-        "title": "Wall Street rallies within 0.4% of its record after oil prices and bond yields ease - Pittsburgh Post-Gazette",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRHBKMWltR1g0a1JJenBSeW9HZ0NaWDFJUFRHc001Q3VOdmc4NWc4dU1YTEdBZEVjcjZabWNzSDJlcG9od0tCS05oQ1VmQWFydDU3NXR5OWRXbEd5QURtZ2wxdW5wc2lRbkRCNHJnYzF5ZHYtVEI1RS1pNUw5UXd5WjF1QXBGcHExbmNCaW5tbjFNNjlOdzVOQUpqcEg2NThpd2JrNy1vWllsTFlzTEY5SjFR?oc=5",
-        "pub_date": "Tue, 22 Sep 2026 01:39:30 GMT"
-      },
-      {
-        "title": "Stock markets climb worldwide after oil prices and bond yields give back some of last week’s jumps - The Mercury News",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbHdxMl9XZElnOXVPY3hENTA4NE95cERNUFBYQXljdFZCbGdULXRJUVg5THc1ZEh0TTlQNWdSRzBncnNlSWViRG5HTlNzd2FCcjVrWE9HOU8wODRMeHpzb1huTHBkdXRub3dwT3l4R0FDaXVYZjFWTXctN3VheHI5R2Zn0gGHAUFVX3lxTE1Cbm5IcWJuZVlFQWgxVVVjS05rcXcxMlRMVmFlc2pXOGZHanI2YzJYWFRkaXZWdWltN3lpMWxfUVBCWldWUkZBd1FxSW9UX3U1M1B0ZERieE1Tc29yTG5GdXpDd2wzUWQ0YktHQ0w3LXhfOC1sdk1uNnJuYk1weGtBQjVPMFJMcw?oc=5",
-        "pub_date": "Mon, 21 Sep 2026 13:37:33 GMT"
-      },
-      {
-        "title": "Stock Market Investors Just Got Bad News About President Trump’s Economy. History Says This Will Happen Next. - The Motley Fool",
+        "title": "Stock Market Investors Just Got Bad News About President Trump’s Economy. History Says This Will Happen Next. - fool.com",
         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWVFzeXltOXVsYjFGV1BGQUNMRzFfMUpCVnZBMmc3YUZYSTlLYU9hY1NZcjdiaERFa2huU3N1cnJmVER5RmViUHFvMmNiTnY3aXNiX19zZk51WUZEQjBVWWE2dEMzeWEwckVMMFFNdXdseHdBNDFrMFVIZnJIX2I1UXk1NmMtWFBNWl9vWDhzNVVrTUlld3lKbl9NVjczN3c?oc=5",
-        "pub_date": "Tue, 22 Sep 2026 08:57:06 GMT"
+        "pub_date": "Tue, 22 Sep 2026 09:48:00 GMT"
       },
       {
-        "title": "With bond yields rising, how are money managers hedging portfolios? - The Globe and Mail",
-        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQX24xanZ2UGlUWTlOTnRHYi1ISjFaS0JuRXdPeFBfR3Q0OWhPSUZmTjlaQXRFbnZtcEIxOXM1UDFxc3lHdC0tdVVVNkFhWWhQc2t1WWRFTkxoaWREY1R4QmJHd1BtOEN6eHhLWkVBaEgxM2ZTbDQ0Q1VaQ3BDUnk1NDN3YWR1bVY2R28wR3VuYVVJazRHMFNibWNNVkVVZURheUtFTXhSdEx3MmZmUFNGbGNKSlNrYUVxMk5ITFpucWo2TUZrNFNCSEU0VWtUUFhSUGRVMUpFMVpPYlU1Sk1ZQjIyMFp3bmx6MUE?oc=5",
-        "pub_date": "Tue, 22 Sep 2026 08:40:00 GMT"
+        "title": "Stock Market Today: Futures Tick Higher After Nasdaq Closes at Record; Oil Prices, Bond Yields Slip - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUUZrT1JDV1ZTQnFfbzlHWHBzNXhrSmQtRzYzb0FRZlNkczNhYnQzUXdtenJlOHltZkExUG1OWUdkcXBBYWdmVS1hUEE4MnA5TkgwamRpQUlWMUNCVzFKRDZONm03b25sQTF3eG16ZWpid21wWi1INV9Qb0VjcWZIN3h2WEs4SHhBeWlMUkd2aFB1a1kwX1BwS3VXWC0?oc=5",
+        "pub_date": "Tue, 22 Sep 2026 10:41:15 GMT"
       }
     ]
   }
