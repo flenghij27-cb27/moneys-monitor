@@ -1,24 +1,24 @@
 {
   "schema": 2,
-  "collected_at_utc": "2026-09-26T00:00:41+00:00",
+  "collected_at_utc": "2026-09-26T10:57:47+00:00",
   "prices": {
     "^GSPC": {
       "label": "S&P 500",
       "asset_class": "equity",
       "ok": true,
       "source": "fred",
-      "price": 7704.13,
+      "price": 7743.41,
       "currency": "PCT",
-      "market_date": "2026-09-24",
+      "market_date": "2026-09-25",
       "stale": true,
       "ts": null,
-      "prev_close": 7706.03,
+      "prev_close": 7704.13,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -0.025,
-      "chg_5d_pct": 0.869,
-      "chg_1m_pct": 0.35,
-      "chg_3m_pct": 4.761,
-      "vol20_ann_pct": 10.97
+      "chg_1d_pct": 0.51,
+      "chg_5d_pct": 1.214,
+      "chg_1m_pct": 0.882,
+      "chg_3m_pct": 4.072,
+      "vol20_ann_pct": 10.82
     },
     "^DJI": {
       "label": "Dow Jones",
@@ -43,18 +43,18 @@
       "asset_class": "equity",
       "ok": true,
       "source": "fred",
-      "price": 26939.37,
+      "price": 27068.72,
       "currency": "PCT",
-      "market_date": "2026-09-24",
+      "market_date": "2026-09-25",
       "stale": true,
       "ts": null,
-      "prev_close": 26936.04,
+      "prev_close": 26939.37,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": 0.012,
-      "chg_5d_pct": 1.972,
-      "chg_1m_pct": 3.014,
-      "chg_3m_pct": 6.49,
-      "vol20_ann_pct": 15.44
+      "chg_1d_pct": 0.48,
+      "chg_5d_pct": 2.059,
+      "chg_1m_pct": 3.592,
+      "chg_3m_pct": 4.836,
+      "vol20_ann_pct": 14.57
     },
     "^RUT": {
       "label": "Russell 2000",
@@ -269,54 +269,54 @@
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 84074.30873801315,
+      "price": 84155.93945365028,
       "currency": "USD",
-      "market_date": "2026-09-25",
+      "market_date": "2026-09-26",
       "stale": false,
-      "ts": 1790380780,
-      "prev_close": 84382.399904,
+      "ts": 1790420180,
+      "prev_close": 84377.965084,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -0.365,
-      "chg_5d_pct": 3.579,
-      "chg_1m_pct": 5.527,
-      "chg_3m_pct": 30.716,
-      "vol20_ann_pct": 37.64
+      "chg_1d_pct": -0.263,
+      "chg_5d_pct": -2.819,
+      "chg_1m_pct": 5.43,
+      "chg_3m_pct": 28.789,
+      "vol20_ann_pct": 37.62
     },
     "ETH-USD": {
       "label": "Ethereum",
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 2690.9435287082633,
+      "price": 2686.9503561674646,
       "currency": "USD",
-      "market_date": "2026-09-25",
+      "market_date": "2026-09-26",
       "stale": false,
-      "ts": 1790380760,
-      "prev_close": 2684.342871,
+      "ts": 1790420170,
+      "prev_close": 2687.125984,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": 0.246,
-      "chg_5d_pct": 1.747,
-      "chg_1m_pct": 9.562,
-      "chg_3m_pct": 43.559,
-      "vol20_ann_pct": 39.72
+      "chg_1d_pct": -0.007,
+      "chg_5d_pct": -3.179,
+      "chg_1m_pct": 8.345,
+      "chg_3m_pct": 37.588,
+      "vol20_ann_pct": 39.61
     },
     "SOL-USD": {
       "label": "Solana",
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 122.09169929424137,
+      "price": 120.58354948108767,
       "currency": "USD",
       "market_date": "2026-09-26",
       "stale": false,
-      "ts": 1790380810,
+      "ts": 1790420170,
       "prev_close": 117.00949,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": 4.343,
-      "chg_5d_pct": 9.84,
-      "chg_1m_pct": 19.781,
-      "chg_3m_pct": 63.932,
-      "vol20_ann_pct": 61.67
+      "chg_1d_pct": 3.055,
+      "chg_5d_pct": 1.44,
+      "chg_1m_pct": 16.883,
+      "chg_3m_pct": 57.235,
+      "vol20_ann_pct": 61.48
     },
     "GC=F": {
       "label": "Oro (spot)",
@@ -662,7 +662,7 @@
     }
   },
   "_meta": {
-    "elapsed_s": 213.9,
+    "elapsed_s": 29.3,
     "tickers_ok": 31,
     "tickers_total": 36,
     "carry_forward": 14,
@@ -808,54 +808,54 @@
     ],
     "Investing.com": [
       {
-        "title": "Rush of money, campaign stops show Republicans feel vulnerable in Iowa, Kansas",
-        "link": "https://www.investing.com/news/commodities-news/rush-of-money-campaign-stops-show-republicans-feel-vulnerable-in-iowa-kansas-4917071",
-        "pub_date": "2026-09-25 22:49:15"
+        "title": "Analysis-Venezuela president returns from US visit with no deals, no firm election date",
+        "link": "https://www.investing.com/news/commodities-news/analysisvenezuela-president-returns-from-us-visit-with-no-deals-no-firm-election-date-4918550",
+        "pub_date": "2026-09-26 10:07:58"
       },
       {
-        "title": "Cypherpunk technologies director Oei Khing Djien sells $661,500 in stock",
-        "link": "https://www.investing.com/news/insider-trading-news/cypherpunk-technologies-director-oei-khing-djien-sells-661500-in-stock-93CH-4918282",
-        "pub_date": "2026-09-25 22:46:00"
+        "title": "Swiss National Bank’s Schlegel watching hot weather impact on food price inflation",
+        "link": "https://www.investing.com/news/economy-news/swiss-national-banks-schlegel-watching-hot-weather-impact-on-food-price-inflation-4918549",
+        "pub_date": "2026-09-26 10:06:47"
       },
       {
-        "title": "US lawmakers aim to keep China’s datacenter tech out of sensitive government systems",
-        "link": "https://www.investing.com/news/stock-market-news/us-lawmakers-aim-to-keep-chinas-datacenter-tech-out-of-sensitive-government-systems-4918273",
-        "pub_date": "2026-09-25 22:43:28"
+        "title": "Capital Regency Announces 2026 Multi-Asset Investment Approach",
+        "link": "https://www.investing.com/news/press-releases/capital-regency-announces-2026-multiasset-investment-approach-4918547",
+        "pub_date": "2026-09-26 10:01:18"
       },
       {
-        "title": "Venezuela’s promised elections face long delays, sources say",
-        "link": "https://www.investing.com/news/commodities-news/venezuelas-promised-elections-face-long-delays-sources-say-4918243",
-        "pub_date": "2026-09-25 22:42:37"
+        "title": "Ukraine says it struck Russian oil refinery as drone attacks intensify",
+        "link": "https://www.investing.com/news/economy-news/ukraine-says-it-struck-russian-oil-refinery-as-drone-attacks-intensify-4918543",
+        "pub_date": "2026-09-26 09:56:14"
       },
       {
-        "title": "Toro at 25th Annual Diversified Industrials & Services Conference: growth reset",
-        "link": "https://www.investing.com/news/transcripts/toro-at-25th-annual-diversified-industrials--services-conference-growth-reset-93CH-4918271",
-        "pub_date": "2026-09-25 22:41:18"
+        "title": "China, U.S. agree to $30 billion tariff cut, launch AI dialogue",
+        "link": "https://www.investing.com/news/economy-news/china-us-agree-to-30-billion-tariff-cut-launch-ai-dialogue-4918542",
+        "pub_date": "2026-09-26 09:37:25"
       },
       {
-        "title": "Bakkt COO Nicholas Baes sells $10,951 in BKKT stock",
-        "link": "https://www.investing.com/news/insider-trading-news/bakkt-coo-nicholas-baes-sells-10951-in-bkkt-stock-93CH-4918267",
-        "pub_date": "2026-09-25 22:31:18"
+        "title": "Iran awaits U.S. response to Hormuz peace plan as Trump reportedly rejects deal",
+        "link": "https://www.investing.com/news/economy-news/iran-awaits-us-response-to-hormuz-peace-plan-as-trump-reportedly-rejects-deal-4918476",
+        "pub_date": "2026-09-26 09:30:17"
       },
       {
-        "title": "Nutanix president and CCO Tarkan Maner sells $4.76m in stock",
-        "link": "https://www.investing.com/news/insider-trading-news/nutanix-president-and-cco-tarkan-maner-sells-476m-in-stock-93CH-4918266",
-        "pub_date": "2026-09-25 22:31:05"
+        "title": "What is driving Singapore inflation?",
+        "link": "https://www.investing.com/news/economy-news/what-is-driving-singapore-inflation-4918535",
+        "pub_date": "2026-09-26 09:14:29"
       },
       {
-        "title": "Rush Street Interactive director Jack Markell buys $29,025 in stock",
-        "link": "https://www.investing.com/news/insider-trading-news/rush-street-interactive-director-jack-markell-buys-29025-in-stock-93CH-4918265",
-        "pub_date": "2026-09-25 22:31:03"
+        "title": "Kuehne+Nagel expects AI data center logistics growth to extend through 2029",
+        "link": "https://www.investing.com/news/company-news/kuehnenagel-expects-ai-data-center-logistics-growth-to-extend-through-2029-4918533",
+        "pub_date": "2026-09-26 08:51:48"
       },
       {
-        "title": "Klaviyo director Ed Hallen sells $22,126 in company stock",
-        "link": "https://www.investing.com/news/insider-trading-news/klaviyo-director-ed-hallen-sells-22126-in-company-stock-93CH-4918254",
-        "pub_date": "2026-09-25 22:16:08"
+        "title": "China, US agree to $30 billion tariff cut, AI dialogue during Xi visit",
+        "link": "https://www.investing.com/news/economy-news/china-us-agree-to-30-billion-tariff-cut-ai-dialogue-during-xi-visit-4918530",
+        "pub_date": "2026-09-26 08:42:27"
       },
       {
-        "title": "Qualcomm president & CEO Amon sells $2 million in stock",
-        "link": "https://www.investing.com/news/insider-trading-news/qualcomm-president--ceo-amon-sells-2-million-in-stock-93CH-4918253",
-        "pub_date": "2026-09-25 22:15:57"
+        "title": "Bny Mellon high yield strategies fund director buys $44,400 in shares",
+        "link": "https://www.investing.com/news/insider-trading-news/bny-mellon-high-yield-strategies-fund-director-buys-44400-in-shares-93CH-4918528",
+        "pub_date": "2026-09-26 08:30:54"
       }
     ],
     "Yahoo Finance": [
@@ -989,14 +989,44 @@
         "pub_date": "Fri, 25 Sep 2026 20:00:09 GMT"
       },
       {
+        "title": "French Bond Yields Spike: Investors On Crisis Watch as Election Looms - Morningstar",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX09sZGpxZzFLLXRDQXA1clY2UGxxSm55Q0pLUDVmc0staFFDZkJ5dUYyQlpHbEREQlZfOXh2QXRvVHBJV3g2OE1FMVI0WlhQU3UyYkxCRWdXc1BXaGw4emlOVHljbFlBenhMUDB3SVJ0di1JT0Z2emRoRG5UdjhTWW90X1ZHSU5BMk9WX095MjA1UlIxOWJIU1RyOTRMRWpDQWlpQWFNY0Y?oc=5",
+        "pub_date": "Sat, 26 Sep 2026 05:05:58 GMT"
+      },
+      {
+        "title": "The bond market is having a wild month. Oil is making things even worse - CNN",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NcmhlQnQ2OUlOUUlsY0JDUjdIdEpiRTBEZ00wU3pfUkY5TUpHaHB5b1VBLXExMTdTcnRpc05IZTBRR1lIdzQ4cFZfMmhpZzVYYmdQT19YdXFxY2FYSy12MERpeE1mN3BMWUVqcnpvczI?oc=5",
+        "pub_date": "Fri, 25 Sep 2026 19:07:01 GMT"
+      },
+      {
+        "title": "Bitcoin holds near $84,000 as rising bond yields offset regulatory progress - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWktqdUxaZDFMQ0U1cVZ4M0xCZjVQMy04RnFDQzBVOGY4SEJLX0ZxOTUwcHdLM2lLbnRaYjAtX2ZhSE5sSFV2OUVaa09MT1M2NWRsYVU5TVBIYk1ySzlvY25sZ2dpTFdmNWFscE43dnl5eUw2bHM5NnA1ekk1WHZWck5MajAxQk0zbXd4blg2NzIxVEkz?oc=5",
+        "pub_date": "Sat, 26 Sep 2026 05:24:00 GMT"
+      },
+      {
+        "title": "Why bond yields are rising and why everyone should care - Chattanooga Times Free Press",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPN3VUekI5QVR6RVNWV0pieFVySWVzSzFjRWlYMHdWb2U1YkFOcUE1elo4dFY1bk1lNFc1M2licURVMFE4ZGdVRmF1d1FKckx6RlpieWFERU1pYXhGX0g2Y1V4WHlmSnBtRHoyUlF0Ymg0MEZtTnp1M3lXNVRGRDYtaXdSZm91bVNWemkxR0FfZmRPbGc3M1E?oc=5",
+        "pub_date": "Fri, 25 Sep 2026 21:30:00 GMT"
+      },
+      {
+        "title": "Bond Yields Are Surging: What It Means for Stocks, Gold, and the US Dollar - investing.com",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaWlxRkloZG00WmFLTXFwQktaTVZsT2UyeTFzUkhXWS1CYzVvNDU0bGVVaG5sZjVJMEotYjVrYWpManhMd25UZXA4OE51SE1rUlBvQWhKdXFkbVpyRHRTNlRUQWtCcFVVNE5sRFFPSzIyUkZMVHlZRm9UY082Ym1fRFBMNWFoYVl6QVQ3NXNvakttWnF4V2lTYUU3b2dlNFB4WDlKMEw3b2hlT3VVNmpVZ0oxQWszUWc?oc=5",
+        "pub_date": "Fri, 25 Sep 2026 14:44:16 GMT"
+      },
+      {
+        "title": "Battered bonds draw support from falling oil prices - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSXl3a0V4VjdBS1ZlOENTNmpGcmdEa1BNaDh3N21xanZ2Q1JYRGEwbV9QTGdMN21oV1N5Ukw3SEhEa1ZLUENNNTFuVWV3cjQ1RFR2cWtCdlJBNVp2bDBsZTExZWYzVW44eGtJMHFiUkVyOG9xU3c3Z2Y5THFDWDNLMA?oc=5",
+        "pub_date": "Fri, 25 Sep 2026 20:41:28 GMT"
+      },
+      {
         "title": "A reprieve from rising oil prices helps US stocks finish the week higher - Boston Herald",
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56bEZUdTVhX1cwSXZ5VFNSbkMwbXdMM0RxR0JIV01DZ3lYbFU0bXl6S0hhTlI5ZmRCUXA0Q3l6UUR5UktrWWRfT2RteW10Uy12SUdLbnpleWZWT1c5dWg0V05HaXhOTHExSHplTkFBZXlRb05zS3c?oc=5",
         "pub_date": "Fri, 25 Sep 2026 20:35:21 GMT"
       },
       {
-        "title": "Bond Yields Are Surging: What It Means for Stocks, Gold, and the US Dollar - Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaWlxRkloZG00WmFLTXFwQktaTVZsT2UyeTFzUkhXWS1CYzVvNDU0bGVVaG5sZjVJMEotYjVrYWpManhMd25UZXA4OE51SE1rUlBvQWhKdXFkbVpyRHRTNlRUQWtCcFVVNE5sRFFPSzIyUkZMVHlZRm9UY082Ym1fRFBMNWFoYVl6QVQ3NXNvakttWnF4V2lTYUU3b2dlNFB4WDlKMEw3b2hlT3VVNmpVZ0oxQWszUWc?oc=5",
-        "pub_date": "Fri, 25 Sep 2026 14:44:16 GMT"
+        "title": "US stocks gain ground toward the finish of a winning week - mcall.com",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83V1NDM0lXSVU3dXVHeU9EVGw0eWY3R0tuTmRWSmR6aFpYbUd6WXhyb2dydi01azR4MzdGbXFCdjVUNXhJeDlTOEdSNm4tQ2lQOW42bV9odF9UaXcxS1JqTWhEcjR4d2FESVF3ag?oc=5",
+        "pub_date": "Fri, 25 Sep 2026 18:50:26 GMT"
       },
       {
         "title": "Boom or bust? The case for and against panicking about 5% yields - Fortune",
@@ -1004,44 +1034,14 @@
         "pub_date": "Fri, 25 Sep 2026 20:00:00 GMT"
       },
       {
-        "title": "US stocks gain ground toward the finish of a winning week - The Morning Call",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83V1NDM0lXSVU3dXVHeU9EVGw0eWY3R0tuTmRWSmR6aFpYbUd6WXhyb2dydi01azR4MzdGbXFCdjVUNXhJeDlTOEdSNm4tQ2lQOW42bV9odF9UaXcxS1JqTWhEcjR4d2FESVF3ag?oc=5",
-        "pub_date": "Fri, 25 Sep 2026 18:50:26 GMT"
-      },
-      {
-        "title": "The bond market is having a wild month. Oil is making things even worse - ABC17NEWS",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdHdyMVB3c3IzLWs2Y3FZZzBUVEJDRFNnT1pUY1JXU0xqZkpkNlA5MngtZldjVkV2a2tLb1JSZ0ZGdThiaHFNaTNka2JadjRjemdTX1RZaWZJWlJ5U0xVQS1lUno3YkFRU241TnVSUlEwRGNXX1lJRnlnbXBKZ29SX3pFbmRQdWJhU0NBMlpnM3U2WklEVENadEo2emczbVlIVVN0ODNOZWJLQ1BYalpFMkpReGlobmU0ZjJxVHhTSVlCNHZwc3YtVTVQTi0?oc=5",
-        "pub_date": "Fri, 25 Sep 2026 19:39:05 GMT"
-      },
-      {
-        "title": "Bond yields hit multi-decade highs despite oil pullback - The Lufkin Daily News",
-        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQc1JJWHZCQU55Rm1qRUJpODNUeVRsaWVoS1Jxc0RNUi0yakt4UXpkajBpREJ1NnRmaktBaHlsZkprbG9Lb0dCZnB1TVZ2REhMR0M0WWVPeVVyWS1Id1lWcHNDd2oxRWFaem9uRGFZNkwtdk9rN2tUcTlRZmdOa09NdWJfVHFpUTBVSzF6dXkwSlMxamk1bERtb1ZfbE9mOEVLcGN4VG40QzR3SVZ0M2JBYmZlbHpBT2pfZGhMNl9LeUNUNHBGWDI5TWJaeXVReFhtanhVY1hkSE01aTVfQkNnNDZ1aktJdDVaU0k4?oc=5",
-        "pub_date": "Fri, 25 Sep 2026 15:41:22 GMT"
-      },
-      {
         "title": "10-year Treasury yield hit a 19-year high—and some investors see opportunity to buy bonds - CNBC",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xeGZGd2dtVTBWbzhHcUQycEVzX21HU0RBZV93TGZjZkppVEsxMkY5aFc1SUlOUlNUR04tV3k5aDlxNjBYeVByUEQ5R3RnZk5aaGhlUVJBYzNkSTlRaGpVY0ZZTUVhWjA0UDRzbEVB0gFzQVVfeXFMTUlFUTZEcWJxUVlRSXBUZkQyWVRxYkFDMUhtVnNfNEgzWTZJVTJyMnp2RHBEYkdqTUpla1FDdkRZUHZDVVpWZURvZFFiZzJnY2FKU2tLckxSSC1wUEFYVzcwSWU0RnlERElSalFBeXYtTFJCYw?oc=5",
         "pub_date": "Fri, 25 Sep 2026 16:40:09 GMT"
       },
       {
-        "title": "Stock Market Split As Nasdaq Hits High, Dow Jones Slides Amid Surging Treasury Yields: Weekly Review - Investor's Business Daily",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMEdvdk5ZTHduYS1XYjZlUExBRFFIT0Z2aWVGVW9zdmNmdF9TUXkzQnJRcmxNbnd1U3BkbWpueU9lSk1XWFFFOXVGZl9XRHE0eHRjSW5OMlhqdHZ0WUh0RXd5UlZRQVNZa2o2Z3FuZHpMTnQ3M1NuQVpqczFvYVBhalF4VnFpNGNoSERFVkg5cHZTajJyenA1OHRlcFRrYnVqejcwdk1qby03WmVE?oc=5",
-        "pub_date": "Fri, 25 Sep 2026 14:18:00 GMT"
-      },
-      {
-        "title": "Stocks Rise to Cap Week of Increasing Yields, Volatile Oil Prices - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSEVnSDJQSW85S2ZsX3J4VjI4cFBQMjU1QkpfRnR6ckRRT1FnZGFRRzRoZFdiYlFTR00xRHpMWGpOYVNBdUg2dXNnUlZmSTcxbmFDNXVfNGd6ZVFieU1keVhqOG5QRlptMDA4Y1ZkZllsRThFVXRKd1dLYzRzSXRpYTJKWWFleldEUmhHcTVkZGhFSl81Y1pzc2dLaXc5X3lUdG5WWjliMVVHVkY3?oc=5",
-        "pub_date": "Fri, 25 Sep 2026 21:06:00 GMT"
-      },
-      {
-        "title": "10-year Treasury yield is little changed to end a volatile week - CNBC",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xS1pGNzRkMTVWWkk4LVdDdndhTTZ3OEdqd3FqZ1c1R3pMdlR6ZUdJbllYcXJQbWR4WEI1VmlUa2NKalBrZXl6R1U0WkF5R3lBNG9nUnJKLUwzOWs2MEZvN0FJOWppSnl6N3ZjQ3NQRTDSAXZBVV95cUxOeEIwRGVVemdBVTY5UlVRc05WUDFrOThJZUNNTk56NUhLUmIxMFdCSEZiM3VDbjJmWmg1V1VEa0o3WEUyMi1IRFU0NlpuVWJwN0tGUUM3STFnT184cDNpdTRKWmg5TFV5RmdoWlBFNk1RclUteThB?oc=5",
-        "pub_date": "Fri, 25 Sep 2026 08:08:03 GMT"
-      },
-      {
-        "title": "Asian Bond Yields Rise Despite Oil Decline as Caution Reigns - WSJ",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYUJ1RlRZOENIYXdiZ0swWVlLdmxqUEd1Ny0tUTNnR1pWY0p2MV9xRFJTUDBqNzZ3X1NFMVRzMUFBdXNLUW5jd2RqSElkMXBiQ2M5X1hBbkVLVjZZU3NfcHBHdE5hb2cyR0cyMU5zWlFnN19NY3h1XzhzZERjRjlJdWk2dGhVUVBObnZFem5KVjdGSmJUZUQxVFlscllRSzJEVE83ZTJtdw?oc=5",
-        "pub_date": "Fri, 25 Sep 2026 07:27:00 GMT"
+        "title": "3 US Bank Stocks Built For Higher Money Market Yields - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSFJrekZrTjVqb0xXVzJYQnBiaHY4cndGc0FBajdWVmhLQVBQMDVFcVRramN5OUdzdUxsNzhjVzRGSWpwbjVoam5yblpTREsyRXFLUFhOSDRwQlA3WHV2MjdoaDFCNlNaQnEwQnF0LWJUNDlMNHNmOGN3UFJHbTRZdDVEaEZYSU53dmgyYUZrUTc?oc=5",
+        "pub_date": "Sat, 26 Sep 2026 03:20:00 GMT"
       }
     ]
   }
