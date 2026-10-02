@@ -1,9 +1,9 @@
 {
-  "generato_utc": "2026-10-02T01:02:00+00:00",
+  "generato_utc": "2026-10-02T12:02:29+00:00",
   "finestra": {
     "da": "2026-06-27T12:45:09.844913+00:00",
-    "a": "2026-10-02T01:01:22+00:00",
-    "snapshot": 412,
+    "a": "2026-10-02T12:01:19+00:00",
+    "snapshot": 413,
     "righe_schema_v1": 295
   },
   "qualita_dati": {
@@ -101,18 +101,18 @@
       "label": "Nasdaq Composite",
       "asset_class": "equity",
       "currency": "PCT",
-      "last_price": 26861.06,
-      "last_date": "2026-09-30",
-      "n_osservazioni": 84,
+      "last_price": 26871.6,
+      "last_date": "2026-10-01",
+      "n_osservazioni": 85,
       "returns_pct": {
-        "1d": 0.24,
-        "1w": -0.28,
-        "1m": 1.86,
-        "3m": 5.25,
+        "1d": 0.04,
+        "1w": -0.25,
+        "1m": 2.96,
+        "3m": 5.3,
         "6m": null,
         "1y": null
       },
-      "vol20_ann_pct": 14.26,
+      "vol20_ann_pct": 14.22,
       "max_drawdown_pct": -7.0,
       "peak_date": "2026-07-10",
       "trough_date": "2026-07-29"
@@ -241,18 +241,18 @@
       "label": "Bitcoin",
       "asset_class": "crypto",
       "currency": "USD",
-      "last_price": 84752.45652884498,
+      "last_price": 86417.65295916575,
       "last_date": "2026-10-02",
       "n_osservazioni": 96,
       "returns_pct": {
-        "1d": 0.21,
-        "1w": 0.36,
-        "1m": 9.83,
-        "3m": 33.57,
+        "1d": 2.18,
+        "1w": 2.34,
+        "1m": 11.99,
+        "3m": 36.2,
         "6m": null,
         "1y": null
       },
-      "vol20_ann_pct": 36.74,
+      "vol20_ann_pct": 37.2,
       "max_drawdown_pct": -6.86,
       "peak_date": "2026-09-03",
       "trough_date": "2026-09-15"
@@ -441,18 +441,18 @@
       "label": "Ethereum",
       "asset_class": "crypto",
       "currency": "USD",
-      "last_price": 2706.9673289166626,
+      "last_price": 2746.505837180402,
       "last_date": "2026-10-02",
       "n_osservazioni": 96,
       "returns_pct": {
-        "1d": 0.4,
-        "1w": 0.76,
-        "1m": 7.72,
-        "3m": 43.76,
+        "1d": 1.86,
+        "1w": 2.23,
+        "1m": 9.29,
+        "3m": 45.85,
         "6m": null,
         "1y": null
       },
-      "vol20_ann_pct": 37.92,
+      "vol20_ann_pct": 38.29,
       "max_drawdown_pct": -5.78,
       "peak_date": "2026-07-27",
       "trough_date": "2026-08-01"
@@ -461,18 +461,18 @@
       "label": "Solana",
       "asset_class": "crypto",
       "currency": "USD",
-      "last_price": 118.84544828981136,
+      "last_price": 121.83098687744,
       "last_date": "2026-10-02",
       "n_osservazioni": 96,
       "returns_pct": {
-        "1d": 0.69,
-        "1w": -2.67,
-        "1m": 16.28,
-        "3m": 63.34,
+        "1d": 3.22,
+        "1w": -0.22,
+        "1m": 19.2,
+        "3m": 67.44,
         "6m": null,
         "1y": null
       },
-      "vol20_ann_pct": 59.1,
+      "vol20_ann_pct": 59.69,
       "max_drawdown_pct": -13.59,
       "peak_date": "2026-07-03",
       "trough_date": "2026-08-01"
@@ -689,6 +689,20 @@
           "price": 3.18
         },
         {
+          "ticker": "SOL-USD",
+          "label": "Solana",
+          "asset_class": "crypto",
+          "chg_pct": 3.22,
+          "price": 121.83098687744
+        },
+        {
+          "ticker": "BTC-USD",
+          "label": "Bitcoin",
+          "asset_class": "crypto",
+          "chg_pct": 2.18,
+          "price": 86417.65295916575
+        },
+        {
           "ticker": "^VIX",
           "label": "VIX (volatilita)",
           "asset_class": "vol",
@@ -696,18 +710,18 @@
           "price": 16.34
         },
         {
+          "ticker": "ETH-USD",
+          "label": "Ethereum",
+          "asset_class": "crypto",
+          "chg_pct": 1.86,
+          "price": 2746.505837180402
+        },
+        {
           "ticker": "^TYX",
           "label": "US 30Y Treasury Yield",
           "asset_class": "rate",
           "chg_pct": 0.89,
           "price": 5.64
-        },
-        {
-          "ticker": "SOL-USD",
-          "label": "Solana",
-          "asset_class": "crypto",
-          "chg_pct": 0.69,
-          "price": 118.84544828981136
         },
         {
           "ticker": "DTWEXBGS",
@@ -731,27 +745,6 @@
           "price": 5.29
         },
         {
-          "ticker": "ETH-USD",
-          "label": "Ethereum",
-          "asset_class": "crypto",
-          "chg_pct": 0.4,
-          "price": 2706.9673289166626
-        },
-        {
-          "ticker": "^IXIC",
-          "label": "Nasdaq Composite",
-          "asset_class": "equity",
-          "chg_pct": 0.24,
-          "price": 26861.06
-        },
-        {
-          "ticker": "BTC-USD",
-          "label": "Bitcoin",
-          "asset_class": "crypto",
-          "chg_pct": 0.21,
-          "price": 84752.45652884498
-        },
-        {
           "ticker": "JPY=X",
           "label": "USD/JPY",
           "asset_class": "fx",
@@ -764,6 +757,13 @@
           "asset_class": "equity",
           "chg_pct": 0.19,
           "price": 7666.45
+        },
+        {
+          "ticker": "^DJI",
+          "label": "Dow Jones",
+          "asset_class": "equity",
+          "chg_pct": 0.04,
+          "price": 50926.56
         }
       ],
       "peggiori": [
@@ -898,6 +898,20 @@
           "price": 5.29
         },
         {
+          "ticker": "BTC-USD",
+          "label": "Bitcoin",
+          "asset_class": "crypto",
+          "chg_pct": 2.34,
+          "price": 86417.65295916575
+        },
+        {
+          "ticker": "ETH-USD",
+          "label": "Ethereum",
+          "asset_class": "crypto",
+          "chg_pct": 2.23,
+          "price": 2746.505837180402
+        },
+        {
           "ticker": "^FVX",
           "label": "US 5Y Treasury Yield",
           "asset_class": "rate",
@@ -910,20 +924,6 @@
           "asset_class": "fx",
           "chg_pct": 1.92,
           "price": 120.33
-        },
-        {
-          "ticker": "ETH-USD",
-          "label": "Ethereum",
-          "asset_class": "crypto",
-          "chg_pct": 0.76,
-          "price": 2706.9673289166626
-        },
-        {
-          "ticker": "BTC-USD",
-          "label": "Bitcoin",
-          "asset_class": "crypto",
-          "chg_pct": 0.36,
-          "price": 84752.45652884498
         },
         {
           "ticker": "FTSEMIB.MI",
@@ -947,13 +947,6 @@
           "asset_class": "fx",
           "chg_pct": -2.85,
           "price": 1.325
-        },
-        {
-          "ticker": "SOL-USD",
-          "label": "Solana",
-          "asset_class": "crypto",
-          "chg_pct": -2.67,
-          "price": 118.84544828981136
         },
         {
           "ticker": "JPY=X",
@@ -987,8 +980,15 @@
           "ticker": "^IXIC",
           "label": "Nasdaq Composite",
           "asset_class": "equity",
-          "chg_pct": -0.28,
-          "price": 26861.06
+          "chg_pct": -0.25,
+          "price": 26871.6
+        },
+        {
+          "ticker": "SOL-USD",
+          "label": "Solana",
+          "asset_class": "crypto",
+          "chg_pct": -0.22,
+          "price": 121.83098687744
         },
         {
           "ticker": "FTSEMIB.MI",
@@ -1037,18 +1037,18 @@
           "price": 113.96
         },
         {
+          "ticker": "SOL-USD",
+          "label": "Solana",
+          "asset_class": "crypto",
+          "chg_pct": 19.2,
+          "price": 121.83098687744
+        },
+        {
           "ticker": "CL=F",
           "label": "Petrolio WTI",
           "asset_class": "commodity",
           "chg_pct": 16.87,
           "price": 96.16
-        },
-        {
-          "ticker": "SOL-USD",
-          "label": "Solana",
-          "asset_class": "crypto",
-          "chg_pct": 16.28,
-          "price": 118.84544828981136
         },
         {
           "ticker": "NG=F",
@@ -1065,6 +1065,13 @@
           "price": 5.09
         },
         {
+          "ticker": "BTC-USD",
+          "label": "Bitcoin",
+          "asset_class": "crypto",
+          "chg_pct": 11.99,
+          "price": 86417.65295916575
+        },
+        {
           "ticker": "^TNX",
           "label": "US 10Y Treasury Yield",
           "asset_class": "rate",
@@ -1072,18 +1079,11 @@
           "price": 5.29
         },
         {
-          "ticker": "BTC-USD",
-          "label": "Bitcoin",
-          "asset_class": "crypto",
-          "chg_pct": 9.83,
-          "price": 84752.45652884498
-        },
-        {
           "ticker": "ETH-USD",
           "label": "Ethereum",
           "asset_class": "crypto",
-          "chg_pct": 7.72,
-          "price": 2706.9673289166626
+          "chg_pct": 9.29,
+          "price": 2746.505837180402
         },
         {
           "ticker": "^VIX",
@@ -1103,8 +1103,8 @@
           "ticker": "^IXIC",
           "label": "Nasdaq Composite",
           "asset_class": "equity",
-          "chg_pct": 1.86,
-          "price": 26861.06
+          "chg_pct": 2.96,
+          "price": 26871.6
         },
         {
           "ticker": "^GSPC",
@@ -1207,8 +1207,8 @@
           "ticker": "SOL-USD",
           "label": "Solana",
           "asset_class": "crypto",
-          "chg_pct": 63.34,
-          "price": 118.84544828981136
+          "chg_pct": 67.44,
+          "price": 121.83098687744
         },
         {
           "ticker": "BZ=F",
@@ -1221,8 +1221,8 @@
           "ticker": "ETH-USD",
           "label": "Ethereum",
           "asset_class": "crypto",
-          "chg_pct": 43.76,
-          "price": 2706.9673289166626
+          "chg_pct": 45.85,
+          "price": 2746.505837180402
         },
         {
           "ticker": "CL=F",
@@ -1235,8 +1235,8 @@
           "ticker": "BTC-USD",
           "label": "Bitcoin",
           "asset_class": "crypto",
-          "chg_pct": 33.57,
-          "price": 84752.45652884498
+          "chg_pct": 36.2,
+          "price": 86417.65295916575
         },
         {
           "ticker": "SI=F",
@@ -1270,8 +1270,8 @@
           "ticker": "^IXIC",
           "label": "Nasdaq Composite",
           "asset_class": "equity",
-          "chg_pct": 5.25,
-          "price": 26861.06
+          "chg_pct": 5.3,
+          "price": 26871.6
         },
         {
           "ticker": "HG=F",
@@ -1378,24 +1378,24 @@
   },
   "risk_appetite": {
     "1d": {
-      "risk_on_medio_pct": 0.17,
+      "risk_on_medio_pct": 0.75,
       "risk_off_medio_pct": 0.0,
-      "spread_pct": 0.17
+      "spread_pct": 0.75
     },
     "1w": {
-      "risk_on_medio_pct": -0.23,
+      "risk_on_medio_pct": 0.36,
       "risk_off_medio_pct": 0.0,
-      "spread_pct": -0.23
+      "spread_pct": 0.36
     },
     "1m": {
-      "risk_on_medio_pct": 3.61,
+      "risk_on_medio_pct": 4.39,
       "risk_off_medio_pct": 0.0,
-      "spread_pct": 3.61
+      "spread_pct": 4.39
     },
     "3m": {
-      "risk_on_medio_pct": 17.02,
+      "risk_on_medio_pct": 17.91,
       "risk_off_medio_pct": 16.04,
-      "spread_pct": 0.99
+      "spread_pct": 1.87
     }
   },
   "divergenze": [
@@ -1408,20 +1408,20 @@
       "divergenza_pp": -12.81
     },
     {
+      "coppia": "^GSPC vs BTC-USD",
+      "label": "S&P 500 vs Bitcoin",
+      "correlazione_20g": 0.009,
+      "chg_1m_a_pct": 0.46,
+      "chg_1m_b_pct": 11.99,
+      "divergenza_pp": -11.53
+    },
+    {
       "coppia": "^TNX vs GC=F",
       "label": "US 10Y Treasury Yield vs Oro (spot)",
       "correlazione_20g": -0.101,
       "chg_1m_a_pct": 11.37,
       "chg_1m_b_pct": 0.0,
       "divergenza_pp": 11.37
-    },
-    {
-      "coppia": "^GSPC vs BTC-USD",
-      "label": "S&P 500 vs Bitcoin",
-      "correlazione_20g": 0.006,
-      "chg_1m_a_pct": 0.46,
-      "chg_1m_b_pct": 9.83,
-      "divergenza_pp": -9.37
     },
     {
       "coppia": "^GSPC vs ^VIX",
@@ -1432,20 +1432,20 @@
       "divergenza_pp": -6.97
     },
     {
+      "coppia": "^GSPC vs ^IXIC",
+      "label": "S&P 500 vs Nasdaq Composite",
+      "correlazione_20g": 0.949,
+      "chg_1m_a_pct": 0.46,
+      "chg_1m_b_pct": 2.96,
+      "divergenza_pp": -2.5
+    },
+    {
       "coppia": "EURUSD=X vs DX-Y.NYB",
       "label": "EUR/USD vs Indice dollaro DXY",
       "correlazione_20g": 0.018,
       "chg_1m_a_pct": -2.42,
       "chg_1m_b_pct": 0.0,
       "divergenza_pp": -2.42
-    },
-    {
-      "coppia": "^GSPC vs ^IXIC",
-      "label": "S&P 500 vs Nasdaq Composite",
-      "correlazione_20g": 0.108,
-      "chg_1m_a_pct": 0.46,
-      "chg_1m_b_pct": 1.86,
-      "divergenza_pp": -1.4
     },
     {
       "coppia": "^GSPC vs GC=F",
