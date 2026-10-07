@@ -1,42 +1,42 @@
 {
   "schema": 2,
-  "collected_at_utc": "2026-10-06T20:48:57+00:00",
+  "collected_at_utc": "2026-10-07T00:54:35+00:00",
   "prices": {
     "^GSPC": {
       "label": "S&P 500",
       "asset_class": "equity",
       "ok": true,
       "source": "fred",
-      "price": 7773.95,
+      "price": 7818.93,
       "currency": "PCT",
-      "market_date": "2026-10-05",
+      "market_date": "2026-10-06",
       "stale": true,
       "ts": null,
-      "prev_close": 7722.72,
+      "prev_close": 7773.95,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": 0.663,
-      "chg_5d_pct": 1.175,
-      "chg_1m_pct": 0.339,
-      "chg_3m_pct": 3.892,
-      "vol20_ann_pct": 10.52
+      "chg_1d_pct": 0.579,
+      "chg_5d_pct": 1.931,
+      "chg_1m_pct": 1.3,
+      "chg_3m_pct": 3.649,
+      "vol20_ann_pct": 10.42
     },
     "^DJI": {
       "label": "Dow Jones",
       "asset_class": "equity",
       "ok": true,
       "source": "fred",
-      "price": 51267.9,
+      "price": 51521.28,
       "currency": "PCT",
-      "market_date": "2026-10-05",
+      "market_date": "2026-10-06",
       "stale": true,
       "ts": null,
-      "prev_close": 51176.96,
+      "prev_close": 51267.9,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": 0.178,
-      "chg_5d_pct": -0.415,
-      "chg_1m_pct": -4.504,
-      "chg_3m_pct": -2.064,
-      "vol20_ann_pct": 10.57
+      "chg_1d_pct": 0.494,
+      "chg_5d_pct": 0.334,
+      "chg_1m_pct": -3.544,
+      "chg_3m_pct": -1.841,
+      "vol20_ann_pct": 10.18
     },
     "^IXIC": {
       "label": "Nasdaq Composite",
@@ -269,54 +269,54 @@
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 85644.01577954966,
+      "price": 85527.05056029197,
       "currency": "USD",
-      "market_date": "2026-10-06",
+      "market_date": "2026-10-07",
       "stale": false,
-      "ts": 1791319670,
-      "prev_close": 86489.734827,
+      "ts": 1791334420,
+      "prev_close": 85770.872246,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -0.978,
-      "chg_5d_pct": 0.946,
-      "chg_1m_pct": 13.3,
-      "chg_3m_pct": 32.558,
-      "vol20_ann_pct": 33.78
+      "chg_1d_pct": -0.284,
+      "chg_5d_pct": 1.208,
+      "chg_1m_pct": 12.319,
+      "chg_3m_pct": 33.09,
+      "vol20_ann_pct": 33.88
     },
     "ETH-USD": {
       "label": "Ethereum",
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 2697.6550905276767,
+      "price": 2697.3624654706405,
       "currency": "USD",
-      "market_date": "2026-10-06",
+      "market_date": "2026-10-07",
       "stale": false,
-      "ts": 1791319650,
-      "prev_close": 2725.910538,
+      "ts": 1791334400,
+      "prev_close": 2710.418176,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -1.037,
-      "chg_5d_pct": -0.282,
-      "chg_1m_pct": 12.52,
-      "chg_3m_pct": 41.428,
-      "vol20_ann_pct": 32.32
+      "chg_1d_pct": -0.482,
+      "chg_5d_pct": 1.102,
+      "chg_1m_pct": 11.648,
+      "chg_3m_pct": 41.805,
+      "vol20_ann_pct": 32.28
     },
     "SOL-USD": {
       "label": "Solana",
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 121.00430925540834,
+      "price": 120.63077650727664,
       "currency": "USD",
-      "market_date": "2026-10-06",
+      "market_date": "2026-10-07",
       "stale": false,
-      "ts": 1791319670,
-      "prev_close": 121.515953,
+      "ts": 1791334400,
+      "prev_close": 120.763377,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -0.421,
-      "chg_5d_pct": 2.215,
-      "chg_1m_pct": 24.91,
-      "chg_3m_pct": 63.551,
-      "vol20_ann_pct": 51.42
+      "chg_1d_pct": -0.11,
+      "chg_5d_pct": 1.721,
+      "chg_1m_pct": 22.415,
+      "chg_3m_pct": 66.088,
+      "vol20_ann_pct": 51.07
     },
     "GC=F": {
       "label": "Oro (spot)",
@@ -428,7 +428,7 @@
       "price": 1.1269,
       "currency": "USD",
       "market_date": "2026-10-06",
-      "stale": false,
+      "stale": true,
       "ts": null,
       "prev_close": 1.1204,
       "prev_close_source": "daily_series",
@@ -630,11 +630,11 @@
     },
     "T10Y2Y": {
       "label": "Spread 10Y-2Y USA",
-      "value": 0.47,
-      "date": "2026-10-05",
-      "prev_value": 0.45,
-      "delta": 0.02,
-      "yoy_pct": 74.074
+      "value": 0.48,
+      "date": "2026-10-06",
+      "prev_value": 0.47,
+      "delta": 0.01,
+      "yoy_pct": 92.0
     },
     "IRLTLT01DEM156N": {
       "label": "Bund Germania 10Y",
@@ -662,7 +662,7 @@
     }
   },
   "_meta": {
-    "elapsed_s": 42.5,
+    "elapsed_s": 33.4,
     "tickers_ok": 31,
     "tickers_total": 36,
     "carry_forward": 14,
@@ -757,6 +757,16 @@
     ],
     "MarketWatch": [
       {
+        "title": "My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?",
+        "link": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
+        "pub_date": "Tue, 06 Oct 2026 22:54:00 GMT"
+      },
+      {
+        "title": "The S&P 500 is back in record territory as the ‘Magnificent Seven’ ride to the rescue",
+        "link": "https://www.marketwatch.com/story/the-s-p-500-is-back-in-record-territory-as-the-magnificent-seven-ride-to-the-rescue-e062724d?mod=mw_rss_topstories",
+        "pub_date": "Tue, 06 Oct 2026 21:52:00 GMT"
+      },
+      {
         "title": "Oct. 9 has loomed large in stock-market history. Why investors still shouldn’t buy into an October jinx.",
         "link": "https://www.marketwatch.com/story/oct-9-has-loomed-large-in-stock-market-history-why-investors-still-shouldnt-buy-into-an-october-jinx-81d7149b?mod=mw_rss_topstories",
         "pub_date": "Tue, 06 Oct 2026 20:37:00 GMT"
@@ -782,11 +792,6 @@
         "pub_date": "Tue, 06 Oct 2026 19:58:00 GMT"
       },
       {
-        "title": "The S&P 500 is back in record territory as the ‘Magnificent Seven’ ride to the rescue",
-        "link": "https://www.marketwatch.com/story/the-s-p-500-is-back-in-record-territory-as-the-magnificent-seven-ride-to-the-rescue-e062724d?mod=mw_rss_topstories",
-        "pub_date": "Tue, 06 Oct 2026 19:54:00 GMT"
-      },
-      {
         "title": "Trump waives rules on red-dyed diesel, but local tax and other concerns remain",
         "link": "https://www.marketwatch.com/story/trump-waives-rules-on-red-dyed-diesel-but-local-tax-and-other-concerns-remain-f6b448c8?mod=mw_rss_topstories",
         "pub_date": "Tue, 06 Oct 2026 19:14:00 GMT"
@@ -800,63 +805,58 @@
         "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
         "link": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
         "pub_date": "Tue, 06 Oct 2026 18:30:00 GMT"
-      },
-      {
-        "title": "How Meta’s stock can surge to $1,000, according to the biggest bull on Wall Street",
-        "link": "https://www.marketwatch.com/story/how-metas-stock-can-surge-to-1-000-according-to-the-biggest-bull-on-wall-street-a91afff3?mod=mw_rss_topstories",
-        "pub_date": "Tue, 06 Oct 2026 18:20:00 GMT"
       }
     ],
     "Investing.com": [
       {
-        "title": "Oklo general counsel Vivek Narayanadas sells $23,318 in shares",
-        "link": "https://www.investing.com/news/insider-trading-news/oklo-general-counsel-vivek-narayanadas-sells-23318-in-shares-93CH-4935249",
-        "pub_date": "2026-10-06 20:31:28"
+        "title": "Ambiq Micro CFO Jeffrey Winzeler sells $379,644 in shares",
+        "link": "https://www.investing.com/news/insider-trading-news/ambiq-micro-cfo-jeffrey-winzeler-sells-379644-in-shares-93CH-4935485",
+        "pub_date": "2026-10-07 00:46:03"
       },
       {
-        "title": "U.S. stocks higher at close of trade; Dow Jones Industrial Average up 0.49%",
-        "link": "https://www.investing.com/news/stock-market-news/us-stocks-higher-at-close-of-trade-dow-jones-industrial-average-up-049-4935244",
-        "pub_date": "2026-10-06 20:31:02"
+        "title": "Trump to speak with Putin on plague after Russian lab death",
+        "link": "https://www.investing.com/news/stock-market-news/trump-to-speak-with-putin-on-plague-after-russian-lab-death-93CH-4935478",
+        "pub_date": "2026-10-07 00:41:13"
       },
       {
-        "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.37%",
-        "link": "https://www.investing.com/news/stock-market-news/canada-stocks-higher-at-close-of-trade-sptsx-composite-up-037-4935243",
-        "pub_date": "2026-10-06 20:30:32"
+        "title": "Why is Tower stock gaining today?",
+        "link": "https://www.investing.com/news/stock-market-news/why-is-tower-stock-gaining-today-93CH-4935477",
+        "pub_date": "2026-10-07 00:38:04"
       },
       {
-        "title": "Brazil stocks lower at close of trade; Bovespa down 0.52%",
-        "link": "https://www.investing.com/news/stock-market-news/brazil-stocks-lower-at-close-of-trade-bovespa-down-052-4935234",
-        "pub_date": "2026-10-06 20:30:03"
+        "title": "Why is Dicker Data stock surging today?",
+        "link": "https://www.investing.com/news/stock-market-news/why-is-dicker-data-stock-surging-today-93CH-4935476",
+        "pub_date": "2026-10-07 00:38:00"
       },
       {
-        "title": "Evercore ISI raises Marvell stock price target on AI growth outlook",
-        "link": "https://www.investing.com/news/analyst-ratings/evercore-isi-raises-marvell-stock-price-target-on-ai-growth-outlook-93CH-4935208",
-        "pub_date": "2026-10-06 20:26:57"
+        "title": "Crowdstrike CEO George Kurtz sells $5.4m in CRWD stock",
+        "link": "https://www.investing.com/news/insider-trading-news/crowdstrike-ceo-george-kurtz-sells-54m-in-crwd-stock-93CH-4935474",
+        "pub_date": "2026-10-07 00:31:11"
       },
       {
-        "title": "MetLife declares Q4 dividend of $0.5925 per share",
-        "link": "https://www.investing.com/news/company-news/metlife-declares-q4-dividend-of-05925-per-share-93CH-4935207",
-        "pub_date": "2026-10-06 20:24:27"
+        "title": "Japan real wages rise 1.5% in August, eighth straight monthly gain",
+        "link": "https://www.investing.com/news/economic-indicators/japan-real-wages-rise-15-in-august-eighth-straight-monthly-gain-4935467",
+        "pub_date": "2026-10-07 00:25:35"
       },
       {
-        "title": "Northpointe Bancshares raises quarterly dividend by 20%",
-        "link": "https://www.investing.com/news/company-news/northpointe-bancshares-raises-quarterly-dividend-by-20-93CH-4935206",
-        "pub_date": "2026-10-06 20:24:23"
+        "title": "Cathie Wood’s ARK sells Teradyne stock, buys Veracyte",
+        "link": "https://www.investing.com/news/company-news/cathie-woods-ark-sells-teradyne-stock-buys-veracyte-93CH-4935466",
+        "pub_date": "2026-10-07 00:21:19"
       },
       {
-        "title": "Constellation Brands stock falls as FY27 guidance disappoints",
-        "link": "https://www.investing.com/news/earnings/constellation-brands-stock-falls-as-fy27-guidance-disappoints-4935204",
-        "pub_date": "2026-10-06 20:23:43"
+        "title": "SpaceX seeks $40 billion financing led by Apollo to buy Nvidia chips, FT reports",
+        "link": "https://www.investing.com/news/stock-market-news/spacex-seeks-40-billion-to-buy-nvidia-chips-ft-reports-4935381",
+        "pub_date": "2026-10-07 00:18:22"
       },
       {
-        "title": "Constellation Brands acquires SpikedAde for up to $353 million",
-        "link": "https://www.investing.com/news/company-news/constellation-brands-acquires-spikedade-for-up-to-353-million-93CH-4935200",
-        "pub_date": "2026-10-06 20:20:42"
+        "title": "Oil prices rise as M.East supply jitters persist",
+        "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-meast-supply-jitters-persist-4935465",
+        "pub_date": "2026-10-07 00:17:23"
       },
       {
-        "title": "Rocket Pharmaceuticals secures $150M credit facility",
-        "link": "https://www.investing.com/news/company-news/rocket-pharmaceuticals-secures-150m-credit-facility-93CH-4935198",
-        "pub_date": "2026-10-06 20:20:39"
+        "title": "U.S. stock futures steady after tech rally lifts S&P 500, Nasdaq to records",
+        "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-tech-rally-lifts-sp-500-nasdaq-to-records-4935463",
+        "pub_date": "2026-10-07 00:14:54"
       }
     ],
     "Yahoo Finance": [],
@@ -924,19 +924,14 @@
     ],
     "Google News Mkts": [
       {
-        "title": "Boomers' dividend stocks take beating from bond yields, with retirement income on the line - CNBC",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObjduaW9LVkNyVmN2UWdZX2lpVHd1RlFJS2w0S0trVExmemxEOWpMUVE4b2dpVjlEbEJZVGRKTEpXdllmV3pXa2wyRVg3OVZRcGRCSmROUEpPQVFrcGRoTFZfcFlJTFN4SWJVbXpFTDRhOS1iNjdEbUhDYnVEbDFyWFo1eUtTREYxbnfSAY8BQVVfeXFMT3NFZDNHUndaV2RIU0RtYUV4WVNIZ3NsLVAtY1NXbkxqcF8yak43YXVfdGs5ZTlEN1QzQ01OaWFZX1RpS01FYlRBRVRIRXR2bjgxQ3BYTTVLdWJIcXJ4UWx5dW43d2VYVzhJQm5naUZ6aV9xTHlyQ3BGOFZQTGo5QklPSWlWbGE1c0hRWlhKOWc?oc=5",
-        "pub_date": "Tue, 06 Oct 2026 16:59:17 GMT"
+        "title": "European shares rise as retreating bond yields and oil prices boost risk appetite - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVmQ5X3ZfZ1dRMDRiSmtmUWpyNDJWSU81X3dyVjZhc3dqUmRKcHRMcnhDQXl3U3IwM2Y4cmNsQkp4dDVlZXFPMk9pSlhHMGZibG5ULXVuVldqNTRqdE9vektmZ3g3RFQ1ZW5LaGMxaDNURlpudVM4M3hTMjJ3R1N2SDR6YkNiZ090RW5PeDFNb1VYb2ZpS1YycGxBaVFMM3c?oc=5",
+        "pub_date": "Tue, 06 Oct 2026 16:46:34 GMT"
       },
       {
-        "title": "Dividend stocks are getting crushed as bond yields hit 24-year highs - Quartz",
+        "title": "Dividend stocks battered as bond yields hit 24-year highs - Quartz",
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGeHlLV2dPWDlfVDQ4LVBHMGpoTXNRTmx3TEVJd0FLV18wSF9QNWYzNG14MzlKanhTd2NibXVlRnZlVl9tUklQQWdtSkxHelh0UUZLSnFGbG1BcXZFQ09oTHVJSHY2Q1NncW1KX3pic3VmUVRLbUE?oc=5",
         "pub_date": "Tue, 06 Oct 2026 20:23:06 GMT"
-      },
-      {
-        "title": "European shares gain as Genmab jumps, bond yields retreat - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVmQ5X3ZfZ1dRMDRiSmtmUWpyNDJWSU81X3dyVjZhc3dqUmRKcHRMcnhDQXl3U3IwM2Y4cmNsQkp4dDVlZXFPMk9pSlhHMGZibG5ULXVuVldqNTRqdE9vektmZ3g3RFQ1ZW5LaGMxaDNURlpudVM4M3hTMjJ3R1N2SDR6YkNiZ090RW5PeDFNb1VYb2ZpS1YycGxBaVFMM3c?oc=5",
-        "pub_date": "Tue, 06 Oct 2026 16:41:42 GMT"
       },
       {
         "title": "Stocks Are Ignoring the Bond Market Warning at Their Peril - Barron's",
@@ -954,9 +949,14 @@
         "pub_date": "Tue, 06 Oct 2026 20:26:06 GMT"
       },
       {
+        "title": "World shares advance with oil steady, bond yields in retreat - The Lufkin Daily News",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOM0FzaWIxc2d2U1g5V0NyV2U2X1N6NjA2eDgzV05QRFVzc0l5RWozSThtNkR3UFRSSm96Rm5GWDNtdmQzQUJVY3lJMXVqUW5hdVFJZTU5eUhLSzU0bzF0eHRRTUJjN2p6aWNlVUtHM2J1RGE5YmszSFFKWG1tUzlrb3dJcEd0T0xWY1FGdWczUFBlZ1FhS3QyZmtCWHFLZkFIWUNKQ0VDT3BBQlpMdkUxVFVxX0RrMnFlTG5jWDliMTYtbHJrcjVNalB0S3NOc0NNcmI2Mld5ZkZobnNEaXZzSkwzazJEc2JFV09SeHRFSFE?oc=5",
+        "pub_date": "Tue, 06 Oct 2026 19:05:18 GMT"
+      },
+      {
         "title": "Market pros see signs that the worst of the global bond sell-off may be over - Business Insider",
         "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSEZyclpHYVJTWHR0dlVHNGJrbENPejJhSTFNSzRlcHlqcmhCYmFUd01mN2pETjJZNTBIdlVOaV85MmZlU0lxak5PTzlONXBxWW43aHFUNFlJQWE0NkZYUEoxZTFZZEZrb00xQmFYRVFaRXZlcGxWbnpNRTJxTEhJc3hmb19tTk5jRDlfSDRkbC1EN1dUSDUtdTljTVd1NGNpVDNNeVpHV0dyQnJV?oc=5",
-        "pub_date": "Tue, 06 Oct 2026 16:48:00 GMT"
+        "pub_date": "Tue, 06 Oct 2026 16:49:14 GMT"
       },
       {
         "title": "Wall Street is booming. Surging yields could shake things up - CNN",
@@ -969,19 +969,19 @@
         "pub_date": "Tue, 06 Oct 2026 13:01:12 GMT"
       },
       {
-        "title": "Bond Yields Are Soaring: These 5 Fortress Dividend Stocks Offer Shelter for Income Investors - 24/7 Wall St.",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOV3BaeUFmX09YeV94TWQ0OV9IVFluenBsai1rSkMyV0pNV1RFell3QTZzM3VhVmVDc1R1b0ItS0VVWXZhV2VRNDVTb1RTRHFnQlBmVTZvWWRXR1VVNW41MDNQZ2RENEJyYnMzLVJNRV9YTWdyTUN6bDZxSERPZmM1Qm84d2FlZlRBdVpMcFhDWG9wMUNVdWwyREM1WEpZclllRjZpR09PdEVwMU1QTU1EalMwWTRFQ2pRbThlOXlQUjJnMkZYcDdoUXR4eDdNWERG?oc=5",
-        "pub_date": "Tue, 06 Oct 2026 17:45:00 GMT"
-      },
-      {
-        "title": "World shares advance with oil steady, bond yields in retreat - The Lufkin Daily News",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOM0FzaWIxc2d2U1g5V0NyV2U2X1N6NjA2eDgzV05QRFVzc0l5RWozSThtNkR3UFRSSm96Rm5GWDNtdmQzQUJVY3lJMXVqUW5hdVFJZTU5eUhLSzU0bzF0eHRRTUJjN2p6aWNlVUtHM2J1RGE5YmszSFFKWG1tUzlrb3dJcEd0T0xWY1FGdWczUFBlZ1FhS3QyZmtCWHFLZkFIWUNKQ0VDT3BBQlpMdkUxVFVxX0RrMnFlTG5jWDliMTYtbHJrcjVNalB0S3NOc0NNcmI2Mld5ZkZobnNEaXZzSkwzazJEc2JFV09SeHRFSFE?oc=5",
-        "pub_date": "Tue, 06 Oct 2026 19:05:18 GMT"
+        "title": "Boomers' dividend stocks take beating from bond yields, with retirement income on the line - CNBC",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObjduaW9LVkNyVmN2UWdZX2lpVHd1RlFJS2w0S0trVExmemxEOWpMUVE4b2dpVjlEbEJZVGRKTEpXdllmV3pXa2wyRVg3OVZRcGRCSmROUEpPQVFrcGRoTFZfcFlJTFN4SWJVbXpFTDRhOS1iNjdEbUhDYnVEbDFyWFo1eUtTREYxbnfSAY8BQVVfeXFMT3NFZDNHUndaV2RIU0RtYUV4WVNIZ3NsLVAtY1NXbkxqcF8yak43YXVfdGs5ZTlEN1QzQ01OaWFZX1RpS01FYlRBRVRIRXR2bjgxQ3BYTTVLdWJIcXJ4UWx5dW43d2VYVzhJQm5naUZ6aV9xTHlyQ3BGOFZQTGo5QklPSWlWbGE1c0hRWlhKOWc?oc=5",
+        "pub_date": "Tue, 06 Oct 2026 16:59:17 GMT"
       },
       {
         "title": "S&P 500, Nasdaq reach record closing highs as focus pivots to earnings - Reuters",
         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ0p5VWxQQ0ZmUUI0Vk5wRUVjTUJhZjZGUlZjU2tWU1AtOEdqYjZ0OFRtRXNrUVdrTFlNZjVWdzluRjUyaWhHTlYxMG5Yc21pMHFubTdiX1RIRTRUSnB4UTZPckRMZTlzTHBEbkZKU1ROMTZpWE9lMXhPQkhyQmhBV3JNdkFrQVk?oc=5",
-        "pub_date": "Tue, 06 Oct 2026 20:07:29 GMT"
+        "pub_date": "Tue, 06 Oct 2026 20:47:55 GMT"
+      },
+      {
+        "title": "Bond Yields Are Soaring: These 5 Fortress Dividend Stocks Offer Shelter for Income Investors - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORUZmczFyclhjVEtHRHJiQ3BsUzJJQVkxQ1hSUUJEX0NmMm5YMVBuQ0ZTUWVxU1REelBzMnVlZU10T19BcXJoR2ItSENGQ19YU2pBYUk3cV9kRnV0UVVjcWxJbkxTS1JyWmJNY09VZk9DcVM2U1BuY2N5RzJoNUV6MFhFN0NjbWMtMVVJTkFuR2E4Zk5KQWhMQTliUQ?oc=5",
+        "pub_date": "Tue, 06 Oct 2026 17:45:14 GMT"
       }
     ]
   }
