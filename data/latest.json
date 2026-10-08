@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "collected_at_utc": "2026-10-08T12:57:58+00:00",
+  "collected_at_utc": "2026-10-08T21:04:41+00:00",
   "prices": {
     "^GSPC": {
       "label": "S&P 500",
@@ -77,18 +77,18 @@
       "asset_class": "vol",
       "ok": true,
       "source": "fred",
-      "price": 15.01,
+      "price": 15.08,
       "currency": "PCT",
-      "market_date": "2026-10-06",
+      "market_date": "2026-10-07",
       "stale": true,
       "ts": null,
-      "prev_close": 15.52,
+      "prev_close": 15.01,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -3.286,
-      "chg_5d_pct": -6.421,
-      "chg_1m_pct": -1.895,
-      "chg_3m_pct": -0.133,
-      "vol20_ann_pct": 96.3
+      "chg_1d_pct": 0.466,
+      "chg_5d_pct": -7.711,
+      "chg_1m_pct": -4.071,
+      "chg_3m_pct": -12.121,
+      "vol20_ann_pct": 94.68
     },
     "FTSEMIB.MI": {
       "label": "FTSE MIB",
@@ -269,54 +269,54 @@
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 82223.82704129205,
+      "price": 81717.8843650576,
       "currency": "USD",
       "market_date": "2026-10-08",
       "stale": false,
-      "ts": 1791464220,
+      "ts": 1791493250,
       "prev_close": 85540.087137,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -3.877,
-      "chg_5d_pct": -2.701,
-      "chg_1m_pct": 7.981,
-      "chg_3m_pct": 27.949,
-      "vol20_ann_pct": 37.38
+      "chg_1d_pct": -4.468,
+      "chg_5d_pct": -3.3,
+      "chg_1m_pct": 7.316,
+      "chg_3m_pct": 27.162,
+      "vol20_ann_pct": 38.33
     },
     "ETH-USD": {
       "label": "Ethereum",
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 2529.5894559383773,
+      "price": 2472.8990931138273,
       "currency": "USD",
       "market_date": "2026-10-08",
       "stale": false,
-      "ts": 1791464200,
+      "ts": 1791493260,
       "prev_close": 2697.172396,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -6.213,
-      "chg_5d_pct": -5.186,
-      "chg_1m_pct": 4.703,
-      "chg_3m_pct": 32.985,
-      "vol20_ann_pct": 40.16
+      "chg_1d_pct": -8.315,
+      "chg_5d_pct": -7.311,
+      "chg_1m_pct": 2.357,
+      "chg_3m_pct": 30.005,
+      "vol20_ann_pct": 45.01
     },
     "SOL-USD": {
       "label": "Solana",
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 112.44192912422022,
+      "price": 109.77712090741811,
       "currency": "USD",
       "market_date": "2026-10-08",
       "stale": false,
-      "ts": 1791464200,
+      "ts": 1791493260,
       "prev_close": 120.68056,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -6.827,
-      "chg_5d_pct": -5.184,
-      "chg_1m_pct": 14.105,
-      "chg_3m_pct": 54.814,
-      "vol20_ann_pct": 57.96
+      "chg_1d_pct": -9.035,
+      "chg_5d_pct": -7.431,
+      "chg_1m_pct": 11.401,
+      "chg_3m_pct": 51.145,
+      "vol20_ann_pct": 62.08
     },
     "GC=F": {
       "label": "Oro (spot)",
@@ -425,18 +425,18 @@
       "asset_class": "fx",
       "ok": true,
       "source": "ecb",
-      "price": 1.1177,
+      "price": 1.1186,
       "currency": "USD",
-      "market_date": "2026-10-07",
-      "stale": true,
+      "market_date": "2026-10-08",
+      "stale": false,
       "ts": null,
-      "prev_close": 1.1269,
+      "prev_close": 1.1177,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -0.816,
-      "chg_5d_pct": -1.568,
-      "chg_1m_pct": -3.763,
-      "chg_3m_pct": -2.162,
-      "vol20_ann_pct": 5.22
+      "chg_1d_pct": 0.081,
+      "chg_5d_pct": -0.991,
+      "chg_1m_pct": -3.999,
+      "chg_3m_pct": -1.92,
+      "vol20_ann_pct": 5.31
     },
     "GBPUSD=X": {
       "label": "GBP/USD",
@@ -515,52 +515,52 @@
       "source": "fred",
       "price": 5.03,
       "currency": "PCT",
-      "market_date": "2026-10-06",
+      "market_date": "2026-10-07",
       "stale": true,
       "ts": null,
-      "prev_close": 5.06,
+      "prev_close": 5.03,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -0.593,
-      "chg_5d_pct": -0.593,
-      "chg_1m_pct": 10.793,
-      "chg_3m_pct": 17.799,
-      "vol20_ann_pct": 20.54
+      "chg_1d_pct": 0.0,
+      "chg_5d_pct": -1.179,
+      "chg_1m_pct": 10.066,
+      "chg_3m_pct": 16.977,
+      "vol20_ann_pct": 20.56
     },
     "^TNX": {
       "label": "US 10Y Treasury Yield",
       "asset_class": "rate",
       "ok": true,
       "source": "fred",
-      "price": 5.27,
+      "price": 5.28,
       "currency": "PCT",
-      "market_date": "2026-10-06",
+      "market_date": "2026-10-07",
       "stale": true,
       "ts": null,
-      "prev_close": 5.31,
+      "prev_close": 5.27,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -0.753,
-      "chg_5d_pct": 0.19,
-      "chg_1m_pct": 10.251,
-      "chg_3m_pct": 16.079,
-      "vol20_ann_pct": 17.56
+      "chg_1d_pct": 0.19,
+      "chg_5d_pct": -0.189,
+      "chg_1m_pct": 10.0,
+      "chg_3m_pct": 15.789,
+      "vol20_ann_pct": 17.58
     },
     "^TYX": {
       "label": "US 30Y Treasury Yield",
       "asset_class": "rate",
       "ok": true,
       "source": "fred",
-      "price": 5.64,
+      "price": 5.67,
       "currency": "PCT",
-      "market_date": "2026-10-06",
+      "market_date": "2026-10-07",
       "stale": true,
       "ts": null,
-      "prev_close": 5.66,
+      "prev_close": 5.64,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -0.353,
-      "chg_5d_pct": 0.894,
-      "chg_1m_pct": 7.634,
-      "chg_3m_pct": 11.683,
-      "vol20_ann_pct": 13.46
+      "chg_1d_pct": 0.532,
+      "chg_5d_pct": 0.532,
+      "chg_1m_pct": 8.0,
+      "chg_3m_pct": 12.055,
+      "vol20_ann_pct": 13.45
     }
   },
   "macro": {
@@ -606,35 +606,35 @@
     },
     "DGS2": {
       "label": "US 2Y Treasury Rate",
-      "value": 4.79,
-      "date": "2026-10-06",
-      "prev_value": 4.84,
-      "delta": -0.05,
-      "yoy_pct": 0.63
+      "value": 4.77,
+      "date": "2026-10-07",
+      "prev_value": 4.79,
+      "delta": -0.02,
+      "yoy_pct": 0.21
     },
     "DGS10": {
       "label": "US 10Y Treasury Rate",
-      "value": 5.27,
-      "date": "2026-10-06",
-      "prev_value": 5.31,
-      "delta": -0.04,
-      "yoy_pct": 5.19
+      "value": 5.28,
+      "date": "2026-10-07",
+      "prev_value": 5.27,
+      "delta": 0.01,
+      "yoy_pct": 6.452
     },
     "DGS30": {
       "label": "US 30Y Treasury Rate",
-      "value": 5.64,
-      "date": "2026-10-06",
-      "prev_value": 5.66,
-      "delta": -0.02,
-      "yoy_pct": 5.618
+      "value": 5.67,
+      "date": "2026-10-07",
+      "prev_value": 5.64,
+      "delta": 0.03,
+      "yoy_pct": 7.183
     },
     "T10Y2Y": {
       "label": "Spread 10Y-2Y USA",
-      "value": 0.51,
-      "date": "2026-10-07",
-      "prev_value": 0.48,
-      "delta": 0.03,
-      "yoy_pct": 155.0
+      "value": 0.47,
+      "date": "2026-10-08",
+      "prev_value": 0.51,
+      "delta": -0.04,
+      "yoy_pct": 88.0
     },
     "IRLTLT01DEM156N": {
       "label": "Bund Germania 10Y",
@@ -662,7 +662,7 @@
     }
   },
   "_meta": {
-    "elapsed_s": 30.1,
+    "elapsed_s": 36.0,
     "tickers_ok": 31,
     "tickers_total": 36,
     "carry_forward": 14,
@@ -695,9 +695,19 @@
   "news": {
     "CNBC Business": [
       {
+        "title": "Why a Starbucks takeover of Chipotle would — and wouldn't — make sense for both companies",
+        "link": "https://www.cnbc.com/2026/10/08/starbucks-chipotle-acquisition.html",
+        "pub_date": "Thu, 08 Oct 2026 20:12:33 GMT"
+      },
+      {
+        "title": "Skydance's David Ellison tells CNBC combined company is 'positioned to win in every single vertical'",
+        "link": "https://www.cnbc.com/2026/10/08/skydance-co-ceos-ellison-kreiz.html",
+        "pub_date": "Thu, 08 Oct 2026 16:25:40 GMT"
+      },
+      {
         "title": "PepsiCo cuts earnings forecast as North American turnaround takes longer than expected",
         "link": "https://www.cnbc.com/2026/10/08/pepsico-pep-q3-2026-earnings.html",
-        "pub_date": "Thu, 08 Oct 2026 11:56:13 GMT"
+        "pub_date": "Thu, 08 Oct 2026 14:43:05 GMT"
       },
       {
         "title": "Lululemon poaches Athleta CEO as new chief product officer",
@@ -707,7 +717,7 @@
       {
         "title": "Levi Strauss hikes profit guidance after tariff refunds, but its sales outlook is less optimistic",
         "link": "https://www.cnbc.com/2026/10/07/levi-strauss-levi-q3-2026-earnings.html",
-        "pub_date": "Wed, 07 Oct 2026 21:31:40 GMT"
+        "pub_date": "Thu, 08 Oct 2026 14:43:38 GMT"
       },
       {
         "title": "Modelo owner Constellation is getting creative to bring back beer drinkers as overall demand weakens",
@@ -743,120 +753,110 @@
         "title": "AstraZeneca CEO says Summit drug could drive next generation of cancer combinations after $2 billion investment",
         "link": "https://www.cnbc.com/2026/10/05/astrazeneca-ceo-says-summit-drug-could-drive-future-cancer-combos.html",
         "pub_date": "Mon, 05 Oct 2026 19:44:30 GMT"
-      },
-      {
-        "title": "These are the cheapest and most expensive U.S. flights this November",
-        "link": "https://www.cnbc.com/2026/10/05/cheapest-most-expensive-us-flights-in-november.html",
-        "pub_date": "Tue, 06 Oct 2026 11:07:57 GMT"
-      },
-      {
-        "title": "David Ellison and Ynon Kreiz announce Skydance leadership team",
-        "link": "https://www.cnbc.com/2026/10/05/david-ellison-ynon-kreiz-skydance-leadership-team.html",
-        "pub_date": "Mon, 05 Oct 2026 15:51:15 GMT"
       }
     ],
     "MarketWatch": [
       {
-        "title": "Who will benefit more from AI agents when it comes to spending – companies or you?",
-        "link": "https://www.marketwatch.com/story/who-will-benefit-more-from-ai-agents-when-it-comes-to-spending-companies-or-you-cec597ed?mod=mw_rss_topstories",
-        "pub_date": "Thu, 08 Oct 2026 12:47:00 GMT"
+        "title": "Worse than taking away your parents’ car keys? Taking away their cell phone. How to protect your aging parents.",
+        "link": "https://www.marketwatch.com/story/worse-than-taking-away-your-parents-car-keys-taking-away-their-cellphone-how-to-protect-your-aging-parents-f01be6e6?mod=mw_rss_topstories",
+        "pub_date": "Thu, 08 Oct 2026 20:55:00 GMT"
       },
       {
-        "title": "After a 33% gain in the first half, this fund manager grew tired of the AI trade. Here’s where he’s looking now.",
-        "link": "https://www.marketwatch.com/story/after-a-33-gain-in-the-first-half-this-fund-manager-grew-tired-of-the-ai-trade-heres-where-hes-looking-now-1783b3a4?mod=mw_rss_topstories",
-        "pub_date": "Thu, 08 Oct 2026 12:46:00 GMT"
+        "title": "A big AI super PAC tried to follow crypto’s playbook to influence the midterms. Critics say it’s not working out.",
+        "link": "https://www.marketwatch.com/story/a-big-ai-super-pac-tried-to-follow-cryptos-playbook-to-influence-the-midterms-critics-say-its-not-working-out-d27911e6?mod=mw_rss_topstories",
+        "pub_date": "Thu, 08 Oct 2026 20:44:00 GMT"
       },
       {
-        "title": "Rising yields are quietly crashing the stock market’s earlier winners of 2026",
-        "link": "https://www.marketwatch.com/story/rising-yields-are-quietly-crashing-the-stock-markets-earlier-winners-of-2026-a29f2863?mod=mw_rss_topstories",
-        "pub_date": "Thu, 08 Oct 2026 12:32:00 GMT"
+        "title": "Should I put my nest egg in a 30-year Treasury bond?",
+        "link": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
+        "pub_date": "Thu, 08 Oct 2026 20:32:00 GMT"
       },
       {
-        "title": "GLP-1s could offer unexpected relief from back and knee pain, but doctors urge caution",
-        "link": "https://www.marketwatch.com/story/glp-1s-could-offer-unexpected-relief-from-back-and-knee-pain-but-doctors-urge-caution-b0de1609?mod=mw_rss_topstories",
-        "pub_date": "Thu, 08 Oct 2026 12:30:00 GMT"
+        "title": "With mortgage rates soaring above 7.5%, the smart money rents in America",
+        "link": "https://www.marketwatch.com/story/with-mortgage-rates-soaring-above-7-5-the-smart-money-rents-in-america-ef0eb5aa?mod=mw_rss_topstories",
+        "pub_date": "Thu, 08 Oct 2026 20:30:00 GMT"
       },
       {
-        "title": "‘People in the U.S. need to wake up’: As a mortgage loan officer, I rejected applications from wealthy couples. Here’s why.",
-        "link": "https://www.marketwatch.com/story/people-in-the-u-s-need-to-wake-up-as-a-mortgage-loan-officer-i-rejected-wealthy-couples-due-to-overspending-were-all-heading-for-trouble-6a52e04e?mod=mw_rss_topstories",
-        "pub_date": "Thu, 08 Oct 2026 12:15:00 GMT"
+        "title": "These decisions you make in your 20s — not your income — determine whether you’ll spend decades in debt or retire comfortably",
+        "link": "https://www.marketwatch.com/story/these-decisions-you-make-in-your-20s-not-your-income-determine-whether-youll-spend-decades-in-debt-or-retire-comfortably-7bbb28f9?mod=mw_rss_topstories",
+        "pub_date": "Thu, 08 Oct 2026 20:25:00 GMT"
       },
       {
-        "title": "‘He grew up wealthy’: My husband inherited $3 million. He wants a vacation home. I want to save for retirement. Who’s right?",
+        "title": "How to downsize like a pro — and free yourself from being a ‘prisoner of your possessions’",
+        "link": "https://www.marketwatch.com/story/how-to-downsize-like-a-pro-and-free-yourself-from-being-a-prisoner-of-your-possessions-c4b5533e?mod=mw_rss_topstories",
+        "pub_date": "Thu, 08 Oct 2026 19:47:00 GMT"
+      },
+      {
+        "title": "Florida is voting on whether to slash property taxes. Here’s who it would benefit — and hurt.",
+        "link": "https://www.marketwatch.com/story/florida-is-voting-on-whether-to-slash-property-taxes-heres-who-it-would-benefit-and-hurt-6c34b470?mod=mw_rss_topstories",
+        "pub_date": "Thu, 08 Oct 2026 19:41:00 GMT"
+      },
+      {
+        "title": "My brother-in-law convinced his parents to sign over their home and life savings to buy a $3 million compound. Do I intervene?",
+        "link": "https://www.marketwatch.com/story/my-brother-in-law-convinced-his-parents-to-sign-over-their-home-and-savings-to-buy-a-3-million-compound-do-i-intervene-03fb96b7?mod=mw_rss_topstories",
+        "pub_date": "Thu, 08 Oct 2026 19:15:00 GMT"
+      },
+      {
+        "title": "My husband inherited $3 million. He wants a vacation home, but I want to save for retirement. Who’s right?",
         "link": "https://www.marketwatch.com/story/he-grew-up-wealthy-my-husband-inherited-3-million-he-wants-a-vacation-home-i-want-to-save-for-retirement-a240f0d8?mod=mw_rss_topstories",
-        "pub_date": "Thu, 08 Oct 2026 12:15:00 GMT"
+        "pub_date": "Thu, 08 Oct 2026 19:00:00 GMT"
       },
       {
-        "title": "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
-        "link": "https://www.marketwatch.com/story/higher-yields-are-taking-their-toll-on-all-areas-of-the-stock-market-except-the-one-that-matters-69a90322?mod=mw_rss_topstories",
-        "pub_date": "Thu, 08 Oct 2026 11:43:00 GMT"
-      },
-      {
-        "title": "Tesla’s big AI gamble puts its EV business under a microscope",
-        "link": "https://www.marketwatch.com/story/teslas-big-ai-gamble-puts-its-ev-business-under-a-microscope-0ea9b387?mod=mw_rss_topstories",
-        "pub_date": "Thu, 08 Oct 2026 11:33:00 GMT"
-      },
-      {
-        "title": "A strategist who called the Asian financial crisis sees parallels with the AI boom",
-        "link": "https://www.marketwatch.com/story/a-strategist-who-called-the-asian-financial-crisis-sees-parallels-with-the-ai-boom-b45522ad?mod=mw_rss_topstories",
-        "pub_date": "Thu, 08 Oct 2026 11:32:00 GMT"
-      },
-      {
-        "title": "A true ‘nuclear renaissance’ is taking shape, and these stocks could be big winners",
-        "link": "https://www.marketwatch.com/story/a-true-nuclear-renaissance-is-taking-shape-and-these-stocks-could-be-big-winners-e04f7364?mod=mw_rss_topstories",
-        "pub_date": "Thu, 08 Oct 2026 10:30:00 GMT"
+        "title": "The options market is reminding investors there’s a cure for rising bond yields — higher yields",
+        "link": "https://www.marketwatch.com/story/the-options-market-is-reminding-investors-theres-a-cure-for-rising-bond-yields-higher-yields-2dcac640?mod=mw_rss_topstories",
+        "pub_date": "Thu, 08 Oct 2026 18:51:00 GMT"
       }
     ],
     "Investing.com": [
       {
-        "title": "Why is Universal Display stock sliding today?",
-        "link": "https://www.investing.com/news/stock-market-news/why-is-universal-display-stock-sliding-today-93CH-4939004",
-        "pub_date": "2026-10-08 12:35:17"
+        "title": "Fed’s Musalem says tighter monetary policy needed to lower inflation",
+        "link": "https://www.investing.com/news/economy-news/feds-musalem-says-lowering-inflation-will-require-more-rate-hikes-4939596",
+        "pub_date": "2026-10-08 20:55:07"
       },
       {
-        "title": "Mexico inflation accelerates to 3.45% in September",
-        "link": "https://www.investing.com/news/economy-news/mexico-inflation-accelerates-to-345-in-september-93CH-4938995",
-        "pub_date": "2026-10-08 12:33:48"
+        "title": "SpaceX takes aim at US wireless carriers with spectrum acquisition",
+        "link": "https://www.investing.com/news/stock-market-news/spacex-to-acquire-spectrum-that-enables-starlink-mobile-services-4939769",
+        "pub_date": "2026-10-08 20:54:39"
       },
       {
-        "title": "U.S. Initial Jobless Claims Fall Below Expectations, Indicating Labor Market Resilience",
-        "link": "https://www.investing.com/news/economic-indicators/us-initial-jobless-claims-fall-below-expectations-indicating-labor-market-resilience-93CH-4938986",
-        "pub_date": "2026-10-08 12:32:08"
+        "title": "American Express National Bank fined $350 million for insufficient anti-money laundering program",
+        "link": "https://www.investing.com/news/stock-market-news/american-express-national-bank-fined-350-million-for-insufficient-antimoney-laundering-program-4939822",
+        "pub_date": "2026-10-08 20:54:23"
       },
       {
-        "title": "Stifel cuts Old Dominion Freight Line stock price target on valuation",
-        "link": "https://www.investing.com/news/analyst-ratings/stifel-cuts-old-dominion-freight-line-stock-price-target-on-valuation-93CH-4938975",
-        "pub_date": "2026-10-08 12:31:04"
+        "title": "After-Hours Movers: T, VZ, TMUS, SPCX, HUM, ALHC, CVS, CLOV, UNH, AXP",
+        "link": "https://www.investing.com/news/stock-market-news/afterhours-movers-t-vz-tmus-spcx-hum-alhc-cvs-clov-unh-axp-432SI-4939818",
+        "pub_date": "2026-10-08 20:53:02"
       },
       {
-        "title": "BMO reiterates Constellation Brands stock rating on earnings beat",
-        "link": "https://www.investing.com/news/analyst-ratings/bmo-reiterates-constellation-brands-stock-rating-on-earnings-beat-93CH-4938973",
-        "pub_date": "2026-10-08 12:31:00"
+        "title": "Raymond James initiates Odyssey Therapeutics stock coverage with outperform rating",
+        "link": "https://www.investing.com/news/analyst-ratings/raymond-james-initiates-odyssey-therapeutics-stock-coverage-with-outperform-rating-93CH-4939820",
+        "pub_date": "2026-10-08 20:52:54"
       },
       {
-        "title": "Stephens raises Lamb Weston stock price target on strong results",
-        "link": "https://www.investing.com/news/analyst-ratings/stephens-raises-lamb-weston-stock-price-target-on-strong-results-93CH-4938974",
-        "pub_date": "2026-10-08 12:31:00"
+        "title": "Palisade Bio stock initiated at Outperform by Raymond James",
+        "link": "https://www.investing.com/news/analyst-ratings/palisade-bio-stock-initiated-at-outperform-by-raymond-james-93CH-4939819",
+        "pub_date": "2026-10-08 20:52:39"
       },
       {
-        "title": "Stifel cuts Levi Strauss stock price target on DTC headwinds",
-        "link": "https://www.investing.com/news/analyst-ratings/stifel-cuts-levi-strauss-stock-price-target-on-dtc-headwinds-93CH-4938972",
-        "pub_date": "2026-10-08 12:30:59"
+        "title": "Delaware Supreme Court upholds ATG Capital board nominees",
+        "link": "https://www.investing.com/news/company-news/delaware-supreme-court-upholds-atg-capital-board-nominees-93CH-4939816",
+        "pub_date": "2026-10-08 20:48:32"
       },
       {
-        "title": "Deutsche Bank upgrades Chime Financial stock rating on growth momentum",
-        "link": "https://www.investing.com/news/analyst-ratings/deutsche-bank-upgrades-chime-financial-stock-rating-on-growth-momentum-93CH-4938971",
-        "pub_date": "2026-10-08 12:30:56"
+        "title": "Enerpac Tool Group adds Charles Lauber to board of directors",
+        "link": "https://www.investing.com/news/company-news/enerpac-tool-group-adds-charles-lauber-to-board-of-directors-93CH-4939815",
+        "pub_date": "2026-10-08 20:48:30"
       },
       {
-        "title": "Stifel raises Expeditors stock price target to $190 on efficiency",
-        "link": "https://www.investing.com/news/analyst-ratings/stifel-raises-expeditors-stock-price-target-to-190-on-efficiency-93CH-4938970",
-        "pub_date": "2026-10-08 12:30:55"
+        "title": "Trump administration freezes green cards for Microsoft, IT firms, probes universities",
+        "link": "https://www.investing.com/news/stock-market-news/us-suspending-permanent-residency-program-formicrosoft-vance-says-4939365",
+        "pub_date": "2026-10-08 20:48:20"
       },
       {
-        "title": "BMO raises Black Hills stock price target on Google data center deal",
-        "link": "https://www.investing.com/news/analyst-ratings/bmo-raises-black-hills-stock-price-target-on-google-data-center-deal-93CH-4938968",
-        "pub_date": "2026-10-08 12:30:53"
+        "title": "Raymond James reiterates Liquidia stock rating amid legal filings",
+        "link": "https://www.investing.com/news/analyst-ratings/raymond-james-reiterates-liquidia-stock-rating-amid-legal-filings-93CH-4939814",
+        "pub_date": "2026-10-08 20:46:45"
       }
     ],
     "Yahoo Finance": [],
@@ -924,64 +924,64 @@
     ],
     "Google News Mkts": [
       {
+        "title": "Rapid bond yield moves have preceded nearly every major financial blowup: Chart of the Day - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcEltRWJGemx4eTIzdGkxcXJob0hZTXlmYXpCd0JLU1N1ajlwOEJma1d5M2ZyX2p0dmN1RktqSDdFVjNyZmtkWE9RUXBiUGZwNkg3R1pqUlc3ZXNxc2cwbmRlQkZVcXNXVV8yQXBaUzhNNk5PYlk5bnJ3Z3gySEdMSHc0QVJpc1FvUThXTGw0YnpSTjFseml6Mm5jSEhmcFM4SmN1bVlpNUE3NjA3LWRWZjV5MHc0RldzNGdnRlRKS25uU2o2WEx0bm55R200T1NrU2ZkcFhVTDhlVnVlOTRZ?oc=5",
+        "pub_date": "Thu, 08 Oct 2026 15:07:20 GMT"
+      },
+      {
         "title": "Ray Dalio warns the stock market's cushion against rising bond yields is shrinking - CNBC",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHZ2RmTEVIR040SlByRGJBSHI2bU5LYV9GSjMxYjd0b2Rla2tadmJ4c0hqT2RtR2J3bEx6WE1ZZS13UW1BVE9UcHlLMktUQmJPX3NlUnhZTEZNWnhQUHJjT0J1QW1RSm1kd19PeTk2YTFpdlHSAXhBVV95cUxPOExNdndXTlBHTWozRXlmeUY1OEFLaU53MDBsR3RyWVY1YXVvVkNWRm85V0hXa3RWeVE1LU1jZXUyUDBUcnpaMTl5Nm9aTTN2ZUlyUHNBazBNT0RzQW1oMlFJQUJQaTRYMlVNZ0NBRmtCemEtU1J6NC0?oc=5",
         "pub_date": "Thu, 08 Oct 2026 11:04:05 GMT"
       },
       {
-        "title": "Opinion: Higher yields are taking their toll on all areas of the stock market, except the one that matters - MarketWatch",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWHlUM1lVdjhIbVdRWndaZ004a2J0OGtBcXhNM2VvdDIzaGNGbUlFcGx1RkpVeDdMYW44SGJ0ZUtGdHoyUkw2Tmt5VndGNExSUFBSQ2hGZWNKb1NTWEdESmFHcGRVY3M3RnVzTkNFNV83bndXb0xVOFcwaXVRZHhUdjBDUUlrM1ZkeXZUQ3FtS2l5NHY2WTNWTnBxLUdwZ1JIcmFJalBmNmhNT0lldkdqVVZFd0VQWjNtNjU3d0dvQWZFa2dSSkNib2pNSXU1YVhPSkpDMEpn?oc=5",
-        "pub_date": "Thu, 08 Oct 2026 11:43:00 GMT"
-      },
-      {
         "title": "Stocks are tumbling as oil prices surge and bond yields hit 24-year highs - Business Insider",
         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUUdTWVJ5ejU0QjRVMHZjZDY2QmNrUEhqdk9hdV9HVC1ueUZqNUNienp4ejB1aEZMbFU3WDZ2Q2FvSzlVbVBOZmYxYTMzbEVtd2V0em0wRGFJNjliSTZzN25qSUpZUDB5ZWtXWE9PWGN6YVczNURDcnRXMHZlQ004VloxR3VkUWQwdWZWSU1lSVNTaWVwNlFvQ2pqVQ?oc=5",
-        "pub_date": "Thu, 08 Oct 2026 12:56:27 GMT"
+        "pub_date": "Thu, 08 Oct 2026 20:15:00 GMT"
       },
       {
-        "title": "Global bond sell-off pushes U.S. Treasury yields to fresh 24-year highs - NBC News",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU0tXSkYtT2J0RTMzS2VKOF9uRHhzVV9YME85OHRmeXV1TC1DLUttNk1hRU9TZmFCdzZfNHVNbURkUm5TN1ZJYmVKN1c2UXZ4d3Y5NDJNZndlc0hXUXZlME5NR0JiNE9rV0l6UUU1MTQtNzUwdmhUdTBObTVtUWFmdGtQUUZfR3J3aWVSS1EyOTZsU0UwZG9QOUxIdGVSdlB5OE8tX0JpTHgtZnBLeVE?oc=5",
-        "pub_date": "Wed, 07 Oct 2026 20:09:47 GMT"
+        "title": "Rising oil prices, falling technology stocks and reversing bond yields keep Wall Street unsettled - AP News",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNVZ6OTdhWTZlWUJFbTdTSHZOeG1lZEV3UEc2RDdhOVNqYjFWcTFwWUU5Qlk0RU5nTGlTMi1Tc1N5N3ktTGFiYUJUeWtod1lMbHJQQjcxMElFRjZHTlJtd0hlT2V5c0xVS2xqTkdsczJ2cG96NWlsMDEyZjc1TXAyUnhnTVd2RnVPQ1pHM3VXazc?oc=5",
+        "pub_date": "Thu, 08 Oct 2026 20:41:00 GMT"
       },
       {
-        "title": "Wall Street ends lower, off record highs, as Treasury yields climb - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYlBxMHUzb2ZDaHpMY3JBZUl2Rk9XSE94bjQ2aFVndHhYeU4zS1Rwb2I1SlFJWjVpaE9sS0V4c2ZiQ2JsMzd0R0lydzlFejhJVkNYbU5ZTGVjeW9tWUJtTmUzX2VwY0N1SnpLVmdvQWRvM20xS25hRmhXRDdHVUppRk9hS2JhVExxdVUtX0hfQlNqWnd0OUhHWEpaa2w1Z3hXNVRkaw?oc=5",
-        "pub_date": "Wed, 07 Oct 2026 23:14:17 GMT"
+        "title": "The options market is reminding investors there’s a cure for rising bond yields — higher yields - MarketWatch",
+        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcFJMZTY5eU9uUDBBWTBleXIxZHpFalJSUG9TUHd1TWV6eUEwY05hbUQ5LVY3YTJpS01nX0dzbTZ6WEN4ZUNOMGxMWVl6ZEktNzZjS29nM3RQUWJzLXh5UVR0UDVTaVhqZ1I3RTdsVGlrb2c0bmVzcHdSUUNKdzZ6b09BSFM3TWV2UGpUTmxENzk1Rjk2eHFXalY5bXVtbjVBdm5XemlLa0R4ZWk1cU04ekYzZExaS0p5dThhbUl0WF90bTcyQ3ljTnZ6bm5qLVpB?oc=5",
+        "pub_date": "Thu, 08 Oct 2026 18:51:00 GMT"
       },
       {
-        "title": "Bond Yields, Crude Prices Blunt Asian Stock Markets - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbUJ3cUxQeE1iUXNSa1pkNkNNWDJQVmZ0dkZkc2s1d3NNNjh4M3dpWFptOHNRcUptNFhvOXBBY2pMcF9ibUU0WFE4SExyZmVvVVVUSFVvU3JEUE5vX2U4VUlxWGYyY2xfYktaaXZ6Nkt3QWh5b0RqbURWZXdSYzhZRTBWR2V3QXNGNmptdDRrYVAyeDZhSlFoYnp6THdYZDdiM2VFSA?oc=5",
-        "pub_date": "Thu, 08 Oct 2026 10:40:56 GMT"
+        "title": "The AI Trade Is Alive and Well as Bond Yields Keep Rising - Barron's",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbFJJNHNZcE9WMHZkQW9IUEdOaDhaWml3V0lrSUJIdUZOdGJXaHFzVC15S1VfcWpVbVNjWm9aaF9mR3NNZ3VpSURfTjZBeGpiM2FiRU1hLTRSX0JHNWlwQ3U0TnZiOVJ5bl93am9sXzBIbDFOaWRJU1F3STdXTmNsaEw3RFhoRXphOVB3dGpabzZldw?oc=5",
+        "pub_date": "Thu, 08 Oct 2026 18:13:00 GMT"
       },
       {
-        "title": "What the Midterm Elections Will Mean for Markets - Morningstar",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSE9iTXdUdUNEcUFnTmowUkVFSV9oRDR0QnFqeVlUVkpSV2NHZTNvWnQwNEFmdU9ZWlhhcjJpVTJOWC1YM0Y0MngtRm1QOVNIV2lpMS1Uamo0TnpJRXFZVmJpYVlOY2o5bWgwaUtyWWFRZTh6dEp4VXNMZjJNMmJ4Sld3?oc=5",
-        "pub_date": "Thu, 08 Oct 2026 10:20:44 GMT"
+        "title": "Ray Dalio warned stocks are losing their buffer against rising bond yields - Quartz",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE84VnpGTVJ4LUNRby0yVXlyQzBKb05vWlk1N3Jyamw2LTk0bDJzMTNXRWYzS2pqTzc1b0RHcmlpaVpwOEE5cHUyRHRCeEJWbzVlNUdaTTdFcWV5M0tFNl81QnBubE1pSUhq?oc=5",
+        "pub_date": "Thu, 08 Oct 2026 14:02:37 GMT"
       },
       {
-        "title": "U.S. stock futures fall amid bond market strains, oil price surge - Investing.com",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTHRkenZCby1aNGFHemVHVk9UT0hDX3RsdVlFZDkyTVpTOW9zY1ZWcWkxR2pTYnpzcGhNNm9oVkRjRlhDSG43SC1LRzdDZVJiYWR3dVpnT3hPQ1BqaFdLTk1ZQWNDTENNOHlNLWxLa00xVE1paFcxd05XZ2lGRzcwUS1DTnBOWFVKeFROUDZ4Z25RTEhrNkJKY0dUVjRzZzlubnNHUVdPbWJpWUJPUkh0RW9pd09ORnBIN052X1JQVmx1U1RrS3pCZA?oc=5",
-        "pub_date": "Thu, 08 Oct 2026 10:55:41 GMT"
+        "title": "Canada bond yields edge higher as investors assess rate outlook By Investing.com - Investing.com",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaWxkS3hpNG05MzdwSlUxbjN4Z3l6ZE5WMWVlWEdfUDZSNHNDWlJFY2Vvcm1STzVQbEFETjd1UjZKbjdaUThYU2d2UUNyOVp6NFpZdWZyZ3J4Z2tSWEkxSEpyTEZ0ejhzcDkxX253VFJrbDVnWXVmUDBJVkRka0N4V2VHMVdMWm80Z2JkZ1BPSTNoVzlRT0s2TGZMenVFVXNtWmF2ODc3Mzd4akxKVDhNenJyaUtGT0NER1pUcg?oc=5",
+        "pub_date": "Thu, 08 Oct 2026 19:27:05 GMT"
       },
       {
-        "title": "Rising yields are quietly crashing the stock market’s earlier winners of 2026 - MarketWatch",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc0JaTkd1X2NvUUJST1QxQVZjSHhjM1FabmRKbC02RERPTzNiNUZLX3NYU0NvQWtzSWRXbEM3SWVIVjQ0WEhSdTh1WUt1N1dRQXZGSXhlMERnVVc2VXFGQzl6cmhicUxNQ3BqNUdPREpXR1RUMUlWeUd1Wkg5aUp5S2hkS2h6b3FGdjJLc2J1ZDROcWotMUhTTVBvV0ZDOFhHNmI2aDY2UFlKdWd4V3pYendGRkxoeDZkdDJv?oc=5",
-        "pub_date": "Thu, 08 Oct 2026 11:00:00 GMT"
+        "title": "Rising oil prices, falling technology stocks and reversing bond yields keep Wall Street unsettled - BNN Bloomberg",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMEliQVNFYUNPUldJZ3FmLUdCbXRkaEN5TmRQUzV3UVBwSGdvbDZpRmdQM1o4M1huOVR5M2xCMXl5YXBzZ1FkZi0wX0JUQ29UbDVsTGYxQVZuTXhKcXRIMEpDRXdkaFRPOGlsbF9kVWpLUDk3NDVPSDEzQ3FTTmlqTWszREhVakF2RDYwUHVrMzc1alZvMkJ0c0RhNXpWTEZqczlVZ0RiTHE2T2x5dDZPLUZ3N3I?oc=5",
+        "pub_date": "Thu, 08 Oct 2026 20:23:00 GMT"
       },
       {
-        "title": "Dow Jones Futures Fall As Oil Prices, Treasury Yields Jump; Samsung, Micron, Taiwan Semi, Sandisk In Focus - Investor's Business Daily",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOGxRYlh2TThUalZYTVZjTVFVRk1wZkZjejJVY1dwZXB1dTQxZ0JjNnd4MjZRbW1XcVlVbXVCVUlpNS1FZmZRTXJUVElTaUZoeXFRdGVDZjJMejJockVXd25xRGd4UGdhNWVBb01BMWs3RkVVUEtRZXZUb3NCQU9Hanlkb0E2bHBGN2pkN3ZQblYzVkh6MENNUGpwOVd2TnVJSzBfWmJySVVHVEM1QzdyNDQ2aEJRYUhYcFE?oc=5",
-        "pub_date": "Thu, 08 Oct 2026 11:10:00 GMT"
+        "title": "Rising oil prices, falling technology stocks and reversing bond yields shake Wall Street - The Killeen Daily Herald",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTy1wWUZpU0JSeS1rS01IRFF6UGhOT2NKQlJZX0cxZVNZLTgwUkJOX1BvQzBCQktaWHJIWVc5aWl0cUd5bElCVlh1eld1UFpoV3pwVXF6OXVDMHVhQm9Fb245OVV4eFdra1VOaDFmTS1yczB4NlNMbVFEV0dqei1nc1ZYdXIwczdLTnpKSnZkb1pkUENpajF6M1BFWi1DMVZjakhNUW5ZbnM3eU43RVhhaTRRMEJ2QnkxYkQ1cy1JOU15Q0hJTVpmM2pXbGZVcHd3bVJCM0JCT3p3NWRrYVNBb1R3?oc=5",
+        "pub_date": "Thu, 08 Oct 2026 14:46:30 GMT"
       },
       {
-        "title": "US bonds selloff eases, yields off highs, after strong 10-year note auction - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0RvVl9ubDN1ZkRqRFJ1Z21yUUdrSHFGUG5jRmU5N2FUU0dPeHlGcjlBY0hQZjltWjFVc3hJNEtSVEtKNUF1T0RZV3dnWFEzbWJ6Yi1jbk1QajNDMzFMTzlTUUtkNExTdWJIYXZHZ3FMTXgycVJVd056RFhwYkRYM0tYa3I3eElsVGdnMHUxQWh6blZK?oc=5",
-        "pub_date": "Wed, 07 Oct 2026 20:05:34 GMT"
+        "title": "FTSE 100 slips as bond yields hit multi-decade highs, energy shares soar - Reuters",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGdCOV9ocFNDcjVPNG1BLThMQkJYWjRFZHlaVnZuN2VpbmQxOEVCZHpYUVhqLWFOSEpPMlQ4Rm4ydGtzamx3SmlzQVFaSTBGTXJQT01DNmhRT3hsbFhyemF3cW90bkEtZ0U4VGsydkZDNV8xUjNMYlpEeWVrSnhQSXJXQWZHWk1EQWNVbk02X1VhZG01SThpUkI5T0pQUENGU0xGbHR0UmgxNDVU?oc=5",
+        "pub_date": "Thu, 08 Oct 2026 16:34:43 GMT"
       },
       {
-        "title": "Treasury yields rise as Fed's Waller says more hikes needed, investors await 30-year auction - CNBC",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNF9IY0FlbFM0NmU5dU1WSVlJMUQtSTd1UEwwTGNfUFI3SVhfU3RWczRMWU5SSnNjOUhRbm15Q3EyVkw0Q1NBdm16UEF4ZktEVUl5MDVuTEs3emhON09xa2c5MDZDX3paNUZCcWl4QTNkc3ZYX0M1a3ctSlJKUDBfNEdB0gGHAUFVX3lxTFBPQ2Y1aEJEU2JUYVlGMW8wTm9mVGFtT1liT2pLZ0J4RVR0ZDN3aG9KTHJrdGEtS2FjRzdzMUhNNXE0bWhYOWhKUnVsLWt6UkVkc01WV2FXOVdUbGlmSE9NcWVocVRoQnRZWEFPTE56WTVXQ1BLRHA3RnZRaGJvN0FXTEZxY3pRNA?oc=5",
-        "pub_date": "Thu, 08 Oct 2026 09:19:44 GMT"
+        "title": "Bond Investors Not 'Buying The Spin' Anymore - Yields To Go Higher - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU25uNzVlcnZ2ZXZUNUZFM2x6MzJYMVYzS01fVmFtX1N1U0JJNGN6OTROSlRfNVc5QW9KZU9qbjRETWFidnotbmNwTTM5d1BMQ0tHMFpFWG1BZXJ4QWYzbnhPaUtURUlEN3RvN1VBSi04U0dBUXlkZnMtMy15dDNjclc2dUVTSlpMb3lYY0QwZjRNSXZzeDlxVzQteDZid2xK?oc=5",
+        "pub_date": "Thu, 08 Oct 2026 14:30:49 GMT"
       }
     ]
   }
