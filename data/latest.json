@@ -1,24 +1,24 @@
 {
   "schema": 2,
-  "collected_at_utc": "2026-10-16T23:45:26+00:00",
+  "collected_at_utc": "2026-10-17T10:16:44+00:00",
   "prices": {
     "^GSPC": {
       "label": "S&P 500",
       "asset_class": "equity",
       "ok": true,
       "source": "fred",
-      "price": 7744.06,
+      "price": 7659.44,
       "currency": "PCT",
-      "market_date": "2026-10-15",
+      "market_date": "2026-10-16",
       "stale": true,
       "ts": null,
-      "prev_close": 7718.94,
+      "prev_close": 7744.06,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": 0.325,
-      "chg_5d_pct": -0.274,
-      "chg_1m_pct": 2.546,
-      "chg_3m_pct": 4.041,
-      "vol20_ann_pct": 9.62
+      "chg_1d_pct": -1.093,
+      "chg_5d_pct": -1.947,
+      "chg_1m_pct": 0.284,
+      "chg_3m_pct": 2.001,
+      "vol20_ann_pct": 10.46
     },
     "^DJI": {
       "label": "Dow Jones",
@@ -28,7 +28,7 @@
       "price": 52002.41,
       "currency": "PCT",
       "market_date": "2026-10-16",
-      "stale": false,
+      "stale": true,
       "ts": null,
       "prev_close": 52177.69,
       "prev_close_source": "daily_series",
@@ -269,54 +269,54 @@
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 81547.66343814078,
+      "price": 81489.37871585278,
       "currency": "USD",
-      "market_date": "2026-10-16",
+      "market_date": "2026-10-17",
       "stale": false,
-      "ts": 1792194260,
-      "prev_close": 81603.654646,
+      "ts": 1792232100,
+      "prev_close": 82155.539797,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -0.069,
-      "chg_5d_pct": -2.561,
-      "chg_1m_pct": -3.007,
-      "chg_3m_pct": 29.377,
-      "vol20_ann_pct": 21.0
+      "chg_1d_pct": -0.811,
+      "chg_5d_pct": -0.373,
+      "chg_1m_pct": -3.468,
+      "chg_3m_pct": 29.67,
+      "vol20_ann_pct": 21.01
     },
     "ETH-USD": {
       "label": "Ethereum",
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 2421.5198737738388,
+      "price": 2431.6939826716152,
       "currency": "USD",
-      "market_date": "2026-10-16",
+      "market_date": "2026-10-17",
       "stale": false,
-      "ts": 1792194250,
-      "prev_close": 2419.689614,
+      "ts": 1792232130,
+      "prev_close": 2439.961877,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": 0.076,
-      "chg_5d_pct": -4.463,
-      "chg_1m_pct": -10.01,
-      "chg_3m_pct": 28.739,
-      "vol20_ann_pct": 29.72
+      "chg_1d_pct": -0.339,
+      "chg_5d_pct": -0.58,
+      "chg_1m_pct": -9.79,
+      "chg_3m_pct": 29.732,
+      "vol20_ann_pct": 29.92
     },
     "SOL-USD": {
       "label": "Solana",
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 104.2850201415452,
+      "price": 104.56072562715617,
       "currency": "USD",
-      "market_date": "2026-10-16",
+      "market_date": "2026-10-17",
       "stale": false,
-      "ts": 1792194230,
-      "prev_close": 104.193839,
+      "ts": 1792232140,
+      "prev_close": 105.344245,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": 0.088,
-      "chg_5d_pct": -6.263,
-      "chg_1m_pct": -14.577,
-      "chg_3m_pct": 38.53,
-      "vol20_ann_pct": 33.46
+      "chg_1d_pct": -0.744,
+      "chg_5d_pct": -1.018,
+      "chg_1m_pct": -13.856,
+      "chg_3m_pct": 40.26,
+      "vol20_ann_pct": 33.36
     },
     "GC=F": {
       "label": "Oro (spot)",
@@ -428,7 +428,7 @@
       "price": 1.1253,
       "currency": "USD",
       "market_date": "2026-10-16",
-      "stale": false,
+      "stale": true,
       "ts": null,
       "prev_close": 1.1208,
       "prev_close_source": "daily_series",
@@ -662,7 +662,7 @@
     }
   },
   "_meta": {
-    "elapsed_s": 38.3,
+    "elapsed_s": 29.6,
     "tickers_ok": 31,
     "tickers_total": 36,
     "carry_forward": 14,
@@ -809,58 +809,63 @@
     ],
     "Investing.com": [
       {
-        "title": "Blaize declares preferred stock dividend ahead of potential reverse split",
-        "link": "https://www.investing.com/news/company-news/blaize-declares-preferred-stock-dividend-ahead-of-potential-reverse-split-93CH-4955003",
-        "pub_date": "2026-10-16 23:36:29"
+        "title": "German minister seeks debt brake exemption to maintain Ukraine aid",
+        "link": "https://www.investing.com/news/economy-news/german-minister-seeks-debt-brake-exemption-to-maintain-ukraine-aid-4955372",
+        "pub_date": "2026-10-17 10:01:54"
       },
       {
-        "title": "Kratos Defense’s president Carrai disposes of $259,116 in common stock",
-        "link": "https://www.investing.com/news/insider-trading-news/kratos-defenses-president-carrai-disposes-of-259116-in-common-stock-93CH-4954999",
-        "pub_date": "2026-10-16 23:31:21"
+        "title": "Nwpx infrastructure director Roman sells $387k in stock",
+        "link": "https://www.investing.com/news/insider-trading-news/nwpx-infrastructure-director-roman-sells-387k-in-stock-93CH-4955371",
+        "pub_date": "2026-10-17 10:01:20"
       },
       {
-        "title": "BillionToOne CEO Oguzhan Atay sells $1.09 million in stock",
-        "link": "https://www.investing.com/news/insider-trading-news/billiontoone-ceo-oguzhan-atay-sells-109-million-in-stock-93CH-4954998",
-        "pub_date": "2026-10-16 23:31:20"
+        "title": "Idt director Judah Schorr sells $1.12m in class B common stock",
+        "link": "https://www.investing.com/news/insider-trading-news/idt-director-judah-schorr-sells-112m-in-class-b-common-stock-93CH-4955364",
+        "pub_date": "2026-10-17 09:45:59"
       },
       {
-        "title": "StandardAero’s chief legal officer sells $16,567 in company stock",
-        "link": "https://www.investing.com/news/insider-trading-news/standardaeros-chief-legal-officer-sells-16567-in-company-stock-93CH-4954996",
-        "pub_date": "2026-10-16 23:30:56"
+        "title": "Nuveen municipal credit fund trustee Toth sells $71,811 in shares",
+        "link": "https://www.investing.com/news/insider-trading-news/nuveen-municipal-credit-fund-trustee-toth-sells-71811-in-shares-93CH-4955363",
+        "pub_date": "2026-10-17 09:45:51"
       },
       {
-        "title": "Anthropic quietly pitches its own AI safety bill to lawmakers, Politico reports",
-        "link": "https://www.investing.com/news/stock-market-news/anthropic-quietly-pitches-its-own-ai-safety-bill-to-lawmakers-politico-reports-4954941",
-        "pub_date": "2026-10-16 23:24:17"
+        "title": "Anthropic’s Clark says AI’s impact accelerating quickly and could vastly boost US GDP",
+        "link": "https://www.investing.com/news/economy-news/anthropics-clark-says-ais-impact-accelerating-quickly-and-could-vastly-boost-us-gdp-4955359",
+        "pub_date": "2026-10-17 09:18:19"
       },
       {
-        "title": "Ani pharma president & ceo Lalwani sells shares for $388k",
-        "link": "https://www.investing.com/news/insider-trading-news/ani-pharma-president--ceo-lalwani-sells-shares-for-388k-93CH-4954985",
-        "pub_date": "2026-10-16 23:16:42"
+        "title": "Russia says it struck Ukrainian steel plants and power infrastructure",
+        "link": "https://www.investing.com/news/economy-news/russia-says-it-struck-ukrainian-steel-plants-and-power-infrastructure-4955358",
+        "pub_date": "2026-10-17 09:08:59"
       },
       {
-        "title": "Doximity CAO Sitaram sells $80,166 of company stock",
-        "link": "https://www.investing.com/news/insider-trading-news/doximity-cao-sitaram-sells-80166-of-company-stock-93CH-4954984",
-        "pub_date": "2026-10-16 23:16:06"
+        "title": "BJ’s Wholesale EVP, CFO Felice sells $887k in shares",
+        "link": "https://www.investing.com/news/insider-trading-news/bjs-wholesale-evp-cfo-felice-sells-887k-in-shares-93CH-4955356",
+        "pub_date": "2026-10-17 09:00:59"
       },
       {
-        "title": "Airjoule technologies CEO Jore sells $153,165 in company stock",
-        "link": "https://www.investing.com/news/insider-trading-news/airjoule-technologies-ceo-jore-sells-153165-in-company-stock-93CH-4954983",
-        "pub_date": "2026-10-16 23:16:02"
+        "title": "Delegates walked out of IMF steering committee meeting when Russian official spoke, sources say",
+        "link": "https://www.investing.com/news/economy-news/delegates-walked-out-of-imf-steering-committee-meeting-when-russian-official-spoke-sources-say-4955349",
+        "pub_date": "2026-10-17 08:48:20"
       },
       {
-        "title": "Anthropic signs lease for first Canadian data center",
-        "link": "https://www.investing.com/news/stock-market-news/anthropic-signs-lease-for-first-canadian-data-center-4954967",
-        "pub_date": "2026-10-16 23:06:30"
+        "title": "Gilead chief comm & corp aff officer sells $468,660 in GILD shares",
+        "link": "https://www.investing.com/news/insider-trading-news/gilead-chief-comm--corp-aff-officer-sells-468660-in-gild-shares-93CH-4955348",
+        "pub_date": "2026-10-17 08:46:09"
       },
       {
-        "title": "Agereh Technologies announces private placement of up to C$600,000",
-        "link": "https://www.investing.com/news/company-news/agereh-technologies-announces-private-placement-of-up-to-c600000-93CH-4954973",
-        "pub_date": "2026-10-16 23:04:27"
+        "title": "Take-Two Interactive director Siminoff sells $67,775 in common stock",
+        "link": "https://www.investing.com/news/insider-trading-news/taketwo-interactive-director-siminoff-sells-67775-in-common-stock-93CH-4955347",
+        "pub_date": "2026-10-17 08:46:08"
       }
     ],
     "Yahoo Finance": [],
     "ECB Press": [
+      {
+        "title": "Christine Lagarde: IMFC Statement",
+        "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html",
+        "pub_date": "Sat, 17 Oct 2026 07:00:00 +0200"
+      },
       {
         "title": "Frank Elderson: Ensuring resilience in the face of uncertainty",
         "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html",
@@ -915,58 +920,13 @@
         "title": "Boris Vujčić: Resilience, integration and competitiveness: building the future of European banking",
         "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261002_1~419efe18e0.en.html",
         "pub_date": "Fri, 02 Oct 2026 13:30:00 +0200"
-      },
-      {
-        "title": "Isabel Schnabel: Central banks on-chain",
-        "link": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001_1~a0be67193b.en.pdf",
-        "pub_date": "Thu, 01 Oct 2026 17:30:00 +0200"
       }
     ],
     "Google News Mkts": [
       {
-        "title": "The Bond Market Is Flashing a Warning Not Seen in Decades, and History Says Investors Should Buckle Up - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcWZ2U3l5YV9CNUM4U09pOFZsOGRWUmlXbFBZUG0wZTFQMWhYQWwwNFVrdENJc3djbmp3TDFkaEpaZWdPQS12U19OUkFiUU9WN2lyWTkzQzlkSjhJazVJUVN5aklJa2YxLVJHQ1NTTWxZRVZha0xsODU4VVlBZFhtSGpnaUNEdkh1QjBXVjZIWHpoalVLQnlPZE13XzFkdw?oc=5",
-        "pub_date": "Fri, 16 Oct 2026 08:46:00 GMT"
-      },
-      {
-        "title": "The bond market shrugged off two inflation shocks. Why stock investors should pay attention. - MarketWatch",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOOEtYTk1yYWJKNmZxYWk4RVFDN1NfVDZ6bk8xcFBGOVRZeV9HZGgtdThzV0c0MUI1STNqUHUyTUctNFFfbEpMbkdTWHZFQzU2TU5idmgxd0ppRFE5bGtkZ3pFU2VfN0s4NDRBX3R0LUlvWHRtOFNCbjZLWWZiNnY0SGw1ZWRaLV9ZV2dUVnY0ZlR6c2tFUW90c0ZTelRzRzZncmhrb1VHYUF3d2h0U0I2dlBNbjBrcHlULWVwRnNfa254RmpEQm9GMm9oMWtJdw?oc=5",
-        "pub_date": "Fri, 16 Oct 2026 21:30:00 GMT"
-      },
-      {
-        "title": "Stocks slip as dollar heads for weekly loss - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMUpLRUNwWEpRNVpNVWJPOWQyQXdKRjkzdTU5RjFiOUxpUFZGU1ZBa1VaS3ctN0xlc0lSMkptbUVMRlprcFFtZ3B6Z2ZFTG5XX2FBUHBoSk4xRTdiQm1ucERORXE4ZzNFZ09ySlpvUDlzb0tGUjFQZ3c0UmotdEstMEZCUQ?oc=5",
-        "pub_date": "Fri, 16 Oct 2026 02:52:00 GMT"
-      },
-      {
-        "title": "Stock Market Swings On AI Fears, Tumbling Yields; Taiwan Semi, ASML, JPMorgan In Focus: Weekly Review - Investor's Business Daily",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZFpKMWlFdzRBckJRN1R4SGMyUnVJdFhIQ19KLVc3NmtDZW0td29rVzgyUFM1ZWU2OUlhMy00TXlWQk1KQXpzUnlTOVNVVDJpU1Bwc0F6b0RHNWtpRzhMUWJqX2doNWxHZ1E4YzVoX1B3VmJPVG56N2NROU5MMVppb3BhbzNCSHpUVklrUW1jY3dMUUFyazFVQlJERE02SF9FaGJTdmQyUndvdEc1d2tj?oc=5",
-        "pub_date": "Fri, 16 Oct 2026 14:43:00 GMT"
-      },
-      {
-        "title": "Bonds Are Breaking, the Fed Is Boxed In: Why Stocks Can Keep Rising - I/O Fund",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUzdOYlNTVzB4a0ZUN0ZDaUJjemhEZy1CemFYTFlwLUFIQmxVaDlKX0xUQ2tuMlRST0tvbTRFc0tPUHFVRkxWMlZKZFpWQ3VIUm85TDdnaUhDU29MN1VPNFVUZ2VKZm9yOEVJMHdSTjhsTXBUTmVaeDY0SDRFNlVSTkdibVRHdw?oc=5",
-        "pub_date": "Fri, 16 Oct 2026 13:30:14 GMT"
-      },
-      {
-        "title": "AI Debt Fears Are Suddenly Rippling Across Wall Street As Yields Surge - Business Insider",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSHZZQjBKcUpVNHE0X3ZIczNrN3BvRVJiQUlXXzNJVjNTNVJ0S0VBX2NFWHRtWVBxeFdzZ2JYX0Zja1BJa1RHWmFTbmpucEFqOHN2emxXTDR1YXhsZTVaMFhUbm43Wksyb0xWWkN1Ui0weU5fYmY1WUYzVjF0em9DS3F0SmJHbUJvRHJzZ1cwWHh5cHVXTjFyRmhMdFZmeW54OXc?oc=5",
-        "pub_date": "Fri, 16 Oct 2026 16:57:00 GMT"
-      },
-      {
-        "title": "Big Tech stocks suffer biggest weekly drop since ‘liberation day’ - Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeW9yUE1obkVWN1d0NzMtcm91X3BOSHNDQUxxemwweVdhdDZocXFKbEJqcHpORk5yaGpqNzNjUVpPeDJRaDdXSnYtQUZPRXp0cXhkX0c4V2tzVXg4Y2RSNXlhQ015a2lONUY0SFJocHdEdDQ3RGpyNWxvazhyQ3VaSEtpVXA?oc=5",
-        "pub_date": "Fri, 16 Oct 2026 10:08:02 GMT"
-      },
-      {
-        "title": "US bond 10-year yields suffer biggest weekly drop in over year. Why is treasury note down? - The Economic Times",
-        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQZV95SUlPdjdNMU9NTGZnN0tIQ2RyRUV6WnZhRVdZVUZTdE9tNm11RXBHSk01dlBiNzBnUkE2Yk4wSHNNTzdSRWRkSkNpZGR5Y2I4dlRVZE9abVJXOGV4X2hScHJSY0l2WjRxZklhUjh4dVBCcUIxMy10WndtMXlpT214T3NfeTBTcUZMS2Q4R1JpM0dKbEdzMXNNQlREWHoyWGN3c3ZzellSQ0JMb2NyZmpYc2RUQzFUWWdIZFVGY1ZLaDVXZHpiQl9aYUlKUm5OUkZYdlNXOWROLVAzR3F4cGxaRlFRZllGdVdFNEk2VDd0VDBqeWRR0gH8AUFVX3lxTE56RHZSd3lJOXZ2YlpNUi1VZHlKeUlWc2xMWjhhYTQ4cWVTMERISGJyTW5rVEtiRmxMdFZqblZGSzB5blZ3TjQ2STNreG0xNVNCbENiY0lHQzhfWjBidEtKbnBvdTRCeEZJNVNyUlNCcjVfV0JiN3FMV0MzYTBQUkM5d3Z0X2s4UlYwdDdqNEoyOUVESVE0akwweERsczhPNmZyTjFnNThnT3Y3LWhNNkQtTl9GanFSXzVuWjlVMFZROEg4Z0VqeXkxVlFSMUkwdlI2dl9tNHZfSXFwajZVWXdXSlpnX1E4VHZERkplZnl3cHNJdzI0RFR5b2l2Vg?oc=5",
-        "pub_date": "Fri, 16 Oct 2026 23:01:37 GMT"
-      },
-      {
-        "title": "Bank of America Flags Major Warning for Stock Market - TradingView",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMWxMeXVneHdRUHhOd2pfYWVzUl9MT05KV1JxekhxSjVRWXdJejBPZnhlWEtPZV9VdUtTSjg5TTR0ZWFkSFNvMHRBaVMzTWdFZm5EWVQ4VkNRakhLWENsbFpzSk91TmNsYmVmSTd1d2pqQm5aMXQydVgtYnJST3JTZXlFaXJ3RVRhZ1ppV2UxU0FyTEh3eUsybG80Y01QSFlxNVZaQ1JRWkFUakloZ0hWaUFR?oc=5",
-        "pub_date": "Fri, 16 Oct 2026 20:27:50 GMT"
+        "title": "ECB's Lagarde Says Bond Selloff Will Slow Inflation - U.S. News - Money",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR1U1Z0lvRVRvX01EeHFtbHZNdjY0N290d0JTWm9oSGt3ZTRHM1l3UmllTU9LenlkSGFaODduLWJObzVZc3RLb244Y21YRk9SM3JpSWd4ZURwSXI0NTlKY1BlYW4wR3ZsMkp4N0lycEltcTFtN3IyRzhMYng4M1FhMHZTWWZ0cEhiSXpoVjY4RDVJbkpmYmJMNFhoSFZwQTVjdXdGZTRJRWhYbXhkYjlZ?oc=5",
+        "pub_date": "Sat, 17 Oct 2026 08:01:00 GMT"
       },
       {
         "title": "AI Has Driven Bond Yields Higher, Says JPMorgan's Priya Misra — Sees Bonds As Hedge Against AI Trade - Yahoo Finance",
@@ -974,14 +934,54 @@
         "pub_date": "Fri, 16 Oct 2026 17:43:06 GMT"
       },
       {
-        "title": "Housing stocks are the AI sell-off's winners as bond yields sink - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUHBuc1FYdmhIdlpwLXZLbllLeHYxUXl4TzA2YnoxdjJkbVZsWDI1QjB5TlVhQmZqMFdOTlVDYU5GM2lJS19WLUZ2MmFwYlRFWUM2YUVlTWNlUGEtQmZ1YXJXMHdtUjh4aEt3WEJ2Tk1hTXV0cHBkWFp5Z2lzM0JPU3FNSDdhRV9pSWpjTmFHaVhna3A0bC05NG5PaWw1NkVub0JGQXpGdC1EcVhQVjl2THhXamNvQlVUWFdVUENhZkl2UDJBd1E?oc=5",
-        "pub_date": "Fri, 16 Oct 2026 08:30:46 GMT"
+        "title": "Bonds Offer Ballast and More, Now that Yields Have Risen - Barron's",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZjB2X0I4LUtRcG9ySjFLU3kwS0ZhaktiUTlxSnJ6UWMyVk1uYnV0bGNyTUs3cHh5a3J0WXRJbXRvSV95ak9PMEo5c3FHQjJ4UHBlaDhOcVB5a3J2RjgtV3NINUtfZy1jUm1kRXdDWDVQZHhfOWFSc1kybWhZN1Q4aEo2VVZMbkd4RTl4TmptWi1HVEZVSWJBQVd4N3hjZm9VRERLWHBfWQ?oc=5",
+        "pub_date": "Fri, 16 Oct 2026 23:12:00 GMT"
       },
       {
-        "title": "Hot PPI vs. falling yields: Is the bond market done hiking? - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSXNIS1JycFBEblpnT0J1WW90TmpwN0xKT1lEbG14ZjdPY1VKYkRFZmkxX01VdEM2bWFlMXR3UGlreFgwcUFHVlRwckVTNG80eVMxREpLRUZieXhmdjJIWUlXOENHZHlNM09GVktBYVJHT1hkOTdHaEEzdXdTUTR2ZGZjd3ZTeUY1SHRtX3lXdU1qcDIyODIyNklRVXFEWjhUbG1IQkZR?oc=5",
-        "pub_date": "Fri, 16 Oct 2026 13:08:57 GMT"
+        "title": "The bond market shrugged off two inflation shocks. Why stock investors should pay attention. - MarketWatch",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOOEtYTk1yYWJKNmZxYWk4RVFDN1NfVDZ6bk8xcFBGOVRZeV9HZGgtdThzV0c0MUI1STNqUHUyTUctNFFfbEpMbkdTWHZFQzU2TU5idmgxd0ppRFE5bGtkZ3pFU2VfN0s4NDRBX3R0LUlvWHRtOFNCbjZLWWZiNnY0SGw1ZWRaLV9ZV2dUVnY0ZlR6c2tFUW90c0ZTelRzRzZncmhrb1VHYUF3d2h0U0I2dlBNbjBrcHlULWVwRnNfa254RmpEQm9GMm9oMWtJdw?oc=5",
+        "pub_date": "Fri, 16 Oct 2026 21:30:00 GMT"
+      },
+      {
+        "title": "US Treasury Yields Soar, and Wall Street Recalls Two Stock Market Crashes - NAI500",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObk9zNGdxRlplRkNWNmtPX29femZmSHd4b24wcUFENEhxT0RpbGRjZjczUnJhRGRXaGdrLWh2OHRnNmlDRFdOQTJ0UTJKUTF0RUVCaTJYQUhqdnp0Vld5b3htSHpIVEZfODd4T1NabF9CVi0wSVBrUGZyM2lvS0tjbkp6X295NFlDX0E0M2RDV2Y2ckNDLUhQeGJoTm1ZbXpnTjVmeDIzYk4?oc=5",
+        "pub_date": "Sat, 17 Oct 2026 03:05:15 GMT"
+      },
+      {
+        "title": "Stock Market Swings On AI Fears, Tumbling Yields; Taiwan Semi, ASML, JPMorgan In Focus: Weekly Review - Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZFpKMWlFdzRBckJRN1R4SGMyUnVJdFhIQ19KLVc3NmtDZW0td29rVzgyUFM1ZWU2OUlhMy00TXlWQk1KQXpzUnlTOVNVVDJpU1Bwc0F6b0RHNWtpRzhMUWJqX2doNWxHZ1E4YzVoX1B3VmJPVG56N2NROU5MMVppb3BhbzNCSHpUVklrUW1jY3dMUUFyazFVQlJERE02SF9FaGJTdmQyUndvdEc1d2tj?oc=5",
+        "pub_date": "Fri, 16 Oct 2026 14:43:00 GMT"
+      },
+      {
+        "title": "AI Debt Fears Are Suddenly Rippling Across Wall Street As Yields Surge - Business Insider",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSHZZQjBKcUpVNHE0X3ZIczNrN3BvRVJiQUlXXzNJVjNTNVJ0S0VBX2NFWHRtWVBxeFdzZ2JYX0Zja1BJa1RHWmFTbmpucEFqOHN2emxXTDR1YXhsZTVaMFhUbm43Wksyb0xWWkN1Ui0weU5fYmY1WUYzVjF0em9DS3F0SmJHbUJvRHJzZ1cwWHh5cHVXTjFyRmhMdFZmeW54OXc?oc=5",
+        "pub_date": "Fri, 16 Oct 2026 16:57:00 GMT"
+      },
+      {
+        "title": "US Bond Yields Keep Climbing — But Retail Traders Still Can’t Get Enough Of Stocks - Stocktwits",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTG04QTlmOElsVFBHeG9FdUJwZHMyOGJYcHpPMC1DRF9kLWs1UDZPcTZKR1ZUQVpKRk9HczRmMmhpd1h6d2FWRW4xUUUtWDhfazdITTNiU1BCV1ljYjNuQkV1TFRwc2QxMHM3R3dDQlk5QVd1eTFlLVI1aGtGajMya2prYnNEaXllSXBwbmJaRFFIaGVTc1kyMjVJaUk1UXBadUw5ZnA4T0RrUzdRRDNFOFZuSnJJTk0wSGRNZzh1YnZJa1k5STJGWHVIWGhRVWFzdmVnT29TMHo?oc=5",
+        "pub_date": "Fri, 16 Oct 2026 21:47:33 GMT"
+      },
+      {
+        "title": "Bonds Are Breaking, the Fed Is Boxed In: Why Stocks Can Keep Rising - I/O Fund",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUzdOYlNTVzB4a0ZUN0ZDaUJjemhEZy1CemFYTFlwLUFIQmxVaDlKX0xUQ2tuMlRST0tvbTRFc0tPUHFVRkxWMlZKZFpWQ3VIUm85TDdnaUhDU29MN1VPNFVUZ2VKZm9yOEVJMHdSTjhsTXBUTmVaeDY0SDRFNlVSTkdibVRHdw?oc=5",
+        "pub_date": "Fri, 16 Oct 2026 13:30:14 GMT"
+      },
+      {
+        "title": "Bank of America Flags Major Warning for Stock Market - TradingView",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMWxMeXVneHdRUHhOd2pfYWVzUl9MT05KV1JxekhxSjVRWXdJejBPZnhlWEtPZV9VdUtTSjg5TTR0ZWFkSFNvMHRBaVMzTWdFZm5EWVQ4VkNRakhLWENsbFpzSk91TmNsYmVmSTd1d2pqQm5aMXQydVgtYnJST3JTZXlFaXJ3RVRhZ1ppV2UxU0FyTEh3eUsybG80Y01QSFlxNVZaQ1JRWkFUakloZ0hWaUFR?oc=5",
+        "pub_date": "Fri, 16 Oct 2026 20:27:50 GMT"
+      },
+      {
+        "title": "US bond 10-year yields suffer biggest weekly drop in over year. Why is treasury note down? - The Economic Times",
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQZV95SUlPdjdNMU9NTGZnN0tIQ2RyRUV6WnZhRVdZVUZTdE9tNm11RXBHSk01dlBiNzBnUkE2Yk4wSHNNTzdSRWRkSkNpZGR5Y2I4dlRVZE9abVJXOGV4X2hScHJSY0l2WjRxZklhUjh4dVBCcUIxMy10WndtMXlpT214T3NfeTBTcUZMS2Q4R1JpM0dKbEdzMXNNQlREWHoyWGN3c3ZzellSQ0JMb2NyZmpYc2RUQzFUWWdIZFVGY1ZLaDVXZHpiQl9aYUlKUm5OUkZYdlNXOWROLVAzR3F4cGxaRlFRZllGdVdFNEk2VDd0VDBqeWRR0gH8AUFVX3lxTE56RHZSd3lJOXZ2YlpNUi1VZHlKeUlWc2xMWjhhYTQ4cWVTMERISGJyTW5rVEtiRmxMdFZqblZGSzB5blZ3TjQ2STNreG0xNVNCbENiY0lHQzhfWjBidEtKbnBvdTRCeEZJNVNyUlNCcjVfV0JiN3FMV0MzYTBQUkM5d3Z0X2s4UlYwdDdqNEoyOUVESVE0akwweERsczhPNmZyTjFnNThnT3Y3LWhNNkQtTl9GanFSXzVuWjlVMFZROEg4Z0VqeXkxVlFSMUkwdlI2dl9tNHZfSXFwajZVWXdXSlpnX1E4VHZERkplZnl3cHNJdzI0RFR5b2l2Vg?oc=5",
+        "pub_date": "Fri, 16 Oct 2026 23:01:37 GMT"
+      },
+      {
+        "title": "Morgan Stanley sees risk asset bull market regaining momentum as growth, AI support returns - The Times of India",
+        "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPb0pEVV96T2NBMTJ5Q3hUalA0OFY0SXdCekYzYVJ3b0gxeTQyaDJSTmxuSlJlbVR5V3pSdmdCOFhWeC1DR2Z1dDRfaDRRclp4MVh0RlNXWWFBVFBScGpZNGlFWlMzcVZUcE9nU1hPcXhSQnNLS1U2TGtPbFlhalRrdjZpamx2RmxBZVZxZk9TOGVOdFp1TXRSME50WGhlMmR6MmJfallBQkIyOVItMnF2c3h1dUd1QnVEOGhBSzQ2bWMwcHgzNFZfOFFkSmx5TDE5MkRweHpmUGpKdGRBYTlmdkswQzN2UlFCazFFTlYwOTRiVjkwNXBXNGJ5NjhJZzVLUG5yd3hHb3l5RjNqbHNxZ0xB0gGXAkFVX3lxTE5nRlB4U0YxX0puR2pJNjBHQ3B5VzdTQjhsMWsxTElKWk1JX29pQjNOT2l3LWIxcm9mNThLYTNBSFRRQ01mTHZJUE5FWGVCam5MUFBaSnVNMV9wT2hDYXhTTzBnYzl4T0Q3aUlwQWVFTXNWMm5JbkRwRnd3a29nWDltSjJRakN3bXFtc2MxX3l4alBSNU1tbzlLUlE3RVNFRE11VEN2bkFkN01RcklaRE1mdTRjYTZ3RmExbkpQZGxVWXd0bldINnpqcUlyLWstMlQ3OXRDdmp3LXZmMlR6ajVhQ1Jydnk1R2h3a1pPN0RqWU1NSHVyckNWVGZ3REdRbk0zYXBHOGlrQkRTdjc0bkl0RjVwSE9hVQ?oc=5",
+        "pub_date": "Sat, 17 Oct 2026 08:34:00 GMT"
       }
     ]
   }
