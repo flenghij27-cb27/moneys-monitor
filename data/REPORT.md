@@ -1,7 +1,7 @@
 # Moneys Monitor - Report di mercato
 
-Generato: `2026-10-23T16:37:58+00:00`  
-Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-10-23T16:37:24+00:00` (480 snapshot, 31 asset)
+Generato: `2026-10-23T23:55:10+00:00`  
+Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-10-23T23:54:37+00:00` (481 snapshot, 31 asset)
 
 > Le change_pct salvate nello schema v1 sono errate (prev_close congelato). Questo report le ignora e ricalcola tutto dalla serie osservata.
 
@@ -10,10 +10,10 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-10-23T16:37:24+00:00` (480
 
 | Orizzonte | Risk-on medio | Risk-off medio | Spread |
 |---|---:|---:|---:|
-| 1d | -0.02% | 0.00% | **-0.02 pp** |
-| 1w | -0.18% | 0.00% | **-0.18 pp** |
-| 1m | -2.88% | 0.00% | **-2.88 pp** |
-| 3m | 6.99% | 2.72% | **4.27 pp** |
+| 1d | -0.37% | 0.00% | **-0.37 pp** |
+| 1w | -0.53% | 0.00% | **-0.53 pp** |
+| 1m | -3.20% | 0.00% | **-3.20 pp** |
+| 3m | 6.57% | 2.72% | **3.85 pp** |
 
 ## Outlier 1d
 
@@ -21,32 +21,32 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-10-23T16:37:24+00:00` (480
 |--:|---|--:|---|---|--:|
 | 1 | VIX (volatilita) | 14.09% | | Petrolio Brent | -8.95% |
 | 2 | Petrolio WTI | 5.87% | | Gas naturale | -3.73% |
-| 3 | Ethereum | 0.93% | | Nasdaq Composite | -2.60% |
-| 4 | GBP/USD | 0.76% | | USD/JPY | -0.21% |
-| 5 | S&P 500 | 0.58% | | Indice dollaro Fed (broad) | -0.16% |
-| 6 | Solana | 0.55% | | EUR/USD | -0.11% |
+| 3 | GBP/USD | 0.76% | | US 5Y Treasury Yield | -3.43% |
+| 4 | S&P 500 | 0.58% | | US 10Y Treasury Yield | -3.31% |
+| 5 | FTSE MIB | 0.00% | | Nasdaq Composite | -2.60% |
+| 6 | Euro Stoxx 50 | 0.00% | | US 30Y Treasury Yield | -2.40% |
 
 ## Outlier 1w
 
 | # | Migliori | % | | Peggiori | % |
 |--:|---|--:|---|---|--:|
 | 1 | VIX (volatilita) | 15.61% | | Petrolio Brent | -11.91% |
-| 2 | Gas naturale | 4.38% | | Nasdaq Composite | -2.56% |
-| 3 | USD/JPY | 2.79% | | US 30Y Treasury Yield | -1.81% |
-| 4 | Indice dollaro Fed (broad) | 2.70% | | GBP/USD | -1.43% |
-| 5 | Dow Jones | 1.32% | | US 10Y Treasury Yield | -1.16% |
-| 6 | Petrolio WTI | 0.81% | | US 5Y Treasury Yield | -1.00% |
+| 2 | Gas naturale | 4.38% | | US 10Y Treasury Yield | -2.75% |
+| 3 | USD/JPY | 2.79% | | US 5Y Treasury Yield | -2.65% |
+| 4 | Indice dollaro Fed (broad) | 2.70% | | US 30Y Treasury Yield | -2.58% |
+| 5 | Petrolio WTI | 0.81% | | Nasdaq Composite | -2.56% |
+| 6 | S&P 500 | 0.50% | | GBP/USD | -1.43% |
 
 ## Outlier 1m
 
 | # | Migliori | % | | Peggiori | % |
 |--:|---|--:|---|---|--:|
-| 1 | Petrolio WTI | 32.93% | | Solana | -11.24% |
-| 2 | Petrolio Brent | 32.51% | | Ethereum | -9.75% |
+| 1 | Petrolio WTI | 32.93% | | Solana | -12.86% |
+| 2 | Petrolio Brent | 32.51% | | Ethereum | -10.62% |
 | 3 | VIX (volatilita) | 28.49% | | Nasdaq Composite | -4.53% |
-| 4 | Gas naturale | 13.51% | | Bitcoin | -3.20% |
-| 5 | US 10Y Treasury Yield | 3.43% | | EUR/USD | -1.53% |
-| 6 | Dow Jones | 2.63% | | GBP/USD | -1.22% |
+| 4 | Gas naturale | 13.51% | | Bitcoin | -3.87% |
+| 5 | Dow Jones | 1.68% | | EUR/USD | -1.53% |
+| 6 | FTSE MIB | 0.00% | | GBP/USD | -1.22% |
 
 ## Divergenze principali (1 mese)
 
@@ -54,12 +54,12 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-10-23T16:37:24+00:00` (480
 |---|--:|--:|--:|--:|
 | S&P 500 vs VIX (volatilita) | 0.116 | -0.10% | 28.49% | **-28.59 pp** |
 | S&P 500 vs Nasdaq Composite | 0.881 | -0.10% | -4.53% | **4.43 pp** |
-| US 10Y Treasury Yield vs Oro (spot) | -0.097 | 3.43% | 0.00% | **3.43 pp** |
-| S&P 500 vs Bitcoin | 0.075 | -0.10% | -3.20% | **3.10 pp** |
+| S&P 500 vs Bitcoin | 0.072 | -0.10% | -3.87% | **3.77 pp** |
 | EUR/USD vs Indice dollaro DXY | -0.179 | -1.53% | 0.00% | **-1.53 pp** |
 | Petrolio WTI vs Petrolio Brent | 0.819 | 32.93% | 32.51% | **0.42 pp** |
 | S&P 500 vs Oro (spot) | 0.040 | -0.10% | 0.00% | **-0.10 pp** |
 | Oro (spot) vs Argento (spot) | 0.876 | 0.00% | 0.00% | **0.00 pp** |
+| US 10Y Treasury Yield vs Oro (spot) | 0.029 | 0.00% | 0.00% | **0.00 pp** |
 
 ## Macro
 
@@ -70,15 +70,15 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-10-23T16:37:24+00:00` (480
 | CPI Core USA (indice) | 338.90 | 2026-09-01 | 1.13 |
 | Disoccupazione USA | 4.20 | 2026-09-01 | 0.10 |
 | Occupati non agricoli USA (000) | 159 044.00 | 2026-09-01 | 29.00 |
-| US 2Y Treasury Rate | 4.81 | 2026-10-21 | 0.02 |
-| US 10Y Treasury Rate | 5.13 | 2026-10-21 | 0.01 |
-| US 30Y Treasury Rate | 5.42 | 2026-10-21 | 0.00 |
-| Spread 10Y-2Y USA | 0.31 | 2026-10-22 | -0.01 |
+| US 2Y Treasury Rate | 4.65 | 2026-10-22 | -0.16 |
+| US 10Y Treasury Rate | 4.96 | 2026-10-22 | -0.17 |
+| US 30Y Treasury Rate | 5.29 | 2026-10-22 | -0.13 |
+| Spread 10Y-2Y USA | 0.31 | 2026-10-23 | 0.00 |
 | Bund Germania 10Y | 3.47 | 2026-09-01 | 0.28 |
 | BTP Italia 10Y | 3.99 | 2026-08-01 | 0.10 |
 | HICP Eurozona (indice) | 104.29 | 2026-09-01 | 0.63 |
 
-Curva USA: 10Y-2Y **32.0 bp**, 30Y-10Y **29.0 bp**, invertita: **no**
+Curva USA: 10Y-2Y **31.0 bp**, 30Y-10Y **33.0 bp**, invertita: **no**
 
 
 ## Volatilita' e drawdown (dalla finestra osservata)
@@ -89,15 +89,15 @@ Curva USA: 10Y-2Y **32.0 bp**, 30Y-10Y **29.0 bp**, invertita: **no**
 | Petrolio Brent | 115.2200 | 32.51% | 114.17% | -21.50% |
 | Petrolio WTI | 107.8900 | 32.93% | 74.25% | -18.71% |
 | Gas naturale | 3.1000 | 13.51% | 58.95% | -18.87% |
-| Solana | 104.7338 | -11.24% | 35.87% | -15.47% |
-| Ethereum | 2 407.0409 | -9.75% | 35.72% | -13.93% |
-| Bitcoin | 81 662.6017 | -3.20% | 24.34% | -6.86% |
-| US 5Y Treasury Yield | 4.9500 | 2.48% | 18.09% | -3.93% |
-| US 10Y Treasury Yield | 5.1300 | 3.43% | 17.04% | -4.14% |
+| Solana | 102.8133 | -12.86% | 35.65% | -15.80% |
+| Ethereum | 2 384.0253 | -10.62% | 35.37% | -13.96% |
+| Bitcoin | 81 095.6887 | -3.87% | 24.27% | -6.86% |
+| US 5Y Treasury Yield | 4.7800 | -1.04% | 18.19% | -6.09% |
+| US 10Y Treasury Yield | 4.9600 | 0.00% | 17.81% | -6.59% |
+| US 30Y Treasury Yield | 5.2900 | 0.00% | 15.64% | -6.70% |
 | Nasdaq Composite | 26 008.8600 | -4.53% | 15.47% | -7.00% |
-| US 30Y Treasury Yield | 5.4200 | 2.46% | 14.97% | -4.41% |
 | USD/JPY | 158.0000 | -0.88% | 13.75% | -6.19% |
-| Dow Jones | 52 867.9800 | 2.63% | 9.22% | -6.34% |
+| Dow Jones | 52 215.1600 | 1.68% | 9.95% | -6.34% |
 | S&P 500 | 7 757.1700 | -0.10% | 8.93% | -3.42% |
 | Indice dollaro Fed (broad) | 121.4048 | n/d | 8.89% | -0.57% |
 
