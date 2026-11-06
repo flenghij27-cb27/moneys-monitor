@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "collected_at_utc": "2026-11-05T21:47:39+00:00",
+  "collected_at_utc": "2026-11-06T01:42:53+00:00",
   "prices": {
     "^GSPC": {
       "label": "S&P 500",
@@ -25,18 +25,18 @@
       "asset_class": "equity",
       "ok": true,
       "source": "fred",
-      "price": 53356.12,
+      "price": 51523.06,
       "currency": "PCT",
-      "market_date": "2026-11-04",
+      "market_date": "2026-11-05",
       "stale": true,
       "ts": null,
-      "prev_close": 51786.72,
+      "prev_close": 53356.12,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": 3.031,
-      "chg_5d_pct": 1.679,
-      "chg_1m_pct": 3.561,
-      "chg_3m_pct": -1.26,
-      "vol20_ann_pct": 14.22
+      "chg_1d_pct": -3.436,
+      "chg_5d_pct": -1.566,
+      "chg_1m_pct": 0.671,
+      "chg_3m_pct": -4.544,
+      "vol20_ann_pct": 19.24
     },
     "^IXIC": {
       "label": "Nasdaq Composite",
@@ -269,54 +269,54 @@
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 75876.02947976581,
+      "price": 76072.13475292233,
       "currency": "USD",
-      "market_date": "2026-11-05",
+      "market_date": "2026-11-06",
       "stale": false,
-      "ts": 1793915190,
-      "prev_close": 77384.589502,
+      "ts": 1793929290,
+      "prev_close": 80442.712147,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -1.949,
-      "chg_5d_pct": -2.122,
-      "chg_1m_pct": -7.643,
-      "chg_3m_pct": -4.764,
-      "vol20_ann_pct": 34.02
+      "chg_1d_pct": -5.433,
+      "chg_5d_pct": -2.838,
+      "chg_1m_pct": -6.687,
+      "chg_3m_pct": -4.697,
+      "vol20_ann_pct": 33.71
     },
     "ETH-USD": {
       "label": "Ethereum",
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 2232.5701629359337,
+      "price": 2235.715384313361,
       "currency": "USD",
-      "market_date": "2026-11-05",
+      "market_date": "2026-11-06",
       "stale": false,
-      "ts": 1793915190,
-      "prev_close": 2273.627278,
+      "ts": 1793929320,
+      "prev_close": 2423.081897,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -1.806,
-      "chg_5d_pct": -0.956,
-      "chg_1m_pct": -8.5,
-      "chg_3m_pct": -9.1,
-      "vol20_ann_pct": 44.33
+      "chg_1d_pct": -7.733,
+      "chg_5d_pct": -1.68,
+      "chg_1m_pct": -7.636,
+      "chg_3m_pct": -9.85,
+      "vol20_ann_pct": 44.01
     },
     "SOL-USD": {
       "label": "Solana",
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 89.99129641967517,
+      "price": 89.87073632815641,
       "currency": "USD",
-      "market_date": "2026-11-05",
+      "market_date": "2026-11-06",
       "stale": false,
-      "ts": 1793915190,
-      "prev_close": 92.781778,
+      "ts": 1793929310,
+      "prev_close": 95.513517,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -3.008,
-      "chg_5d_pct": -5.685,
-      "chg_1m_pct": -14.574,
-      "chg_3m_pct": -11.712,
-      "vol20_ann_pct": 37.44
+      "chg_1d_pct": -5.908,
+      "chg_5d_pct": -4.877,
+      "chg_1m_pct": -13.848,
+      "chg_3m_pct": -12.888,
+      "vol20_ann_pct": 39.28
     },
     "GC=F": {
       "label": "Oro (spot)",
@@ -428,7 +428,7 @@
       "price": 1.1224,
       "currency": "USD",
       "market_date": "2026-11-05",
-      "stale": false,
+      "stale": true,
       "ts": null,
       "prev_close": 1.1267,
       "prev_close_source": "daily_series",
@@ -630,11 +630,11 @@
     },
     "T10Y2Y": {
       "label": "Spread 10Y-2Y USA",
-      "value": 0.32,
-      "date": "2026-11-04",
-      "prev_value": 0.34,
-      "delta": -0.02,
-      "yoy_pct": -15.789
+      "value": 0.38,
+      "date": "2026-11-05",
+      "prev_value": 0.32,
+      "delta": 0.06,
+      "yoy_pct": 15.152
     },
     "IRLTLT01DEM156N": {
       "label": "Bund Germania 10Y",
@@ -662,7 +662,7 @@
     }
   },
   "_meta": {
-    "elapsed_s": 31.7,
+    "elapsed_s": 34.2,
     "tickers_ok": 31,
     "tickers_total": 36,
     "carry_forward": 14,
@@ -757,9 +757,34 @@
     ],
     "MarketWatch": [
       {
+        "title": "Here’s what’s driving Iren’s stock higher after a brutal selloff",
+        "link": "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0?mod=mw_rss_topstories",
+        "pub_date": "Fri, 06 Nov 2026 01:07:00 GMT"
+      },
+      {
+        "title": "Cloudflare’s stock mounts a big comeback after fastest sales surge in nearly 4 years",
+        "link": "https://www.marketwatch.com/story/cloudflares-stock-mounts-a-big-comeback-after-fastest-sales-surge-in-nearly-4-years-d80d994d?mod=mw_rss_topstories",
+        "pub_date": "Fri, 06 Nov 2026 01:06:00 GMT"
+      },
+      {
+        "title": "Here are the 2027 capital-gains tax rates for each income level",
+        "link": "https://www.marketwatch.com/story/here-are-the-2027-capital-gains-tax-rates-for-each-income-level-166fc306?mod=mw_rss_topstories",
+        "pub_date": "Thu, 05 Nov 2026 23:48:00 GMT"
+      },
+      {
         "title": "Tech stocks log worst day since 2020 as carnage comes to the AI trade",
         "link": "https://www.marketwatch.com/story/tech-stocks-log-worst-day-since-2020-as-carnage-comes-to-the-ai-trade-56109845?mod=mw_rss_topstories",
-        "pub_date": "Thu, 05 Nov 2026 21:45:00 GMT"
+        "pub_date": "Thu, 05 Nov 2026 22:48:00 GMT"
+      },
+      {
+        "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
+        "link": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
+        "pub_date": "Thu, 05 Nov 2026 22:40:00 GMT"
+      },
+      {
+        "title": "How much in Roth conversions can you do in 2027 with the new tax brackets?",
+        "link": "https://www.marketwatch.com/story/how-much-roth-conversion-can-you-do-in-2027-with-the-new-tax-brackets-a2f940c8?mod=mw_rss_topstories",
+        "pub_date": "Thu, 05 Nov 2026 22:24:00 GMT"
       },
       {
         "title": "Buy the dip or wait it out? Young investors react as retail stock selling hits one of its highest levels since COVID crash.",
@@ -780,83 +805,58 @@
         "title": "Is this ‘the big one’ for the stock market? Wall Street sounds off as tech plunges.",
         "link": "https://www.marketwatch.com/story/is-this-the-big-one-for-the-stock-market-wall-street-sounds-off-as-tech-plunges-185df529?mod=mw_rss_topstories",
         "pub_date": "Thu, 05 Nov 2026 21:37:00 GMT"
-      },
-      {
-        "title": "Micron, Sandisk and other AI stocks see steep drops: ‘Investors don’t like uncertainty’",
-        "link": "https://www.marketwatch.com/story/micron-sandisk-and-other-ai-stocks-are-falling-hard-investors-dont-like-uncertainty-94d2a3b9?mod=mw_rss_topstories",
-        "pub_date": "Thu, 05 Nov 2026 21:32:00 GMT"
-      },
-      {
-        "title": "As Nvidia’s stock enters a bear market, bargain hunters see a golden buying opportunity",
-        "link": "https://www.marketwatch.com/story/as-nvidias-stock-heads-for-a-bear-market-bargain-hunters-see-a-golden-buying-opportunity-1a5917e6?mod=mw_rss_topstories",
-        "pub_date": "Thu, 05 Nov 2026 21:31:00 GMT"
-      },
-      {
-        "title": "5 of this year’s biggest stock losers that are good bets in 2027",
-        "link": "https://www.marketwatch.com/story/5-of-this-years-biggest-stock-losers-that-are-good-bets-in-2027-bb861d4c?mod=mw_rss_topstories",
-        "pub_date": "Thu, 05 Nov 2026 21:29:00 GMT"
-      },
-      {
-        "title": "Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays",
-        "link": "https://www.marketwatch.com/story/bloom-energys-stock-is-one-of-the-s-p-500s-biggest-losers-amid-fears-of-data-center-delays-a44c96bb?mod=mw_rss_topstories",
-        "pub_date": "Thu, 05 Nov 2026 21:26:00 GMT"
-      },
-      {
-        "title": "Traders flock to Treasury market for safety as tech-led stock selloff deepens",
-        "link": "https://www.marketwatch.com/story/traders-flock-to-treasury-market-for-safety-as-tech-led-stock-selloff-deepens-cf548c8b?mod=mw_rss_topstories",
-        "pub_date": "Thu, 05 Nov 2026 21:19:00 GMT"
       }
     ],
     "Investing.com": [
       {
-        "title": "Funko earnings beat by $0.06, revenue topped estimates",
-        "link": "https://www.investing.com/news/earnings/funko-earnings-beat-by-006-revenue-topped-estimates-5005785",
-        "pub_date": "2026-11-05 21:45:13"
+        "title": "Gold heads for best week since August as U.S. political shift lifts bonds",
+        "link": "https://www.investing.com/news/commodities-news/gold-heads-for-best-week-since-august-as-us-political-shift-lifts-bonds-5006271",
+        "pub_date": "2026-11-06 01:33:22"
       },
       {
-        "title": "BJs Restaurants earnings beat by $0.17, revenue topped estimates",
-        "link": "https://www.investing.com/news/earnings/bjs-restaurants-earnings-beat-by-017-revenue-topped-estimates-5005784",
-        "pub_date": "2026-11-05 21:45:12"
+        "title": "Martine Rothblatt, United Therapeutics CEO, sells $4.66M in shares",
+        "link": "https://www.investing.com/news/insider-trading-news/martine-rothblatt-united-therapeutics-ceo-sells-466m-in-shares-93CH-5006270",
+        "pub_date": "2026-11-06 01:31:30"
       },
       {
-        "title": "Doximity falls as margins decline despite earnings beat",
-        "link": "https://www.investing.com/news/earnings/doximity-falls-as-margins-decline-despite-earnings-beat-5005782",
-        "pub_date": "2026-11-05 21:43:48"
+        "title": "Dollar holds, yen gains as equity rout saps risk appetite ahead of payrolls",
+        "link": "https://www.investing.com/news/economy-news/dollar-holds-yen-gains-as-equity-rout-saps-risk-appetite-ahead-of-payrolls-5006269",
+        "pub_date": "2026-11-06 01:30:37"
       },
       {
-        "title": "Binance hack prompted US regulators to check in on bank systems, sources say",
-        "link": "https://www.investing.com/news/economy-news/binance-hack-prompted-us-regulators-to-check-in-on-bank-systems-sources-say-5002832",
-        "pub_date": "2026-11-05 21:42:52"
+        "title": "Analysts and investors react to AI market rout",
+        "link": "https://www.investing.com/news/stock-market-news/analysts-and-investors-react-to-ai-market-rout-5006243",
+        "pub_date": "2026-11-06 01:30:25"
       },
       {
-        "title": "Spruce Power Holding announces amendments to debt agreements and refinancing plans",
-        "link": "https://www.investing.com/news/sec-filings/spruce-power-holding-announces-amendments-to-debt-agreements-and-refinancing-plans-93CH-5005781",
-        "pub_date": "2026-11-05 21:42:46"
+        "title": "Blackstone Mortgage Trust CEO buys $1.04M in shares",
+        "link": "https://www.investing.com/news/insider-trading-news/blackstone-mortgage-trust-ceo-buys-104m-in-shares-93CH-5006255",
+        "pub_date": "2026-11-06 01:19:53"
       },
       {
-        "title": "Saul Centers earnings beat by $0.57, revenue fell short of estimates",
-        "link": "https://www.investing.com/news/earnings/saul-centers-earnings-beat-by-057-revenue-fell-short-of-estimates-5005780",
-        "pub_date": "2026-11-05 21:42:37"
+        "title": "Blackstone Mortgage Trust director Nassau buys $114,291 in shares",
+        "link": "https://www.investing.com/news/insider-trading-news/blackstone-mortgage-trust-director-nassau-buys-114291-in-shares-93CH-5006254",
+        "pub_date": "2026-11-06 01:19:52"
       },
       {
-        "title": "Democratic senator demands tech firms, FCC chair turn over documents",
-        "link": "https://www.investing.com/news/stock-market-news/democratic-senator-demands-tech-firms-fcc-chair-turn-over-documents-5005779",
-        "pub_date": "2026-11-05 21:42:35"
+        "title": "Hyatt Hotels Corp evp Margaret Egan sells $205,458 in stock",
+        "link": "https://www.investing.com/news/insider-trading-news/hyatt-hotels-corp-evp-margaret-egan-sells-205458-in-stock-93CH-5006253",
+        "pub_date": "2026-11-06 01:19:33"
       },
       {
-        "title": "EOG Resources earnings beat by $0.46, revenue topped estimates",
-        "link": "https://www.investing.com/news/earnings/eog-resources-earnings-beat-by-046-revenue-topped-estimates-5005777",
-        "pub_date": "2026-11-05 21:42:24"
+        "title": "Hyatt Hotels CEO Mark Hoplamazian sells $16 million in shares",
+        "link": "https://www.investing.com/news/insider-trading-news/hyatt-hotels-ceo-mark-hoplamazian-sells-16-million-in-shares-93CH-5006249",
+        "pub_date": "2026-11-06 01:16:16"
       },
       {
-        "title": "KLX Energy earnings missed by $0.32, revenue topped estimates",
-        "link": "https://www.investing.com/news/earnings/klx-energy-earnings-missed-by-032-revenue-topped-estimates-5005778",
-        "pub_date": "2026-11-05 21:42:24"
+        "title": "Porch Group director Alan Pickerill sells $210,000 in common stock",
+        "link": "https://www.investing.com/news/insider-trading-news/porch-group-director-alan-pickerill-sells-210000-in-common-stock-93CH-5006248",
+        "pub_date": "2026-11-06 01:16:02"
       },
       {
-        "title": "Devon Energy earnings missed by $0.39, revenue topped estimates",
-        "link": "https://www.investing.com/news/earnings/devon-energy-earnings-missed-by-039-revenue-topped-estimates-5005776",
-        "pub_date": "2026-11-05 21:42:23"
+        "title": "Verastem CEO Dan Paterson sells $12,470 in company stock",
+        "link": "https://www.investing.com/news/insider-trading-news/verastem-ceo-dan-paterson-sells-12470-in-company-stock-93CH-5006247",
+        "pub_date": "2026-11-06 01:15:50"
       }
     ],
     "Yahoo Finance": [],
@@ -929,19 +929,24 @@
         "pub_date": "Thu, 05 Nov 2026 18:53:13 GMT"
       },
       {
-        "title": "Instant view: Bank of England delivers first rate hike in three years, gilt yields rise - Reuters",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX1NmeDl4ZndpQkllbEZoTmVYQzFUSXpCeFNTRnByV05HcVlaYXl0RkY4b0htT1dYTkhQZG9DNldqcmtna1gyNVhkdTZwWmR3NTBZb0gtUm9kWnlfQzVhMWJCTzVYSGhpLXkxS085ZGpwVUVEbWlTWmItbElUTzFqTEwydEJTSUVheFJsTGNjdnlfRW1RaURzWm5KOGs5Rmx1bUV4SUxpTWNaMlNhWGxPU2lnNkt0cXc?oc=5",
-        "pub_date": "Thu, 05 Nov 2026 12:58:29 GMT"
-      },
-      {
         "title": "10-year Treasury yield falls as traders exit tech stocks, look ahead to jobs data - CNBC",
         "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBwRFU3SzVLNDJOd1p3SDRNMkE0QjBMRms2d1RJaDZEMlZaSGQzUUN1Qjc4eW90Z2NDTmZITmh0QnZIbU1uc3hlUFRZV2NvYTRkQ2I1eHZ3dGpJSVFQRUpWZ1YycWJZYy1iZnZzdTNiQ0x2Wi1WQ2RkNmpuUm1vd9IBgwFBVV95cUxNNHdYYnNDYV9CX1JxUEl4bGJBSmtGSXNGTWN0NURsdkpHRHZqcVBmUGhHWUxlZ19ab0VfdjFiTjIwZkpCX3ZZaWVSNXdLUWY3eU43ekw1N0Z2WC1qWVYxUHFKZ3Z1Y01ON1B6N1Y5RlVoNUJWbmZ6YjZQN1B0ZTk1RjNhQQ?oc=5",
         "pub_date": "Thu, 05 Nov 2026 09:38:43 GMT"
       },
       {
+        "title": "Treasuries Soar as Tech-Stock Selloff Stokes Haven Demand - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVkloRjhzaFhUVFFUc1hMQWpZVk9IZmNTRE5KYTBhekdoN0xXby1MOUVpaGRmYnJjdW5rc1hfanFVYUNIdXVYbGV1MDhUX1Q5Wk1yTk1DWVFuM1lzMERVRVhnMmhSOW5EcWp3dl94eS1JcHZMNEhiOFNtUVlialFYNS1Vb3dOeENpazN5SmVyUWJKNTJDMXFUUm9TRFZreUlObm40S0lpUmQ3YVFNUUFJ?oc=5",
+        "pub_date": "Thu, 05 Nov 2026 20:46:03 GMT"
+      },
+      {
         "title": "AI stocks keep falling, as oil prices and bond yields steady following their post-election slides - WCCB Charlotte",
         "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPREVjekpNeDBJTkszVWhPUmhYR1pESUhzeG5LbVhYNVJGeVBET1MtV2VNTE5Rb2tsRndpTV9zNUxBaTIyaXlMSFlrZGxhRW9zVEFianpWMXE5NlZ1YlF2YW8zN2NRbUdrenpsMDZYdWNZNnJGRmY0c0FreTBTcXNiTXQycG11djVYakNxX1lZVEN5QW9heVRaOU9TMU9ScGxNa2luY3VIRDJBUDNwM3htdHVQVXBNbzJVUnpBVnlaRDdVcWlBTXdNV3BiTWl3QS0wWDl3RQ?oc=5",
-        "pub_date": "Thu, 05 Nov 2026 15:51:54 GMT"
+        "pub_date": "Thu, 05 Nov 2026 16:16:51 GMT"
+      },
+      {
+        "title": "Market Movers blog: US markets rise at the open as Congress turns blue - Investment Week",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
+        "pub_date": "Thu, 05 Nov 2026 11:10:10 GMT"
       },
       {
         "title": "More drops for Nvidia and other AI chip stocks erase Wall Street’s rally from the day before - Scranton Times-Tribune",
@@ -959,7 +964,7 @@
         "pub_date": "Thu, 05 Nov 2026 20:38:30 GMT"
       },
       {
-        "title": "A wipeout for AI stocks sends Wall Street reeling, and the S&P 500 tumbles more than 3.5% - Boston Herald",
+        "title": "A sell-off for AI stocks sends the S&P 500 down more than 4% to its worst day since Trump’s tariff announcements in 2025 - Boston Herald",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5IWHlFcWdUamhwam4wU2QtdTZPd0lFMFNscmJkU0pDdkNacmZ1dDFyQ3FsN21acFYtcy1XRnpmVTIybHBoeUJrZDNmWVdFV29CVFB1dzNzMG51VkVhNW5ULURNejBLdWJyaU5fMXFR?oc=5",
         "pub_date": "Thu, 05 Nov 2026 17:06:35 GMT"
       },
@@ -974,14 +979,9 @@
         "pub_date": "Thu, 05 Nov 2026 08:15:00 GMT"
       },
       {
-        "title": "Euro zone bond yields fall on lower oil prices after US midterms - marketscreener.com",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNXzl1aWFJbVFOcjVCY1Zla0l1X0loZVpYUnROY3NrT3lzSVZSNWtzNXEwLTJ5RFMxVnI1RUtTUms1MUM1ck54WVh0cDh5LVpWcUczMFZrdGtXWEIzR0FyQ2lfYnlFaDVWbTFVa2d3M2xkekl5VWlSYm9CbFBwVjc0RmZBb19kcnByLU9iMk9kYTk1LVlObkJIcXJXT1hMbnRPU3pFNGhZUDlsWmhZQ2d3YUNIYnRTMUJD?oc=5",
-        "pub_date": "Thu, 05 Nov 2026 20:30:01 GMT"
-      },
-      {
-        "title": "AI stocks keep falling, as oil prices and bond yields steady following their post-election slides - Marietta Daily Journal",
-        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxONUVUSlc4QTBGNkZMLVZtVlpnMmpGZlpiNUhvNzYtYi1nLWItdDZxYkw2ZWZOUlR0TXdMWEFVWUZ1U2xrR19BLURuR3oxUTJiMlpId28tbENwQVd0N0NaTlRxQ3hqc28xcGljYzgzY0Q4NFBHYXI5LWlpWF9raUxTVmZSTjJKYlBZT0JCTVBGRDdiN3lnVkNSaU40Z0JHZmVBNHhlamNFQ2pPdm5NWm45WlBPNlN0ejlnQWZaeWZNN2JBRm14WHRra01hVW5wSXFESGZuZ3VaSWotM0JOTlUwREllNkRYS3RxYUVzOG5Xc05DWDlZVUpsM1JnZw?oc=5",
-        "pub_date": "Thu, 05 Nov 2026 14:36:29 GMT"
+        "title": "Rising bond yields: Why higher rates matter for Canadian exporters - Export Development Canada (EDC)",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE83UVp5U2g2WF9lQXdlb210T1ByaWNLaTRYWlZjNHBubmhLang1Qm1Kb2V0bllsZzdJa09nZW5KY3ZrbnkwWklKcFBCWUZMMlVHZVF2aFJnT3BPYUdKc2hQOE55VXBDN0JXSlQwXzlfS3RKZUo0QjhoVUR1VGw?oc=5",
+        "pub_date": "Thu, 05 Nov 2026 13:37:52 GMT"
       }
     ]
   }
