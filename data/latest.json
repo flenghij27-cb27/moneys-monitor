@@ -1,24 +1,24 @@
 {
   "schema": 2,
-  "collected_at_utc": "2026-11-11T01:22:35+00:00",
+  "collected_at_utc": "2026-11-11T13:42:39+00:00",
   "prices": {
     "^GSPC": {
       "label": "S&P 500",
       "asset_class": "equity",
       "ok": true,
       "source": "fred",
-      "price": 7549.94,
+      "price": 7520.93,
       "currency": "PCT",
-      "market_date": "2026-11-09",
+      "market_date": "2026-11-10",
       "stale": true,
       "ts": null,
-      "prev_close": 7376.86,
+      "prev_close": 7549.94,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": 2.346,
-      "chg_5d_pct": 0.113,
-      "chg_1m_pct": -3.349,
-      "chg_3m_pct": -2.563,
-      "vol20_ann_pct": 21.89
+      "chg_1d_pct": -0.384,
+      "chg_5d_pct": -0.634,
+      "chg_1m_pct": -3.667,
+      "chg_3m_pct": -3.565,
+      "vol20_ann_pct": 21.9
     },
     "^DJI": {
       "label": "Dow Jones",
@@ -43,18 +43,18 @@
       "asset_class": "equity",
       "ok": true,
       "source": "fred",
-      "price": 25253.14,
+      "price": 25065.87,
       "currency": "PCT",
-      "market_date": "2026-11-09",
+      "market_date": "2026-11-10",
       "stale": true,
       "ts": null,
-      "prev_close": 24579.42,
+      "prev_close": 25253.14,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": 2.741,
-      "chg_5d_pct": 0.353,
-      "chg_1m_pct": -7.721,
-      "chg_3m_pct": -5.022,
-      "vol20_ann_pct": 30.47
+      "chg_1d_pct": -0.742,
+      "chg_5d_pct": -1.207,
+      "chg_1m_pct": -8.001,
+      "chg_3m_pct": -6.481,
+      "vol20_ann_pct": 30.48
     },
     "^RUT": {
       "label": "Russell 2000",
@@ -269,54 +269,54 @@
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 73413.22761403704,
+      "price": 73701.99182693537,
       "currency": "USD",
       "market_date": "2026-11-11",
       "stale": false,
-      "ts": 1794360080,
+      "ts": 1794404480,
       "prev_close": 75266.767311,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -2.463,
-      "chg_5d_pct": -3.117,
-      "chg_1m_pct": -12.689,
-      "chg_3m_pct": -4.104,
-      "vol20_ann_pct": 31.49
+      "chg_1d_pct": -2.079,
+      "chg_5d_pct": -2.736,
+      "chg_1m_pct": -12.345,
+      "chg_3m_pct": -3.727,
+      "vol20_ann_pct": 31.54
     },
     "ETH-USD": {
       "label": "Ethereum",
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 2045.7897538279612,
+      "price": 2050.257049962724,
       "currency": "USD",
       "market_date": "2026-11-11",
       "stale": false,
-      "ts": 1794360100,
+      "ts": 1794404480,
       "prev_close": 2132.138072,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -4.05,
-      "chg_5d_pct": -8.518,
-      "chg_1m_pct": -17.264,
-      "chg_3m_pct": -16.071,
-      "vol20_ann_pct": 46.29
+      "chg_1d_pct": -3.84,
+      "chg_5d_pct": -8.318,
+      "chg_1m_pct": -17.084,
+      "chg_3m_pct": -15.887,
+      "vol20_ann_pct": 46.33
     },
     "SOL-USD": {
       "label": "Solana",
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 82.94940092078441,
+      "price": 84.16675061816036,
       "currency": "USD",
       "market_date": "2026-11-11",
       "stale": false,
-      "ts": 1794360100,
+      "ts": 1794404470,
       "prev_close": 86.603893,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -4.22,
-      "chg_5d_pct": -7.896,
-      "chg_1m_pct": -22.432,
-      "chg_3m_pct": -15.899,
-      "vol20_ann_pct": 39.52
+      "chg_1d_pct": -2.814,
+      "chg_5d_pct": -6.544,
+      "chg_1m_pct": -21.294,
+      "chg_3m_pct": -14.665,
+      "vol20_ann_pct": 40.19
     },
     "GC=F": {
       "label": "Oro (spot)",
@@ -662,7 +662,7 @@
     }
   },
   "_meta": {
-    "elapsed_s": 36.7,
+    "elapsed_s": 33.7,
     "tickers_ok": 31,
     "tickers_total": 36,
     "carry_forward": 14,
@@ -694,6 +694,11 @@
   },
   "news": {
     "CNBC Business": [
+      {
+        "title": "Measles is surging in the U.S. — and outbreaks can cost millions",
+        "link": "https://www.cnbc.com/2026/11/11/measles-outbreak-us-economic-cost.html",
+        "pub_date": "Wed, 11 Nov 2026 12:00:01 GMT"
+      },
       {
         "title": "Fossil CEO says turnaround is ahead of plan as sales return to growth",
         "link": "https://www.cnbc.com/2026/11/10/fossil-fosl-q3-2026-earnings.html",
@@ -748,115 +753,110 @@
         "title": "Goodyear Tire CEO Mark Stewart steps down as company continues turnaround plan",
         "link": "https://www.cnbc.com/2026/11/09/goodyear-roger-wood-interim-ceo.html",
         "pub_date": "Mon, 09 Nov 2026 14:56:47 GMT"
-      },
-      {
-        "title": "Eli Lilly’s Foundayo obesity pill eases sleep apnea in late-stage trial, paving way for approval",
-        "link": "https://www.cnbc.com/2026/11/09/eli-lilly-foundayo-sleep-apnea-trial.html",
-        "pub_date": "Mon, 09 Nov 2026 14:30:01 GMT"
       }
     ],
     "MarketWatch": [
       {
-        "title": "One reason Children’s Place is filing for bankruptcy? Not enough children.",
-        "link": "https://www.marketwatch.com/story/one-reason-the-childrens-place-is-going-bankrupt-not-enough-children-b275eab0?mod=mw_rss_topstories",
-        "pub_date": "Wed, 11 Nov 2026 01:14:00 GMT"
-      },
-      {
-        "title": "CoreWeave’s stock pops as new financing playbook eases debt concerns",
-        "link": "https://www.marketwatch.com/story/coreweaves-stock-pops-as-new-financing-playbook-eases-debt-concerns-70241525?mod=mw_rss_topstories",
-        "pub_date": "Wed, 11 Nov 2026 01:12:00 GMT"
+        "title": "Micron and other AI stocks surge as CoreWeave calms Wall Street’s worst fears",
+        "link": "https://www.marketwatch.com/story/micron-and-other-ai-stocks-surge-as-coreweave-calms-wall-streets-worst-fears-0a18152a?mod=mw_rss_topstories",
+        "pub_date": "Wed, 11 Nov 2026 13:37:00 GMT"
       },
       {
         "title": "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
         "link": "https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories",
-        "pub_date": "Wed, 11 Nov 2026 00:30:00 GMT"
+        "pub_date": "Wed, 11 Nov 2026 13:15:00 GMT"
+      },
+      {
+        "title": "One reason Children’s Place is filing for bankruptcy? Not enough children.",
+        "link": "https://www.marketwatch.com/story/one-reason-the-childrens-place-is-going-bankrupt-not-enough-children-b275eab0?mod=mw_rss_topstories",
+        "pub_date": "Wed, 11 Nov 2026 13:15:00 GMT"
+      },
+      {
+        "title": "22 stocks of companies with tremendous sales growth",
+        "link": "https://www.marketwatch.com/story/22-stocks-of-companies-with-tremendous-sales-growth-78c3f750?mod=mw_rss_topstories",
+        "pub_date": "Wed, 11 Nov 2026 13:06:00 GMT"
+      },
+      {
+        "title": "Keep Jensen Huang at Nvidia — but end the one-man show",
+        "link": "https://www.marketwatch.com/story/keep-jensen-huang-at-nvidia-but-end-the-one-man-show-305c19a2?mod=mw_rss_topstories",
+        "pub_date": "Wed, 11 Nov 2026 12:30:00 GMT"
+      },
+      {
+        "title": "Nvidia’s valuation tumbles to a 15-year low. A bargain or a falling knife?",
+        "link": "https://www.marketwatch.com/story/nvidias-valuation-tumbles-to-a-15-year-low-a-bargain-or-a-falling-knife-2ebf6085?mod=mw_rss_topstories",
+        "pub_date": "Wed, 11 Nov 2026 12:16:00 GMT"
       },
       {
         "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
         "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
-        "pub_date": "Wed, 11 Nov 2026 00:00:00 GMT"
+        "pub_date": "Wed, 11 Nov 2026 12:15:00 GMT"
       },
       {
-        "title": "‘The thought of living to 100 terrifies me’: Is Social Security a giant Ponzi scheme?",
-        "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
-        "pub_date": "Tue, 10 Nov 2026 23:30:00 GMT"
+        "title": "Market angst is driving investors into low-volatility stocks as AI trade stumbles",
+        "link": "https://www.marketwatch.com/story/market-angst-is-driving-investors-into-low-volatility-stocks-as-ai-trade-stumbles-23d905e9?mod=mw_rss_topstories",
+        "pub_date": "Wed, 11 Nov 2026 12:00:00 GMT"
       },
       {
-        "title": "‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?",
-        "link": "https://www.marketwatch.com/story/im-sick-of-flying-i-paid-for-priority-boarding-but-the-overhead-bins-were-full-was-i-duped-0badcc80?mod=mw_rss_topstories",
-        "pub_date": "Tue, 10 Nov 2026 23:25:00 GMT"
+        "title": "CoreWeave’s stock pops as new financing playbook eases debt concerns",
+        "link": "https://www.marketwatch.com/story/coreweaves-stock-pops-as-new-financing-playbook-eases-debt-concerns-70241525?mod=mw_rss_topstories",
+        "pub_date": "Wed, 11 Nov 2026 11:27:00 GMT"
       },
       {
-        "title": "AMD’s stock fades as investors weigh whether Nvidia’s turmoil will mean lasting wins",
-        "link": "https://www.marketwatch.com/story/amds-stock-fades-as-investors-weigh-whether-nvidias-turmoil-will-mean-lasting-wins-1ecfbc5e?mod=mw_rss_topstories",
-        "pub_date": "Tue, 10 Nov 2026 22:37:00 GMT"
-      },
-      {
-        "title": "Looking to buy the dip in chip stocks? Here’s how to avoid buying too soon.",
-        "link": "https://www.marketwatch.com/story/ignore-the-wild-swings-in-chip-stocks-until-they-reach-these-lines-in-the-sand-feb6e00f?mod=mw_rss_topstories",
-        "pub_date": "Tue, 10 Nov 2026 22:30:00 GMT"
-      },
-      {
-        "title": "Meet the former prosecutor Nvidia hired to investigate the Jensen Huang spy scandal",
-        "link": "https://www.marketwatch.com/story/meet-the-former-prosecutor-nvidia-hired-to-investigate-the-jensen-huang-spy-scandal-e8078f67?mod=mw_rss_topstories",
-        "pub_date": "Tue, 10 Nov 2026 22:05:00 GMT"
-      },
-      {
-        "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
-        "link": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
-        "pub_date": "Tue, 10 Nov 2026 21:42:00 GMT"
+        "title": "Why Goldman Sachs is now changing its Federal Reserve interest-rate forecast",
+        "link": "https://www.marketwatch.com/story/why-goldman-sachs-is-now-changing-its-federal-reserve-interest-rate-forecast-3753f968?mod=mw_rss_topstories",
+        "pub_date": "Wed, 11 Nov 2026 10:37:00 GMT"
       }
     ],
     "Investing.com": [
       {
-        "title": "Adaptive Biotechnologies COO Julie Rubinstein sells $708,557 in stock",
-        "link": "https://www.investing.com/news/insider-trading-news/adaptive-biotechnologies-coo-julie-rubinstein-sells-708557-in-stock-93CH-5017442",
-        "pub_date": "2026-11-11 01:01:23"
-      },
-      {
-        "title": "Atlas Energy Solutions director Shepard sells $4.75 million in shares",
-        "link": "https://www.investing.com/news/insider-trading-news/atlas-energy-solutions-director-shepard-sells-475-million-in-shares-93CH-5017441",
-        "pub_date": "2026-11-11 01:01:13"
-      },
-      {
-        "title": "SentinelOne chief legal officer sells $559,367 in tax-related shares",
-        "link": "https://www.investing.com/news/insider-trading-news/sentinelone-chief-legal-officer-sells-559367-in-taxrelated-shares-93CH-5017440",
-        "pub_date": "2026-11-11 01:01:05"
-      },
-      {
-        "title": "SentinelOne CEO Tomer Weingarten sells $1.14M in shares",
-        "link": "https://www.investing.com/news/insider-trading-news/sentinelone-ceo-tomer-weingarten-sells-114m-in-shares-93CH-5017439",
-        "pub_date": "2026-11-11 01:01:03"
-      },
-      {
-        "title": "Dollar gains traction as Fed speakers warn of risks from inflation",
-        "link": "https://www.investing.com/news/economy-news/dollar-gains-traction-as-fed-speakers-warn-of-risks-from-inflation-5017438",
-        "pub_date": "2026-11-11 01:00:25"
-      },
-      {
-        "title": "Gold steadies near $4,035 after sharp selloff as December Fed hike bets firm",
+        "title": "Gold steadies after selloff as central-bank demand offsets Fed rate hike concerns",
         "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4035-after-sharp-selloff-as-december-fed-hike-bets-firm-5017433",
-        "pub_date": "2026-11-11 00:57:46"
+        "pub_date": "2026-11-11 13:30:59"
       },
       {
-        "title": "Brazil plans measures for 2027 fiscal savings, source says",
-        "link": "https://www.investing.com/news/economic-indicators/brazil-plans-measures-for-2027-fiscal-savings-source-says-5017429",
-        "pub_date": "2026-11-11 00:48:37"
+        "title": "Jefferies cuts Rigetti Computing stock price target on revenue visibility",
+        "link": "https://www.investing.com/news/analyst-ratings/jefferies-cuts-rigetti-computing-stock-price-target-on-revenue-visibility-93CH-5018897",
+        "pub_date": "2026-11-11 13:29:16"
       },
       {
-        "title": "SentinelOne president sells $132,118 in stock for tax obligations",
-        "link": "https://www.investing.com/news/insider-trading-news/sentinelone-president-sells-132118-in-stock-for-tax-obligations-93CH-5017427",
-        "pub_date": "2026-11-11 00:46:09"
+        "title": "Raymond James upgrades Liquidia stock rating on Yutrepia strength",
+        "link": "https://www.investing.com/news/analyst-ratings/raymond-james-upgrades-liquidia-stock-rating-on-yutrepia-strength-93CH-5018894",
+        "pub_date": "2026-11-11 13:29:15"
       },
       {
-        "title": "SentinelOne COO Barry Padgett sells $207,358 in stock",
-        "link": "https://www.investing.com/news/insider-trading-news/sentinelone-coo-barry-padgett-sells-207358-in-stock-93CH-5017426",
-        "pub_date": "2026-11-11 00:46:08"
+        "title": "Goldman Sachs reiterates Oddity Tech stock Sell rating on growth concerns",
+        "link": "https://www.investing.com/news/analyst-ratings/goldman-sachs-reiterates-oddity-tech-stock-sell-rating-on-growth-concerns-93CH-5018895",
+        "pub_date": "2026-11-11 13:29:15"
       },
       {
-        "title": "SentinelOne chief accounting officer sells $181,930 in shares",
-        "link": "https://www.investing.com/news/insider-trading-news/sentinelone-chief-accounting-officer-sells-181930-in-shares-93CH-5017425",
-        "pub_date": "2026-11-11 00:45:59"
+        "title": "Jefferies cuts Palladyne AI stock price target on software order timing",
+        "link": "https://www.investing.com/news/analyst-ratings/jefferies-cuts-palladyne-ai-stock-price-target-on-software-order-timing-93CH-5018896",
+        "pub_date": "2026-11-11 13:29:15"
+      },
+      {
+        "title": "Oil prices stabilize as Hormuz attacks dent Middle East peace hopes",
+        "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-from-2mth-low-with-focus-on-usiran-peace-inventories-5017522",
+        "pub_date": "2026-11-11 13:28:14"
+      },
+      {
+        "title": "Gold mining stocks rise as bullion climbs after inflation-driven slide",
+        "link": "https://www.investing.com/news/commodities-news/gold-mining-stocks-rise-as-bullion-climbs-after-inflationdriven-slide-5018880",
+        "pub_date": "2026-11-11 13:26:35"
+      },
+      {
+        "title": "Ypsomed H1 2026/27 slides: record wins drive guidance raise",
+        "link": "https://www.investing.com/news/company-news/ypsomed-h1-202627-slides-record-wins-drive-guidance-raise-93CH-5018879",
+        "pub_date": "2026-11-11 13:26:18"
+      },
+      {
+        "title": "Global bonds reel as hot U.S. CPI and hawkish Fed revive 50-bp hike fears",
+        "link": "https://www.investing.com/news/forex-news/global-bonds-fall-as-hot-us-cpi-and-fed-rhetoric-stoke-fears-of-50bps-hike-5018037",
+        "pub_date": "2026-11-11 13:25:49"
+      },
+      {
+        "title": "Capri Holdings names Estee Lauder senior executive Justin Boxford new CEO",
+        "link": "https://www.investing.com/news/stock-market-news/capri-holdings-names-estee-lauder-senior-executive-justin-boxford-new-ceo-5018878",
+        "pub_date": "2026-11-11 13:25:35"
       }
     ],
     "Yahoo Finance": [],
@@ -926,12 +926,27 @@
       {
         "title": "Treasury, European Bond Yields Tumble as Markets Lifted by U.S. Democrats’ Victory - WSJ",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdld4SERJUnFrU2lIQ2NMNTJkZy1mVGZUbUFRaEtBQllGTHdQODM2WkhrV1lwd0tCaEd0UUJWclh4M2t6Y0RxMEZWTTBGRHRvNkpMaUV6YkZweVR5MlFwVThma29VWEI4dzdPMTNaSGR1Y28wRnBDWGZQWk02SnhXbnNQbWkycmo0QU50Wm9MNnFGa2lLR2czVU5Vd0thSTNkUEZyTGZDVHR6dWd2RkhoQ18zdnl3b1k0U3QxdWs1Qk5kQQ?oc=5",
-        "pub_date": "Tue, 10 Nov 2026 17:44:41 GMT"
+        "pub_date": "Wed, 11 Nov 2026 09:44:51 GMT"
       },
       {
-        "title": "Falling Oil Prices and Bond Yields Offer Investors Some Relief - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOamZXX2dXT3BmY3J3eGdZVFBGdFZhZm5Obks2MDJhLWtJbjFLdjZOQUN5Z1JwemQ2MnBmckVhQjZxa3VfZ3BHYk8yR2FhaXJZVHlPTUhfVDZ2OWFPVzQtaTVKWjZ1eHZiS2tPUFhRN1RIS1JCTThoUjlrb3ROYlRLd2hDT0ZWbmNVRnBwUGxHQW9SODcyR3dUbEdrdlBOcGtRc2xQSWxoaHdXekZOTUFlLXJ1MDVPVkk?oc=5",
-        "pub_date": "Wed, 11 Nov 2026 00:38:26 GMT"
+        "title": "China Gauges Bond Interest Tax, With Yields Near Record Low - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOekwtc01TbS1yS3BqallTdkE3eGVCanppdnlGSEVIOExRUl94RXBFUEdTWDZseEkzUVFheEdlMldLNGlMZkRuaVNEMEJoUEFCdjFQel96ZmdhU3JfVTdsalE1U0g3bElxOXEwakNFY0Fib05EUmZpeDdsd1RhWWszSy02RWd3a2YxMUJXTkhiaTF1N0pmbWtES2F6RkZrU3FuYU9YY0ZlNC00WHZFSzRiMjVn?oc=5",
+        "pub_date": "Wed, 11 Nov 2026 11:11:22 GMT"
+      },
+      {
+        "title": "Dow Jones Futures Rise, Techs Jump On CoreWeave Earnings; Look For This Bullish Market Signal - Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdTlTdzEzVWY3aWRmTGY0QzNnQjlfNFdOMzhUSnRBVDBOWEd2azg0bEl6dl9jY3NWR29ILUwtT01MWExiLXdsa0dOT3M3TTZzTUNiY1gwWlp6MkFoeGtKUC1tYWdPanVhZ3VqSlNwT1dZVVhlSGJZS3J6UE9Bdm5JZWJLeURUTDNwTG43bF93cm0tTE9QZG1FXzhxNmlkM0FmbVJPM1pnRy1FUG9RT1E?oc=5",
+        "pub_date": "Wed, 11 Nov 2026 13:04:00 GMT"
+      },
+      {
+        "title": "Buying Bond Exposure Without Buying Bonds - Real Investment Advice",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMGVsQWtJYmlsamp0TlBiOVo2T2szUnZOMEg3WldBVXB2WG56Z1pJTndNWnQzejR4SmVIZzNVZnB3bWxXYzZJT29zZ1ZJRzBieVI5b2tZN2hlQndyTGpXNC05V3VPV2JDVmQyUjJhSnQxUXBxV1NfRzdZQTczTDBfYlAzOEhFbWFkTmRPOVo5YjdEWGpl?oc=5",
+        "pub_date": "Wed, 11 Nov 2026 09:40:22 GMT"
+      },
+      {
+        "title": "Asian Bond Yields Rise on Growing Expectations for Fed Rate Hike - WSJ",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY0lWUTNMTnpyanJUcWctaTM1TjBEajVySEdCRG9FTVVtNmFJYkdULXo1cll5Yi1UbVZRVmg2UmZBZkJESG1pelM1NHluMG1OVVI5Z3hkamRIU0xFVVZvd1Q5Ymdma3J6MFRoVWNMUS1HZlhXaThDWG16aGh3Zllfd0dkUlJrTnE4bVhYY2QyNW9Ha3VvV3Flb2RoYVFwazZBUWM0?oc=5",
+        "pub_date": "Wed, 11 Nov 2026 06:50:29 GMT"
       },
       {
         "title": "Bond yields surge most in 19 months as traders brace for Fed rate hikes - CNN",
@@ -939,24 +954,14 @@
         "pub_date": "Tue, 10 Nov 2026 22:14:47 GMT"
       },
       {
-        "title": "Futures Rise, CoreWeave Jumps Late In Whipsaw Trade - Investor's Business Daily",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdTlTdzEzVWY3aWRmTGY0QzNnQjlfNFdOMzhUSnRBVDBOWEd2azg0bEl6dl9jY3NWR29ILUwtT01MWExiLXdsa0dOT3M3TTZzTUNiY1gwWlp6MkFoeGtKUC1tYWdPanVhZ3VqSlNwT1dZVVhlSGJZS3J6UE9Bdm5JZWJLeURUTDNwTG43bF93cm0tTE9QZG1FXzhxNmlkM0FmbVJPM1pnRy1FUG9RT1E?oc=5",
-        "pub_date": "Tue, 10 Nov 2026 23:47:00 GMT"
+        "title": "Stocks rally as CoreWeave soothes, bonds reel on rate hike fears - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbVBQMTVQVUs5RlNtMk1DOWxSNXNLMUcxYk1ZUGJEOEx5NEtGOWozMmkzMktuY3FWNV9aejF4VkhxYXJTc08tZl9QSHFDYV9zZDRxQWN5WE9UYTNrb0hlTjJTV0xmWVBmZFhBWTZQanJqOExGRVVaV01Pb2lVc2p1VUpJN3pUbGpxdjI3SHAwWmpqa2FKWElWRkdHVQ?oc=5",
+        "pub_date": "Wed, 11 Nov 2026 06:25:07 GMT"
       },
       {
-        "title": "Bond yields surge most in 19 months as traders brace for Fed rate hikes - Yahoo Finance",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSkI1Wmh2MElncHI2MVZwMVN5UlN0NXN6TVdDbEVSSGZfbTJIVUMySEpBeHBlZGQyWm9YeTZfMjBDRWdfVTNLSG5QLXY0TFZ2SGFWX01xVUdUOWw4eU1fenQtV25kMWlTNnUzb0xhb2hlc1BhRzR5Nk1GeWZlaVNxamJTSVQyM0xDbWU0aEtiWlluSzV3?oc=5",
-        "pub_date": "Tue, 10 Nov 2026 22:14:47 GMT"
-      },
-      {
-        "title": "Stocks Retreat as Price Pressures Push Bond Yields Higher - Barchart.com",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVDZ0a3Y0UTRySDUtc1hVanVNY0tiTXlaLWpKWkN3YkZod1NTSWE1cmhoOHNIVTJJbVBlTTZCUVZ5UXBVVHpOMFZ2SDlUaFRjTUVvN21OcUdRZllLQVBTX0J5aFI3X2M5RHNrWV84Q2RmdGhiSDc0RjlsRkFSRmRoVm1jWmpZVlhoMmY1aENFVEU0ZUFtQzZyUEkwWWM5MHNDR3FR?oc=5",
-        "pub_date": "Tue, 10 Nov 2026 16:18:23 GMT"
-      },
-      {
-        "title": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations - CNBC",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00TGg2Rk5HQzViV3NxTHZvREFib0dkOURuR3VIUHZJbjZHWTRzOERZelY0WVZlcVZSNGhCS094UTJDXzM2b3NLeVFSMG5jckhkMndFeG9pc0VvM0JnTUsxN2pTckFuQ3NTMTNZWnQ2MA?oc=5",
-        "pub_date": "Tue, 10 Nov 2026 10:25:50 GMT"
+        "title": "Market angst is driving investors into low-volatility stocks as AI trade stumbles - MarketWatch",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPXzdoSVNxancxZzNsSGRPZTBJZ1FNSktlSXotYkQzQldsOFprNzJ6MkZHZWotZmlSc1FzejRwV0lfQ24tU1hkS05xMUVIZUFTTXBrSWxDWm9YaW1XeHJHUDZIWDh1UEJCbVpfZ3Q2N3dsVzFfeW9iUDY5RkxIdTNSbkwzNm5uQVhMT2s5Umoxem55UjNiamZxS09zMDdnd2dVdTZjM01XT3dyUklRZnRRNDlQLU1JX2VMMldsVzlSR3hkZw?oc=5",
+        "pub_date": "Wed, 11 Nov 2026 12:00:00 GMT"
       },
       {
         "title": "Treasury Rates Today: November 10, 2026 - Forbes",
@@ -964,14 +969,9 @@
         "pub_date": "Tue, 10 Nov 2026 21:34:00 GMT"
       },
       {
-        "title": "Spiking yields and falling stocks: Wall Street thinks hot inflation data clinched a rate hike next month - Business Insider",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWG1SZHNSX2x0dWRXSHdfYTFSNldVOF92aUplek1POEt3UnkxME45bExhVl9ma2NTMXRLUVk2Nl92OFVqdmxnVnhiOS1YaDVRQTNIQ2JndWsxeXZqN21EeHhMM3dtZUR4ZTNiNk5FTmZkbEVTZnRabjItUV91Mnlia0NrMzN5U3dKeE1BalM1WlVqWHpJRl9mNzdQTTJlQlh6U1g4?oc=5",
-        "pub_date": "Tue, 10 Nov 2026 15:53:00 GMT"
-      },
-      {
-        "title": "Japanese bond yields rise as US Treasury selloff spills over to Tokyo - marketscreener.com",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSHk1UGl4NXlpTndLRmh3RXFmME10SlJQeklLelp0Wk1ib19MOVVzblk4Qi1kYmx1Wk1GWnlQb3hnR0xxS1F4NE16eUxQUzQ5NWdwU0NabmUyY05kVEZFcmFRckgwdzd2aHYwZEhRWWhLalA4Z0diREdjRjRMYzhMd1UyT2xldG1EYUt0bmNVT3FwZlRaRkVBdll5cjh1d2V2aGhacEFlbHBWaTJGcEtMUEtNUjl4WFlNbUV1N3JZMA?oc=5",
-        "pub_date": "Wed, 11 Nov 2026 00:58:12 GMT"
+        "title": "China Gauges Tax on Bond Interest, With Yields Near Record Low - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS3M3d0lreDgzeWx3N2xOT1RBYlZuclZsR20zTlNpNnZDQzBQcGVwQjZ3a1pHbEVRWktzLU1PWjZ1VURYWEVacWNpcWI0QnVrTjNsZ3BnV1RmVkVrNHp2Rjh4bUZQNkFPSHQyWmg5Um1QLVJnYkt3bjN2cVlXdmdtMkhKMThYckdBeXJKX05IZk1vemFLQXNUUHFFcHZ5WWtZYzRiSm9uWXpLamZmbl9pWEZ3ay1GZG83SWVyU1VYOG9JS3pxa2dRNVNxd3Z1dw?oc=5",
+        "pub_date": "Wed, 11 Nov 2026 04:45:00 GMT"
       },
       {
         "title": "CoreWeave, Inc. (CRWV) Bond Yields Surged Above 15%: Is Its AI Data Center Expansion Becoming Risky? - Yahoo Finance",
@@ -979,9 +979,9 @@
         "pub_date": "Tue, 10 Nov 2026 21:29:11 GMT"
       },
       {
-        "title": "Bonds Tumble as Hot Inflation Fuels Bets on More Fed Rate Hikes - Bloomberg.com",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPakFPZlVwd2pvZDUwU0IzS3I3bHNNTlJOV3JRUXpyTEstS0FRN2JHeDE1R2J6cWxBU3o4SWI2SWhLNTdmdDZzTl9Na3lSLVdqcDd1c0RtSHllU3dSRk04aGNqWmZnbVQxdVVDRmhzcmlJU2tHUnJWQ1JNNzhmNXZITHJmdFpOZWdrWWdvam95YWpvd1ZxWDlROG5Za185MW1fWjFqb05QYmhzRDhpY0NHT3dMeWQ?oc=5",
-        "pub_date": "Tue, 10 Nov 2026 20:46:26 GMT"
+        "title": "Mid-Cap Stocks Are Beating the S&P 500—and They Have Steady Yields - Barron's",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5nOWhuWkRjbUtGaGVqbGFGbGpzTDQ3R2pJN2wwQnhnRWE3bmNkekFBdHNQUS1yY1RBcXZMZy1mNzNrRzR3WE9vcmFNdk02dFEtSTI2cnhSaFg0MWo3U3k3WFVCTDd4UDVKdnFadGZ5LVhqdWpQSHNuendRamI?oc=5",
+        "pub_date": "Wed, 11 Nov 2026 11:00:00 GMT"
       }
     ]
   }
