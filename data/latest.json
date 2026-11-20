@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "collected_at_utc": "2026-11-19T22:55:47+00:00",
+  "collected_at_utc": "2026-11-20T02:28:53+00:00",
   "prices": {
     "^GSPC": {
       "label": "S&P 500",
@@ -25,18 +25,18 @@
       "asset_class": "equity",
       "ok": true,
       "source": "fred",
-      "price": 50198.17,
+      "price": 49097.06,
       "currency": "PCT",
-      "market_date": "2026-11-18",
+      "market_date": "2026-11-19",
       "stale": true,
       "ts": null,
-      "prev_close": 50759.42,
+      "prev_close": 50198.17,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -1.106,
-      "chg_5d_pct": -4.36,
-      "chg_1m_pct": -4.377,
-      "chg_3m_pct": -5.779,
-      "vol20_ann_pct": 21.3
+      "chg_1d_pct": -2.194,
+      "chg_5d_pct": -6.119,
+      "chg_1m_pct": -7.112,
+      "chg_3m_pct": -8.087,
+      "vol20_ann_pct": 22.35
     },
     "^IXIC": {
       "label": "Nasdaq Composite",
@@ -269,54 +269,54 @@
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 62154.245078274114,
+      "price": 61465.14088283764,
       "currency": "USD",
-      "market_date": "2026-11-19",
+      "market_date": "2026-11-20",
       "stale": false,
-      "ts": 1795128860,
-      "prev_close": 64889.412876,
+      "ts": 1795141650,
+      "prev_close": 62996.680182,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -4.215,
-      "chg_5d_pct": -3.066,
-      "chg_1m_pct": -20.15,
-      "chg_3m_pct": -23.146,
-      "vol20_ann_pct": 39.78
+      "chg_1d_pct": -2.431,
+      "chg_5d_pct": -5.88,
+      "chg_1m_pct": -20.459,
+      "chg_3m_pct": -24.338,
+      "vol20_ann_pct": 39.52
     },
     "ETH-USD": {
       "label": "Ethereum",
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 1759.6242483414494,
+      "price": 1730.74471859017,
       "currency": "USD",
-      "market_date": "2026-11-19",
+      "market_date": "2026-11-20",
       "stale": false,
-      "ts": 1795128860,
-      "prev_close": 1822.955753,
+      "ts": 1795141660,
+      "prev_close": 1775.100211,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -3.474,
-      "chg_5d_pct": -0.499,
-      "chg_1m_pct": -21.776,
-      "chg_3m_pct": -32.622,
-      "vol20_ann_pct": 55.91
+      "chg_1d_pct": -2.499,
+      "chg_5d_pct": -5.657,
+      "chg_1m_pct": -22.821,
+      "chg_3m_pct": -34.242,
+      "vol20_ann_pct": 55.55
     },
     "SOL-USD": {
       "label": "Solana",
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 73.06881925724741,
+      "price": 71.84806562997727,
       "currency": "USD",
-      "market_date": "2026-11-19",
+      "market_date": "2026-11-20",
       "stale": false,
-      "ts": 1795128860,
-      "prev_close": 75.124569,
+      "ts": 1795141670,
+      "prev_close": 73.557207,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -2.736,
-      "chg_5d_pct": 4.027,
-      "chg_1m_pct": -23.468,
-      "chg_3m_pct": -35.166,
-      "vol20_ann_pct": 55.05
+      "chg_1d_pct": -2.324,
+      "chg_5d_pct": -1.185,
+      "chg_1m_pct": -25.355,
+      "chg_3m_pct": -35.281,
+      "vol20_ann_pct": 55.04
     },
     "GC=F": {
       "label": "Oro (spot)",
@@ -428,7 +428,7 @@
       "price": 1.0992,
       "currency": "USD",
       "market_date": "2026-11-19",
-      "stale": false,
+      "stale": true,
       "ts": null,
       "prev_close": 1.0968,
       "prev_close_source": "daily_series",
@@ -662,7 +662,7 @@
     }
   },
   "_meta": {
-    "elapsed_s": 28.5,
+    "elapsed_s": 34.4,
     "tickers_ok": 31,
     "tickers_total": 36,
     "carry_forward": 14,
@@ -697,7 +697,7 @@
       {
         "title": "Gap names new Athleta CEO, lowers full-year guidance",
         "link": "https://www.cnbc.com/2026/11/19/gap-gap-q3-2026-earnings.html",
-        "pub_date": "Thu, 19 Nov 2026 21:22:23 GMT"
+        "pub_date": "Thu, 19 Nov 2026 23:54:20 GMT"
       },
       {
         "title": "Walmart hikes outlook as CEO tells CNBC retailer aims to keep prices low despite soaring fuel costs",
@@ -757,6 +757,26 @@
     ],
     "MarketWatch": [
       {
+        "title": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+        "link": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+        "pub_date": "Fri, 20 Nov 2026 01:30:00 GMT"
+      },
+      {
+        "title": "My wife is bankrolling her family’s trips to New York and it’s draining our savings. Should I ask her to stop?",
+        "link": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
+        "pub_date": "Fri, 20 Nov 2026 01:22:00 GMT"
+      },
+      {
+        "title": "After Anthropic’s ‘bittersweet’ IPO, here’s what lies ahead",
+        "link": "https://www.marketwatch.com/story/after-anthropics-bittersweet-ipo-heres-what-lies-ahead-8c32fdb7?mod=mw_rss_topstories",
+        "pub_date": "Thu, 19 Nov 2026 23:56:00 GMT"
+      },
+      {
+        "title": "These were the only stocks that rose amid the stock market’s wipeout Thursday",
+        "link": "https://www.marketwatch.com/story/these-were-the-only-stocks-that-rose-amid-the-stock-markets-wipeout-thursday-1eaf32ba?mod=mw_rss_topstories",
+        "pub_date": "Thu, 19 Nov 2026 23:11:00 GMT"
+      },
+      {
         "title": "Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies",
         "link": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories",
         "pub_date": "Thu, 19 Nov 2026 22:53:00 GMT"
@@ -765,11 +785,6 @@
         "title": "A CoreWeave co-founder just made an unconventional $30 million wager on its battered bonds",
         "link": "https://www.marketwatch.com/story/a-coreweave-co-founder-just-made-an-unconventional-30-million-wager-on-its-battered-bonds-5586b0e9?mod=mw_rss_topstories",
         "pub_date": "Thu, 19 Nov 2026 22:41:00 GMT"
-      },
-      {
-        "title": "We’re in our 50s and terrified of a market crash. Should we put $400,000 of our $1 million retirement savings into an annuity?",
-        "link": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
-        "pub_date": "Thu, 19 Nov 2026 22:15:00 GMT"
       },
       {
         "title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
@@ -790,73 +805,58 @@
         "title": "Why Micron, Broadcom and other AI stocks gave up their gains Thursday",
         "link": "https://www.marketwatch.com/story/why-micron-intel-and-other-ai-stocks-are-getting-a-lift-on-thursday-cf6f59f8?mod=mw_rss_topstories",
         "pub_date": "Thu, 19 Nov 2026 21:27:00 GMT"
-      },
-      {
-        "title": "UnitedHealth’s stock tumbles after government signals crackdown on Medicare Advantage fraud",
-        "link": "https://www.marketwatch.com/story/unitedhealths-stock-keeps-plunging-after-government-signals-crackdown-on-medicare-advantage-fraud-c4770a45?mod=mw_rss_topstories",
-        "pub_date": "Thu, 19 Nov 2026 21:22:00 GMT"
-      },
-      {
-        "title": "Why Walmart is making a bigger bet on fast-food delivery",
-        "link": "https://www.marketwatch.com/story/why-walmart-is-making-a-bigger-bet-on-fast-food-delivery-27263735?mod=mw_rss_topstories",
-        "pub_date": "Thu, 19 Nov 2026 21:13:00 GMT"
-      },
-      {
-        "title": "‘I felt so seen’: Why families across America are laughing — and crying — over SNL’s ‘Sister’ sketch",
-        "link": "https://www.marketwatch.com/story/so-sad-and-so-true-has-your-family-talked-about-snls-sister-sketch-yet-19bf9d67?mod=mw_rss_topstories",
-        "pub_date": "Thu, 19 Nov 2026 21:06:00 GMT"
       }
     ],
     "Investing.com": [
       {
-        "title": "Keysight Q4 FY2026 slides: record year with 49% order growth",
-        "link": "https://www.investing.com/news/company-news/keysight-q4-fy2026-slides-record-year-with-49-order-growth-93CH-5040266",
-        "pub_date": "2026-11-19 22:43:40"
+        "title": "Ellington Credit earnings missed by $0.05, revenue topped estimates",
+        "link": "https://www.investing.com/news/earnings/ellington-credit-earnings-missed-by-005-revenue-topped-estimates-5040531",
+        "pub_date": "2026-11-20 02:20:31"
       },
       {
-        "title": "Turners Automotive 1H27 slides: finance growth offsets retail pressure",
-        "link": "https://www.investing.com/news/company-news/turners-automotive-1h27-slides-finance-growth-offsets-retail-pressure-93CH-5040265",
-        "pub_date": "2026-11-19 22:43:23"
+        "title": "Exclusive-Citi underestimated risky assets by $35 billion after incorrectly recording trades, sources say",
+        "link": "https://www.investing.com/news/stock-market-news/exclusivecitiincorrectly-booked-trades-underestimatedrisky-assets-by-35-billion-sources-say-5040342",
+        "pub_date": "2026-11-20 02:18:24"
       },
       {
-        "title": "GeoVax Labs announces executive changes, appoints interim CFO and CEO",
-        "link": "https://www.investing.com/news/sec-filings/geovax-labs-announces-executive-changes-appoints-interim-cfo-and-ceo-93CH-5040264",
-        "pub_date": "2026-11-19 22:43:20"
+        "title": "Oil prices edge higher as Houthi attacks on Riyadh raise supply concerns",
+        "link": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518",
+        "pub_date": "2026-11-20 02:06:22"
       },
       {
-        "title": "Procter & Gamble targets up to $10 billion in productivity savings as costs stack up",
-        "link": "https://www.investing.com/news/stock-market-news/procter--gamble-targets-up-to-10-billion-in-productivity-savings-cfo-says-5039819",
-        "pub_date": "2026-11-19 22:42:26"
+        "title": "United Therapeutics evp Mahon sells $4.69M in company stock",
+        "link": "https://www.investing.com/news/insider-trading-news/united-therapeutics-evp-mahon-sells-469m-in-company-stock-93CH-5040517",
+        "pub_date": "2026-11-20 02:05:12"
       },
       {
-        "title": "Earnings call transcript: ESCO Technologies tops Q4 2026 estimates, shares rise",
-        "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-esco-technologies-tops-q4-2026-estimates-shares-rise-93CH-5040263",
-        "pub_date": "2026-11-19 22:42:23"
+        "title": "NexPoint Residential Trust director sells $74,800 in shares",
+        "link": "https://www.investing.com/news/insider-trading-news/nexpoint-residential-trust-director-sells-74800-in-shares-93CH-5040516",
+        "pub_date": "2026-11-20 02:04:54"
       },
       {
-        "title": "Earnings call transcript: Intuit tops Q1 2027 estimates but shares fall",
-        "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-intuit-tops-q1-2027-estimates-but-shares-fall-93CH-5040262",
-        "pub_date": "2026-11-19 22:41:04"
+        "title": "+82% since entry - a cloud software name our models picked keeps climbing",
+        "link": "https://www.investing.com/news/stock-market-news/82-since-entry--a-cloud-software-name-our-models-picked-keeps-climbing-5040510",
+        "pub_date": "2026-11-20 02:01:35"
       },
       {
-        "title": "Earnings call transcript: Globant Q3 2026 revenue tops guidance as AI gains",
-        "link": "https://www.investing.com/news/transcripts/earnings-call-transcript-globant-q3-2026-revenue-tops-guidance-as-ai-gains-93CH-5040261",
-        "pub_date": "2026-11-19 22:40:56"
+        "title": "Asian shares head for worst week since 2020 as AI trade gloom fails to abate",
+        "link": "https://www.investing.com/news/economy-news/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate-5040496",
+        "pub_date": "2026-11-20 02:01:29"
       },
       {
-        "title": "Stewards, Inc. cancels 7 million common shares, issues Series D preferred stock",
-        "link": "https://www.investing.com/news/sec-filings/stewards-inc-cancels-7-million-common-shares-issues-series-d-preferred-stock-93CH-5040258",
-        "pub_date": "2026-11-19 22:39:04"
+        "title": "NexPoint director Brian Mitts sells $56,750 in company stock",
+        "link": "https://www.investing.com/news/insider-trading-news/nexpoint-director-brian-mitts-sells-56750-in-company-stock-93CH-5040509",
+        "pub_date": "2026-11-20 02:01:05"
       },
       {
-        "title": "Oil prices settle higher amid fears of renewed violence between U.S. and Iran",
-        "link": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-report-says-trump-considering-more-iran-strikes-5037588",
-        "pub_date": "2026-11-19 22:38:52"
+        "title": "NexPoint Residential CFO Paul Richards buys $14,740 in company stock",
+        "link": "https://www.investing.com/news/insider-trading-news/nexpoint-residential-cfo-paul-richards-buys-14740-in-company-stock-93CH-5040508",
+        "pub_date": "2026-11-20 02:01:04"
       },
       {
-        "title": "Trump says he and China’s Xi want moderate AI rules",
-        "link": "https://www.investing.com/news/stock-market-news/trump-says-he-and-chinas-xi-want-moderate-ai-rules-5040256",
-        "pub_date": "2026-11-19 22:36:33"
+        "title": "Kura Oncology CCO Brian Powl sells $3,256 in shares",
+        "link": "https://www.investing.com/news/insider-trading-news/kura-oncology-cco-brian-powl-sells-3256-in-shares-93CH-5040507",
+        "pub_date": "2026-11-20 02:01:03"
       }
     ],
     "Yahoo Finance": [],
@@ -929,6 +929,16 @@
         "pub_date": "Thu, 19 Nov 2026 10:04:37 GMT"
       },
       {
+        "title": "India’s Stock Rally Faces Valuation Test as Bond Allure Grows - Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUzNUcnc5NTNrNEdDYzZQbC1vT054eXF0RTFsMmEwUUlsSXpwNm9mYWlPd0UzUHZla1NXeURvTU11NHFZcHVSWWJ5Y3Zrb3FQTXR2R3NlM01DVWJmSHU0cTFNNnNxdVhWQV8tZnBqWFRMLUI5LU5adjlVZEZNc29BWGltY2x3cGxranNpWC1kTVI5OUVBQlM0b2IyMVVTOEVPNGNHV3FJMFU1cDZnVEk1ejZn?oc=5",
+        "pub_date": "Fri, 20 Nov 2026 00:00:00 GMT"
+      },
+      {
+        "title": "Treasury yields tick lower as investors weigh the state of the U.S. economy - CNBC",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNkZZT1lIeU1WR19KR0NSTzF2YzA4dnQwalkwYTZKRUpJOW9DWldwNHdfZ1d1eXFmcHU0WHNlTXVocTNaQks3Tm9UalRQUFFGOXp3VkNNdDRHV1Y5czJQZ29fblFmcENfSnZUQWJsU3FjeWNfVTFVM1kxZzlUUWhuOTBB0gGHAUFVX3lxTE0ydXg2dUZCNEs4WnNRc2ZhUmFxR19LRkRzREFLOFc0aWxWSDJFTFJXaEQxdTJtQkg5Smo4azh3bXdRc1VveW9aYk5Rbzc0bGRxZng5dVhQWXhCV0syX09tVHRxclg1b2hiMnJjSzZjSm9LUWh1azA2bjZVbkNkY3cwRmpYT2ZiSQ?oc=5",
+        "pub_date": "Thu, 19 Nov 2026 09:52:58 GMT"
+      },
+      {
         "title": "New York Stock Market Reverses Gains Amid Rising Oil Prices, Yields - 조선일보",
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOERXeXhJbE9ObmRsbC1jS1RiYndpRWFXV1ZLdEE3ekpOREFKbjhoczZGSmZCSHpOSmlJb1VIYnlXbG1Fa08wTUJhbmRXQXRzcmlLOHVvd0NPQlRwRmMxZGFpMEo1VFFod0g3SDlEaTBPeTVOUEpwZVU0U1ZpS2h3RHB1LVdpZUp1M1NDQmZn?oc=5",
         "pub_date": "Thu, 19 Nov 2026 16:04:57 GMT"
@@ -939,19 +949,14 @@
         "pub_date": "Thu, 19 Nov 2026 21:39:21 GMT"
       },
       {
-        "title": "Shell weakens as US bond yields rise with inflation, raising funding and energy demand concerns - Traders Union",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMmc0c0xIZ005Sm9lVEFsQkItck1vUmRJaUlsUTZ4MFZNRDNqRURHRG9hR2pQZlRYRmFhblhNYnNSeHgxZnJGMm5xaEhLNVVGOFRseVk2QUJLOUhSTWxjVWtQVk9PZGZIanRsT2tuVzNpMjNOUW5pQ21yNHdUZ20xNzBKN1VKbXl4aEE?oc=5",
-        "pub_date": "Thu, 19 Nov 2026 15:01:33 GMT"
-      },
-      {
         "title": "Broadcom (AVGO) Named In ECB Warning On AI Debt Financing - Yahoo Finance",
         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPN0ZHM1FCWks5Z2hOQTFXZy1reUU1TnYtOU9vb2IwOUhvZTctNXh1ZFZsZTFkX285UHN3WjJweFNEbmFkU2N0cXlWZDBUdENBTGNuT3JHbVNWZzFTZmZ3M3RlenZwWUMyc2NXMXhrYkpEdDY0a1lMMVhQX3gtR0NWRlQtdU9nUFdMaWxwUFJPOEI2eDVvZ3BaU1ZFRQ?oc=5",
         "pub_date": "Thu, 19 Nov 2026 14:16:50 GMT"
       },
       {
-        "title": "Stock Market Today: Anthropic IPO Revives the AI Trade, but Fear Is Growing - 24/7 Wall St.",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVEpna2x5YUdaekFwWnZqZGw1TDZIYndxYW40SGt4MDliSkMzQm9TZFhCTG5oZ2ktN1JWTmxsX0NWS0wzZlplM25fbzZ3eDJxY3l2am5tcFY1b29wWWVrQWJSNTAyWjlBLUFocHNBdEFkY0pmVkstZUhzbEZtLTFCUEdOel9XYjR1REpwNEQyNHFjUm9kc3FpeXZrc0xsb1VQY2RSU09Pd052YXBHY0dKVUliWnhSZmZv?oc=5",
-        "pub_date": "Thu, 19 Nov 2026 14:06:00 GMT"
+        "title": "Gold and Bitcoin Prices Drop Amid Rising US Bond Yields and ETF Outflows - KuCoin",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdkxXdi01SXpjSko4ZkZGaDRZeTdzQ2dzaEpfRXVmZlROazNGVEF6OFZsMTYwWGVGLUdfdFROanJLc2dvaWg2a1dtOVY2b2pEZzFDZVdSaUlJS2wzQVJIUWlKV28wR211b1lDNktFcWpKVGxVOWdXWGR4OU05RXFSeVdFM3QzQnpfZ3IwVEZaaUhGb202MVE4dmY4V0NqVGxNSkdIV1JiNVdUUQ?oc=5",
+        "pub_date": "Thu, 19 Nov 2026 23:14:03 GMT"
       },
       {
         "title": "Anthropic hits $1.5 trillion valuation in record IPO as ECB warns AI funding could dry up - CryptoSlate",
@@ -964,24 +969,19 @@
         "pub_date": "Thu, 19 Nov 2026 12:06:00 GMT"
       },
       {
+        "title": "02/09/26 | 9:28 am | Asian markets - DD News",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ2tjeFpZQzc5ZmhSeUFkQ2FycDdVVlFSMmFsUl84eHE0RFEzT0N1ZkZuS21DR0FoSkFoUjBTUDF1VDVqcWs3bjF1MUZPTHJwVUVIU1QwZzRYSGV6Z3FleVdaRmk1Uzk1OGZhbVM1SkM4T3hQVkkxNDQtOFVsdERyclZPRUxIRFBuSEVRbGMwWk13enRXMnVz?oc=5",
+        "pub_date": "Thu, 19 Nov 2026 07:45:54 GMT"
+      },
+      {
         "title": "Treasury, Eurozone Bond Yields Edge Higher -- Update - marketscreener.com",
         "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSHFfQ3FNTTE1YWVzT2twY1c5c1ZORnlKYkx6VXdTOWtmc3h2Mk5jdmNZekVFYURhU2YtUzdkajRZbXZ4NzZUX29rZTBVOUZ1LU44VmpDc1kwcUVpYzNmRE9ic3puOEJhYjVrb2FOZk14SVJZRm9GN0lIWlJsdkYyWXJmaHFRQVB0ektiVERwSWdfRE1fYjM4UWdfVlBnMHdObUxZ?oc=5",
         "pub_date": "Thu, 19 Nov 2026 09:43:26 GMT"
       },
       {
-        "title": "(2nd LD) Seoul shares end higher ahead of Anthropic's stock market debut - Yonhap News Agency",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90Q3BtSnJxaVQ5MjViTkh6VG9qeUw5TnRnVnF5N1BFMkxVOHhWVERreXlOZERia2ZGekhpdk9Ya2trNE9RZ0c0YVU5MF9BQXRrYUF1cDVwdnlwdw?oc=5",
-        "pub_date": "Thu, 19 Nov 2026 08:48:26 GMT"
-      },
-      {
-        "title": "Gold erases post-midterms gains as higher real yields and US dollar hurt. What's next? - investingLive",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcGM3MVlBakdxby1fSlpaZ3hvTUVvMzItN2E4Uk1EQXVZSFI2STJSdU5EcEZRYmxDQkhhZlU1YjJnT2QtWk1NenVUSUc5b1ZDMGgtSXowNE1rUnZKbE9jZndXTEE0UUhGSnV4X0JsVHNhMldmOGFwS01qeFN1SFZhLUk4VVRuZ3NFbmNjeFZoR0dFN1JLcnpobnlPOFJQZVdnbk9TbnFDd0dTVEE5RVlnb1JQdGx6MmtwbU5CQ1ZqWS0?oc=5",
-        "pub_date": "Thu, 19 Nov 2026 09:10:34 GMT"
-      },
-      {
-        "title": "Williams-Sonoma stock yields 18.76% annualized return over 15 years - scanx.trade",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObi1FZzFZeUY1M1VoV05oaGhRblhiN3ZFTDJZdnlicDRXQnpGeXlTamRlSTYxVTRTQnpPZTI1OC1BNHlFdGRlMmw5cUFQVHZybWhLcUJicnZ3T1JNNktHdFpjaXZEb1dxdUNubms1dU5wY3g5LTZFbENHNzc1YlJLRUd1N2JQcHBBNk5GRVZYV3BuN1poM1hCSWtnQ2FDM21kSmNrS2s3RU5VVWl0bHNuMHIyVDdtcG9XNUE?oc=5",
-        "pub_date": "Thu, 19 Nov 2026 16:23:25 GMT"
+        "title": "Treasury Yields Fall as Anthopic Fails to Sustain Risk Appetite -- 2nd Update - marketscreener.com",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTWhDLXp3T2RCbnpENEF2b080N3pVbTRuTGpEM3J4NDVEYkFMQUk1UkNnT3pUR3BxQ2Noc2RKc2d2X2NUcWNDRXEtZkxOMDVIRFBHZnBlQlZpRE8yeENuNk9ZeXNiUnNPSWJldGw4U1p6VlVCVlhyZVItblF5Z0p5dGZPU3NiSVJxckhtaDZIVURjRHAtcEZDR2M1ZFlOQVJiX3JfRVE0NjU0aXVna0dVOXBteWF3VWFJeG5WdGJ1WWh2SnpDckE?oc=5",
+        "pub_date": "Thu, 19 Nov 2026 21:02:48 GMT"
       }
     ]
   }
