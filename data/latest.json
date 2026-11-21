@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "collected_at_utc": "2026-11-20T22:31:26+00:00",
+  "collected_at_utc": "2026-11-21T02:40:44+00:00",
   "prices": {
     "^GSPC": {
       "label": "S&P 500",
@@ -25,18 +25,18 @@
       "asset_class": "equity",
       "ok": true,
       "source": "fred",
-      "price": 49097.06,
+      "price": 48147.33,
       "currency": "PCT",
-      "market_date": "2026-11-19",
+      "market_date": "2026-11-20",
       "stale": true,
       "ts": null,
-      "prev_close": 50198.17,
+      "prev_close": 49097.06,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -2.194,
-      "chg_5d_pct": -6.119,
-      "chg_1m_pct": -7.112,
-      "chg_3m_pct": -8.087,
-      "vol20_ann_pct": 22.35
+      "chg_1d_pct": -1.934,
+      "chg_5d_pct": -8.024,
+      "chg_1m_pct": -8.929,
+      "chg_3m_pct": -10.135,
+      "vol20_ann_pct": 22.84
     },
     "^IXIC": {
       "label": "Nasdaq Composite",
@@ -269,54 +269,54 @@
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 59002.73839569812,
+      "price": 58647.63977031231,
       "currency": "USD",
-      "market_date": "2026-11-20",
+      "market_date": "2026-11-21",
       "stale": false,
-      "ts": 1795213820,
-      "prev_close": 62996.680182,
+      "ts": 1795228760,
+      "prev_close": 61921.36182,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -6.34,
-      "chg_5d_pct": -9.651,
-      "chg_1m_pct": -23.646,
-      "chg_3m_pct": -27.369,
-      "vol20_ann_pct": 41.48
+      "chg_1d_pct": -5.287,
+      "chg_5d_pct": -9.551,
+      "chg_1m_pct": -24.346,
+      "chg_3m_pct": -27.746,
+      "vol20_ann_pct": 41.1
     },
     "ETH-USD": {
       "label": "Ethereum",
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 1621.2545592856752,
+      "price": 1617.3987212700358,
       "currency": "USD",
-      "market_date": "2026-11-20",
+      "market_date": "2026-11-21",
       "stale": false,
-      "ts": 1795213790,
-      "prev_close": 1775.100211,
+      "ts": 1795228760,
+      "prev_close": 1755.589817,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -8.667,
-      "chg_5d_pct": -11.625,
-      "chg_1m_pct": -27.703,
-      "chg_3m_pct": -38.402,
-      "vol20_ann_pct": 60.02
+      "chg_1d_pct": -7.871,
+      "chg_5d_pct": -11.105,
+      "chg_1m_pct": -28.247,
+      "chg_3m_pct": -38.845,
+      "vol20_ann_pct": 59.72
     },
     "SOL-USD": {
       "label": "Solana",
       "asset_class": "crypto",
       "ok": true,
       "source": "coingecko",
-      "price": 69.06177458614424,
+      "price": 68.50910984294656,
       "currency": "USD",
-      "market_date": "2026-11-20",
+      "market_date": "2026-11-21",
       "stale": false,
-      "ts": 1795213810,
-      "prev_close": 73.557207,
+      "ts": 1795228760,
+      "prev_close": 73.068393,
       "prev_close_source": "daily_series",
-      "chg_1d_pct": -6.111,
-      "chg_5d_pct": -5.017,
-      "chg_1m_pct": -28.25,
-      "chg_3m_pct": -37.791,
-      "vol20_ann_pct": 56.97
+      "chg_1d_pct": -6.24,
+      "chg_5d_pct": -4.208,
+      "chg_1m_pct": -28.199,
+      "chg_3m_pct": -38.366,
+      "vol20_ann_pct": 57.49
     },
     "GC=F": {
       "label": "Oro (spot)",
@@ -428,7 +428,7 @@
       "price": 1.099,
       "currency": "USD",
       "market_date": "2026-11-20",
-      "stale": false,
+      "stale": true,
       "ts": null,
       "prev_close": 1.0992,
       "prev_close_source": "daily_series",
@@ -662,7 +662,7 @@
     }
   },
   "_meta": {
-    "elapsed_s": 35.1,
+    "elapsed_s": 37.1,
     "tickers_ok": 31,
     "tickers_total": 36,
     "carry_forward": 14,
@@ -759,7 +759,17 @@
       {
         "title": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
         "link": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
-        "pub_date": "Fri, 20 Nov 2026 22:12:00 GMT"
+        "pub_date": "Fri, 20 Nov 2026 22:46:00 GMT"
+      },
+      {
+        "title": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
+        "link": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories",
+        "pub_date": "Fri, 20 Nov 2026 22:44:00 GMT"
+      },
+      {
+        "title": "These stocks were crushed the most this week as the tech wreck accelerated",
+        "link": "https://www.marketwatch.com/story/these-stocks-were-crushed-the-most-this-week-as-the-tech-wreck-accelerated-8d6f7323?mod=mw_rss_topstories",
+        "pub_date": "Fri, 20 Nov 2026 22:44:00 GMT"
       },
       {
         "title": "Nvidia’s stock clinches a stretch of weekly losses not seen since 2008",
@@ -795,68 +805,58 @@
         "title": "Here’s what’s been proven to help GLP-1 users from losing too much muscle from the drug",
         "link": "https://www.marketwatch.com/story/heres-whats-been-proven-to-help-glp-1-users-who-have-lost-muscle-from-the-drug-2c71cdbf?mod=mw_rss_topstories",
         "pub_date": "Fri, 20 Nov 2026 21:01:00 GMT"
-      },
-      {
-        "title": "The tech wreck is one stock trade Trump can’t ‘TACO’ away",
-        "link": "https://www.marketwatch.com/story/the-tech-wreck-is-one-stock-trade-trump-cant-taco-away-516b3883?mod=mw_rss_topstories",
-        "pub_date": "Fri, 20 Nov 2026 20:52:00 GMT"
-      },
-      {
-        "title": "‘GTA 6’ has taken over. Is it too late to buy the developer’s stock?",
-        "link": "https://www.marketwatch.com/story/gta-6-has-taken-over-is-it-too-late-to-buy-the-developers-stock-69a5cbc5?mod=mw_rss_topstories",
-        "pub_date": "Fri, 20 Nov 2026 20:32:00 GMT"
       }
     ],
     "Investing.com": [
       {
-        "title": "Illinois Commerce Commission approves rate increases for WEC Energy subsidiaries",
-        "link": "https://www.investing.com/news/sec-filings/illinois-commerce-commission-approves-rate-increases-for-wec-energy-subsidiaries-93CH-5042760",
-        "pub_date": "2026-11-20 22:09:47"
+        "title": "Ondas COO Huston sells $18,784 of shares at $4.08",
+        "link": "https://www.investing.com/news/insider-trading-news/ondas-coo-huston-sells-18784-of-shares-at-408-93CH-5043056",
+        "pub_date": "2026-11-21 02:16:02"
       },
       {
-        "title": "Ford, Honda, Stellantis, VW sue New Jersey to block ’extortionate’ vehicle repair law",
-        "link": "https://www.investing.com/news/stock-market-news/ford-honda-stellantis-vw-sue-new-jersey-to-blockvehicle-repair-law-5042513",
-        "pub_date": "2026-11-20 22:06:27"
+        "title": "Ondas director Richard M. Cohen sells $21,032 in company stock",
+        "link": "https://www.investing.com/news/insider-trading-news/ondas-director-richard-m-cohen-sells-21032-in-company-stock-93CH-5043055",
+        "pub_date": "2026-11-21 02:16:00"
       },
       {
-        "title": "Bank of America amends bylaws to update governance and shareholder meeting rules",
-        "link": "https://www.investing.com/news/sec-filings/bank-of-america-amends-bylaws-to-update-governance-and-shareholder-meeting-rules-93CH-5042758",
-        "pub_date": "2026-11-20 22:05:21"
+        "title": "France, Germany to take key ECB roles, with Spain set for presidency",
+        "link": "https://www.investing.com/news/economic-indicators/france-germany-to-take-key-ecb-roles-with-spain-set-for-presidency-5042345",
+        "pub_date": "2026-11-21 02:12:41"
       },
       {
-        "title": "Nvidia suffers worst week since 2008, as SEC probe report fuels post-Huang turmoil",
-        "link": "https://www.investing.com/news/stock-market-news/nvidia-shares-fall-10-as-report-of-sec-accounting-probe-adds-to-pressure-5042464",
-        "pub_date": "2026-11-20 22:02:34"
+        "title": "Analysis-Wall Street banks set for banner year as Anthropic, SpaceX IPOs generate $1 billion in fees",
+        "link": "https://www.investing.com/news/stock-market-news/analysiswall-street-banks-set-for-banner-year-as-anthropic-spacex-ipos-generate-1-billion-in-fees-5042444",
+        "pub_date": "2026-11-21 02:12:22"
       },
       {
-        "title": "Biofrontera receives Nasdaq notice for minimum bid price non-compliance",
-        "link": "https://www.investing.com/news/sec-filings/biofrontera-receives-nasdaq-notice-for-minimum-bid-price-noncompliance-93CH-5042755",
-        "pub_date": "2026-11-20 22:01:15"
+        "title": "Singaporean extradited to face US charges over global insider trading scheme",
+        "link": "https://www.investing.com/news/stock-market-news/singaporean-extradited-to-face-us-charges-over-global-insider-trading-scheme-5042823",
+        "pub_date": "2026-11-21 02:06:58"
       },
       {
-        "title": "AgEagle CEO William Irby buys $5,950 in common stock",
-        "link": "https://www.investing.com/news/insider-trading-news/ageagle-ceo-william-irby-buys-5950-in-common-stock-93CH-5042754",
-        "pub_date": "2026-11-20 22:00:56"
+        "title": "Home Bancorp chief risk officer buys $315,013 in company stock",
+        "link": "https://www.investing.com/news/insider-trading-news/home-bancorp-chief-risk-officer-buys-315013-in-company-stock-93CH-5043042",
+        "pub_date": "2026-11-21 02:01:17"
       },
       {
-        "title": "Anthropic’s post-debut stumble delivers reality check for AI trade",
-        "link": "https://www.investing.com/news/economy-news/anthropics-postdebut-stumble-delivers-reality-check-for-ai-trade-5041125",
-        "pub_date": "2026-11-20 22:00:54"
+        "title": "Virtuix Holdings CEO buys $9,740 in company stock",
+        "link": "https://www.investing.com/news/insider-trading-news/virtuix-holdings-ceo-buys-9740-in-company-stock-93CH-5043041",
+        "pub_date": "2026-11-21 02:00:50"
       },
       {
-        "title": "Fortitude Gold sells 2.8 million shares in private transaction",
-        "link": "https://www.investing.com/news/sec-filings/fortitude-gold-sells-28-million-shares-in-private-transaction-93CH-5042741",
-        "pub_date": "2026-11-20 21:57:40"
+        "title": "US was warned of telecom security risks years before Salt Typhoon",
+        "link": "https://www.investing.com/news/stock-market-news/us-was-warned-of-telecom-security-risks-years-before-salt-typhoon-5043030",
+        "pub_date": "2026-11-21 01:54:24"
       },
       {
-        "title": "Dutch court bars Chinese SUV in Europe over resemblance to Land Rover Defender",
-        "link": "https://www.investing.com/news/stock-market-news/dutch-court-bars-chinese-suv-in-europe-over-resemblance-to-land-rover-defender-5042739",
-        "pub_date": "2026-11-20 21:55:56"
+        "title": "Upstart Holdings chief accounting officer sells $9,156 in stock",
+        "link": "https://www.investing.com/news/insider-trading-news/upstart-holdings-chief-accounting-officer-sells-9156-in-stock-93CH-5043028",
+        "pub_date": "2026-11-21 01:51:02"
       },
       {
-        "title": "AI tech rout prompts US investors to rush into value stocks",
-        "link": "https://www.investing.com/news/economy-news/ai-tech-rout-prompts-us-investors-to-rush-into-value-stocks-5042534",
-        "pub_date": "2026-11-20 21:55:44"
+        "title": "Upstart Holdings CLO Scott Darling sells $120,142 in stock",
+        "link": "https://www.investing.com/news/insider-trading-news/upstart-holdings-clo-scott-darling-sells-120142-in-stock-93CH-5043027",
+        "pub_date": "2026-11-21 01:50:43"
       }
     ],
     "Yahoo Finance": [],
@@ -924,7 +924,7 @@
     ],
     "Google News Mkts": [
       {
-        "title": "Treasury yields are sharply lower as investors flee to safe havens - CNBC",
+        "title": "Treasury yields move sharply lower as investors flee to safe havens - CNBC",
         "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE56cmNjcGpHN0dNOXd4NmdpWVJ2Z1R6NUhmRDlXUExPNnVTcU12MnNlSUF4c2FFWmcyRkh3a0k1b0lsZWpIbTM0NzhfOHhpMkhNaWVnSGJ3eTlpVElJNWxzei15VFAycmFfdjVtTTROSDNsUi1aNGtZ0gF8QVVfeXFMTVB4bFI5cDFDUEJCM1RXQnU0UUpxZmh3cHN2ZVY5Rkx6X3dwTjltTy1tR1puQm5kOGF0bzdxMUNqUXd2ZVRQc1VJbkNsVURINk1LXzY4VGQyZmJFSjZuVldEVDlWZlpkZ2RpZGJ5ZE5QUzY5Sm0yeXRBNWNMOQ?oc=5",
         "pub_date": "Fri, 20 Nov 2026 10:21:03 GMT"
       },
@@ -939,14 +939,19 @@
         "pub_date": "Fri, 20 Nov 2026 11:02:59 GMT"
       },
       {
-        "title": "CBOE Interest Rate 10 Year T Note (^TNX) Charts, Data & News - Yahoo Finance - Yahoo! Finance Canada",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzTVRkM2x1bGZCZDM4bTNQdHB0V1BxS1g4TU1abk5nb0Fya1RTSUlEQm1iRzAyTGRrMmpsR0RJVzh0NHdlc2Q2eGs2QUZfdjJfYnoySQ?oc=5",
-        "pub_date": "Fri, 20 Nov 2026 07:19:45 GMT"
+        "title": "Tech leads global stocks rout, Treasury yields fall - Yahoo Finance",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSjlpWS1YQTlya1VJSTJGT0tCMHZjbzBEYVdsSGhqLWdlOVk3eF8yS003U0ptdW1EcGpqbWx0NnZWSC1Qck95NVlRcDhMN0w5cWg4V19JelZqaVNxRDA1VGVON205SVNQUFhaZ2YwM3g2dDVPdENpNUVKd05ubzFNQVFydHBPMnVURW9UY2VlYWh5SGdfaVR6dDRsWTVSUlNodGc?oc=5",
+        "pub_date": "Fri, 20 Nov 2026 22:33:44 GMT"
       },
       {
         "title": "Treasury yields fall as bond market tracks risk assets, not Fed rhetoric - Investing.com",
         "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSUpKeF8zb19rZHE2eWtNTmxTd0lYb05RcURFLWRVRk12SklHb0JCUGNsS3ZRcVQxSVFsZXBkR3FrcTNpWEU4V1dSVlR4T1BNeGRVNWlpUlExZldkUlB4T0hpdlhPZXN5NnJNY3Q2THZyMHZuWS1KQnhNSkNDRVlEN3N0ckR1MTNpdnd0dDhiRTYxdmY0TkdDalFpQ0pfOExZU1hWRlkteDBCNVNURXFuTEJoR0t3TDVTMVo2STh6UTBmNnp2Nl9Ibkxab295dw?oc=5",
         "pub_date": "Fri, 20 Nov 2026 16:18:53 GMT"
+      },
+      {
+        "title": "SpaceX Sells $32 Bil Of Debt For AI Chips. But Yields, Orbital Deployment Raise Concerns. - Investor's Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdnpWWjMyRktmbkp0QXYyWnBRNnJDU0hOZXoxeG9oQmw4QUFDVll5WnVQbklIZzFTdXZyeFFXdE5PWjdzcU1NLUhjSExHWHRwSXNXb1FyX0cwcEFQal9OUm4zUG96SFZtZzN4UlpFdjQwYlgwWmJPOWNBQi1aaEkzRjgyVFhxdkRHazRoX0Q4SkRoRHhqUzNqQVlPamFTYW1tem9TT0l5LVhhMWE2SjhWUEZkdTlYS0ttYkd5dQ?oc=5",
+        "pub_date": "Fri, 20 Nov 2026 21:25:00 GMT"
       },
       {
         "title": "Flight to safety drives Treasury yields lower as tech tumbles - TradingView",
@@ -964,24 +969,19 @@
         "pub_date": "Fri, 20 Nov 2026 14:11:00 GMT"
       },
       {
-        "title": "Dollar-yen edges higher to upper 158 range in NY market as U.S. long-term yields pare decline - BigGo Finance",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE85UUJ5emNYdmlJTGdoV1R0RDUzQjVtR2dIdzlpR2REMFNaVklMUUM1bXl6b0FtY084cGEyRjJSNG56bHI2eHNzUzBCcnYxMWZVYkRRVFhMRWNyM0lGdE9Wb0ZyMEFfbUhJN0pENVhUVkw2MkRhc2c?oc=5",
-        "pub_date": "Fri, 20 Nov 2026 19:55:00 GMT"
-      },
-      {
         "title": "ECB Tokenization: Lagarde Warns of Market Fragmentation - Bitcoin Foundation",
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYk9CaDZMdFAyaWZYUTZid1B5RWNrTUtvcjM2S3gzSTRaTW5xalFwWnZyNEpVUHBXYUlYUnR2N2JpM3pMdXR1bEU4WTBuZHJjVTlfdXVIV0wyM1JJRWY1dVNydXJEQlpkaWJWLTFENlRSamZkVU5aNmRKLVF6cHVieW5ncTJoamxrcGZnMnVPN1AyNkJ3bHYzTUY0MGw2R3hibTNRaXBmSDY3dmF3SU9lT0VjSTNQZFdUQ2VKUU9YQ3ZGUDJzZTdEWkF2MFo?oc=5",
         "pub_date": "Fri, 20 Nov 2026 16:42:31 GMT"
       },
       {
-        "title": "Tech stocks tumble, Treasury yields fall as traders seek refuge - marketscreener.com",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVk9zbGU4eTZYdzdXS01mT1VNcFZwd1NqYU44dlJObXlVZVdHejRfQnkxZGJLN2JxemtQNmZFbVlOVmhJWDA5REZPMU8tUHo2QllDaFNiRW5fa3VmajR6ZW9HU0NjQ2djZ3dZaGR5UWdTcGVPUUN6WE1Pb1ljRHo4bVAtTFdoSlZ6WWxUWGdJcWU1UE0tZzIxZzNZbkIyRjE1UTFNUjlteFpyZFpIa0ZQN2JSU2VVUQ?oc=5",
-        "pub_date": "Fri, 20 Nov 2026 16:37:27 GMT"
+        "title": "Global Bond Yields Fall as Investors Seek Safe-Haven Assets -- Update - marketscreener.com",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdlFYX1VDTkpDQmFjdTBoc3UxbFFWbFJhRG52WWJ1eXJOOWNwU0htSkR2cktGVnlBR3UzNzRLendTblZjb0Y1VzdwOHk3cGp1OUhUSW1xclJhS1poUkR2cVF4aUphVklNS19nU1ZzTThSSnJNWVJFRzVhRVRSREZScWxYbHlfeGJuSVhQNUExSnB3RVFTS0pBZktrODFaUXZqZ0gtMFRiN1JESDlyVFh6djJkalRpdV9QZ2I0?oc=5",
+        "pub_date": "Fri, 20 Nov 2026 09:40:30 GMT"
       },
       {
-        "title": "Euro zone bond yields drop as investors seek safety from AI-trade rout - Zawya",
-        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQXpJV2NGR2lKUzV5TnNJdHFCU1dweWt5b21MQURTeW40YlJMekdtRXJyZHEyVHE0MWdfRlZfR0RsWEpjOUJGZlFlb3lRUUsydkJ1REJ0X2tGOHF1N2tTTHBiYmc0R09zalZKM1VqNEpxa0FoWXQxT0twMVR4TFJqcVNVNFZXSzNyb05Sb0p5cUxxT3ptYjYtTDQ2RWUzZzVHM3ZyMlV1VTVmQ09vZFdKZHFuMVlEQlFjNHhN?oc=5",
-        "pub_date": "Fri, 20 Nov 2026 12:06:00 GMT"
+        "title": "Energy Markets Underestimate The Hormuz Risk: Good News For Upstream, Bad News For Yields - Seeking Alpha",
+        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOa08xUS1wZWpGazBhSlhrS3M3MHdiX2NJOFlzWkwteEdQODh2eS1Gel9VcFFzQS1WOHFJWm8zQmpvQUptUEl4OHZuVlIxYWtyajBtQ1RJQ3B2Q25ZV09FMGNzd3RyRFdwX2s5RG5wUk5LOEFJa3ZpNXpyVmJhUXFvclNJTEtDQk02d1lpQjRZb0ZiZTdTNzZldnBFNzBZSnNPczJKN1phZHFLanI4OXRoX2Z2UldJSGgxUzZlOHZpOGEyQQ?oc=5",
+        "pub_date": "Fri, 20 Nov 2026 21:08:22 GMT"
       }
     ]
   }
