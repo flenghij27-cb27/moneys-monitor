@@ -1,7 +1,7 @@
 # Moneys Monitor - Report di mercato
 
-Generato: `2026-11-21T14:21:42+00:00`  
-Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-11-21T14:21:08+00:00` (568 snapshot, 31 asset)
+Generato: `2026-11-21T21:29:10+00:00`  
+Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-11-21T21:28:35+00:00` (569 snapshot, 31 asset)
 
 > Le change_pct salvate nello schema v1 sono errate (prev_close congelato). Questo report le ignora e ricalcola tutto dalla serie osservata.
 
@@ -10,21 +10,21 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-11-21T14:21:08+00:00` (568
 
 | Orizzonte | Risk-on medio | Risk-off medio | Spread |
 |---|---:|---:|---:|
-| 1d | 0.37% | 0.00% | **0.37 pp** |
-| 1w | -2.74% | 0.00% | **-2.74 pp** |
-| 1m | -9.00% | 0.00% | **-9.00 pp** |
-| 3m | -11.38% | 0.00% | **-11.38 pp** |
-| 6m | -1.39% | 20.19% | **-21.57 pp** |
+| 1d | 0.40% | 0.00% | **0.40 pp** |
+| 1w | -2.72% | 0.00% | **-2.72 pp** |
+| 1m | -8.97% | 0.00% | **-8.97 pp** |
+| 3m | -11.36% | 0.00% | **-11.36 pp** |
+| 6m | -1.35% | 20.19% | **-21.54 pp** |
 
 ## Outlier 1d
 
 | # | Migliori | % | | Peggiori | % |
 |--:|---|--:|---|---|--:|
 | 1 | VIX (volatilita) | 15.80% | | Nasdaq Composite | -2.25% |
-| 2 | Ethereum | 3.98% | | S&P 500 | -2.02% |
+| 2 | Ethereum | 3.92% | | S&P 500 | -2.02% |
 | 3 | Gas naturale | 3.33% | | Dow Jones | -1.93% |
-| 4 | Bitcoin | 2.09% | | GBP/USD | -1.19% |
-| 5 | Solana | 1.91% | | US 5Y Treasury Yield | -0.61% |
+| 4 | Bitcoin | 2.30% | | GBP/USD | -1.19% |
+| 5 | Solana | 2.08% | | US 5Y Treasury Yield | -0.61% |
 | 6 | USD/JPY | 1.07% | | US 10Y Treasury Yield | -0.59% |
 
 ## Outlier 1w
@@ -34,17 +34,17 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-11-21T14:21:08+00:00` (568
 | 1 | VIX (volatilita) | 52.09% | | Petrolio Brent | -26.56% |
 | 2 | USD/JPY | 1.00% | | Petrolio WTI | -12.15% |
 | 3 | Indice dollaro Fed (broad) | 0.86% | | Dow Jones | -8.02% |
-| 4 | FTSE MIB | 0.00% | | Ethereum | -7.35% |
-| 5 | Euro Stoxx 50 | 0.00% | | Bitcoin | -7.14% |
+| 4 | FTSE MIB | 0.00% | | Ethereum | -7.41% |
+| 5 | Euro Stoxx 50 | 0.00% | | Bitcoin | -6.95% |
 | 6 | Nikkei 225 | 0.00% | | Nasdaq Composite | -5.86% |
 
 ## Outlier 1m
 
 | # | Migliori | % | | Peggiori | % |
 |--:|---|--:|---|---|--:|
-| 1 | VIX (volatilita) | 70.50% | | Solana | -26.62% |
-| 2 | Gas naturale | 14.73% | | Ethereum | -25.09% |
-| 3 | Petrolio WTI | 5.78% | | Bitcoin | -22.30% |
+| 1 | VIX (volatilita) | 70.50% | | Solana | -26.50% |
+| 2 | Gas naturale | 14.73% | | Ethereum | -25.14% |
+| 3 | Petrolio WTI | 5.78% | | Bitcoin | -22.15% |
 | 4 | Petrolio Brent | 2.35% | | Nasdaq Composite | -9.63% |
 | 5 | USD/JPY | 0.42% | | Dow Jones | -8.93% |
 | 6 | FTSE MIB | 0.00% | | S&P 500 | -6.31% |
@@ -54,7 +54,7 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-11-21T14:21:08+00:00` (568
 | Coppia | Corr. 20g | A | B | Divergenza |
 |---|--:|--:|--:|--:|
 | S&P 500 vs VIX (volatilita) | -0.061 | -6.31% | 70.50% | **-76.81 pp** |
-| S&P 500 vs Bitcoin | -0.001 | -6.31% | -22.30% | **15.99 pp** |
+| S&P 500 vs Bitcoin | -0.003 | -6.31% | -22.15% | **15.84 pp** |
 | S&P 500 vs Oro (spot) | 0.018 | -6.31% | 0.00% | **-6.31 pp** |
 | Petrolio WTI vs Petrolio Brent | 0.795 | 5.78% | 2.35% | **3.43 pp** |
 | S&P 500 vs Nasdaq Composite | 0.120 | -6.31% | -9.63% | **3.32 pp** |
@@ -90,9 +90,9 @@ Curva USA: 10Y-2Y **28.0 bp**, 30Y-10Y **36.0 bp**, invertita: **no**
 | Petrolio Brent | 92.9400 | 2.35% | 137.81% | -29.56% |
 | Gas naturale | 3.1000 | 14.73% | 89.48% | -19.84% |
 | Petrolio WTI | 89.5300 | 5.78% | 87.56% | -18.71% |
-| Ethereum | 1 685.8606 | -25.09% | 55.54% | -41.49% |
-| Solana | 70.3813 | -26.62% | 50.06% | -43.44% |
-| Bitcoin | 60 233.8447 | -22.30% | 39.15% | -31.96% |
+| Ethereum | 1 684.8722 | -25.14% | 55.46% | -41.49% |
+| Solana | 70.4952 | -26.50% | 50.21% | -43.44% |
+| Bitcoin | 60 357.1296 | -22.15% | 39.39% | -31.96% |
 | Nasdaq Composite | 23 879.2000 | -9.63% | 32.22% | -13.48% |
 | S&P 500 | 7 175.8300 | -6.31% | 24.84% | -8.22% |
 | US 5Y Treasury Yield | 4.8600 | -1.62% | 24.42% | -9.82% |
