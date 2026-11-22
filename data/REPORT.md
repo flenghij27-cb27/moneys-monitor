@@ -1,7 +1,7 @@
 # Moneys Monitor - Report di mercato
 
-Generato: `2026-11-21T21:29:10+00:00`  
-Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-11-21T21:28:35+00:00` (569 snapshot, 31 asset)
+Generato: `2026-11-22T01:29:29+00:00`  
+Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-11-22T01:29:01+00:00` (570 snapshot, 31 asset)
 
 > Le change_pct salvate nello schema v1 sono errate (prev_close congelato). Questo report le ignora e ricalcola tutto dalla serie osservata.
 
@@ -10,22 +10,22 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-11-21T21:28:35+00:00` (569
 
 | Orizzonte | Risk-on medio | Risk-off medio | Spread |
 |---|---:|---:|---:|
-| 1d | 0.40% | 0.00% | **0.40 pp** |
-| 1w | -2.72% | 0.00% | **-2.72 pp** |
-| 1m | -8.97% | 0.00% | **-8.97 pp** |
-| 3m | -11.36% | 0.00% | **-11.36 pp** |
-| 6m | -1.35% | 20.19% | **-21.54 pp** |
+| 1d | -0.52% | 0.00% | **-0.52 pp** |
+| 1w | -3.29% | 0.00% | **-3.29 pp** |
+| 1m | -8.91% | 0.00% | **-8.91 pp** |
+| 3m | -11.41% | 0.00% | **-11.41 pp** |
+| 6m | -0.35% | 19.22% | **-19.57 pp** |
 
 ## Outlier 1d
 
 | # | Migliori | % | | Peggiori | % |
 |--:|---|--:|---|---|--:|
 | 1 | VIX (volatilita) | 15.80% | | Nasdaq Composite | -2.25% |
-| 2 | Ethereum | 3.92% | | S&P 500 | -2.02% |
-| 3 | Gas naturale | 3.33% | | Dow Jones | -1.93% |
-| 4 | Bitcoin | 2.30% | | GBP/USD | -1.19% |
-| 5 | Solana | 2.08% | | US 5Y Treasury Yield | -0.61% |
-| 6 | USD/JPY | 1.07% | | US 10Y Treasury Yield | -0.59% |
+| 2 | Gas naturale | 3.33% | | S&P 500 | -2.02% |
+| 3 | USD/JPY | 1.07% | | Dow Jones | -1.93% |
+| 4 | Petrolio Brent | 0.87% | | GBP/USD | -1.19% |
+| 5 | Indice dollaro Fed (broad) | 0.63% | | US 5Y Treasury Yield | -0.61% |
+| 6 | FTSE MIB | 0.00% | | US 10Y Treasury Yield | -0.59% |
 
 ## Outlier 1w
 
@@ -34,17 +34,17 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-11-21T21:28:35+00:00` (569
 | 1 | VIX (volatilita) | 52.09% | | Petrolio Brent | -26.56% |
 | 2 | USD/JPY | 1.00% | | Petrolio WTI | -12.15% |
 | 3 | Indice dollaro Fed (broad) | 0.86% | | Dow Jones | -8.02% |
-| 4 | FTSE MIB | 0.00% | | Ethereum | -7.41% |
-| 5 | Euro Stoxx 50 | 0.00% | | Bitcoin | -6.95% |
-| 6 | Nikkei 225 | 0.00% | | Nasdaq Composite | -5.86% |
+| 4 | FTSE MIB | 0.00% | | Ethereum | -7.66% |
+| 5 | Euro Stoxx 50 | 0.00% | | Bitcoin | -7.50% |
+| 6 | Nikkei 225 | 0.00% | | Solana | -6.35% |
 
 ## Outlier 1m
 
 | # | Migliori | % | | Peggiori | % |
 |--:|---|--:|---|---|--:|
-| 1 | VIX (volatilita) | 70.50% | | Solana | -26.50% |
-| 2 | Gas naturale | 14.73% | | Ethereum | -25.14% |
-| 3 | Petrolio WTI | 5.78% | | Bitcoin | -22.15% |
+| 1 | VIX (volatilita) | 70.50% | | Ethereum | -25.34% |
+| 2 | Gas naturale | 14.73% | | Solana | -25.13% |
+| 3 | Petrolio WTI | 5.78% | | Bitcoin | -22.69% |
 | 4 | Petrolio Brent | 2.35% | | Nasdaq Composite | -9.63% |
 | 5 | USD/JPY | 0.42% | | Dow Jones | -8.93% |
 | 6 | FTSE MIB | 0.00% | | S&P 500 | -6.31% |
@@ -54,12 +54,12 @@ Finestra: `2026-06-27T12:45:09.844913+00:00` -> `2026-11-21T21:28:35+00:00` (569
 | Coppia | Corr. 20g | A | B | Divergenza |
 |---|--:|--:|--:|--:|
 | S&P 500 vs VIX (volatilita) | -0.061 | -6.31% | 70.50% | **-76.81 pp** |
-| S&P 500 vs Bitcoin | -0.003 | -6.31% | -22.15% | **15.84 pp** |
-| S&P 500 vs Oro (spot) | 0.018 | -6.31% | 0.00% | **-6.31 pp** |
+| S&P 500 vs Bitcoin | 0.097 | -6.31% | -22.69% | **16.38 pp** |
+| S&P 500 vs Oro (spot) | 0.063 | -6.31% | 0.00% | **-6.31 pp** |
 | Petrolio WTI vs Petrolio Brent | 0.795 | 5.78% | 2.35% | **3.43 pp** |
 | S&P 500 vs Nasdaq Composite | 0.120 | -6.31% | -9.63% | **3.32 pp** |
-| EUR/USD vs Indice dollaro DXY | -0.035 | -1.92% | 0.00% | **-1.92 pp** |
-| US 10Y Treasury Yield vs Oro (spot) | -0.013 | -1.56% | 0.00% | **-1.56 pp** |
+| EUR/USD vs Indice dollaro DXY | 0.030 | -1.92% | 0.00% | **-1.92 pp** |
+| US 10Y Treasury Yield vs Oro (spot) | 0.083 | -1.56% | 0.00% | **-1.56 pp** |
 | Oro (spot) vs Argento (spot) | 0.876 | 0.00% | 0.00% | **0.00 pp** |
 
 ## Macro
@@ -90,9 +90,9 @@ Curva USA: 10Y-2Y **28.0 bp**, 30Y-10Y **36.0 bp**, invertita: **no**
 | Petrolio Brent | 92.9400 | 2.35% | 137.81% | -29.56% |
 | Gas naturale | 3.1000 | 14.73% | 89.48% | -19.84% |
 | Petrolio WTI | 89.5300 | 5.78% | 87.56% | -18.71% |
-| Ethereum | 1 684.8722 | -25.14% | 55.46% | -41.49% |
-| Solana | 70.4952 | -26.50% | 50.21% | -43.44% |
-| Bitcoin | 60 357.1296 | -22.15% | 39.39% | -31.96% |
+| Ethereum | 1 683.9170 | -25.34% | 55.51% | -41.49% |
+| Solana | 70.1920 | -25.13% | 50.21% | -43.44% |
+| Bitcoin | 60 085.5754 | -22.69% | 39.49% | -31.96% |
 | Nasdaq Composite | 23 879.2000 | -9.63% | 32.22% | -13.48% |
 | S&P 500 | 7 175.8300 | -6.31% | 24.84% | -8.22% |
 | US 5Y Treasury Yield | 4.8600 | -1.62% | 24.42% | -9.82% |
